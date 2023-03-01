@@ -1,7 +1,17 @@
 import React from "react";
+import Carosuel from "../components/Carosuel";
+import News from "../components/News";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+    <Carosuel/>
+    <News/>
+    
+    </>
+
+
+  )
 };
 
 export default Home;
