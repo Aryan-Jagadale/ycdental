@@ -1,11 +1,11 @@
 import React from "react";
-import Carosuel from "../components/Carosuel";
+import CarosuelComp from "../components/Carosuel";
 import News from "../components/News";
 
 const Home = () => {
   return (
     <>
-    <Carosuel/>
+    <CarosuelComp/>
     <News/>
     
     </>
