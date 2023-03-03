@@ -4,7 +4,6 @@ import NewsInnerComp from "./NewsInnerComp";
 import NewsImage from "../../assets/images/news.png";
 import "../../style/HomePage/news.css";
 
-
 const News = () => {
   return (
     <div className="h-screen bg-[#EFEFEF] py-5 px-10">
