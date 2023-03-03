@@ -1,9 +1,8 @@
 import React from "react";
-import Add from "../icons/add.png";
+import Add from "../../assets/icons/add.png";
 import NewsInnerComp from "./NewsInnerComp";
-import NewsImage from "../images/news.png";
-import "./news.css";
-
+import NewsImage from "../../assets/images/news.png";
+import "../../style/HomePage/news.css";
 
 const News = () => {
   return (
