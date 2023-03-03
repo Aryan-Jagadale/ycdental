@@ -1,15 +1,7 @@
 import React from "react";
 import Logo from "../assets/images/logo.png";
-import address from "../assets/icons/address.png";
 import "../style/HomePage/footer.css";
 
-
-    
-    //             166/1, Vadgaon Gupta, Opp. M.I.D.C. Ahmednagar - 414003
-    //           </Footer.Link>
-    //           <Footer.Link href="#">0241-2779111, 2777070</Footer.Link>
-    //           <Footer.Link href="#">0241-2779111</Footer.Link>
-    //           <Footer.Link href="#">yash_dental@rediffmail.com</Footer.Link>
     
 const FooterComp = () => {
   return (
