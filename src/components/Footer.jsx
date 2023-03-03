@@ -1,64 +1,85 @@
 import { Footer } from "flowbite-react";
 import React from "react";
+import Logo from "../assets/images/logo.png";
 
 const FooterComp = () => {
      return (
-                    <Footer container={true}>
-            <div className="w-full">
+            
+            <Footer container={true} className="footer-component " style={{backgroundColor: "#00205B !important"}} >
+            <div className="w-full" >
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                 <div>
                     <Footer.Brand
-                    href="https://flowbite.com"
-                    src="https://flowbite.com/docs/images/logo.svg"
-                    alt="Flowbite Logo"
-                    name="Flowbite"
+                    href="#"
+                    src={Logo}
+                    alt="Logo"
+                   
                     />
+                    <div><Footer.Link href="#">
+                    166/1, Vadgaon Gupta, Opp. M.I.D.C. Ahmednagar - 414003
+                        </Footer.Link>
+                        <Footer.Link href="#">
+                        0241-2779111, 2777070
+                         </Footer.Link>
+                        <Footer.Link href="#">
+                        0241-2779111
+                        </Footer.Link>
+                        <Footer.Link href="#">
+                        yash_dental@rediffmail.com
+                        </Footer.Link></div>
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
                     <div>
-                    <Footer.Title title="about" />
+                    <Footer.Title title="Important Links" />
                     <Footer.LinkGroup col={true}>
                         <Footer.Link href="#">
-                        Flowbite
+                        MDS Admission
                         </Footer.Link>
                         <Footer.Link href="#">
-                        Tailwind CSS
+                        BDS Admission
                         </Footer.Link>
                     </Footer.LinkGroup>
                     </div>
                     <div>
-                    <Footer.Title title="Follow us" />
+                    <Footer.Title title="Our Departments" />
                     <Footer.LinkGroup col={true}>
                         <Footer.Link href="#">
-                        Github
+                        Conservative Dentistry
                         </Footer.Link>
                         <Footer.Link href="#">
-                        Discord
+                        Oral Medicine & Radiology
+                        </Footer.Link>
+                        <Footer.Link href="#">
+                        Oral Pathology
+                        </Footer.Link>
+                        <Footer.Link href="#">
+                        Orthodontics
+                        </Footer.Link>
+                        <Footer.Link href="#">
+                        Pedo
                         </Footer.Link>
                     </Footer.LinkGroup>
                     </div>
                     <div>
-                    <Footer.Title title="Legal" />
+                    <Footer.Title title=" " />
                     <Footer.LinkGroup col={true}>
                         <Footer.Link href="#">
-                        Privacy Policy
+                       Periodontics
                         </Footer.Link>
                         <Footer.Link href="#">
-                        Terms & Conditions
+                       Prosthodontics
+                        </Footer.Link>
+                        <Footer.Link href="#">
+                       Public Health Dentistry
+                        </Footer.Link>
+                        <Footer.Link href="#">
+                       Oral Surgery
                         </Footer.Link>
                     </Footer.LinkGroup>
                     </div>
                 </div>
                 </div>
-                <Footer.Divider />
-                <div className="w-full sm:flex sm:items-center sm:justify-between">
-                <Footer.Copyright
-                    href="#"
-                    by="Flowbite™"
-                    year={2022}
-                />
-                
-                </div>
+               
             </div>
             </Footer>
     );
