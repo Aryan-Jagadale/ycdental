@@ -1,0 +1,8 @@
+.profileMain {
+    background-image: url("./../../assets/images/welcomeWave.svg");
+    background-repeat: no-repeat;
+  }
+  .subProfile {
+    background-image: url("../../assets/images/provfileContainer.svg");
+    background-repeat: no-repeat;
+  }
