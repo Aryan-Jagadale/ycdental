@@ -1,8 +1,8 @@
 import React from "react";
-import Banner1 from "../images/banner1.png";
-import Banner2 from "../images/banner2.png";
-import Dent1 from "../images/dent1.png";
-import Dent2 from "../images/dent2.png";
+import Banner1 from "../../assets/images/banner1.png";
+import Banner2 from "../../assets/images/banner2.png";
+import Dent1 from "../../assets/images/dent1.png";
+import Dent2 from "../../assets/images/dent2.png";
 
 const InnerCaroComp = () => {
   return (

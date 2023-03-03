@@ -1,6 +1,6 @@
 import React from "react";
-import CarosuelComp from "../components/Carosuel";
-import News from "../components/News";
+import CarosuelComp from "../components/HomePage/Carosuel";
+import News from "../components/HomePage/News";
 
 const Home = () => {
   return (
