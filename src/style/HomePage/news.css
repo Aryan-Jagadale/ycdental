@@ -5,7 +5,6 @@
     overflow: hidden;
 }
 #scroll-text {
-
     /* animation properties */
     -moz-transform: translateY(100%);
     -webkit-transform: translateY(100%);
@@ -47,4 +46,46 @@
         -webkit-transform: translateY(-100%);
         transform: translateY(-100%);
     }
+}
+
+#weird-bder::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 5px;
+        width: 40%;
+        border-top: 3px solid #00205B;
+}
+
+#weird-bder::after{
+        content: "";
+        position: absolute;
+        left: 0px;
+        bottom: 0;
+        height: 15px;
+        width: 20%;
+        border-bottom: 3px solid #00205B;
+}
+
+#borderLeft::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 5px;
+    width: 40%;
+    border-top: 3px solid #00205B;
+}
+
+
+
+#borderLeft::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    height: 15px;
+    width: 20%;
+    border-bottom: 3px solid #00205B;
 }

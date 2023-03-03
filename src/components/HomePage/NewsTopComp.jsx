@@ -1,0 +1,22 @@
+import React from 'react'
+
+const NewsTopComp = () => {
+  return (
+    <div className="border-x-2 border-[#00205B] relative">
+                <div
+                  className="max-h-[300px] max-w-[650px] p-12"
+                  id="weird-bder"
+                >
+                  <section className="text-center" id="borderLeft">
+                    <p className="font-normal tracking-wide">
+                      YCDC Girl's cricket team enters final round of the Sinhgad
+                      Crick fest at Pune with a smashing victory against current
+                      national champions PDU Solapur.
+                    </p>
+                  </section>
+                </div>
+              </div>
+  )
+}
+
+export default NewsTopComp

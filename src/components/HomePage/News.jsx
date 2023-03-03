@@ -3,11 +3,13 @@ import Add from "../../assets/icons/add.png";
 import NewsInnerComp from "./NewsInnerComp";
 import NewsImage from "../../assets/images/news.png";
 import "../../style/HomePage/news.css";
+import NewsTopComp from "./NewsTopComp";
+
 
 const News = () => {
   return (
     <div className="h-screen bg-[#EFEFEF] py-5 px-10">
-      <div className="flex items-end w-full">
+      <div className="flex items-end w-full py-3">
         <section className="w-[60%] flex items-center justify-center ">
           <div className="bg-[#00205B] border-2 border-black w-[15vw] flex items-center justify-center p-2">
             <h3 className="text-lg font-bold uppercase tracking-wide text-[#FFF614]">
@@ -25,33 +27,19 @@ const News = () => {
 
       <div className="">
         <div className="flex items-center w-full my-3 ">
-          <section className="w-[60%] flex items-center justify-center flex-col">
-          
-            <div className="small_carousel h-[28vh] my-3 border-[#00205B] border-2">
+          <section className="w-[60%] flex items-center justify-center flex-col gap-3">
+            <div className="small_carousel h-[28vh] my-3  ">
+
+              <NewsTopComp/>
 
 
-              <div className="max-h-[300px] max-w-[650px] p-12">
-
-
-                  <section className="text-center">
-                    <p className="font-normal tracking-wide">
-                      YCDC Girl's cricket team enters final round of the Sinhgad
-                      Crick fest at Pune with a smashing victory against current
-                      national champions PDU Solapur.
-                    </p>
-                  </section>
-
-                  </div>
-                  
-                  
-                  </div>
-
+            </div>
 
             <div className="auto_scroll">
-              <section className="max-h-[200px] shadow-lg border-2 max-w-[500px] py-2  overflow-hidden">
+              <section className="max-h-[200px] shadow-lg border-2 max-w-[650px] py-2  overflow-hidden">
                 <div className="text-center">
                   <h3 className="font-bold text-lg uppercase">Other</h3>
-                  <hr />
+                  <hr className="mb-5" />
                 </div>
 
                 <section id="scroll-container">
