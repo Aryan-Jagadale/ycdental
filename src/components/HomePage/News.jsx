@@ -1,12 +1,56 @@
-import React from "react";
+import React, { useState } from "react";
 import Add from "../../assets/icons/add.png";
 import NewsInnerComp from "./NewsInnerComp";
 import NewsImage from "../../assets/images/news.png";
 import "../../style/HomePage/news.css";
+import Slider from "react-slick";
 import NewsTopComp from "./NewsTopComp";
 
 
+
 const News = () => {
+  const [isChange, setIsChange] = useState(false);
+
+  const handleNextNewsAndImage = (onClick) => {
+    setIsChange(true);
+    onClick();
+  };
+
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "none" }}
+        onClick={() => handleNextNewsAndImage(onClick)}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "none" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  const settings = {
+    //dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay:true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+  };
+
+  console.log(isChange);
+
   return (
     <div className="h-screen bg-[#EFEFEF] py-5 px-10">
       <div className="flex items-end w-full py-3">
@@ -28,11 +72,13 @@ const News = () => {
       <div className="">
         <div className="flex items-center w-full my-3 ">
           <section className="w-[60%] flex items-center justify-center flex-col gap-3">
-            <div className="small_carousel h-[28vh] my-3  ">
+            <div className="small_carousel h-[28vh] w-full my-3 p-5">
 
-              <NewsTopComp/>
-
-
+              <Slider {...settings}>
+                <NewsTopComp />
+                <NewsTopComp />
+                <NewsTopComp />
+              </Slider>
             </div>
 
             <div className="auto_scroll">

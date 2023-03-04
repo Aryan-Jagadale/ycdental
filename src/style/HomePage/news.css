@@ -78,8 +78,6 @@
     border-top: 3px solid #00205B;
 }
 
-
-
 #borderLeft::after{
     content: "";
     position: absolute;
@@ -89,3 +87,39 @@
     width: 20%;
     border-bottom: 3px solid #00205B;
 }
+
+
+
+.product-container {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+.pre-btn,
+.next-btn {
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(161, 42, 42, 0);
+}
+
+.next-btn {
+    right: 0;
+}
+
+.next-btn p,
+.pre-btn p {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
