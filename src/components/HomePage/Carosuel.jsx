@@ -3,20 +3,23 @@ import React from "react";
 import InnerCaroComp from "./InnerCaroComp";
 
 const CarosuelComp = () => {
-  
   return (
     <div>
-      <div className="h-[120vh] py-2 bg-[#800000] flex items-center justify-center">
-        <div className="h-[90%] w-[90%] bg-[#800000] shadow-2xl flex justify-center items-center border-1 border-red-100">
+      <div className="lg:h-[120vh] lg:py-2 bg-[#800000] flex items-center justify-center py-0">
+        <div className="h-[90%] w-[100%] md:w-[90%] bg-[#800000] shadow-2xl flex justify-center items-center border-1 border-red-100">
 
-        
-          <Carousel slide={false}>
+        <section className="">
+        <Carousel slide={false}>
             <InnerCaroComp />
 
             <InnerCaroComp />
 
             <InnerCaroComp />
           </Carousel>
+        
+        </section>
+          
+
 
         </div>
       </div>
