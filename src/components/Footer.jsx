@@ -26,9 +26,9 @@ const FooterComp = () => {
           </h6>
           <p class="mx-10 mb-4">
             <a href="#!" class="text-neutral-200 dark:text-neutral-200"
-              >BDS Admission</a
-            >
+              >BDS Admission</a>
           </p>
+
           <p class="mx-10 mb-4">
             <a href="#!" class="text-neutral-200 dark:text-neutral-200"
               >MDS Admission</a
