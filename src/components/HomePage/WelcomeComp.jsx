@@ -69,6 +69,14 @@ const WelcomeComp = () => {
             </div>
           </div>
         </div>
+        <container className="py-8">
+        <div className="text-neutral-200  border-2 border-[#00205B] w-[50%] flex items-center justify-center p-2 md:w-[15vw]">
+            <h3 className="text-lg font-bold uppercase tracking-wide text-[#FFF614]" >
+            FACILITIES
+            </h3>
+          </div>
+        </container>
+        
       </div>
     </div>
   );
