@@ -19,7 +19,7 @@ const FooterComp = () => {
               <h6 class="mb-2">  0241-2779111 </h6>  
               <h6 class="mb-2"> yash_dental@rediffmail.com </h6> </div>
         </div>
-        <div class="mx-10" style={{width:400, paddingTop: 20}}>
+        <div class="mx-10" style={{width:250, paddingTop: 20}}>
           <h6
             class="mx-10 mb-4 flex justify-center font-semibold uppercase md:justify-start">
             Important Links
@@ -36,7 +36,7 @@ const FooterComp = () => {
           </p>
 
         </div>
-        <div class="mx-10" style={{width:480, paddingTop: 20, paddingBotton: 30}}>
+        <div class="mx-10" style={{paddingTop: 20, paddingBotton: 30}}>
           <h6
             class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
             Our Departments
@@ -62,27 +62,27 @@ const FooterComp = () => {
             >
           </p>
         </div>
-        <div className="mx-10" style={{width:480, paddingTop: 20, paddingBotton: 30}}>
+        <div className="mx-0" style={{ paddingBotton: 30, paddingTop: 20}}>
         <h6
-            class="mx-10 mb-4 flex justify-center text-transparent font-semibold uppercase md:justify-start">
+            class="mx-0 mb-4 flex justify-center text-transparent font-semibold uppercase md:justify-start">
             Our Departments
           </h6>
-          <p class="mx-10 mb-4" >
+          <p class="mx-0 mb-4" >
             <a href="#!" class="text-neutral-200 dark:text-neutral-200"
               >Periodontics</a
             >
           </p>
-          <p class="mx-10 mb-4" >
+          <p class="mx-0 mb-4" >
             <a href="#!" class="text-neutral-200 dark:text-neutral-200"
               >Prosthodontics</a
             >
           </p>
-          <p class="mx-10 mb-4" >
+          <p class="mx-0 mb-4" >
             <a href="#!" class="text-neutral-200 dark:text-neutral-200"
               >Public Health Dentistry</a
             >
           </p>
-          <p class="mx-10 mb-4" >
+          <p class="mx-0 mb-4" >
             <a href="#!" class="text-neutral-200 dark:text-neutral-200"
               >Oral Surgery</a
             >
