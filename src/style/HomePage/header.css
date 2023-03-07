@@ -13,13 +13,13 @@
   border: #800000e5 solid;
   border-width: 2px;
   border-radius: 5px;
-  min-width: 30rem;
+  width: 80%;
   max-height: 4.9vh;
   padding: 2%;
   margin-right: 2%;
 }
 
-.header-btn {
+/* .header-btn {
   background: #800000;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(2px);
@@ -28,7 +28,7 @@
   color: white;
   width: 10rem;
   height: 5vh;
-}
+} */
 
 .header-btn2 {
   background: #800000;
@@ -36,7 +36,33 @@
   backdrop-filter: blur(2px);
   border-radius: 10px;
   color: white;
-  width: 15rem;
-  height: 5vh;
+  min-width: 10rem;
+  min-height: 5vh;
   margin-left: 15%;
+}
+
+@media only screen and (max-width: 768px){
+
+  
+  .header-btn2{
+    display: none;
+  }
+
+  .header-search{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .header-btn2 {
+    background: #800000;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    color: white;
+    min-width: 8rem;
+    min-height: 3vh;
+    padding: 1%;
+    margin-left: 15%;
+  }
 }
