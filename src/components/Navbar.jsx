@@ -7,7 +7,7 @@ function MainNavbar() {
   return (
     <>
       <Navbar className="main-navbar" fluid={true} rounded={true}>
-        <Navbar.Toggle />
+        <Navbar.Toggle className="toggle-btn" />
         <Navbar.Collapse>
           {/* <Link className="nav-title" to="/">
             Home

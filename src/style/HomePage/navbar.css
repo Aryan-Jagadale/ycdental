@@ -31,3 +31,42 @@
     background-color: #800000e5;
     color: white;
 }
+
+@media only screen and (max-width: 767px){
+    .main-navbar{
+        position: absolute;
+        top: 1%;
+        right: 0%;
+        z-index: 1080;
+        width: auto;
+        height: auto;
+        border: none;
+        background-color: none;
+    }
+
+    .toggle-btn{
+        background-color: white !important;
+    }
+
+    .w-full{
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-navbar{
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        z-index: 1080;
+        width: auto;
+        height: auto;
+        border: none;
+        background-color: none;
+    }
+
+    .toggle-btn{
+        max-height: 1.9rem;
+        background-color: white !important;
+    }
+}
