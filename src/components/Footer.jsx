@@ -10,8 +10,8 @@ const FooterComp = () => {
       <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         <div class="" style={{paddingBotton: 30, width:300}}>
 
-           <div className="mb-4">
-            <img alt="" src={Logo} style={{width:"40rem"}}/>
+           <div className="mx-10 mb-4">
+            <img alt="" src={Logo} style={{width:"40rem", paddingLeft:20}}/>
             </div> 
          <div className="ml-12">
               <h6 class="mb-2"> 166/1, Vadgaon Gupta, Opp. M.I.D.C. Ahmednagar - 414003 </h6> 
@@ -21,7 +21,7 @@ const FooterComp = () => {
         </div>
         <div class="mx-10" style={{width:250, paddingTop: 20}}>
           <h6
-            class="mx-10 mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            class="mx-10 mb-4 font-semibold uppercase md:justify-start">
             Important Links
           </h6>
           <p class="mx-10 mb-4">
@@ -38,7 +38,7 @@ const FooterComp = () => {
         </div>
         <div class="mx-10" style={{paddingTop: 20, paddingBotton: 30}}>
           <h6
-            class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            class="mb-4 font-semibold uppercase md:justify-start">
             Our Departments
           </h6>
           <p class="mb-4">
@@ -64,7 +64,7 @@ const FooterComp = () => {
         </div>
         <div className="mx-0" style={{ paddingBotton: 30, paddingTop: 20}}>
         <h6
-            class="mx-0 mb-4 flex justify-center text-transparent font-semibold uppercase md:justify-start">
+            class="mx-0 mb-4 text-transparent font-semibold uppercase md:justify-start">
             Our Departments
           </h6>
           <p class="mx-0 mb-4" >
