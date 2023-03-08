@@ -1,0 +1,33 @@
+.bgImgOne{
+    background-image: url('./../../assets/images/backgroundimg1.svg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.7;
+    width: 400px;
+}
+.bgImgTwo{
+    background-image: url('./../../assets/images/backgroundimg2.svg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.7;
+    width: 400px;
+}
+.bgImgThree{
+    background-image: url('./../../assets/images/backgroundimg3.svg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.7;
+    width: 400px;
+}
+.btn-one{
+    width: fit-content;
+}
