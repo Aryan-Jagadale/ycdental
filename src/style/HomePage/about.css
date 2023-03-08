@@ -2,10 +2,9 @@
   background-image: url("../../assets//images/aboutimg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 30vh; */
   text-align: center;
   color: white;
-  padding: 2%;
+  padding: 4%;
 }
 
 .about-headline {
@@ -16,20 +15,91 @@
   margin-bottom: 5%;
 }
 
-.about-img{
+.about-box {
+  margin: 3% 0;
+}
+
+.labs {
+  width: 100%;
+  padding: 0 20%;
+}
+
+.about-img {
   width: 10rem;
   height: 10rem;
-  margin-left: 40%;
+  margin: auto;
+  display: block;
 }
 
-.about-box {
-  padding: 3%;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
+.about-headline2 {
+  font-size: 1.5rem;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffd900;
 }
 
-.about-headline2{
-  font-size: 1rem;
-  color: yellow;
+.cards{
+  width: 100%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.card{
+  /* margin: 3%; */
+  padding: 2%;
+  padding-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0;
+  border: #ffd900 solid 3px;
+  max-width: 30rem;
+  max-height: 15rem;
+}
+
+#card1{
+  background-image: url("../../assets/images/campus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#card2{
+  background-image: url("../../assets/images/hostel.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#card3{
+  background-image: url("../../assets/images/library.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-icon{
+  width: 7rem;
+  height: 7rem;
+  display: block;
+  margin: auto;
+}
+
+.about-card-title{
+  margin-top: -1rem;
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+  font-family: 'Domine';
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+}
+
+.infocard{
+  width: 80%;
+  margin-top: -5rem;
+  background-color: #FFD90080;
+  padding: 2%;
+  z-index: 100;
 }
