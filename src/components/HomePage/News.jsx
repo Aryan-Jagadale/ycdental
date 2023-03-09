@@ -9,7 +9,7 @@ import NewsTopComp from "./NewsTopComp";
 
 
 const News = () => {
-  const [isChange, setIsChange] = useState(false);
+    const [isChange, setIsChange] = useState(false);
 
   const handleNextNewsAndImage = (onClick) => {
     setIsChange(true);
@@ -49,7 +49,7 @@ const News = () => {
     prevArrow: <SamplePrevArrow />,
   };
 
-//  console.log(isChange);
+console.log(isChange);
 
   return (
     <div className=" bg-[#EFEFEF] py-5 px-5 sm:px-10">

@@ -1,7 +1,7 @@
 .carosuel {
   background-color: #800000;
   padding: 1%;
-  height: 80vh;
+  height: 100vh;
 }
 
 .carosuel-bg {
@@ -10,6 +10,6 @@
   background-repeat: no-repeat;
   padding: 3%;
   height: 100%;
-  /* border: #800000 solid 20px;
-  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2); */
+   border: #800000 solid 20px;
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
