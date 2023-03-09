@@ -41,7 +41,7 @@ const AboutCarousel = () => {
 
   return (
     <div>
-      <div className="h-[100%] min-[1193px]:h-[120vh] bg-[#00205B] p-3 md:p-9">
+      <div className="h-[100%] min-[1193px]:h-[100vh] bg-[#00205B] p-3 md:p-9">
         <div id="backImage" className="h-full w-full">
           <div className="carousel_wrapper">
             <br />
@@ -49,13 +49,13 @@ const AboutCarousel = () => {
             <br />
 
             <div className="" id="about_title">
-              <h2 className="text-[#FFD900] font-bold flex items-center justify-center h-[10vh]">
+              <h2 className="text-[#FFD900] font-bold text-2xl tracking-wider flex items-center justify-center h-[10vh] uppercase font-fam" >
                 About us
               </h2>
             </div>
             <br />
 
-            <div className="slider_wrapper p-10">
+            <div className="slider_wrapper px-10 mt-[5vh] lg:mt-[11vh]">
               <Slider {...settings}>
                 <AboutInnerCarosel />
                 <AboutInnerCarosel />
