@@ -50,19 +50,37 @@
 
     .w-full{
         height: 100vh;
+        width: 100%;
+        padding-top: 1vh;
+        padding-left: 2vh;
+    }
+
+    .w-fit{
+        padding: 3%;
     }
 }
 
 @media only screen and (max-width: 600px){
     .main-navbar{
         position: absolute;
-        top: 0%;
+        top: 1%;
         right: 0%;
         z-index: 1080;
         width: auto;
         height: auto;
         border: none;
         background-color: none;
+    }
+
+    .w-full{
+        height: 100vh;
+        width: 100%;
+        padding-top: 1vh;
+        padding-left: 2vh;
+    }
+
+    .w-fit{
+        padding: 3%;
     }
 
     .toggle-btn{
