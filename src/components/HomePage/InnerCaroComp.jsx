@@ -25,7 +25,7 @@ const InnerCaroComp = () => {
           backdropFilter: "blur(5px)",
         }}
       >
-        <span className="text-[#FFD900] font-bold uppercase tracking-wide">
+        <span className="text-[#FFD900] font-bold font-2xl font-fam uppercase tracking-wide">
           More than Dentistry
         </span>
       </section>
