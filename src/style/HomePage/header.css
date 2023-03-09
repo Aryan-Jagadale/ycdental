@@ -17,9 +17,10 @@
   max-height: 4.9vh;
   padding: 2%;
   margin-right: 2%;
+  outline: none;
 }
 
-/* .header-btn {
+ /*.header-btn {
   background: #800000;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(2px);
@@ -29,7 +30,9 @@
   width: 10rem;
   height: 5vh;
 } */
-
+.header-row{
+  padding: 0 3%;
+}
 .header-btn2 {
   background: #800000;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);

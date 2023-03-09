@@ -49,14 +49,14 @@ const News = () => {
     prevArrow: <SamplePrevArrow />,
   };
 
-  console.log(isChange);
+//  console.log(isChange);
 
   return (
     <div className=" bg-[#EFEFEF] py-5 px-5 sm:px-10">
       <div className="flex items-end w-full py-3">
         <section className="w-[100%] flex items-center justify-center md:w-[60%] ">
-          <div className="bg-[#00205B] border-2 border-black w-[50%] flex items-center justify-center p-2 md:w-[15vw]">
-            <h3 className="text-lg font-bold uppercase tracking-wide text-[#FFF614]">
+          <div className="bg-[#00205B] border-2 border-black w-[50%] flex items-center justify-center p-2 px-3 md:w-[15vw]">
+            <h3 className="text-2xl font-bold uppercase tracking-wide text-[#FFF614] font-fam">
               Top News
             </h3>
           </div>

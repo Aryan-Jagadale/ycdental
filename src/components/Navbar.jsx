@@ -9,15 +9,15 @@ function MainNavbar() {
       <Navbar className="main-navbar" fluid={true} rounded={true}>
         <Navbar.Toggle className="toggle-btn" />
         <Navbar.Collapse>
-          {/* <Link className="nav-title" to="/">
-            Home
-          </Link> */}
+           <Link className="nav-title" to="/about">
+            About
+          </Link> 
 
-          <Dropdown arrowIcon={true} inline={true} label={"About"}>
+          {/*<Dropdown arrowIcon={true} inline={true} label={"About"}>
             <Link to={"#"}><Dropdown.Item className="nav-title">Dashboard</Dropdown.Item></Link>
             <Link to={"#"}><Dropdown.Item className="nav-title">Dashboard</Dropdown.Item></Link>
             <Link to={"#"}><Dropdown.Item className="nav-title">Dashboard</Dropdown.Item></Link>
-          </Dropdown>
+        </Dropdown>*/}
 
           <Dropdown arrowIcon={true} inline={true} label={"Admission"}>
              <Link to={"#"}><Dropdown.Item className="nav-title">Dashboard</Dropdown.Item></Link>

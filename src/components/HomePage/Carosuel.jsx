@@ -5,22 +5,17 @@ import InnerCaroComp from "./InnerCaroComp";
 const CarosuelComp = () => {
   return (
     <div>
-      <div className="lg:h-[120vh] lg:py-2 bg-[#800000] flex items-center justify-center py-0 carosuel">
-        <div className="h-[90%] w-[100%] md:w-[90%] bg-[#800000] shadow-2xl flex justify-center items-center border-1 border-red-100">
+      <div className="lg:h-[100vh] lg:py-2 bg-[#800000] flex items-center justify-center py-0 carosuel">
+        <div className="h-[80%] w-[100%] md:w-[90%] bg-[#800000] shadow-2xl flex justify-center items-center border-1 border-red-100 py-5">
+          <section className="py-18">
+            <Carousel className="carosuel" slide={false}>
+              <InnerCaroComp />
 
-        <section className="">
-        <Carousel className="carosuel" slide={false}>
-            <InnerCaroComp />
+              <InnerCaroComp />
 
-            <InnerCaroComp />
-
-            <InnerCaroComp />
-          </Carousel>
-        
-        </section>
-          
-
-
+              <InnerCaroComp />
+            </Carousel>
+          </section>
         </div>
       </div>
     </div>
