@@ -10,8 +10,10 @@ const WelcomeComp = () => {
         style={{ fontFamily: "Domine", color: "#032F6E" }}
         className="flex-1 justify-center content-center text-center my-3 py-3 mx-5"
       >
-        <h1 className="text-3xl">Welcome to Dental College, Ahmednagar</h1>
-        <p className="text-base">
+        <h1 className="text-3xl font-bold mb-2">
+          Welcome to Dental College, Ahmednagar
+        </h1>
+        <p className="text-base mb-1">
           To provide comprehensive primary and specialized oral health care to
           people, especially marginalized groups and
         </p>
@@ -24,7 +26,9 @@ const WelcomeComp = () => {
         style={{ fontFamily: "Domine" }}
         className="profileMain flex flex-col justify-center content-end items-center py-4 text-2xl tracking-wider font-bold"
       >
-        <h1 className="py-3 text-white">MANAGING COMMITTEE </h1>
+        <h1 className="py-3 text-white text-2xl underline underline-offset-8 ">
+          MANAGING COMMITTEE{" "}
+        </h1>
         <img src={mainProfile} alt="" className="w-80 mt-15" />
         <div className="flex flex-col justify-center text-center">
           <h1 style={{ color: "#800000" }} className="text-2xl">
@@ -69,14 +73,14 @@ const WelcomeComp = () => {
             </div>
           </div>
         </div>
+
         <container className="py-8">
-        <div className="text-neutral-200  border-2 border-[#00205B] w-[50%] flex items-center justify-center p-2 md:w-[15vw]">
-            <h3 className="text-lg font-bold uppercase tracking-wide text-[#FFF614]" >
-            FACILITIES
+          <div className="text-neutral-200  border-[2.5px] drop-shadow-lg border-[#00205B] w-[50%] flex items-center justify-center p-2 md:w-[15vw]">
+            <h3 className="text-2xl font-bold uppercase tracking-wide text-[#262626]">
+              FACILITIES
             </h3>
           </div>
         </container>
-        
       </div>
     </div>
   );

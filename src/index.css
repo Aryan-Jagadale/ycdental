@@ -10,3 +10,6 @@
 .h-full, .cursor-grab{
     height: 100% !important;
 }
+.font-fam{
+    font-family: 'Domine', serif;
+}

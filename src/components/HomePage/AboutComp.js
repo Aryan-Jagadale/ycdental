@@ -12,20 +12,20 @@ import library from "../../assets/icons/libraryicon.png";
 function AboutComp() {
   return (
     <div className="about-section">
-      <h1 className="about-headline">YCDC Ahmednagar BDS & MDS</h1>
+      <h1 className="about-headline text-2xl">YCDC Ahmednagar BDS & MDS</h1>
       <div className="labs">
         <Row>
           <Col>
             <div className="about-box">
               <img className="about-img" src={blab} alt="img" />
               <br />
-              <h1 className="about-headline2">Biochemistry Lab</h1>
+              <h1 className="about-headline2 text-xl">Biochemistry Lab</h1>
             </div>
           </Col>
           <Col>
             <div className="about-box">
               <img className="about-img" src={plab} alt="img" />
-              <h1 className="about-headline2">Pharmacology Lab</h1>
+              <h1 className="about-headline2 text-xl">Pharmacology Lab</h1>
             </div>
           </Col>
         </Row>
@@ -33,13 +33,13 @@ function AboutComp() {
           <Col>
             <div className="about-box">
               <img className="about-img" src={it} alt="img" />
-              <h1 className="about-headline2">Internet Terminal</h1>
+              <h1 className="about-headline2 text-xl">Internet Terminal</h1>
             </div>
           </Col>
           <Col>
             <div className="about-box">
               <img className="about-img" src={clab} alt="img" />
-              <h1 className="about-headline2">Pre-clinical Laboratory Lab</h1>
+              <h1 className="about-headline2 text-xl">Pre-clinical Laboratory Lab</h1>
             </div>
           </Col>
         </Row>
@@ -50,7 +50,7 @@ function AboutComp() {
             <div id="card1" className="card">
               <img className="about-icon" src={campus} alt="icon" />
               <br />
-              <h1 className="about-card-title">CAMPUS</h1>
+              <h1 className="about-card-title text-2xl font-bold">CAMPUS</h1>
             </div>
             <div className="infocard">
               The Campus is built over 5 acres land and is a safe haven of lush
@@ -62,7 +62,7 @@ function AboutComp() {
             <div id="card2" className="card">
               <img className="about-icon" src={hostel} alt="icon" />
               <br />
-              <h1 className="about-card-title">HOSTEL</h1>
+              <h1 className="about-card-title text-2xl font-bold">HOSTEL</h1>
             </div>
             <div className="infocard">
               The college takes pride in its separate Hostel facilities for
@@ -73,7 +73,7 @@ function AboutComp() {
             <div id="card3" className="card">
               <img className="about-icon" src={library} alt="icon" />
               <br />
-              <h1 className="about-card-title">LIBRARY</h1>
+              <h1 className="about-card-title text-2xl font-bold">LIBRARY</h1>
             </div>
             <div className="infocard">
               The Central library is housed in a well-furnished, illuminated and
