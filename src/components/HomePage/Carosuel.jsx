@@ -5,11 +5,11 @@ import InnerCaroComp from "./InnerCaroComp";
 const CarosuelComp = () => {
   return (
     <div>
-      <div className="lg:h-[120vh] lg:py-2 bg-[#800000] flex items-center justify-center py-0">
+      <div className="lg:h-[120vh] lg:py-2 bg-[#800000] flex items-center justify-center py-0 carosuel">
         <div className="h-[90%] w-[100%] md:w-[90%] bg-[#800000] shadow-2xl flex justify-center items-center border-1 border-red-100">
 
         <section className="">
-        <Carousel slide={false}>
+        <Carousel className="carosuel" slide={false}>
             <InnerCaroComp />
 
             <InnerCaroComp />
