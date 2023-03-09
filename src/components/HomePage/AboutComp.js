@@ -46,29 +46,39 @@ function AboutComp() {
       </div>
       <div className="cards">
         <Row>
-          <Col>
+          <Col sm>
             <div id="card1" className="card">
               <img className="about-icon" src={campus} alt="icon" />
               <br />
               <h1 className="about-card-title">CAMPUS</h1>
             </div>
-            <div className="infocard">sdf</div>
+            <div className="infocard">
+              The Campus is built over 5 acres land and is a safe haven of lush
+              greenery, pollution free, with plenty of fresh air, conducive to a
+              student life.
+            </div>
           </Col>
-          <Col>
+          <Col sm>
             <div id="card2" className="card">
               <img className="about-icon" src={hostel} alt="icon" />
               <br />
               <h1 className="about-card-title">HOSTEL</h1>
             </div>
-            <div className="infocard">sdf</div>
+            <div className="infocard">
+              The college takes pride in its separate Hostel facilities for
+              girls and boys within the college campus.
+            </div>
           </Col>
-          <Col>
+          <Col sm>
             <div id="card3" className="card">
               <img className="about-icon" src={library} alt="icon" />
               <br />
               <h1 className="about-card-title">LIBRARY</h1>
             </div>
-            <div className="infocard">sdf</div>
+            <div className="infocard">
+              The Central library is housed in a well-furnished, illuminated and
+              da reading room with a seating capacity of more than 100 Students.
+            </div>
           </Col>
         </Row>
       </div>
