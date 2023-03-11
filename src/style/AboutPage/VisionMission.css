@@ -1,0 +1,60 @@
+.VisionMission{
+    background-color: #800000E5;
+    padding: 4%;
+    height: 40rem;
+}
+
+.circle-img{
+    background-color: #fff;
+    border-radius: 100%;
+    width: max-content;
+    padding: 3%;
+    border: solid #FFD900;
+    position: relative;
+    top: -48%;
+    left: 12rem;
+   margin-bottom: 5%;
+}
+
+.VisionMissionContent {
+    text-align: left !important;
+    padding: 3%;
+  }
+  
+  .vision-title {
+    font-family: "Domine";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 29px;
+    letter-spacing: 0.08em;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #ffd900;
+  }
+  
+  .vision-discription {
+    font-family: "Domine";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 3%;
+    color: #ffffff;
+  }
+  
+  .mission-discription{
+    font-family: "Domine";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 3%;
+    color: #ffffff;
+  }
+
+@media only screen and (max-width: 767px){
+    .VisionMission{
+        height: auto;
+    }
+    
+}
