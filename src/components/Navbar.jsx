@@ -1,5 +1,4 @@
 import React from "react";
-import "../style/HomePage/navbar.css";
 import { Navbar, Dropdown } from "flowbite-react";
 import { Link } from "react-router-dom";
 
