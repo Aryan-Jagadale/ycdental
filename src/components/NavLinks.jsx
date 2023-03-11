@@ -11,7 +11,6 @@ const NavLinks = () => {
       {links.map((link) => {
         return (
           <div>
-
             <div className="px-3 text-left md:cursor-pointer group">
               <h1
                 className="py-3 flex justify-between items-center md:pr-0 pr-5 group"
@@ -75,9 +74,9 @@ const NavLinks = () => {
             ${heading === link.name ? "md:hidden" : "hidden"}
           `}
             >
-            {/* sublinks */}
+              {/* sublinks */}
 
-            {link.sublinks.map((slinks) => (
+              {link.sublinks.map((slinks) => (
                 <div>
                   <div>
                     <h1
@@ -89,7 +88,7 @@ const NavLinks = () => {
                       className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center"
                     >
                       {slinks.Head}
-  
+
                       <span className="text-xl md:mt-1 md:ml-2 inline">
                         <ion-icon
                           name={`${
@@ -114,17 +113,7 @@ const NavLinks = () => {
                   </div>
                 </div>
               ))}
-            
-            
-            
-            
-            
-            
-            
             </div>
-
-
-
           </div>
         );
       })}

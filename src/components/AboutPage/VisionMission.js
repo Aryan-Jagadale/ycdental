@@ -9,7 +9,7 @@ function VisionMission() {
   return (
     <div className="VisionMission">
       <Row>
-        <Col sm xs={12} lg={3}>
+        <Col className="VisionMission-imgs" sm xs={12} lg={3}>
           <img src={img1} alt="img" />
           <div className="circle-img">
             <img src={monitoring} alt="monitoring" />
@@ -20,12 +20,33 @@ function VisionMission() {
         </Col>
         <Col sm className="VisionMissionContent">
           <h1 className="vision-title">VISION</h1>
-        
-            <span className="vision-discription">&#8226; To provide high quality dental education program at undergraduate and postgraduate level.</span><br />
-            <span className="mission-discription">&#8226; To facilitate the students to acquire knowledge in basic behavioural and clinical sciences for general practice of dentistry, dental specialties, research and teaching.</span>
-          
 
-          <h1 className="vision-title">MISSION</h1>
+          <span className="vision-discription">
+            &#8226; To provide high quality dental education program at
+            undergraduate and postgraduate level.
+          </span>
+          <br />
+          <br />
+          <span className="vision-discription">
+            &#8226; To facilitate the students to acquire knowledge in basic
+            behavioural and clinical sciences for general practice of dentistry,
+            dental specialties, research and teaching.
+          </span>
+
+          <h1 className="mission-title">MISSION</h1>
+
+          <span className="vision-discription">
+            &#8226; To build and provide world class infrastructure and
+            facilities with quality teachers and to conduct valid academic
+            programs of practical and real world knowledge of dentistry.
+          </span>
+          <br />
+          <br />
+          <span className="vision-discription">
+            &#8226; Develop holistic competence with global vision, local
+            interface, societal orientation, industrial applicability and
+            patriotic passions.
+          </span>
         </Col>
       </Row>
     </div>
