@@ -7,11 +7,11 @@ import AboutComp from "../components/HomePage/AboutComp";
 const Home = () => {
   return (
     <>
-      <CarosuelComp />
-      <WelcomeComp />
+      <CarosuelComp/>
+      
+      <WelcomeComp/>
       <AboutComp />
       <News />
-     
     </>
   );
 };
