@@ -10,8 +10,9 @@ import FooterComp from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Navbar />
+      {/*<Header />
+  <Navbar />*/}
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
