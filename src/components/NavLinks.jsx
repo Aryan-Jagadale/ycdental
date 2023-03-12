@@ -10,7 +10,7 @@ const NavLinks = () => {
     <>
       {links.map((link) => {
         return (
-          <div>
+          <div key={link.name}>
             <div className="px-3 text-left md:cursor-pointer group">
               <h1
                 className="py-3 flex justify-between items-center md:pr-0 pr-5 group"
@@ -45,7 +45,7 @@ const NavLinks = () => {
                     </div>
                     <div className="bg-white p-5">
                       {link.sublinks.map((mysublinks) => (
-                        <div>
+                        <div key={link.name}>
                           <h1 className="text-lg font-semibold">
                             {mysublinks.Head}
                           </h1>
