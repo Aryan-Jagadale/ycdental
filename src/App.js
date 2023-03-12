@@ -9,6 +9,7 @@ import NewNavbar from "./components/NewNavbar";
 import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentORMEDRAD";
 import Department from "./components/DepartmentPage/Department";
 import Academic from "./components/AcademicPage/Academic";
+import Admission from "./pages/Admission";
 import Loader from "./components/Loader/index";
 
 function App() {
@@ -45,6 +46,8 @@ function App() {
               path="/department/oral-medicine-radiology"
               element={<DepartmentORMEDRAD />}
             />
+
+            <Route path="/admission" element={<Admission />} />
           </Routes>
           <FooterComp />
         </>
