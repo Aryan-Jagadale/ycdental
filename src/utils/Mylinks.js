@@ -1,7 +1,7 @@
 export const links = [
   {
     name: "Admission",
-    linkUrl:"/",
+    linkUrl:"/admission",
     submenu: true,
     sublinks: [
       {
