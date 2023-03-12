@@ -12,6 +12,7 @@ const NavLinks = () => {
         return (
           <div key={link.name}>
             <div className="px-3 text-left md:cursor-pointer group">
+              
               <h1
                 className="py-3 flex justify-between items-center md:pr-0 pr-5 group"
                 onClick={() => {
@@ -21,7 +22,8 @@ const NavLinks = () => {
                   setSubHeading("");
                 }}
               >
-                {link.name}
+                <Link to={link.linkUrl}>{link.name}</Link>
+                
                 <span className="text-xl md:hidden inline">
                   <ion-icon
                     name={`${
@@ -33,6 +35,7 @@ const NavLinks = () => {
                   <ion-icon name="chevron-down"></ion-icon>
                 </span>
               </h1>
+              
 
               {link.submenu && (
                 <div>
@@ -45,12 +48,12 @@ const NavLinks = () => {
                     </div>
                     <div className="bg-white p-5">
                       {link.sublinks.map((mysublinks) => (
-                        <div key={link.name}>
+                        <div key={link.sublinks}>
                           <h1 className="text-lg font-semibold">
                             {mysublinks.Head}
                           </h1>
                           {mysublinks.sublink.map((slink) => (
-                            <li className="text-sm text-gray-600 my-2.5">
+                            <li className=" text-gray-600 my-2.5">
                               <Link
                                 to={slink.link}
                                 className="hover:text-primary"
