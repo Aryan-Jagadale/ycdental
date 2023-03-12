@@ -1,6 +1,7 @@
 export const links = [
   {
     name: "Admission",
+    linkUrl:"/",
     submenu: true,
     sublinks: [
       {
@@ -18,10 +19,18 @@ export const links = [
   },
   {
     name: "Academics",
+    linkUrl:"/academic",
     submenu: true,
     sublinks: [
       {
-        Head: "Coming Soon...",
+        Head: "Departments",
+        sublink: [
+          { name: "Oral Medicine Radiology", link: "/department/oral-medicine-radiology" },
+         
+        ],
+      },
+      {
+        Head: "Research",
         sublink: [
           /*{ name: "T-shirt", link: "/" },
           { name: "Casual shirts", link: "/" },
@@ -36,6 +45,7 @@ export const links = [
   {
     name: "Student",
     submenu: true,
+    linkUrl:"/",
     sublinks: [
       {
         Head: "Coming Soon...",
@@ -52,6 +62,7 @@ export const links = [
   },
   {
     name: "More",
+    linkUrl:"/",
     submenu: true,
     sublinks: [
       {
