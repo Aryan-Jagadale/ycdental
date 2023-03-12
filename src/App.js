@@ -18,7 +18,7 @@ function App() {
         <Route path="/department/oral-medicine-radiology" element={<DepartmentORMEDRAD/>} />
 
       </Routes>
-      {/*<FooterComp/>*/}
+      <FooterComp/>
     </>
   );
 }
