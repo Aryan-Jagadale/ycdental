@@ -118,6 +118,12 @@ function Welcome() {
           </div>
         </Col>
       </Row>
+
+      <div className="text-neutral-200 FACILITIES  border-[2.5px] drop-shadow-lg border-[#00205B] w-[50%] flex items-center justify-center p-2 md:w-[15vw]">
+        <h3 className="text-2xl font-bold uppercase tracking-wide text-[#262626]">
+          FACILITIES
+        </h3>
+      </div>
     </div>
   );
 }
