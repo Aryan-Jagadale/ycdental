@@ -24,7 +24,7 @@ const WelcomeComp = () => {
       </div>
       <div
         style={{ fontFamily: "Domine" }}
-        className="profileMain flex flex-col justify-center content-end items-center py-4 text-2xl tracking-wider font-bold"
+        className=" profileMain flex flex-col justify-center content-end items-center py-4 text-2xl tracking-wider font-bold"
       >
         <h1 className="py-3 text-white text-2xl underline underline-offset-8 ">
           MANAGING COMMITTEE{" "}
