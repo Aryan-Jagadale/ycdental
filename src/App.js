@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import About from "./pages/About";
 import FooterComp from "./components/Footer";
 import NewNavbar from "./components/NewNavbar";
+import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentORMEDRAD";
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/department/oral-medicine-radiology" element={<DepartmentORMEDRAD/>} />
+
       </Routes>
-      <FooterComp/>
+      {/*<FooterComp/>*/}
     </>
   );
 }
