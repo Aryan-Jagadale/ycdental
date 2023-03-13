@@ -11,6 +11,7 @@ import Department from "./components/DepartmentPage/Department";
 import Academic from "./components/AcademicPage/Academic";
 import Admission from "./pages/Admission";
 import Loader from "./components/Loader/index";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -48,7 +49,11 @@ function App() {
             />
 
             <Route path="/admission" element={<Admission />} />
+
+            <Route path="/termsandconditions" element={<TermsAndConditions />} />
+
           </Routes>
+          
           <FooterComp />
         </>
       )}
