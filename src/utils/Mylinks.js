@@ -7,8 +7,8 @@ export const links = [
       {
         Head: "",
         sublink: [
-          { name: "Vision", link: "/",idd:"visionMission" },
-          { name: "Mission", link: "/",idd:"visionMission" },
+          { name: "Vision & Mission", link: "/",idd:"visionMission" },
+          //{ name: "Mission", link: "/",idd:"visionMission" },
           { name: "College Facilities", link: "/",idd:"collegeFacilties" },
           { name: "Committees", link: "/",idd:"committees" },
           { name: "Policy", link: "/",idd:"policy" },
