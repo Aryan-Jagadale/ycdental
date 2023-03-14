@@ -7,7 +7,7 @@ import leadership from "../../assets/images/leadership.png";
 
 function VisionMission() {
   return (
-    <div className="VisionMission">
+    <div className="VisionMission" id="visionMission">
       <Row>
         <Col className="VisionMission-imgs" sm xs={12} lg={3}>
           <img src={img1} alt="img" />

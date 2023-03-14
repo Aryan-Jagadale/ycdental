@@ -60,12 +60,12 @@ const NewNavbar = () => {
             </Link>
           </li>
           <li>
-            <Link
+            {/*<Link
               to="/about"
               className=" px-3 inline-block hover:text-black hover:font-medium"
             >
               About
-            </Link>
+          </Link>*/}
           </li>
           <NavLinks />
         </ul>

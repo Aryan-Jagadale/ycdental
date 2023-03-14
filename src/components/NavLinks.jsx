@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {  Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
 import { links } from "../utils/Mylinks";
 
@@ -12,7 +13,6 @@ const NavLinks = () => {
         return (
           <div key={link.name}>
             <div className="px-3 text-left md:cursor-pointer group">
-              
               <h1
                 className="py-3 flex justify-between items-center md:pr-0 pr-5 group"
                 onClick={() => {
@@ -23,7 +23,7 @@ const NavLinks = () => {
                 }}
               >
                 <Link to={link.linkUrl}>{link.name}</Link>
-                
+
                 <span className="text-xl md:hidden inline">
                   <ion-icon
                     name={`${
@@ -35,7 +35,6 @@ const NavLinks = () => {
                   <ion-icon name="chevron-down"></ion-icon>
                 </span>
               </h1>
-              
 
               {link.submenu && (
                 <div>
@@ -54,12 +53,13 @@ const NavLinks = () => {
                           </h1>
                           {mysublinks.sublink.map((slink) => (
                             <li className=" text-gray-600 my-2.5">
-                              <Link
-                                to={slink.link}
+                              <ScrollLink
+                                to={slink.idd} spy={true} smooth={true}
+                                ignoreCancelEvents
                                 className="hover:text-primary"
                               >
                                 {slink.name}
-                              </Link>
+                              </ScrollLink>
                             </li>
                           ))}
                         </div>
