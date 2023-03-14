@@ -3,6 +3,8 @@ import AboutCarousel from '../components/AboutPage/AboutCarousel';
 import AboutWelcome from '../components/AboutPage/AboutWelcome';
 import AboutDetails from '../components/AboutPage/AboutDetails';
 import VisionMission from '../components/AboutPage/VisionMission';
+import AboutComp from '../components/HomePage/AboutComp';
+
 
 const About = () => {
   return (
@@ -10,6 +12,7 @@ const About = () => {
     <AboutCarousel/>
     <AboutWelcome/>
     <VisionMission />
+    <AboutComp/>
     <AboutDetails/>
     </>
   )

@@ -1,19 +1,25 @@
 export const links = [
   {
-    name: "Admission",
-    linkUrl:"/admission",
+    name: "About",
+    linkUrl:"/about",
     submenu: true,
     sublinks: [
       {
-        Head: "Coming Soon...",
+        Head: "",
         sublink: [
-          /*{ name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },*/
-        ],
+          { name: "Vision", link: "/",idd:"visionMission" },
+          { name: "Mission", link: "/",idd:"visionMission" },
+          { name: "College Facilities", link: "/",idd:"collegeFacilties" },
+          { name: "Committees", link: "/",idd:"committees" },
+          { name: "Policy", link: "/",idd:"policy" },
+        ]
+        
       },
+    
+     
+
+
+
     
     ],
   },
@@ -23,27 +29,46 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Departments",
+        Head: "",
         sublink: [
-          { name: "Oral Medicine Radiology", link: "/department/oral-medicine-radiology" },
+          { name: "UG Course", link: "/",idd:"ugCourse" },
+          { name: "PG Course", link: "/",idd:"pgCourse" },
+          { name: "Academic Quality", link: "/",idd:"academicQuality" },
+          { name: "Laboratories", link: "/",idd:"lab" },
+          { name: "Departments", link: "/",idd:"deptarments" },
+          { name: "Publications", link: "/",idd:"publications" },
+
          
         ],
       },
-      {
-        Head: "Research",
-        sublink: [
-          /*{ name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },*/
-        ],
-      },
+      
      
     ],
   },
   {
-    name: "Student",
+    name: "Admission",
+    linkUrl:"/admission",
+    submenu: true,
+    sublinks: [
+      {
+        Head: "",
+        sublink: [
+          { name: "Dean's Desk", link: "/",idd:"deanDesk" },
+          { name: "Prospectus", link: "/",idd:"prosPectus" },
+          { name: "BDS Admission", link: "/",idd:"bdsAdmission" },
+          { name: "BDS Syllabus", link: "/",idd:"bdsSyllabus" },
+          { name: "MDS Admission", link: "/",idd:"mdsAdmission" },
+          { name: "PHD Admission", link: "/",idd:"phdAdmission" },
+          { name: "Student Welfare", link: "/",idd:"studentWelfare" },
+   
+        ],
+      },
+    
+    ],
+  },
+  
+  {
+    name: "IQAC",
     submenu: true,
     linkUrl:"/",
     sublinks: [
@@ -61,9 +86,9 @@ export const links = [
     ],
   },
   {
-    name: "More",
-    linkUrl:"/",
+    name: "Gallery",
     submenu: true,
+    linkUrl:"/",
     sublinks: [
       {
         Head: "Coming Soon...",

@@ -12,6 +12,9 @@ import Academic from "./components/AcademicPage/Academic";
 import Admission from "./pages/Admission";
 import Loader from "./components/Loader/index";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import ScrollToTop from "react-scroll-to-top";
+//import MySVG from "./assets/images/departormedrad/double.avif";
+import { BsArrowUpShort } from "react-icons/bs";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -32,6 +35,7 @@ function App() {
       ) : (
         <>
           <NewNavbar />
+          <ScrollToTop smooth component={<div className="flex items-center justify-center"><BsArrowUpShort className="h-[80%] w-[80%]" /></div>} />
 
           <Routes>
             <Route path="/" element={<Home />} />
@@ -50,10 +54,12 @@ function App() {
 
             <Route path="/admission" element={<Admission />} />
 
-            <Route path="/termsandconditions" element={<TermsAndConditions />} />
-
+            <Route
+              path="/termsandconditions"
+              element={<TermsAndConditions />}
+            />
           </Routes>
-          
+
           <FooterComp />
         </>
       )}
