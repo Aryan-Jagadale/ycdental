@@ -26,7 +26,7 @@ function VisionMission() {
           </span>
           <br />
           <br />
-          <span className="vision-discription">
+          <span className="vision-discription track">
             &#8226; To facilitate
             students in acquiring knowledge of basic
             behavioural and clinical

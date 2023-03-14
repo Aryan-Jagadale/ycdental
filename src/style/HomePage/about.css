@@ -98,7 +98,7 @@
 
 .infocard {
   width: 80%;
-  min-height: 16rem;
+  /*min-height: 16rem;*/
   margin-top: -4rem !important;
   margin-bottom: 5% !important;
   padding: 8%;
@@ -111,7 +111,7 @@
   font-family: "Domine";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3rem;
+  
   line-height: 35px;
   text-align: center;
   color: #000000;
