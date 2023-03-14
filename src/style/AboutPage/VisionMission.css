@@ -44,8 +44,9 @@
   .vision-discription {
     font-family: "Domine";
     font-weight: 400;
-    font-size: 1.2rem;
+    /*font-size: 1.2rem;*/
     color: #ffffff;
+    letter-spacing: 0.025em
   }
   
   .mission-title{
@@ -69,6 +70,7 @@
 
     .VisionMission-imgs{
       margin-bottom: -16rem;
+      display: none;
     }
 
     .circle-img{
