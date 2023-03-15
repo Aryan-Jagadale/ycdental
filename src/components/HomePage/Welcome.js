@@ -55,16 +55,16 @@ function Welcome() {
             />
             <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000" }}
+                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
                 className="text-sm"
               >
-                President
+                Organising <br />President
               </h3>
               <p
                 style={{ fontFamily: "Domine", color: "#00205B" }}
                 className="text-xs"
               >
-                Hon. Yashwantrao Gadakh
+                Shri.Prashant Gadakh
               </p>
             </div>
           </div>
@@ -79,16 +79,16 @@ function Welcome() {
             />
             <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000" }}
+                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
                 className="text-sm"
               >
-                President
+                Vice President
               </h3>
               <p
                 style={{ fontFamily: "Domine", color: "#00205B" }}
                 className="text-xs"
               >
-                Hon. Yashwantrao Gadakh
+                Ms Nehal Gadakh
               </p>
             </div>
           </div>
@@ -103,16 +103,91 @@ function Welcome() {
             />
             <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000" }}
+                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
                 className="text-sm"
               >
-                President
+                Managing <br /> Director
               </h3>
               <p
                 style={{ fontFamily: "Domine", color: "#00205B" }}
                 className="text-xs"
               >
-                Hon. Yashwantrao Gadakh
+                Dr Subhash Devdhe Patil
+              </p>
+            </div>
+          </div>
+        </Col>
+      </Row>
+
+      <Row className="flex flex-row w-screen justify-evenly py-10 px-5">
+        <Col sm>
+          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
+            <img
+              src={subProfile}
+              className="subProfile-img w-40"
+              alt=""
+              srcset=""
+            />
+            <div className="welcome-subProfile-title">
+              <h3
+                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                className="text-sm"
+              >
+                Managing <br /> Trustee
+              </h3>
+              <p
+                style={{ fontFamily: "Domine", color: "#00205B" }}
+                className="text-xs"
+              >
+                Dr Sharad Samb
+              </p>
+            </div>
+          </div>
+        </Col>
+        <Col sm>
+          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
+            <img
+              src={subProfile}
+              className="subProfile-img w-40"
+              alt=""
+              srcset=""
+            />
+            <div className="welcome-subProfile-title">
+              <h3
+                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                className="text-sm"
+              >
+                Administrative <br /> Officer
+              </h3>
+              <p
+                style={{ fontFamily: "Domine", color: "#00205B" }}
+                className="text-xs"
+              >
+                Dr Shripad Rajhans
+              </p>
+            </div>
+          </div>
+        </Col>
+        <Col sm>
+          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
+            <img
+              src={subProfile}
+              className="subProfile-img w-40"
+              alt=""
+              srcset=""
+            />
+            <div className="welcome-subProfile-title" >
+              <h3
+                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                className="text-sm"
+              >
+                Dean
+              </h3>
+              <p
+                style={{ fontFamily: "Domine", color: "#00205B" }}
+                className="text-xs"
+              >
+                Dr Nilima Rajhans
               </p>
             </div>
           </div>

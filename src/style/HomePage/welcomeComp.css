@@ -64,8 +64,9 @@
   width: max-content;
   height: auto;
   padding: 1% 2%;
-  margin-top: 1rem !important;
-  
+  /* margin-top: 1rem !important; */
+  display: block;
+  margin: auto;
 }
 
 .text-sm{
