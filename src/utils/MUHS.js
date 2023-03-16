@@ -16,6 +16,7 @@ import Mandate_Annexure15 from "../assets/pdf/2022-23/Mandate_Annexure15.pdf";
 import Azadi_ka_amrutmohotsav from "../assets/pdf/2022-23/Azadi_ka_amrutmohotsav.pdf";
 import AISHE from "../assets/pdf/2022-23/AISHE.pdf";
 
+
 import Annexure from "../assets/pdf/23-2024/ANNEXURE1.pdf";
 import Annexure2 from "../assets/pdf/23-2024/2ANNEXURE.pdf";
 import Annexure3 from "../assets/pdf/23-2024/3AANNEXURE.pdf";
