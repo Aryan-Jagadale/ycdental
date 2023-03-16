@@ -8,7 +8,6 @@ const NewNavbar = () => {
   return (
     <nav className="bg-white">
       <div className=" flex items-center font-medium justify-around border-b-[#800000] border-2">
-
         <div className="z-60 p-3 md:px-0 md:py-2 md:w-auto w-full flex justify-between items-center">
           <Link to={"/"}>
             <img
@@ -17,12 +16,13 @@ const NewNavbar = () => {
               className="md:cursor-pointer h-[25%] md:h-full w-full"
             />
           </Link>
-          <div className="text-3xl m-3 md:hidden " onClick={() => setOpen(!open)}>
+          <div
+            className="text-3xl m-3 md:hidden "
+            onClick={() => setOpen(!open)}
+          >
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-
-
 
         <div className="w-[20vw] md:block hidden">
           <input
@@ -44,7 +44,7 @@ const NewNavbar = () => {
               marginLeft: "15%",
             }}
           >
-            MUHS update
+            <Link to="/muhs-mandate" className="hover:text-white hover:font-semibold">MUHS update</Link>
           </button>
         </div>
       </div>

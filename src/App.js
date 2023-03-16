@@ -15,6 +15,7 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import ScrollToTop from "react-scroll-to-top";
 //import MySVG from "./assets/images/departormedrad/double.avif";
 import { BsArrowUpShort } from "react-icons/bs";
+import Muhs from "./components/Muhs/Muhs";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -58,6 +59,13 @@ function App() {
               path="/termsandconditions"
               element={<TermsAndConditions />}
             />
+            
+            <Route
+              path="/muhs-mandate"
+              element={<Muhs/>}
+            />
+
+
           </Routes>
 
           <FooterComp />
