@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../style/AdmissionPage/headerSection.css";
 import Setting from "../../assets/images/muhs/Setting.png";
 import FileDown from "../../assets/images/muhs/FileDown.png";
 import CloudDown from "../../assets/images/muhs/CloudDown.png";
 import softwareApplication from "../../assets/images/muhs/softwareApplication.png";
 import pdfImg from "../../assets/images/muhs/pdfImg.png";
+import { muhs } from "../../utils/MUHS";
 
 function Muhs() {
+
+  const [first, setfirst] = useState(true);
+
+  //console.log(first);
+
+
+
   return (
     <div className="">
       <section className="bg-[#800000] w-full relative">
@@ -39,11 +47,17 @@ function Muhs() {
         </div>
       </section>
 
-      <section className="absolute border-white border-2 rounded-full bottom-[4.75rem] left-8 drop-shadow-lg flex items-center justify-between bg-gray-100 w-[30%]">
-        <div className="px-10 rounded-l-full p-6 hover:bg-[#FFD900] cursor-pointer w-[50%]">
+      <section className="absolute border-white border-2 rounded-full bottom-[4.75rem] left-8 drop-shadow-lg flex items-center justify-between bg-gray-100 w-[41%] md:w-[30%]">
+        <div
+          className="px-10 rounded-l-full p-6 hover:bg-[#FFD900] cursor-pointer w-[50%]"
+          onClick={() => setfirst(!first)}
+        >
           <h3 className="font-fam font-bold tracking-wide">2022-2023</h3>
         </div>
-        <div className="px-10 rounded-r-full p-6 hover:bg-[#FFD900] cursor-pointer w-[50%]">
+        <div
+          className="px-10 rounded-r-full p-6 hover:bg-[#FFD900] cursor-pointer w-[50%]"
+          onClick={() => setfirst(!first)}
+        >
           <h3 className="font-fam font-bold tracking-wide">2023-2024</h3>
         </div>
       </section>
@@ -56,19 +70,53 @@ function Muhs() {
         }}
       >
         <section className="bg-[#D9DEE6] w-[90%]">
-          <div className="bg-white  m-4 px-4 flex items-center justify-between rounded">
-            <h5 className="font-bold font-fam text-lg w-[60%] my-3 border-r-2  border-black">
-              Annexure-1
-            </h5>
-            <div className="w-[40%] flex items-center justify-center">
-              <button className="bg-[#FFD900]  flex items-center justify-center p-3">
-                <img src={pdfImg} alt="PDF" className="mr-2" />
-                <span className="tracking-wide text-blue-500">
-                  Download PDF
-                </span>
-              </button>
+          { first &&
+            muhs[0].sub.map((item) => (
+            <div
+              className="bg-white  m-4 px-4 flex items-center justify-between rounded"
+              key={item.name}
+            >
+              <h5 className="font-bold font-fam text-lg w-[60%] my-3 border-r-2  border-black">
+                {item.name}
+              </h5>
+              <div className="w-[40%] flex items-center justify-center">
+                <button className="bg-[#FFD900]  flex items-center justify-center p-3">
+                  <img src={pdfImg} alt="PDF" className="mr-2" />
+                  <span className="tracking-wide text-blue-500">
+                    <a href={item.pdf} target="_blank" rel="noreferrer">
+                      Download PDF
+                    </a>
+                  </span>
+                </button>
+              </div>
             </div>
-          </div>
+          ))}
+          {
+            !first &&
+
+            muhs[1].sub.map((item) => (
+              <div
+                className="bg-white m-1 md:m-4 md:px-4 flex items-center justify-between rounded"
+                key={item.name}
+              >
+                <h5 className="font-bold font-fam text-base md:text-lg w-[60%] my-3 border-r-2  border-black">
+                  {item.name}
+                </h5>
+                <div className="w-[40%] flex items-center justify-center">
+                  <button className="bg-[#FFD900]  flex items-center justify-center p-3">
+                    <img src={pdfImg} alt="PDF" className="mr-2" />
+                    <span className="tracking-wide text-blue-500">
+                      <a href={item.pdf} target="_blank" rel="noreferrer">
+                        Download PDF
+                      </a>
+                    </span>
+                  </button>
+                </div>
+              </div>
+
+
+  ))}
+          
         </section>
       </section>
     </div>
