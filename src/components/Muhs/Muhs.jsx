@@ -9,6 +9,15 @@ import { muhs } from "../../utils/MUHS";
 function Muhs() {
   const [first, setfirst] = useState(true);
 
+  const handleColor = () => {
+    setfirst(!first);
+
+
+
+
+
+  }
+
   //console.log(first);
 
   return (
@@ -45,18 +54,14 @@ function Muhs() {
 
       <section className="absolute border-white border-2 rounded-full bottom-[3%]  left-8 drop-shadow-lg flex items-center justify-between bg-gray-100  w-[90%] md:w-[30%]">
         <div
-          className={`px-5 p-2 md:px-10 rounded-l-full md:p-6 hover:bg-[#FFD900]  cursor-pointer w-[50%] ${
-            first ? "bg-[#FFD900]" : `bg-white`
-          } `}
-          onClick={() => setfirst(!first)}
+          className={`px-5 p-2 md:px-10 rounded-l-full md:p-6  cursor-pointer w-[50%] ${first && 'bg-[#FFD900]'} `}
+          onClick={handleColor}
         >
           <h3 className="font-fam font-bold tracking-wide">2022-2023</h3>
         </div>
         <div
-          className={`px-5 p-2 md:px-10 rounded-r-full md:p-6 hover:bg-[#FFD900] cursor-pointer w-[50%] ${
-            !first ? "bg-[white]" : ``
-          }`}
-          onClick={() => setfirst(!first)}
+          className={`px-5 p-2 md:px-10 rounded-r-full md:p-6 hover:bg-[#FFD900] cursor-pointer w-[50%] ${!first && 'bg-[#FFD900]'} `}
+          onClick={handleColor}
         >
           <h3 className="font-fam font-bold tracking-wide">2023-2024</h3>
         </div>
