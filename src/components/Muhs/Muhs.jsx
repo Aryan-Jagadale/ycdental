@@ -3,7 +3,6 @@ import "../../style/AdmissionPage/headerSection.css";
 import Setting from "../../assets/images/muhs/Setting.png";
 import FileDown from "../../assets/images/muhs/FileDown.png";
 import CloudDown from "../../assets/images/muhs/CloudDown.png";
-import softwareApplication from "../../assets/images/muhs/softwareApplication.png";
 import pdfImg from "../../assets/images/muhs/pdfImg.png";
 import { muhs } from "../../utils/MUHS";
 
