@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../assets/images/logo.png"
 import "../style/HomePage/footer.css";
 
 const FooterComp = () => {
@@ -8,10 +9,10 @@ const FooterComp = () => {
         <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="" style={{ paddingBotton: 30, width: 300 }}>
             <div className="mx-10 mb-4">
-              {/* <img alt="" src={Logo} style={{width:"40rem", paddingLeft:20}}/> */}
-              <h1 style={{ fontSize: "1.5rem", textAlign: "start" }}>
+              <img alt="" src={Logo} style={{width:"40rem", paddingLeft:20}}/>
+              {/* <h1 style={{ fontSize: "1.5rem", textAlign: "start" }}>
                 YCDC,Ahmednager{" "}
-              </h1>
+              </h1> */}
             </div>
             <div className="ml-12">
               <h6 className="mb-2">
