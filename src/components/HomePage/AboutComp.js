@@ -19,6 +19,10 @@ function AboutComp() {
 
   let library = "The Library of Yashwantrao Chavan Dental College was set up in the year 2007 and has since been upgraded with the latest of all information catering to the needs of all specialties of dentistry. The Central library is housed in a w ell - furnished, illuminated and reading room with a seating capacity of more than 100 Students. The undergraduate section is different from the post-graduate section. It has more than 3000 books related to medical and dental sciences ; not to mention, a large repository of online access journals and books. The library subscribe s to many foreign and national journals in dentistry. It is open daily from 9am to 8pm."
 
+
+  let lectureHall = "The college has 4 lecture theatres with seating capacity for 400 students. Smart board equipped classrooms with Wi-Fi connectivity for high tech learning experience and auxiliary audio-visual equipment to make the lectures livelier. Each Department has its own seminar hall and projector."
+
+
   return (
     <div className="about-section">
       <h1 className="about-headline text-2xl">YCDC Ahmednagar BDS & MDS</h1>
@@ -89,14 +93,18 @@ function AboutComp() {
               </span>
             </div>
           </Col>
-          <Col sm>
+          
+        </Row>
+        <Row>
+
+        <Col sm>
             <div id="card3" className="card">
               <img className="about-icon" src={library} alt="icon" />
               <br />
-              <h1 className="about-card-title text-2xl font-bold">LIBRARY</h1>
+              <h1 className="about-card-title text-2xl font-bold uppercase">Lecture Hall</h1>
             </div>
             <div className="infocard">
-              {showMore ? library : `${library.substring(0, 250)}`}
+              {showMore ? lectureHall : `${lectureHall.substring(0, 250)}`}
               <span
                 className="text-blue-900 cursor-pointer"
                 onClick={() => setShowMore(!showMore)}
@@ -105,6 +113,28 @@ function AboutComp() {
               </span>
             </div>
           </Col>
+
+          <Col sm>
+          <div id="card3" className="card">
+            <img className="about-icon" src={library} alt="icon" />
+            <br />
+            <h1 className="about-card-title text-2xl font-bold">LIBRARY</h1>
+          </div>
+          <div className="infocard">
+            {showMore ? library : `${library.substring(0, 250)}`}
+            <span
+              className="text-blue-900 cursor-pointer"
+              onClick={() => setShowMore(!showMore)}
+            >
+              {showMore ? "Show less" : "Show More"}
+            </span>
+          </div>
+        </Col>
+        
+        
+        
+        
+        
         </Row>
       </div>
     </div>
