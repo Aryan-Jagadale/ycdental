@@ -15,7 +15,7 @@ function Muhs() {
   return (
     <div className="">
       <section className="bg-[#800000] w-full relative">
-        <div className="flex items-center justify-center w-full">
+        <div className="flex items-center justify-center w-full p-5">
           <div className="w-full md:w-1/2 m-3 md:m-5">
             <div className="w-full border-l-2 border-[#FFD900]">
               <section className="mb-4 mx-6">
@@ -23,7 +23,7 @@ function Muhs() {
               </section>
 
               <section className="mx-6 flex items-center gap-3 mb-4">
-                <h1 className="text-3xl font-bold font-fam text-white tracking-wide ml-12">
+                <h1 className="text-5xl font-bold font-fam text-white tracking-wide ml-12">
                   MUHS
                   <br />
                   Update ....
@@ -38,13 +38,13 @@ function Muhs() {
             </div>
           </div>
 
-          <div className="md:w-1/2 bg-gradient-to-r from-indigo-500 hidden md:block h-full">
-            <img src={softwareApplication} alt="MUHS banner" />
+          <div className="md:w-1/2  hidden md:block gradinetStyle">
+  {/*<img src={softwareApplication} alt="MUHS banner" />*/}
           </div>
         </div>
       </section>
 
-      <section className="absolute border-white border-2 rounded-full bottom-[25%]  left-8 drop-shadow-lg flex items-center justify-between bg-gray-100  w-[90%] md:w-[30%]">
+      <section className="absolute border-white border-2 rounded-full bottom-[3%]  left-8 drop-shadow-lg flex items-center justify-between bg-gray-100  w-[90%] md:w-[30%]">
         <div
           className={`px-5 p-2 md:px-10 rounded-l-full md:p-6 hover:bg-[#FFD900]  cursor-pointer w-[50%] ${
             first ? "bg-[#FFD900]" : `bg-white`

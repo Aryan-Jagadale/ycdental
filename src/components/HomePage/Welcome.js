@@ -15,12 +15,35 @@ function Welcome() {
           Welcome to Dental College, Ahmednagar
         </h1>
         <p className="text-base mb-1">
-          To provide comprehensive primary and specialized oral health care to
-          people, especially marginalized groups and
+          Welcome to Shri. Yashwantrao Chavan Memorial Medical and Rural
+          Development Foundation 's Dental College
         </p>
         <p className="text-base">
-          disseminate knowledge of disease prevention to the public, and
-          continuing dental education to professionals.
+          The Institute, one of the most prestigious dental colleges in
+          Ahmednagar , India; was established in 2007 in the memory of Shri.
+          Yashwantrao - ji Chavan, the architect of Maharashtra State, Former
+          Chief Minister and the pioneer of the Co - operative and Panchayat R
+          aj movements in Maharashtra
+        </p>
+        <p className="text-base">
+          Ahmednagar and its allied South Area (inclusive of Shevgaon, Pathardi,
+          Newasa, Jamkhed, Karjat, Shrigonda, Parner, Nagar Tahsil, etc.) with a
+          po pulation of more than 20 lakhs is socio economically deprived and
+          chronically draught affected , resulting in the lack of access to
+          affordable, high quality medical and dental healthcare. In addition,
+          higher education in Medical, Dental, Pharmacy & Paramedic al
+          specialities is limited and scarce . In view of the above facts and
+          considering the importance of Dental Health Science, the foundation
+          started this Dental College at Ahmednagar.
+        </p>
+        <p>
+          Shri. Yashwantrao Chavan Memorial Medical and Rural Development
+          Foundatio n is committed to work with the motto of medical and allied
+          development facilities for masses, in particular; the rural and poor
+          population. Today, our dental college is growing rapidly and taking
+          immense strides in academics, research, social outreach, a s well as
+          extracurricular fields under the leadership of Hon. Yashwantrao Gadakh
+          and Shri. Prashant Gadakh .
         </p>
       </div>
       <div className="shape">
@@ -55,10 +78,15 @@ function Welcome() {
             />
             <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                style={{
+                  fontFamily: "Domine",
+                  color: "#800000",
+                  lineHeight: "2rem",
+                }}
                 className="text-sm"
               >
-                Organising <br />President
+                Organising <br />
+                President
               </h3>
               <p
                 style={{ fontFamily: "Domine", color: "#00205B" }}
@@ -79,7 +107,11 @@ function Welcome() {
             />
             <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                style={{
+                  fontFamily: "Domine",
+                  color: "#800000",
+                  lineHeight: "2rem",
+                }}
                 className="text-sm"
               >
                 Vice President
@@ -103,7 +135,11 @@ function Welcome() {
             />
             <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                style={{
+                  fontFamily: "Domine",
+                  color: "#800000",
+                  lineHeight: "2rem",
+                }}
                 className="text-sm"
               >
                 Managing <br /> Director
@@ -130,7 +166,11 @@ function Welcome() {
             />
             <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                style={{
+                  fontFamily: "Domine",
+                  color: "#800000",
+                  lineHeight: "2rem",
+                }}
                 className="text-sm"
               >
                 Managing <br /> Trustee
@@ -154,7 +194,11 @@ function Welcome() {
             />
             <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                style={{
+                  fontFamily: "Domine",
+                  color: "#800000",
+                  lineHeight: "2rem",
+                }}
                 className="text-sm"
               >
                 Administrative <br /> Officer
@@ -176,9 +220,13 @@ function Welcome() {
               alt=""
               srcset=""
             />
-            <div className="welcome-subProfile-title" >
+            <div className="welcome-subProfile-title">
               <h3
-                style={{ fontFamily: "Domine", color: "#800000", lineHeight: "2rem" }}
+                style={{
+                  fontFamily: "Domine",
+                  color: "#800000",
+                  lineHeight: "2rem",
+                }}
                 className="text-sm"
               >
                 Dean
