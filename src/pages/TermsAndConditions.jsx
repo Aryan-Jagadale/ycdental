@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './../style/TermsAndConditions/termsAndConditions.css'
 
 function TermsAndConditions() {
   return (
     <div>
-        <div
-        className=""
-        style={{
-          padding: "3.5rem",
-        }}
-      >
+      <div className="flex flex-col justify-center content-center" style={{ height: '367px', backgroundColor:'#800000',  }}>
+        <div className='flex justify-center content-center items-center backgroundImg' style={{ }}>
+          <div className='flex justify-center content-center text-center text-3xl font-extrabold' style={{lineHeight: '0px', fontFamily: 'Domine', borderBottom: '2px solid black', width: 'fit-content', height: 'fit-content', paddingInline: '1rem'}}><h1>TERMS AND CONDITIONS</h1></div>
+        </div>
+      </div>
+        <div className="px-24 py-14">
         <section>
       {/* <div className='text-2xl' text-justify font-fam>
         Dental College & Hospital, Ahmednagar – Terms & Conditions 
