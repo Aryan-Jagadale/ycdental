@@ -8,18 +8,15 @@ import pdfImg from "../../assets/images/muhs/pdfImg.png";
 import { muhs } from "../../utils/MUHS";
 
 function Muhs() {
-
   const [first, setfirst] = useState(true);
 
   //console.log(first);
-
-
 
   return (
     <div className="">
       <section className="bg-[#800000] w-full relative">
         <div className="flex items-center justify-center w-full">
-          <div className="w-1/2 m-5">
+          <div className="w-full md:w-1/2 m-3 md:m-5">
             <div className="w-full border-l-2 border-[#FFD900]">
               <section className="mb-4 mx-6">
                 <img src={Setting} alt="Setting pic" />
@@ -41,21 +38,25 @@ function Muhs() {
             </div>
           </div>
 
-          <div className="w-1/2">
+          <div className="md:w-1/2 bg-gradient-to-r from-indigo-500 hidden md:block h-full">
             <img src={softwareApplication} alt="MUHS banner" />
           </div>
         </div>
       </section>
 
-      <section className="absolute border-white border-2 rounded-full bottom-[4.75rem] left-8 drop-shadow-lg flex items-center justify-between bg-gray-100 w-[41%] md:w-[30%]">
+      <section className="absolute border-white border-2 rounded-full bottom-[25%]  left-8 drop-shadow-lg flex items-center justify-between bg-gray-100  w-[90%] md:w-[30%]">
         <div
-          className="px-10 rounded-l-full p-6 hover:bg-[#FFD900] cursor-pointer w-[50%]"
+          className={`px-5 p-2 md:px-10 rounded-l-full md:p-6 hover:bg-[#FFD900]  cursor-pointer w-[50%] ${
+            first ? "bg-[#FFD900]" : `bg-white`
+          } `}
           onClick={() => setfirst(!first)}
         >
           <h3 className="font-fam font-bold tracking-wide">2022-2023</h3>
         </div>
         <div
-          className="px-10 rounded-r-full p-6 hover:bg-[#FFD900] cursor-pointer w-[50%]"
+          className={`px-5 p-2 md:px-10 rounded-r-full md:p-6 hover:bg-[#FFD900] cursor-pointer w-[50%] ${
+            !first ? "bg-[white]" : ``
+          }`}
           onClick={() => setfirst(!first)}
         >
           <h3 className="font-fam font-bold tracking-wide">2023-2024</h3>
@@ -69,41 +70,18 @@ function Muhs() {
           marginBottom: "4.25rem",
         }}
       >
-        <section className="bg-[#D9DEE6] w-[90%]">
-          { first &&
+        <section className="bg-[#D9DEE6] w-full md:w-[90%]">
+          {first &&
             muhs[0].sub.map((item) => (
-            <div
-              className="bg-white  m-4 px-4 flex items-center justify-between rounded"
-              key={item.name}
-            >
-              <h5 className="font-bold font-fam text-lg w-[60%] my-3 border-r-2  border-black">
-                {item.name}
-              </h5>
-              <div className="w-[40%] flex items-center justify-center">
-                <button className="bg-[#FFD900]  flex items-center justify-center p-3">
-                  <img src={pdfImg} alt="PDF" className="mr-2" />
-                  <span className="tracking-wide text-blue-500">
-                    <a href={item.pdf} target="_blank" rel="noreferrer">
-                      Download PDF
-                    </a>
-                  </span>
-                </button>
-              </div>
-            </div>
-          ))}
-          {
-            !first &&
-
-            muhs[1].sub.map((item) => (
               <div
-                className="bg-white m-1 md:m-4 md:px-4 flex items-center justify-between rounded"
+                className="bg-white m-2 md:m-4 px-4 flex items-center justify-between rounded"
                 key={item.name}
               >
-                <h5 className="font-bold font-fam text-base md:text-lg w-[60%] my-3 border-r-2  border-black">
+                <h5 className="font-bold font-fam  md:text-lg w-[60%] my-3 border-r-2  border-black">
                   {item.name}
                 </h5>
-                <div className="w-[40%] flex items-center justify-center">
-                  <button className="bg-[#FFD900]  flex items-center justify-center p-3">
+                <div className="w-[60%] md:w-[40%] flex items-center justify-center">
+                  <button className="bg-[#FFD900]  flex items-center justify-center p-2 md:p-3">
                     <img src={pdfImg} alt="PDF" className="mr-2" />
                     <span className="tracking-wide text-blue-500">
                       <a href={item.pdf} target="_blank" rel="noreferrer">
@@ -113,10 +91,28 @@ function Muhs() {
                   </button>
                 </div>
               </div>
-
-
-  ))}
-          
+            ))}
+          {!first &&
+            muhs[1].sub.map((item) => (
+              <div
+                className="bg-white m-2 md:m-4 px-4 flex items-center justify-between rounded"
+                key={item.name}
+              >
+                <h5 className="font-bold font-fam  md:text-lg w-[60%] my-3 border-r-2  border-black">
+                  {item.name}
+                </h5>
+                <div className="w-[60%] md:w-[40%] flex items-center justify-center">
+                  <button className="bg-[#FFD900]  flex items-center justify-center p-2 md:p-3">
+                    <img src={pdfImg} alt="PDF" className="mr-2" />
+                    <span className="tracking-wide text-blue-500">
+                      <a href={item.pdf} target="_blank" rel="noreferrer">
+                        Download PDF
+                      </a>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            ))}
         </section>
       </section>
     </div>
