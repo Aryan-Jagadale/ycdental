@@ -1,0 +1,59 @@
+.admissionSection {
+  padding: 2% 4%;
+}
+
+.short-info-box {
+  background: rgba(0, 32, 91, 0.15);
+  opacity: 0.8;
+  border: 1px solid #ffd900;
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.admission-hedline {
+  text-align: center;
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  margin-bottom: 2%;
+  color: black;
+}
+
+.admissionPera {
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  margin-bottom: 2%;
+}
+
+.admission-col-1{
+    padding: 2% 1%;
+    padding-right: 4%;
+    border: white solid 3px;
+    border-left: 0px;
+}
+
+.admission-col-2{
+    padding: 2% 1%;
+    padding-left: 4%;
+    border: white solid 3px;
+    border-right: 0px;
+}
+
+.admission-hedline-2{
+    font-family: "Domine";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 32px;
+    letter-spacing: 0.08em;
+    margin-bottom: 2%;
+    color: black;
+}
