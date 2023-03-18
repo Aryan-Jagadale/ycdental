@@ -5,9 +5,9 @@ import blab from "../../assets/images/blab.png";
 import clab from "../../assets/images/clab.png";
 import plab from "../../assets/images/plab.png";
 import it from "../../assets/images/it.png";
-import campus from "../../assets/icons/campusicon.png";
-import hostel from "../../assets/icons/hostelicon.png";
-import library from "../../assets/icons/libraryicon.png";
+//import campus from "../../assets/icons/campusicon.png";
+//import hostel from "../../assets/icons/hostelicon.png";
+//import library from "../../assets/icons/libraryicon.png";
 
 function AboutComp() {
   const [showMore, setShowMore] = useState(false);
