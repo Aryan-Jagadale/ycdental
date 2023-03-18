@@ -48,6 +48,8 @@
   width: 100%;
   justify-content: center;
   margin-top: 5%;
+  display: block !important;
+  margin: auto !important;
 }
 
 .card {
@@ -57,8 +59,8 @@
   margin-bottom: 3%;
   border-radius: 0;
   border: #ffd900 solid 3px;
-  max-width: 30rem;
-  max-height: 15rem;
+  /* max-width: 30rem;
+  max-height: 15rem; */
 }
 
 #card1 {

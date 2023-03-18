@@ -5,9 +5,9 @@ import blab from "../../assets/images/blab.png";
 import clab from "../../assets/images/clab.png";
 import plab from "../../assets/images/plab.png";
 import it from "../../assets/images/it.png";
-//import campus from "../../assets/icons/campusicon.png";
-//import hostel from "../../assets/icons/hostelicon.png";
-//import library from "../../assets/icons/libraryicon.png";
+import campuss from "../../assets/icons/campusicon.png";
+import hostell from "../../assets/icons/hostelicon.png";
+import libraryicon from "../../assets/icons/libraryicon.png";
 
 function AboutComp() {
   const [showMore, setShowMore] = useState(false);
@@ -63,7 +63,7 @@ function AboutComp() {
         <Row>
           <Col sm>
             <div id="card1" className="card">
-              <img className="about-icon" src={campus} alt="icon" />
+              <img className="about-icon" src={campuss} alt="icon" />
               <br />
               <h1 className="about-card-title text-2xl font-bold">CAMPUS</h1>
             </div>
@@ -79,7 +79,7 @@ function AboutComp() {
           </Col>
           <Col sm>
             <div id="card2" className="card">
-              <img className="about-icon" src={hostel} alt="icon" />
+              <img className="about-icon" src={hostell} alt="icon" />
               <br />
               <h1 className="about-card-title text-2xl font-bold">HOSTEL</h1>
             </div>
@@ -99,7 +99,7 @@ function AboutComp() {
 
         <Col sm>
             <div id="card3" className="card">
-              <img className="about-icon" src={library} alt="icon" />
+              <img className="about-icon" src={libraryicon} alt="icon" />
               <br />
               <h1 className="about-card-title text-2xl font-bold uppercase">Lecture Hall</h1>
             </div>
@@ -116,7 +116,7 @@ function AboutComp() {
 
           <Col sm>
           <div id="card3" className="card">
-            <img className="about-icon" src={library} alt="icon" />
+            <img className="about-icon" src={libraryicon} alt="icon" />
             <br />
             <h1 className="about-card-title text-2xl font-bold">LIBRARY</h1>
           </div>

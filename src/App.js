@@ -9,7 +9,8 @@ import NewNavbar from "./components/NewNavbar";
 import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentORMEDRAD";
 import Department from "./components/DepartmentPage/Department";
 import Academic from "./components/AcademicPage/Academic";
-import Admission from "./pages/Admission";
+import MDSAdmission from "./pages/MDSAdmission";
+import BDSAdmission from "./pages/BDSAdmission";
 import Loader from "./components/Loader/index";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import ScrollToTop from "react-scroll-to-top";
@@ -53,7 +54,9 @@ function App() {
               element={<DepartmentORMEDRAD />}
             />
 
-            <Route path="/admission" element={<Admission />} />
+            <Route path="/admission" element={<MDSAdmission />} />
+
+            <Route path="/bds-admission" element={<BDSAdmission />} />
 
             <Route
               path="/terms-conditions"
