@@ -1,10 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import mainProfile from "./../../assets/images/profileMain.svg";
 import subProfile from "./../../assets/images/subProfilePhoto.svg";
 import "../../style/HomePage/welcomeComp.css";
 import { Row, Col } from "react-bootstrap";
 
 function Welcome() {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <div className="welcome-section">
       <div
@@ -37,9 +39,21 @@ function Welcome() {
           considering the importance of Dental Health Science, the foundation
           started this Dental College at Ahmednagar.
         </p>
-        <br/>
 
-        <p className="text-base">
+        <br/>
+        <p className="text-base cursor-pointer underline font-semibold"
+        onClick={() => setShowMore(!showMore)}
+        >
+        {showMore ? "Read less" : "Read More"}
+        
+        </p>
+
+        {
+
+          showMore ? 
+          <>
+
+          <p className="text-base">
           Shri. Yashwantrao Chavan Memorial Medical and Rural Development
           Foundatio n is committed to work with the motto of medical and allied
           development facilities for masses, in particular; the rural and poor
@@ -96,9 +110,17 @@ function Welcome() {
           registered part of the Innovation Cell, Ministry of Education,
           Government of India in addition to being Ahmednagar Local Chapter of
           SWAYAM, NPETL, Government of India.
-        </p>
+          </p>
+          
+          
+          
+          </>
+          : ''
+        }
 
-        <p></p>
+        
+
+        
       </div>
       <div className="shape">
         <h1 className="shape-title py-7 text-white text-2xl underline underline-offset-8">
