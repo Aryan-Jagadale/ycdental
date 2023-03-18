@@ -56,7 +56,7 @@ function App() {
             <Route path="/admission" element={<Admission />} />
 
             <Route
-              path="/termsandconditions"
+              path="/terms-conditions"
               element={<TermsAndConditions />}
             />
             

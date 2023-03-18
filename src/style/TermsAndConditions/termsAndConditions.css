@@ -1,0 +1,14 @@
+.backgroundImg{
+    background-image: url('../../assets/images/termsndconditions.svg');
+    margin-block: 31px; 
+    margin-inline: 67px; 
+    /* width: 100%; */
+    padding: 5rem;
+    height: 100%;
+    /* filter: blur(1px); */
+  /* -webkit-filter: blur(8px); */
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
