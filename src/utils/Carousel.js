@@ -1,0 +1,22 @@
+export const carousel = [
+    {
+        backImg:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679145925/buil_1_afzg2u.jpg",
+        left:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679144321/17_tclnt4.jpg",
+        right:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679144317/1_ejjj8b.jpg"
+    },
+    {
+        backImg:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679145925/buil_1_afzg2u.jpg",
+        left:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679146475/IMG_3426_1_tymtc1.jpg",
+        right:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679146646/9_1_kuu1vo.jpg"
+    },
+    {
+        backImg:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679145925/buil_1_afzg2u.jpg",
+        left:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679146844/16_1_wqgx5a.jpg",
+        right:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679146951/19_1_bdwlca.jpg"
+    },
+    {
+        backImg:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679145925/buil_1_afzg2u.jpg",
+        left:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679147232/36_jlpgqo.jpg",
+        right:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679147232/8_qalxo5.jpg"
+    }
+]

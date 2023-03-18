@@ -2,18 +2,30 @@ import React from "react";
 import { Carousel } from "flowbite-react";
 import InnerCaroComp from "./InnerCaroComp";
 import "../../style/HomePage/carosuel.css";
+import { carousel } from "../../utils/Carousel";
+
+
 
 const CarosuelComp = () => {
+
+
+
+
+
+
   return (
     <>
       <div className="carosuel">
       
           <Carousel className="carosuel" slide={false}>
-            <InnerCaroComp />
+          {
+            carousel.map((item)=>(
+              <InnerCaroComp key={item.backImg} left={item.left} right={item.right} />
 
-            <InnerCaroComp />
+            ))
+          }
 
-            <InnerCaroComp />
+           
           </Carousel>
       </div>
     </>

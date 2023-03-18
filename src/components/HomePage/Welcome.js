@@ -44,7 +44,7 @@ function Welcome() {
         <p className="text-base cursor-pointer underline font-semibold"
         onClick={() => setShowMore(!showMore)}
         >
-        {showMore ? "Read less" : "Read More"}
+        {showMore ? "Read Less" : "Read More"}
         
         </p>
 

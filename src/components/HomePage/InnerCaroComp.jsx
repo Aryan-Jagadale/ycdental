@@ -1,20 +1,18 @@
 import React from "react";
-//import Banner1 from "../../assets/images/banner1.png";
-//import Banner2 from "../../assets/images/banner2.png";
-import Dent1 from "../../assets/images/dent1.png";
-import Dent2 from "../../assets/images/dent2.png";
 
-const InnerCaroComp = () => {
+
+
+const InnerCaroComp = ({backImg,left,right}) => {
   return (
     <>
-      <div className="carosuel-bg">
+      <div className="carosuel-bg" >
       <div className="h-[100%] w-[100%] md:h-2/3 md:w-2/3 absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-1/2 border-4 border-[#800000] backdrop-blur-sm">
       <section className="p-4 h-full flex items-center justify-between relative">
         <div className="h-full w-full md:p-4">
-          <img className="h-full w-full" src={Dent1} alt="dentist1" />
+          <img className="h-full w-full" src={left} alt="dentist1" />
         </div>
         <div className="h-full w-full md:p-4">
-          <img className="h-full w-full" src={Dent2} alt="dentist2" />
+          <img className="h-full w-full" src={right} alt="dentist2" />
         </div>
       </section>
       {/*Strip */}
