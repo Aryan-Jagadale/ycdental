@@ -25,6 +25,7 @@ function Welcome() {
           Chief Minister and the pioneer of the Co - operative and Panchayat R
           aj movements in Maharashtra
         </p>
+        <br/>
         <p className="text-base">
           Ahmednagar and its allied South Area (inclusive of Shevgaon, Pathardi,
           Newasa, Jamkhed, Karjat, Shrigonda, Parner, Nagar Tahsil, etc.) with a
@@ -36,7 +37,9 @@ function Welcome() {
           considering the importance of Dental Health Science, the foundation
           started this Dental College at Ahmednagar.
         </p>
-        <p>
+        <br/>
+
+        <p className="text-base">
           Shri. Yashwantrao Chavan Memorial Medical and Rural Development
           Foundatio n is committed to work with the motto of medical and allied
           development facilities for masses, in particular; the rural and poor
@@ -45,6 +48,57 @@ function Welcome() {
           extracurricular fields under the leadership of Hon. Yashwantrao Gadakh
           and Shri. Prashant Gadakh .
         </p>
+
+        <p className="text-base">
+          The institute is affiliated to Maharashtra University of Health
+          Sciences (MUHS) and approved by the Dental Council of India . We are
+          also ISO 9000:2015 certified. We offer Undergraduate degree of
+          Bachelor in Dental Surgery i.e., BDS; with a merit based yearly intake
+          of 100 students.There are four Post Graduate programs of Masters in
+          Dental Surgery i.e., MDS with the yearly intake of 16 studen ts in the
+          dental specialities of Orthodontics & Dentofacial Orthopaedics ,
+          Periodontology & Implantology, Prosthodontics & Implantology,
+          Conservative Dentistry & Endodontics. From 2023, we will also have
+          enrolment s for PhD research candidate.
+        </p>
+        <br/>
+
+        <p className="text-base">
+          Our facilities and academic mentorship ensure that students excel and
+          surpass the requirements laid down by Dental Council of India and MUHS
+          . YCDC makes all its students real - world - ready with various skill
+          building workshops , seminars, conferences , and ce rtifications on
+          various current dental advances and subjects.
+        </p>
+
+        <br/>
+
+        <p className="text-base">
+          Research is encouraged among the staff and students through our
+          institutional research and ethics cells, multiple research facilities,
+          and training workshops. Not only does the institute pro mote academics
+          but also encourages an all - round development of the candidate
+          through a plethora of year - round extracurricular activities, field
+          trips, intercollegiate and state level competitions, with our students
+          bagging top spots in all their endeavours.
+        </p>
+
+        <br/>
+
+        <p className="text-base">
+          Understanding the latest trends a nd requirements, YCDC has made
+          commendable efforts to integrate digitization, entrepreneurship, and
+          innovation into college curricula and processes . The college has
+          completed digitization in office and the library. Teaching occurs on
+          smart boards with Wi - Fi connectivity, while c omputerization of
+          administration has resulted in online admission process and a digital
+          locker for maintaining records. We are now officially certified and
+          registered part of the Innovation Cell, Ministry of Education,
+          Government of India in addition to being Ahmednagar Local Chapter of
+          SWAYAM, NPETL, Government of India.
+        </p>
+
+        <p></p>
       </div>
       <div className="shape">
         <h1 className="shape-title py-7 text-white text-2xl underline underline-offset-8">
