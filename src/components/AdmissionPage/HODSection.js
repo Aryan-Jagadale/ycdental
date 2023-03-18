@@ -1,10 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import hod from "../../assets/images/hod.png";
-
+import { Link } from "react-router-dom";
 
 function HODSection() {
-
   return (
     <div style={{ textAlign: "center" }}>
       <div
@@ -65,27 +64,28 @@ function HODSection() {
       >
         <Row>
           <Col>
-            <button
-              style={{
-                width: "max-content",
-                float: "right",
-                padding: "1%",
-                background: "#800000",
-                color: "white",
-                border: "1px solid rgba(128, 0, 0, 0.5)",
-                backdropFilter: "blur(7.5px)",
-                fontFamily: "Domine",
-                fontWeight: "400",
-                fontStyle: "normal",
-              }}
-
-              
-            >
-              MDS Admission
-            </button>
+            <Link to={"/admission"}>
+              <snap
+                style={{
+                  width: "max-content",
+                  float: "right",
+                  padding: "1%",
+                  background: "#800000",
+                  color: "white",
+                  border: "1px solid rgba(128, 0, 0, 0.5)",
+                  backdropFilter: "blur(7.5px)",
+                  fontFamily: "Domine",
+                  fontWeight: "400",
+                  fontStyle: "normal",
+                }}
+              >
+                MDS Admission
+              </snap>
+            </Link>
           </Col>
           <Col>
-            <button
+          <Link to={"/bds-admission"}>
+            <snap
               style={{
                 width: "max-content",
                 float: "left",
@@ -100,7 +100,8 @@ function HODSection() {
               }}
             >
               BDS Admission
-            </button>
+            </snap>
+            </Link>
           </Col>
         </Row>
       </div>

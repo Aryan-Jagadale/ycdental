@@ -1,16 +1,16 @@
 import React from 'react';
 import HeaderSection from "../components/AdmissionPage/headerSection";
 import HODSection from '../components/AdmissionPage/HODSection';
-import MDSAdmission from '../components/AdmissionPage/MDSAdmission';
+import Admission from '../components/AdmissionPage/MDSAdmission';
 
-function Admission() {
+function MDSAdmission() {
   return (
     <>
         <HeaderSection />
         <HODSection />
-        <MDSAdmission />
+        <Admission />
     </>
   )
 }
 
-export default Admission
+export default MDSAdmission
