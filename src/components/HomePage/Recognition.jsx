@@ -8,7 +8,7 @@ import mainDivThirdImg from './../../assets/images/recognition/mainDivThirdImg.s
 function Recognition() {
     return (
         <div className='flex flex-column my-5'>
-            <div className='row-one mb-2 lg:mb-20'>
+            <div className='row-one lg:mb-20 sm:mb-2'>
                 <div className="text-neutral-200 lable-container border-[2.5px] drop-shadow-lg border-[#00205B] flex items-center justify-center ">
                     <h3 className="text-2xl px-4 py-2 font-bold flex items-center justify-center uppercase tracking-wide text-[#262626]">RECOGNITION</h3>
                 </div>
