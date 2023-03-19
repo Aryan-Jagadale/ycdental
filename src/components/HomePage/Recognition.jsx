@@ -30,7 +30,7 @@ function Recognition() {
                         <h2>College is certified with ISO 9001:2015</h2>
                     </div>
                 </div>
-                <div className="flex w-full flex-col lg:flex-row justify-center items-center lg:justify-around ">
+                <div className="flex w-full flex-col lg:flex-row justify-center items-center lg:justify-around mt-4">
                     <div className="sub-card-red">
                         <p>First of its kind CBCT machine for diagnosis and treatment planning</p>
                     </div>

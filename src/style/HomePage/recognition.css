@@ -51,7 +51,7 @@
   align-items: center;
   padding: 2rem;
   margin-inline: 2rem;
-  margin-block: 2rem;
+  margin-block: 1rem;
   text-align: left;
   background: rgba(128, 0, 0, 0.3);
   border-top: 0.5rem solid rgba(128, 0, 0, 0.8);
@@ -67,7 +67,7 @@
     align-items: center;
     padding: 2rem;
     margin-inline: 2rem;
-    margin-block: 2rem;
+    margin-block: 1rem;
     text-align: left;
     background: rgba(0, 32, 91, 0.09);
     border-top: 0.5rem solid rgba(0, 32, 91, 0.8);
