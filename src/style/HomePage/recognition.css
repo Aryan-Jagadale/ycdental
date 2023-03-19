@@ -1,0 +1,74 @@
+.row-one {
+  width: 100%;
+}
+.lable-container {
+  display: block;
+  margin: auto;
+  width: fit-content;
+}
+.main-card {
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: normal;
+  width: 379px;
+  height: 153px;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2rem;
+  margin-inline: 2rem;
+  text-align: center;
+  background: linear-gradient(103.12deg, #f8f8f8 0%, #fafafa 100%);
+  box-shadow: 0px 8px 20px 3px rgba(3, 47, 110, 0.22);
+  border-radius: 20px;
+  
+  /* border-top: 0.5rem solid #00205be5; */
+  font-family: "Domine";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  position: relative;
+  color: rgba(0, 0, 0, 0.8);
+  z-index: 50;
+}
+
+.main-card-img {
+  position: absolute;
+  top: -40px;
+  z-index: 50;
+  width: 80px;
+  height: 80px;
+  background-image: none;
+}
+.sub-card-red {
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: normal;
+  width: 379px;
+  height: 153px;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-inline: 2rem;
+  margin-block: 2rem;
+  text-align: left;
+  background: rgba(128, 0, 0, 0.3);
+  border-top: 0.5rem solid rgba(128, 0, 0, 0.8);
+}
+
+.sub-card-blue {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: normal;
+    width: 379px;
+    height: 153px;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-inline: 2rem;
+    margin-block: 2rem;
+    text-align: left;
+    background: rgba(0, 32, 91, 0.09);
+    border-top: 0.5rem solid rgba(0, 32, 91, 0.8);
+  }

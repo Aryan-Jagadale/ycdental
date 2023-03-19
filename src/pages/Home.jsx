@@ -2,6 +2,7 @@ import React from "react";
 import CarosuelComp from "../components/HomePage/Carosuel";
 import Welcome from "../components/HomePage/Welcome";
 import News from "../components/HomePage/News";
+import Recognition from "../components/HomePage/Recognition";
 //import AboutComp from "../components/HomePage/AboutComp";
 //import Loadable from "react-loadable";
 //import Loader from "../components/Loader/index"
@@ -34,7 +35,7 @@ const Home = () => {
     <>
       <CarosuelComp/>
       <Welcome/>
-      
+      <Recognition/>
       <News/>
     </>
   );
