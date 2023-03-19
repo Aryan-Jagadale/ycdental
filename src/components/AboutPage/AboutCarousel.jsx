@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import "../../style/AboutPage/aboutCarousel.css";
+import { aboutCarousel } from "../../utils/Carousel";
 import AboutInnerCarosel from "./AboutInnerCarosel";
 
 const AboutCarousel = () => {
@@ -57,10 +58,13 @@ const AboutCarousel = () => {
 
             <div className="slider_wrapper px-10 mt-[5vh] lg:mt-[11vh]">
               <Slider {...settings}>
-                <AboutInnerCarosel />
-                <AboutInnerCarosel />
-                <AboutInnerCarosel />
-                <AboutInnerCarosel />
+              {
+                aboutCarousel.map((item) => (
+                  <AboutInnerCarosel carImg={item.carImg} />
+
+                ))
+              }
+                
               </Slider>
             </div>
             <br/>
