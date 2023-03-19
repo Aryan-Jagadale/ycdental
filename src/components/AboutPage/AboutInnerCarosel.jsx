@@ -1,7 +1,7 @@
 import React from "react";
-import aboutCarousel from "../../assets/images/aboutCarousel.png";
+//import aboutCarousel from "../../assets/images/aboutCarousel.png";
 
-const AboutInnerCarosel = () => {
+const AboutInnerCarosel = ({carImg}) => {
   return (
     <div>
       <div
@@ -12,7 +12,7 @@ const AboutInnerCarosel = () => {
         }}
       >
         <img
-          src={aboutCarousel}
+          src={carImg}
           alt={"niko"}
           className="max-h-[35vh] w-full object-cover"
         />
