@@ -1,284 +1,259 @@
-import React from 'react';
+import React from "react";
 import "../../style/AdmissionPage/admission.css";
 import { Col, Row, Table } from "react-bootstrap";
-import merit1 from "../../assets/pdf/2021-2022/NEET-MDS-2021-22-INSTITUTIONAL-LEVEL-ROUND-Dt-.07-11-2021.pdf";
-import merit2 from "../../assets/pdf/2021-2022/NEET_MDS_Institutional_Vacancy_Round_MeritList_No.2_Dt..pdf";
+import Revised_BDS_Course_Regulation_2007 from "../../assets/pdf/2007-2008/Revised_BDS_Course_Regulation_2007.pdf";
+import RevisedSyllbus from "../../assets/pdf/BDS/Revised-Syllbus-BDS-New.pdf";
+import BDSSyllabus1 from "../../assets/pdf/BDS/1st-BDS-Syllabus.pdf";
+import BDSSyllabus2 from "../../assets/pdf/BDS/2nd-BDS-Syllabus.pdf";
+import BDSSyllabus3 from "../../assets/pdf/BDS/3rd-BDS-Syllabus.pdf";
+import BDSSyllabus4 from "../../assets/pdf/BDS/4th-BDS-Syllabus.pdf";
+import RejectedCandidate from "../../assets/pdf/BDS/RejectedCandidate.pdf";
+import GeneralMerit from "../../assets/pdf/BDS/GeneralMeritList.pdf";
+import BDSMeritList from "../../assets/pdf/2021-2022/BDS_INSTITUTIONAL_LEVEL_ROUND_MERIT_LIST__2021_22.pdf";
+import BDSFeeStructure from "../../assets/pdf/2021-2022/2021-22_B.D.S._FEE_STRUCTURE___COLLEGE_WEBSITE___FINAL_NEW.pdf";
 
 function BDSAdmission() {
   return (
     <div className="admissionSection">
       <div className="short-info-box">
-        <h1 className="admission-hedline">Master of Dental Surgery (MDS)</h1>
+        <h1 className="admission-hedline">Bachelor of Dental Surgery (BDS)</h1>
         <p className="admissionPera">
-          Master of Dental Surgery (MDS) course at Late Shri Yashwantrao Chavan
-          Memorial Medical & Rural Development Foundation’s Dental College,
-          Ahmednagar is recognised by Dental Council of India and is affiliated
-          to Maharashtra University of Health Sciences, Nashik. Hence the Rules
-          & Regulations of the Maharashtra University of Health Sciences, Nashik
-          in regard to the syllabi and conduct of examination shall apply.
+          Bachelor of Dental Surgery (BDS) course at Late Shri Yashwantrao
+          Chavan Memorial Medical & Rural Development Foundation’s Dental
+          College, Ahmednagar is recognised by Dental Council of India and is
+          affiliated to Maharashtra University of Health Sciences, Nashik. Hence
+          the Rules & Regulations of the Maharashtra University of Health
+          Sciences, Nashik in regard to the syllabi and conduct of examination
+          shall apply.
         </p>
         <Row>
           <Col sm className="admission-col-1">
             <h1 className="admission-hedline-2">
-              No. Of Seats: 16 <br />
-              Eligibility criteria:
+              No. of Seats: 100 (Recognised) <br /> Eligibility criteria:
             </h1>
             <p className="admissionPera">
-              To be eligible for this course, the candidate has to be a Bachelor
-              of Dental Science graduate from a recognised Dental College in
-              India with a minimum of 50%.
-            </p>
-            <br />
-            <h1 className="admission-hedline-2">Admission Process:</h1>
-            <p className="admissionPera">
-              Admission to MDS Course at Yashwantrao Chavan Dental College is
-              completed through a single Common Entrance test conducted by NEET
-              (National Eligibity cum Entrance Test).
+              The candidate must have passed the Higher Secondary examination
+              (which is equivalent to 10+2 ). The student must have obtained 50%
+              marks in the subjects of Physics, Chemistry and Biology and must
+              have qualifying marks in English. For SC, ST or OBC, the minimum
+              marks shall be 40%. Criteria are subjected to change as per the
+              notifications of state/central government or order from
+              supreme/high court.
             </p>
           </Col>
           <Col sm className="admission-col-2">
-            <h1 className="admission-hedline-2">Merit List</h1>
+            <h1 className="admission-hedline-2">Admission Process:</h1>
             <p className="admissionPera">
-              {" "}
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"Merit List 1"}
-              >
-                Download
-              </a>{" "}
-              Merit List No 1 <br />
-              <a
-                className="admissionDownload"
-                href={merit2}
-                download={"Merit List 2"}
-              >
-                Download
-              </a>{" "}
-              Merit List No 2
-            </p>
-            <h1 className="admission-hedline-2">Fee Structure</h1>
-            <p className="admissionPera">
-              {" "}
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-              >
-                M.D.S_FEE_STRUCUTRE_2021-22 . PDF
-              </a>
+              The candidates need to pass entrance exam to secure their place
+              for the course. Admission to BDS course is completed through
+              single common entrance test conducted by NEET. After clearing the
+              entrance exam, students have to participate in the counseling
+              process organized by respective authorities. Seats will be
+              allotted to candidates on the basis of rank, filled choices and
+              availability of seats.
             </p>
           </Col>
         </Row>
+        <div className="bds-section2">
+          <h1 className="admission-hedline-2">Fees detail:</h1>
+          <p className="admissionPera">
+            <a
+              className="admissionDownload"
+              href={BDSMeritList}
+              download={"BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22"}
+            >
+              &#8226; BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22
+            </a>{" "}
+            <br />
+            Tution Fees: 4,00,000/- per year <br />
+            Tution Fees: 4,00,000/- per year
+            <br />
+            Hostel Fees: 20,000/- per year
+            <br />
+          </p>
+        </div>
+        <div
+          style={{
+            backgroundColor: "rgba(255, 217, 0, 0.9)",
+            border: "1px solid #FFD900",
+            backdropFilter: "blur(7.5px)",
+            padding: "1%",
+            display: "block",
+            margin: "auto",
+            position: "relative",
+            top: "-1.3rem",
+            textAlign: "center",
+            maxWidth: "fit-content",
+            paddingBottom: "0%",
+            boxShadow: "0px 5px 25px rgba(0, 0, 0, 0.2)"
+          }}
+        >
+          <p className="admissionPera">
+            <a
+              className="admissionDownload"
+              href={BDSFeeStructure}
+              download={"2021-22_B.D.S._FEE_STRUCTURE .PDF"}
+            >
+              &#8226; 2021-22_B.D.S._FEE_STRUCTURE .PDF
+            </a>{" "}
+          </p>
+        </div>
       </div>
 
       <div className="admission-section-2">
         <h1 className="admission-hedline">
-          The College is running Master of Dental Surgery (MDS) in 4 specialties
+          Syllabus: BDS (As per current DCI regulation)
         </h1>
 
         <Table striped bordered className="admissionTable">
           <thead>
             <tr>
-              <th>Sr.No</th>
-              <th>Department</th>
-              <th>No. of Seats</th>
-              <th>Fees Session 2020 (Per Annum)</th>
+              <th>First Year</th>
+              <th> Second Year</th>
+              <th> Third Year </th>
+              <th>Four Year</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
-              <td>Periodontics</td>
-              <td>05</td>
-              <td>5,40,000/-</td>
+              <td>General Human Anatomy including Embryology and Histology </td>
+              <td>General Pathology and Microbiology</td>
+              <td>General Medicine</td>
+              <td>Orthodontics and Dentofacial Orthopaedics</td>
             </tr>
             <tr>
-              <td>2</td>
-              <td>Orthodontics </td>
-              <td>05</td>
-              <td>5,40,000/-</td>
+              <td>General Human Physiology and Biochemistry</td>
+              <td>General and Dental Pharmacology and Therapeutics</td>
+              <td>General Surgery</td>
+              <td>Oral Medicine & Radiology</td>
             </tr>
             <tr>
-              <td>3</td>
-              <td>Prosthodontics </td>
-              <td>03</td>
-              <td>5,40,000/-</td>
+              <td>Dental Anatomy, Embryology and Oral Histology</td>
+              <td>Dental Materials</td>
+              <td>Oral Pathology and Oral Microbiology</td>
+              <td>Paediatric and Preventive Dentistry</td>
             </tr>
             <tr>
-              <td>4</td>
-              <td>Conservative Dentistry</td>
-              <td>03</td>
-              <td>5,40,000/-</td>
+              <td>-</td>
+              <td>Pre-clinical Conservative Dentistry</td>
+              <td>-</td>
+              <td>Periodontology</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>Pre-clinical Prosthodontics and Crown & Bridge</td>
+              <td>-</td>
+              <td>Oral & Maxillofacial Surgery</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>Prosthodontics and Crown & Bridge</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>Conservative Dentistry and Endodontics</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>Public Health Dentistry</td>
             </tr>
           </tbody>
         </Table>
-
-        <p className="admissionPera">
-          &#8226; Hostel Fees (per year) : 40,000/-
-          <br />
-          &#8226; To facilitate students in acquiring knowledge of basic
-          behavioural and clinical sciences for general practice of dentistry,
-          dental specialties, research and teaching.
-          <br />
-          &#8226; To facilitate students in acquiring knowledge of basic
-          behavioural and clinical sciences for general practice of dentistry,
-          dental specialties, research and teaching.
-          <br />
-        </p>
       </div>
 
-      <div className="admissionLastSection">
-        {" "}
-        <h1 className="admission-hedline">
-          REGULATION AND SYLLABUS AS BELOW
-        </h1>{" "}
-        <p className="admissionPera">
-          {" "}
-          <a
-            className="admissionDownload"
-            href={merit1}
-            download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-          >
-            M.D.S_FEE_STRUCUTRE_2021-22 . PDF
-          </a>
-        </p>
+      <div className="admissionLastSection2">
         <Row>
-          <Col sm className="admissionCards">
+          <Col sm className="admission-col-3">
             <h1 className="admission-hedline-2">
-              1 . Prosthodontics And Crown & Bridge
+              Regulation and Syllabus as below
             </h1>
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={Revised_BDS_Course_Regulation_2007}
+                download={"Revised_BDS_Course_Regulation_2007 . PDF"}
               >
-                &#8226; MDS (Prosthodontics And Crown & Bridge)- From A. Y.
-                2009-10.PDF
+                &#8226; Revised_BDS_Course_Regulation_2007 . PDF
               </a>{" "}
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={RevisedSyllbus}
+                download={"Revised Syllbus BDS (New) . PDF"}
               >
-                &#8226; Syllabus (Prosthodontics And Crown &
-                Bridge)-A.Y.-2018-19 Part I.PDF
+                &#8226; Revised Syllbus BDS (New) . PDF
               </a>{" "}
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={BDSSyllabus1}
+                download={"1st BDS Syllabus . PDF"}
               >
-                &#8226; Syllabus (Prosthodontics And Crown &
-                Bridge)-A.Y.-2018-19 Part II.PDF
+                &#8226; 1st BDS Syllabus . PDF
+              </a>{" "}
+              <br />
+              <a
+                className="admissionDownload"
+                href={BDSSyllabus2}
+                download={"2st BDS Syllabus . PDF"}
+              >
+                &#8226; 2nd BDS Syllabus . PDF
+              </a>{" "}
+              <br />
+              <a
+                className="admissionDownload"
+                href={BDSSyllabus3}
+                download={"3st BDS Syllabus . PDF"}
+              >
+                &#8226; 3rd BDS Syllabus . PDF
+              </a>{" "}
+              <br />
+              <a
+                className="admissionDownload"
+                href={BDSSyllabus4}
+                download={"4st BDS Syllabus . PDF"}
+              >
+                &#8226; 4th BDS Syllabus . PDF
               </a>{" "}
               <br />
             </p>
           </Col>
-          <Col sm className="admissionCards">
-            <h1 className="admission-hedline-2">2 . Periodontology</h1>
+          <Col sm className="admission-col-4">
+            <h1 className="admission-hedline-2">Merit List.</h1>
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={RejectedCandidate}
+                download={
+                  "Istitutional Level Vacancy Round 2022-23 - Rejected Candidate List"
+                }
               >
-                &#8226; MDS (Periodontology)- From A. Y. 2009-10 . PDF
+                &#8226; Istitutional Level Vacancy Round 2022-23 - Rejected
+                Candidate List
               </a>{" "}
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={GeneralMerit}
+                download={
+                  "Istitutional Level Vacancy Round 2022-23 - General Merit List"
+                }
               >
-                &#8226; Syllabus (Periodontology)-A.Y.-2018-19 Part I . PDF
+                &#8226; Istitutional Level Vacancy Round 2022-23 - General Merit
+                List
               </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-              >
-                &#8226; Syllabus (Periodontology)-A.Y.-2018-19 Part II . PDF
-              </a>{" "}
-              <br />
             </p>
           </Col>
-        </Row>
-        <Row>
-          <Col sm className="admissionCards">
-            <h1 className="admission-hedline-2">
-              3 . Orthodontics & Dentofacial Orthopaedics
-            </h1>
-            <p className="admissionPera" style={{ textAlign: "start" }}>
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-              >
-                &#8226; MDS (Orthodontics & Dentofacial Orthopaedics)- From A.Y.
-                2009-10 . PDF
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-              >
-                &#8226; Syllabus (Orthodontics & Dentofacial
-                Orthopaedics)-A.Y.-2018-19 Part I . PDF
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-              >
-                &#8226; Syllabus (Orthodontics & Dentofacial
-                Orthopaedics)-A.Y.-2018-19 Part II . PDF
-              </a>{" "}
-              <br />
-            </p>
-          </Col>
-          <Col sm className="admissionCards"> <h1 className="admission-hedline-2">
-          4 . Conservative Dentistry & Endodontics
-      
-            </h1>
-            <p className="admissionPera" style={{ textAlign: "start" }}>
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-              >
-                &#8226; MDS (Conservative Dentistry & Endodontics)- From A. Y. 2009-10 . PDF
-      
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-              >
-                &#8226; Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part I . PDF
-      
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
-              >
-                &#8226; Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part II . PDF
-              </a>{" "}
-              <br />
-            </p></Col>
         </Row>
       </div>
     </div>
   );
 }
 
-export default BDSAdmission
+export default BDSAdmission;
