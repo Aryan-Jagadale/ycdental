@@ -1,0 +1,11 @@
+.academicStyle{
+    background-image:
+    url('../../assets//images/academics/academicsabnner.png');
+    height: 50vh;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
