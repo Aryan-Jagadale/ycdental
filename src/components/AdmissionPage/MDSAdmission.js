@@ -3,6 +3,20 @@ import { Col, Row, Table } from "react-bootstrap";
 import "../../style/AdmissionPage/admission.css";
 import merit1 from "../../assets/pdf/2021-2022/NEET-MDS-2021-22-INSTITUTIONAL-LEVEL-ROUND-Dt-.07-11-2021.pdf";
 import merit2 from "../../assets/pdf/2021-2022/NEET_MDS_Institutional_Vacancy_Round_MeritList_No.2_Dt..pdf";
+import MDSFeeStructure from "../../assets/pdf/2021-2022/M.D.S_FEE_STRUCUTRE_2021-22.pdf"
+import mdsRegulation from "../../assets/pdf/2017-2018/MDS_Course_Regulations_2017.pdf";
+import mds1 from "../../assets/pdf/2009-2010/1.pdf";
+import ProsthodonticsSyllabusPart1 from "../../assets/pdf/2018-2019/Syllabus-Prosthodontics-And-Crown-Bridge-A.Y.-2018-19-Part-I.pdf"
+import ProsthodonticsSyllabusPart2 from "../../assets/pdf/2018-2019/Syllabus-Prosthodontics-And-Crown-Bridge-A.Y.-2018-19-Part-II.pdf"
+import mds2 from "../../assets/pdf/2009-2010/2.pdf";
+import PeriodontologySyllabusPart1 from "../../assets/pdf/2018-2019/Syllabus-Periodontology-A.Y.-2018-19-Part-I.pdf";
+import PeriodontologySyllabusPart2 from "../../assets/pdf/2018-2019/Syllabus-Periodontology-A.Y.-2018-19-Part-II.pdf";
+import mds3 from "../../assets/pdf/2009-2010/3.pdf";
+import OrthodonticsSyllabusPart1 from "../../assets/pdf/2018-2019/Syllabus-Orthodontics-Dentofacial-Orthopaedics-A.Y.-2018-19-Part-I.pdf";
+import OrthodonticsSyllabusPart2 from "../../assets/pdf/2018-2019/Syllabus-Orthodontics-Dentofacial-Orthopaedics-A.Y.-2018-19-Part-II.pdf";
+import mds4 from "../../assets/pdf/2009-2010/4.pdf";
+import ConservativeSyllabusPart1 from "../../assets/pdf/2018-2019/Syllabus-Conservative-Dentistry-Endodontics-A.Y.-2018-19-Part-I.pdf";
+import ConservativeSyllabusPart2 from "../../assets/pdf/2018-2019/Syllabus-Conservative-Dentistry-Endodontics-A.Y.-2018-19-Part-II.pdf";
 
 function MDSAdmission() {
   return (
@@ -62,8 +76,8 @@ function MDSAdmission() {
               {" "}
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={MDSFeeStructure}
+                download={"M.D.S_FEE_STRUCUTRE_2021-22 . PDF"}
               >
                 M.D.S_FEE_STRUCUTRE_2021-22 . PDF
               </a>
@@ -137,10 +151,10 @@ function MDSAdmission() {
           {" "}
           <a
             className="admissionDownload"
-            href={merit1}
-            download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+            href={mdsRegulation}
+            download={"MDS_Course_Regulations_2017.pdf"}
           >
-            M.D.S_FEE_STRUCUTRE_2021-22 . PDF
+            MDS_Course_Regulations_2017.pdf
           </a>
         </p>
         <Row>
@@ -151,8 +165,8 @@ function MDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={mds1}
+                download={"MDS (Prosthodontics And Crown & Bridge)- From A. Y.2009-10.PDF"}
               >
                 &#8226; MDS (Prosthodontics And Crown & Bridge)- From A. Y.
                 2009-10.PDF
@@ -160,8 +174,8 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={ProsthodonticsSyllabusPart1}
+                download={"Syllabus (Prosthodontics And Crown & Bridge)-A.Y.-2018-19 Part I.PDF"}
               >
                 &#8226; Syllabus (Prosthodontics And Crown &
                 Bridge)-A.Y.-2018-19 Part I.PDF
@@ -169,8 +183,8 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={ProsthodonticsSyllabusPart2}
+                download={"Syllabus (Prosthodontics And Crown & Bridge)-A.Y.-2018-19 Part II.PDF"}
               >
                 &#8226; Syllabus (Prosthodontics And Crown &
                 Bridge)-A.Y.-2018-19 Part II.PDF
@@ -183,24 +197,24 @@ function MDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={mds2}
+                download={"MDS (Periodontology)- From A. Y. 2009-10 . PDF"}
               >
                 &#8226; MDS (Periodontology)- From A. Y. 2009-10 . PDF
               </a>{" "}
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={PeriodontologySyllabusPart1}
+                download={"Syllabus (Periodontology)-A.Y.-2018-19 Part I . PDF"}
               >
                 &#8226; Syllabus (Periodontology)-A.Y.-2018-19 Part I . PDF
               </a>{" "}
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={PeriodontologySyllabusPart2}
+                download={"Syllabus (Periodontology)-A.Y.-2018-19 Part II . PDF"}
               >
                 &#8226; Syllabus (Periodontology)-A.Y.-2018-19 Part II . PDF
               </a>{" "}
@@ -216,8 +230,8 @@ function MDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={mds3}
+                download={"MDS (Orthodontics & Dentofacial Orthopaedics)- From A.Y.2009-10 . PDF"}
               >
                 &#8226; MDS (Orthodontics & Dentofacial Orthopaedics)- From A.Y.
                 2009-10 . PDF
@@ -225,8 +239,8 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={OrthodonticsSyllabusPart1}
+                download={"Syllabus (Orthodontics & Dentofacial Orthopaedics)-A.Y.-2018-19 Part I . PDF"}
               >
                 &#8226; Syllabus (Orthodontics & Dentofacial
                 Orthopaedics)-A.Y.-2018-19 Part I . PDF
@@ -234,8 +248,8 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={OrthodonticsSyllabusPart2}
+                download={"Syllabus (Orthodontics & Dentofacial Orthopaedics)-A.Y.-2018-19 Part II . PDF"}
               >
                 &#8226; Syllabus (Orthodontics & Dentofacial
                 Orthopaedics)-A.Y.-2018-19 Part II . PDF
@@ -250,8 +264,8 @@ function MDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={mds4}
+                download={"MDS (Conservative Dentistry & Endodontics)- From A. Y. 2009-10 . PDF"}
               >
                 &#8226; MDS (Conservative Dentistry & Endodontics)- From A. Y. 2009-10 . PDF
       
@@ -259,8 +273,8 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={ConservativeSyllabusPart1}
+                download={"Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part I . PDF"}
               >
                 &#8226; Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part I . PDF
       
@@ -268,8 +282,8 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={merit1}
-                download={"M.D.S_FEE_STRUCUTRE_2021-22"}
+                href={ConservativeSyllabusPart2}
+                download={"Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part II . PDF"}
               >
                 &#8226; Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part II . PDF
               </a>{" "}
