@@ -1,3 +1,14 @@
+.acdemicsBg{
+    background-image:
+    url('../../assets//images/academics/Bg.png');
+    background-color: #800000;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
 .academicStyle{
     background-image:
     url('../../assets//images/academics/academicsabnner.png');
