@@ -9,6 +9,8 @@ import BDSSyllabus3 from "../../assets/pdf/BDS/3rd-BDS-Syllabus.pdf";
 import BDSSyllabus4 from "../../assets/pdf/BDS/4th-BDS-Syllabus.pdf";
 import RejectedCandidate from "../../assets/pdf/BDS/RejectedCandidate.pdf";
 import GeneralMerit from "../../assets/pdf/BDS/GeneralMeritList.pdf";
+import BDSMeritList from "../../assets/pdf/2021-2022/BDS_INSTITUTIONAL_LEVEL_ROUND_MERIT_LIST__2021_22.pdf";
+import BDSFeeStructure from "../../assets/pdf/2021-2022/2021-22_B.D.S._FEE_STRUCTURE___COLLEGE_WEBSITE___FINAL_NEW.pdf";
 
 function BDSAdmission() {
   return (
@@ -52,6 +54,50 @@ function BDSAdmission() {
             </p>
           </Col>
         </Row>
+        <div className="bds-section2">
+          <h1 className="admission-hedline-2">Fees detail:</h1>
+          <p className="admissionPera">
+            <a
+              className="admissionDownload"
+              href={BDSMeritList}
+              download={"BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22"}
+            >
+              &#8226; BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22
+            </a>{" "}
+            <br />
+            Tution Fees: 4,00,000/- per year <br />
+            Tution Fees: 4,00,000/- per year
+            <br />
+            Hostel Fees: 20,000/- per year
+            <br />
+          </p>
+        </div>
+        <div
+          style={{
+            backgroundColor: "rgba(255, 217, 0, 0.9)",
+            border: "1px solid #FFD900",
+            backdropFilter: "blur(7.5px)",
+            padding: "1%",
+            display: "block",
+            margin: "auto",
+            position: "relative",
+            top: "-1.3rem",
+            textAlign: "center",
+            maxWidth: "fit-content",
+            paddingBottom: "0%",
+            boxShadow: "0px 5px 25px rgba(0, 0, 0, 0.2)"
+          }}
+        >
+          <p className="admissionPera">
+            <a
+              className="admissionDownload"
+              href={BDSFeeStructure}
+              download={"2021-22_B.D.S._FEE_STRUCTURE .PDF"}
+            >
+              &#8226; 2021-22_B.D.S._FEE_STRUCTURE .PDF
+            </a>{" "}
+          </p>
+        </div>
       </div>
 
       <div className="admission-section-2">
@@ -184,17 +230,23 @@ function BDSAdmission() {
               <a
                 className="admissionDownload"
                 href={RejectedCandidate}
-                download={"Istitutional Level Vacancy Round 2022-23 - Rejected Candidate List"}
+                download={
+                  "Istitutional Level Vacancy Round 2022-23 - Rejected Candidate List"
+                }
               >
-                &#8226; Istitutional Level Vacancy Round 2022-23 - Rejected Candidate List
+                &#8226; Istitutional Level Vacancy Round 2022-23 - Rejected
+                Candidate List
               </a>{" "}
               <br />
               <a
                 className="admissionDownload"
                 href={GeneralMerit}
-                download={"Istitutional Level Vacancy Round 2022-23 - General Merit List"}
+                download={
+                  "Istitutional Level Vacancy Round 2022-23 - General Merit List"
+                }
               >
-                &#8226; Istitutional Level Vacancy Round 2022-23 - General Merit List
+                &#8226; Istitutional Level Vacancy Round 2022-23 - General Merit
+                List
               </a>{" "}
             </p>
           </Col>
