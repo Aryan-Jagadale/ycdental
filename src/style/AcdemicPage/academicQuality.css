@@ -6,10 +6,10 @@
   background-clip: content-box;
   width: 100%;
   height: auto;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .cardOne {
   width: 200px;
@@ -17,7 +17,7 @@
   background-image: url("../../assets/images/academics/academicquality/cardBg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 4rem;
+  /* margin: 4rem; */
 }
 .studName {
   color: #ffd900;

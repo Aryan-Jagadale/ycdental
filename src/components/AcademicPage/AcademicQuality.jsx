@@ -71,10 +71,10 @@ function AcademicQuality() {
             <div className='w-full h-16 bg-[#800000] border-[2.5px]'>
                 <h3 className='text-center font-bold flex items-center justify-center text-neutral-200 text-2xl pt-3 font-fam'>  Academic Quality </h3>
             </div>
-            <div className='bgImg border-[4px]'>
-                <div className='flex flex-row'>
+            <div className='bgImg flex flex-col justify-center items-center flex-wrap border-[4px]'>
+                <div className='flex flex-row justify-around w-screen flex-wrap my-6'>
                     {data1.map((student, i) => (
-                        <div key={i} className='cardOne flex w-full flex-col justify-center items-start font-fam font-bold lg:justify-around mt-4'>
+                        <div key={i} className='cardOne flex flex-col justify-around items-start font-fam font-bold'>
                             <img src={student.studentProfile} alt="" className='px-2.5 py-2' />
                             <div className='text-center justify-center font-fam text-neutral-200 px-2 py-2'>
                                 <h1 className='studName'>Mr. {student.studenName}</h1>
@@ -87,9 +87,9 @@ function AcademicQuality() {
                         </div>
                     ))}
                 </div>
-                <div className="flex flex-row">
+                <div className="flex flex-row justify-around w-screen flex-wrap my-6">
                     {data2.map((student, i) => (
-                        <div key={i} className='cardOne flex w-full flex-col justify-center items-start font-fam font-bold lg:justify-around mt-4'>
+                        <div key={i} className='cardOne flex flex-col justify-center items-start font-fam font-bold'>
                             <img src={student.studentProfile} alt="" className='px-2.5 py-2' />
                             <div className='text-center justify-center font-fam text-neutral-200 px-2 py-2'>
                                 <h1 className='studName'>Mr. {student.studenName}</h1>
