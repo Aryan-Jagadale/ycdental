@@ -8,7 +8,7 @@ import FooterComp from "./components/Footer";
 import NewNavbar from "./components/NewNavbar";
 import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentORMEDRAD";
 import Department from "./components/DepartmentPage/Department";
-import Academic from "./components/AcademicPage/Academic";
+import Academics from "./pages/Academics";
 import MDSAdmission from "./pages/MDSAdmission";
 import BDSAdmission from "./pages/BDSAdmission";
 import Loader from "./components/Loader/index";
@@ -43,8 +43,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
 
-            {/*Academic */}
-            <Route path="/academic" element={<Academic />} />
+            {/*Academics */}
+            <Route path="/academic" element={<Academics />} />
 
             {/*Departments */}
             <Route path="/department" element={<Department />} />
