@@ -1,44 +1,39 @@
-import React from 'react'
-import "../../style/AcdemicPage/academic.css"
+import React from "react";
+import "../../style/AcdemicPage/academic.css";
+import UGPGCourse from "./UGPGCourse";
 
 const Academic = () => {
   return (
     <div>
-
-    <section className="acdemicsBg">
+      <section className="acdemicsBg">
         <div className="flex items-center justify-center w-full p-0">
-          <div className="w-full md:w-1/2 m-3 md:m-5">
-            <div className="w-full border-l-2 border-[#FFD900]">
-            
-
+          <div className="w-full md:w-[30%] m-3 md:m-5">
+            <div className=" hidden md:block w-full border-l-2 border-[#FFD900]">
               <section className="px-6 flex items-center gap-3 mb-4">
-                <h1 className="text-5xl   font-bold font-fam text-white tracking-wide pl-12">
+                <h1 className=" text-lg md:text-5xl   font-bold font-fam text-white tracking-wide pl-12">
                   Our
                   <br />
                   Academics
                 </h1>
-              
               </section>
-              
+            </div>
+
+            <div className="flex items-center justify-center h-[30vh] md:hidden">
+              <h1 className=" text-3xl  font-bold font-fam text-white tracking-wide pl-12">
+                Our Academics
+              </h1>
             </div>
           </div>
 
-          <div className="md:w-1/2  hidden md:block academicStyle">
-  {/*<img src={softwareApplication} alt="MUHS banner" />*/}
+          <div className="md:w-[70%]  hidden md:block academicStyle">
+            {/*<img src={softwareApplication} alt="MUHS banner" />*/}
           </div>
         </div>
       </section>
 
-
-    
-    
-    
-    
-    
-    
-    
+      <UGPGCourse />
     </div>
-  )
-}
+  );
+};
 
-export default Academic
+export default Academic;
