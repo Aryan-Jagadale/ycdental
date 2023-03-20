@@ -1,22 +1,23 @@
-.acdemicsBg{
-    background-image:
-    url('../../assets//images/academics/Bg.png');
+.acdemicsBg {
+    background-image: url("../../assets//images/academics/Bg.png");
     background-color: #800000;
     width: 100%;
     background-size: cover;
     background-position: center;
-
-
 }
 
-.academicStyle{
-    background-image:
-    url('../../assets//images/academics/academicsabnner.png');
+.academicStyle {
+    background-image: url("../../assets//images/academics/academicsabnner.png");
     height: 50vh;
-    
+
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
     padding: 20px;
+}
+
+.bgTrans {
+    background: rgba(0, 32, 91, 0.2);
+    border: 0.6px solid rgba(0, 32, 91, 0.5);
 }
