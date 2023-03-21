@@ -44,10 +44,10 @@ const NavLinks = ({open,setOpen}) => {
                     <div className="py-3">
                       <div
                         className="w-4 h-4 left-3 absolute 
-                      mt-1 bg-[#4284ff] rotate-45"
+                      mt-1 bg-[#00205B] rotate-45"
                       ></div>
                     </div>
-                    <div className="bg-[#4284ff] p-4 ">
+                    <div className="bg-[#00205B] p-4 ">
                       {link.sublinks.map((mysublinks) => (
                         <div key={link.sublinks}>
                           <h1 className="text-lg font-semibold">
