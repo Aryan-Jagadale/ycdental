@@ -67,7 +67,7 @@ const data2 = [{
 
 function AcademicQuality() {
     return (
-        <div className='p-0 m-0'>
+        <div className='p-0 m-0' id='academicQuality' >
             <div className='w-full h-16 bg-[#800000] border-[2.5px]'>
                 <h3 className='text-center font-bold flex items-center justify-center text-neutral-200 text-2xl pt-3 font-fam'>  Academic Quality </h3>
             </div>

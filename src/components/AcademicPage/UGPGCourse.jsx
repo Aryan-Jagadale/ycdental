@@ -9,7 +9,7 @@ import { UgEglibility, UgPgContentWrapper } from "./AcdemicContentWrapper";
 
 const UGPGCourse = () => {
   return (
-    <div>
+    <div id="ugCourse">
       <div className="w-full flex flex-col md:flex-row">
         <section className="w-full md:w-1/2 p-5 border-b-2 ">
           <div className="bgTrans">

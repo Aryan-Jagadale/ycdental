@@ -1,11 +1,11 @@
 import React from "react";
 import "../../style/AcdemicPage/academic.css";
-import UGPGCourse from "./UGPGCourse";
+
 
 const Academic = () => {
   return (
     <div>
-      <section className="acdemicsBg">
+      <section className="acdemicsBg" id="">
         <div className="flex items-center justify-center w-full p-0">
           <div className="w-full md:w-[30%] m-3 md:m-5">
             <div className=" hidden md:block w-full border-l-2 border-[#FFD900]">
@@ -31,7 +31,7 @@ const Academic = () => {
         </div>
       </section>
 
-      <UGPGCourse />
+      
     </div>
   );
 };
