@@ -39,7 +39,7 @@ const FooterComp = () => {
             ))}
           </div>
 
-          <div className="md:mt-5 md:text-left font-fam">
+          <div className="mt-5 md:text-left font-fam">
             <h6 className="mb-4 flex justify-center md:justify-start  font-bold text-xl ">
               Contact Us
             </h6>
@@ -58,7 +58,7 @@ const FooterComp = () => {
             <p className="mb-4">Public Relation Officer: 7720013317</p>
           </div>
 
-          <div className="md:mt-5 ">
+          <div className="mt-5">
             <h6 className="mb-4 flex font-fam text-xl justify-center md:justify-start  font-bold ">
               Location
             </h6>
