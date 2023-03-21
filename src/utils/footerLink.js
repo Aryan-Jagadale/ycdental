@@ -1,11 +1,11 @@
 export const footerLink = [
     {
         "name":"MDS Admission",
-        "urll":"/"
+        "urll":"/admission"
     },
     {
         "name":"BDS Admission",
-        "urll":"/"
+        "urll":"/admission"
     },
 
     {

@@ -44,7 +44,12 @@ const NewNavbar = () => {
               marginLeft: "15%",
             }}
           >
-            <Link to="/muhs-mandate" className="hover:text-white hover:font-semibold">MUHS update</Link>
+            <Link
+              to="/muhs-mandate"
+              className="hover:text-white hover:font-semibold"
+            >
+              MUHS update
+            </Link>
           </button>
         </div>
       </div>
@@ -67,7 +72,7 @@ const NewNavbar = () => {
               About
           </Link>*/}
           </li>
-          <NavLinks />
+          <NavLinks open={open} setOpen={setOpen} />
         </ul>
       </div>
 
@@ -93,7 +98,7 @@ const NewNavbar = () => {
             </Link>
           </li>
 
-          <li>
+          {/*<li>
             <Link
               to="/about"
               className="py-3 px-3 inline-block"
@@ -101,7 +106,7 @@ const NewNavbar = () => {
             >
               About
             </Link>
-          </li>
+        </li>*/}
 
           <NavLinks />
           <div className="py-3">
@@ -116,7 +121,13 @@ const NewNavbar = () => {
                 minHeight: "5vh",
               }}
             >
-              MUHS update
+              <Link
+                to="/muhs-mandate"
+                onClick={() => setOpen(!open)}
+                className="hover:text-white hover:font-semibold"
+              >
+                MUHS update
+              </Link>
             </button>
           </div>
         </ul>
