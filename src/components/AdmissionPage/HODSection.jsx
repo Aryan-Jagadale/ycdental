@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import hod from "../../assets/images/hod.png";
-import { Link } from "react-router-dom";
+import MDSAdmission from './MDSAdmission';
+import BDSAdmission from "./BDSAdmission";
 
 function HODSection() {
+
+  const [isComponent1Visible, setIsComponent1Visible] = useState(true);
+
+  const handleComponent1Click = () => {
+    setIsComponent1Visible(true);
+  };
+
+  const handleComponent2Click = () => {
+    setIsComponent1Visible(false);
+  };
+
   return (
     <div style={{ textAlign: "center" }}>
       <div
@@ -73,7 +85,7 @@ function HODSection() {
         honing talents through a variety of conferences, professional
         development courses, and multidisciplinary resources.
       </p>
-      <br/>
+      <br />
 
       <p
         style={{
@@ -129,47 +141,46 @@ function HODSection() {
       >
         <Row>
           <Col>
-            <Link to={"/admission"}>
-              <snap
-                style={{
-                  width: "max-content",
-                  float: "right",
-                  padding: "1%",
-                  background: "#800000",
-                  color: "white",
-                  border: "1px solid rgba(128, 0, 0, 0.5)",
-                  backdropFilter: "blur(7.5px)",
-                  fontFamily: "Domine",
-                  fontWeight: "400",
-                  fontStyle: "normal",
-                }}
-              >
-                MDS Admission
-              </snap>
-            </Link>
+            <button
+              style={{
+                width: "max-content",
+                float: "right",
+                padding: "1%",
+                background: "#800000",
+                color: "white",
+                border: "1px solid rgba(128, 0, 0, 0.5)",
+                backdropFilter: "blur(7.5px)",
+                fontFamily: "Domine",
+                fontWeight: "400",
+                fontStyle: "normal",
+              }}
+              onClick={handleComponent1Click}
+            >
+              MDS Admission
+            </button>
           </Col>
           <Col>
-            <Link to={"/bds-admission"}>
-              <snap
-                style={{
-                  width: "max-content",
-                  float: "left",
-                  padding: "1%",
-                  background: "#800000",
-                  color: "white",
-                  border: "1px solid rgba(128, 0, 0, 0.5)",
-                  backdropFilter: "blur(7.5px)",
-                  fontFamily: "Domine",
-                  fontWeight: "400",
-                  fontStyle: "normal",
-                }}
-              >
-                BDS Admission
-              </snap>
-            </Link>
+            <button
+              style={{
+                width: "max-content",
+                float: "left",
+                padding: "1%",
+                background: "#800000",
+                color: "white",
+                border: "1px solid rgba(128, 0, 0, 0.5)",
+                backdropFilter: "blur(7.5px)",
+                fontFamily: "Domine",
+                fontWeight: "400",
+                fontStyle: "normal",
+              }}
+              onClick={handleComponent2Click}
+            >
+              BDS Admission
+            </button>
           </Col>
         </Row>
       </div>
+      {isComponent1Visible ? <MDSAdmission /> : <BDSAdmission />}
     </div>
   );
 }
