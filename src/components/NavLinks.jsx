@@ -3,7 +3,8 @@ import {  Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
 import { links } from "../utils/Mylinks";
 
-const NavLinks = () => {
+const NavLinks = ({open,setOpen}) => {
+
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
 
@@ -11,7 +12,7 @@ const NavLinks = () => {
     <>
       {links.map((link) => {
         return (
-          <div key={link.name}>
+          <div key={link.name} >
             <div className="px-3 text-left md:cursor-pointer group">
               <h1
                 className="py-3 flex justify-between items-center md:pr-0 pr-5 group"
@@ -19,10 +20,11 @@ const NavLinks = () => {
                   heading !== link.name
                     ? setHeading(link.name)
                     : setHeading("");
-                  setSubHeading("");
+                    setSubHeading("");
+
                 }}
               >
-                <Link to={link.linkUrl}>{link.name}</Link>
+                <Link to={link.linkUrl} className="hover:font-normal hover:text-slate-800">{link.name}</Link>
 
                 <span className="text-xl md:hidden inline">
                   <ion-icon
@@ -42,24 +44,25 @@ const NavLinks = () => {
                     <div className="py-3">
                       <div
                         className="w-4 h-4 left-3 absolute 
-                      mt-1 bg-white rotate-45"
+                      mt-1 bg-[#4284ff] rotate-45"
                       ></div>
                     </div>
-                    <div className="bg-white p-5">
+                    <div className="bg-[#4284ff] p-4 ">
                       {link.sublinks.map((mysublinks) => (
                         <div key={link.sublinks}>
                           <h1 className="text-lg font-semibold">
                             {mysublinks.Head}
                           </h1>
                           {mysublinks.sublink.map((slink) => (
-                            <li className=" text-gray-600 my-2.5">
+                            <li className=" text-white  my-2.5">
                               <ScrollLink
                                 to={slink.idd} spy={true} smooth={true}
                                 ignoreCancelEvents
-                                className="hover:text-primary"
+                                className=" hover:text-gray-500 ease-in tracking-wide"
                               >
                                 {slink.name}
                               </ScrollLink>
+                              <hr className="my-2"/>
                             </li>
                           ))}
                         </div>
@@ -87,8 +90,9 @@ const NavLinks = () => {
                         subHeading !== slinks.Head
                           ? setSubHeading(slinks.Head)
                           : setSubHeading("")
+                          
                       }
-                      className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center"
+                      className="hidden py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center"
                     >
                       {slinks.Head}
 
@@ -108,8 +112,11 @@ const NavLinks = () => {
                       }`}
                     >
                       {slinks.sublink.map((slink) => (
-                        <li className="py-3 pl-14">
-                          <Link to={slink.link}>{slink.name}</Link>
+                        <li className="py-3 pl-14" key={slink.name}
+                        >
+                          <Link to={slink.link}
+                          
+                          >{slink.name}</Link>
                         </li>
                       ))}
                     </div>
