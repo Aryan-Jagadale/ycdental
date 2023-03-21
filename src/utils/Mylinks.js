@@ -32,7 +32,7 @@ export const links = [
         Head: "",
         sublink: [
           { name: "UG Course", link: "/",idd:"ugCourse" },
-          { name: "PG Course", link: "/",idd:"pgCourse" },
+          { name: "PG Course", link: "/",idd:"ugCourse" },
           { name: "Academic Quality", link: "/",idd:"academicQuality" },
           { name: "Laboratories", link: "/",idd:"lab" },
           { name: "Departments", link: "/",idd:"deptarments" },

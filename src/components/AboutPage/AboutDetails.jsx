@@ -4,7 +4,7 @@ import PolicyLeaderHistory from "./PolicyLeaderHistory";
 
 function AboutDetails() {
   return (
-    <div className=" pt-4 pb-14 border-t-2 border-red-600">
+    <div className=" pt-4 pb-14 border-t-2 border-red-600" id="policy" >
       <div
         style={{ backgroundColor: "#D9D9D9" }}
         className="mt-4 flex lg:h-60 font-fam items-center justify-center flex-col lg:flex-row  "

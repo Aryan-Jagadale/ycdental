@@ -24,7 +24,7 @@ function AboutComp() {
 
 
   return (
-    <div className="about-section">
+    <div className="about-section" id="collegeFacilties">
       <h1 className="about-headline text-2xl">YCDC Ahmednagar BDS & MDS</h1>
       <div className="labs">
         <Row>

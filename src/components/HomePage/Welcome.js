@@ -24,17 +24,16 @@ function Welcome() {
           The Institute, one of the most prestigious dental colleges in
           Ahmednagar , India; was established in 2007 in the memory of Shri.
           Yashwantrao - ji Chavan, the architect of Maharashtra State, Former
-          Chief Minister and the pioneer of the Co - operative and Panchayat R
-          aj movements in Maharashtra
+          Chief Minister and the pioneer of the Co-operative and Panchayat Raj movements in Maharashtra
         </p>
         <br/>
         <p className="text-base">
           Ahmednagar and its allied South Area (inclusive of Shevgaon, Pathardi,
           Newasa, Jamkhed, Karjat, Shrigonda, Parner, Nagar Tahsil, etc.) with a
-          po pulation of more than 20 lakhs is socio economically deprived and
+          population of more than 20 lakhs is socio economically deprived and
           chronically draught affected , resulting in the lack of access to
           affordable, high quality medical and dental healthcare. In addition,
-          higher education in Medical, Dental, Pharmacy & Paramedic al
+          higher education in Medical, Dental, Pharmacy & Paramedical
           specialities is limited and scarce . In view of the above facts and
           considering the importance of Dental Health Science, the foundation
           started this Dental College at Ahmednagar.
@@ -55,12 +54,12 @@ function Welcome() {
 
           <p className="text-base">
           Shri. Yashwantrao Chavan Memorial Medical and Rural Development
-          Foundatio n is committed to work with the motto of medical and allied
+          Foundation is committed to work with the motto of medical and allied
           development facilities for masses, in particular; the rural and poor
           population. Today, our dental college is growing rapidly and taking
-          immense strides in academics, research, social outreach, a s well as
+          immense strides in academics, research, social outreach, as well as
           extracurricular fields under the leadership of Hon. Yashwantrao Gadakh
-          and Shri. Prashant Gadakh .
+          and Shri. Prashant Gadakh.
         </p>
 
         <p className="text-base">
@@ -69,19 +68,19 @@ function Welcome() {
           also ISO 9000:2015 certified. We offer Undergraduate degree of
           Bachelor in Dental Surgery i.e., BDS; with a merit based yearly intake
           of 100 students.There are four Post Graduate programs of Masters in
-          Dental Surgery i.e., MDS with the yearly intake of 16 studen ts in the
+          Dental Surgery i.e., MDS with the yearly intake of 16 students in the
           dental specialities of Orthodontics & Dentofacial Orthopaedics ,
           Periodontology & Implantology, Prosthodontics & Implantology,
           Conservative Dentistry & Endodontics. From 2023, we will also have
-          enrolment s for PhD research candidate.
+          enrolments for PhD research candidate.
         </p>
         <br/>
 
         <p className="text-base">
           Our facilities and academic mentorship ensure that students excel and
           surpass the requirements laid down by Dental Council of India and MUHS
-          . YCDC makes all its students real - world - ready with various skill
-          building workshops , seminars, conferences , and ce rtifications on
+          . YCDC makes all its students real-world-ready with various skill
+          building workshops , seminars, conferences , and certifications on
           various current dental advances and subjects.
         </p>
 
