@@ -4,6 +4,7 @@ import "../../style/DepartmentsPage/department.css";
 import AccList from "./AccordianStuff/AccList";
 import Accordian from "./AccordianStuff/Accordian";
 import AccordianLayout from "./AccordianStuff/AccordianLayout";
+import Faculties from "./Department/Faculties";
 
 const DepartmentORMEDRAD = () => {
   return (
@@ -30,7 +31,7 @@ const DepartmentORMEDRAD = () => {
               <div className="text-center">
                 <h3 className="font-bold text-lg">Reader & HOD</h3>
                 <h5 className="font-semibold text-base">
-                  Dr. Gorde Sangam, M.D.S
+                Dr. Biyani Anusuya,  M.D.S
                 </h5>
               </div>
             </div>
@@ -38,19 +39,17 @@ const DepartmentORMEDRAD = () => {
 
           <section className="w-[100%] md:w-[70%] p-2 md:p-5">
             <p className="font-fam tracking-wide">
-              The Department of{" "}
-              <strong>Oral Medicine & Radiology Department</strong> was
-              established in 2008 with intake of 60 students. The department has
-              good infrastructure with well-established laboratories. The
-              department has experienced and dedicated faculties who give
-              personal attention to each and every individual student. The
-              department emphasizes on effective teaching learning process
-              including project based learning using modern tools and
-              technologies. Department is working hard to improve upon the
-              quality of education and the students overall performance in the
-              era of rapidly changing technology. Department of Oral Medicine
-              and Radiology is unique in that it combines Oral Medicine and
-              Radiology.
+              <strong>"Eyes cannot see what mind doesn’t know."</strong> 
+              <br/>
+              Oral Medicine &
+              Radiology is a specialized branch that deals with the clinical and
+              radiological diagnosis of diseases affecting the oral &
+              maxillofacial region at also specializes in non - surgical
+              management of med ically related disorder affecting the oral &
+              maxillofacial region. Visualizing the oral signs and symptoms and
+              radiographs we can give a tentative diagnosis of diseases
+              affecting the body and that is why it is said that " mouth is the
+              mirror of the body.
             </p>
           </section>
         </div>
@@ -64,18 +63,27 @@ const DepartmentORMEDRAD = () => {
         />
 
         <Accordian title={"Program Outcomes"} description={"Coming soon..."} />
-        <Accordian title={"Faculties & Staff"} description={"Coming soon..."} />
+        <Accordian title={"Faculties & Staff"} description={<Faculties/>} />
         <Accordian title={"Curriculum"} description={"Coming soon..."} />
 
-        <AccordianLayout title={"Academic Calendar"} description={<AccList/>} />
+        <AccordianLayout
+          title={"Academic Calendar"}
+          description={<AccList />}
+        />
 
-        <Accordian title={"Co-Curricular Activities"} description={"Coming soon..."} />
-        <Accordian title={"Extra Curricular Activities"} description={"Coming soon..."} />
+        <Accordian
+          title={"Co-Curricular Activities"}
+          description={"Coming soon..."}
+        />
+        <Accordian
+          title={"Extra Curricular Activities"}
+          description={"Coming soon..."}
+        />
 
-
-        <AccordianLayout title={"NewsLetter And Magazine"} description={<AccList title={"NewsLetter And Magazine"}/>} />
-        
-
+        <AccordianLayout
+          title={"NewsLetter And Magazine"}
+          description={<AccList title={"NewsLetter And Magazine"} />}
+        />
       </div>
     </div>
   );

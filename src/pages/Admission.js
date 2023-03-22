@@ -7,7 +7,8 @@ function Admission() {
     <>
         <HeaderSection />
         <HODSection />
-    </>
+        
+        </>
   )
 }
 
