@@ -12,6 +12,14 @@
 
 .inner-box2{
     padding: 2%; 
+    background-image:
+    linear-gradient(to left, transparent, rgba(0, 32, 91, 0.82) 58.32%),
+    url('../../assets/images/attractive-female-doctor.png');
+    height: 50vh;
+    
+    background-size: cover;
+    color: white;
+    padding: 20px;
 }
 
 .admission-titles {

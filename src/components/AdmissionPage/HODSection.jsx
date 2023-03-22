@@ -130,6 +130,8 @@ function HODSection() {
         BDS, MDS, PhD
       </p>
 
+      
+
       <div
         style={{
           display: "flex",
