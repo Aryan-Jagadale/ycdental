@@ -16,6 +16,7 @@ import ScrollToTop from "react-scroll-to-top";
 //import MySVG from "./assets/images/departormedrad/double.avif";
 import { BsArrowUpShort } from "react-icons/bs";
 import Muhs from "./components/Muhs/Muhs";
+import Gallery from "./pages/Gallery";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -65,6 +66,7 @@ function App() {
               element={<Muhs/>}
             />
 
+            <Route path="/gallery" element={<Gallery/>} />
 
           </Routes>
 

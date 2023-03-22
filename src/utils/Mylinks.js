@@ -74,7 +74,7 @@ export const links = [
   {
     name: "Gallery",
     submenu: true,
-    linkUrl: "/",
+    linkUrl: "/gallery",
     sublinks: [
       {
         Head: "Coming Soon...",
