@@ -132,6 +132,8 @@ function HODSection() {
           <br />
           BDS, MDS, PhD
         </p>
+
+        <Prospectus />
         
         <div
           style={{
