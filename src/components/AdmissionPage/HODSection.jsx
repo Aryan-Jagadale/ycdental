@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import hod from "../../assets/images/hod.png";
 import MDSAdmission from "./MDSAdmission";
 import BDSAdmission from "./BDSAdmission";
-//import Prospectus from "./Prospectus";
+import Prospectus from "./Prospectus";
 
 function HODSection() {
   const [isComponent1Visible, setIsComponent1Visible] = useState(true);
@@ -133,7 +133,7 @@ function HODSection() {
           BDS, MDS, PhD
         </p>
 
-        
+        <Prospectus />
 
         <div
           style={{
