@@ -133,7 +133,15 @@ function HODSection() {
           BDS, MDS, PhD
         </p>
 
+<<<<<<< HEAD
         <Prospectus />
+=======
+<<<<<<< HEAD
+        
+=======
+        <Prospectus />
+>>>>>>> db8f787 (Prospectus)
+>>>>>>> a35308f (Prospectus)
 
         <div
           style={{
