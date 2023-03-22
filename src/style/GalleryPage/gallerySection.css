@@ -35,6 +35,7 @@
 
 .galleryImgs {
   max-width: 100%;
+  margin-bottom: 3%;
 }
 
 .leftSide {
@@ -63,8 +64,8 @@
 }
 
 .imgbox {
-  /* display: flex; */
-  margin: 3%;
+  display: flex;
+  margin: 3% !important;
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 8px 25px rgba(0, 0, 0, 0.25));
   backdrop-filter: blur(2px);
