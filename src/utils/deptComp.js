@@ -1,26 +1,34 @@
 export const omrdLink = [
   {
-    name: "Dr. Biyani Anusuya,  M.D.S",
+    name: "Dr. Raorale Ashish",
     position: "Reader & HOD",
   },
   {
-    name: "Dr. Khairnar Sagar,  M.D.S",
+    name: "Dr. Ingle Nitish",
     position: "Lecturer",
   },
   {
-    name: "Dr. Vaswani Dimple,M.D.S",
+    name: "Dr. Pargaonkar Sudarshan",
     position: "Lecturer",
   },
   {
-    name: "Dr. Karad Mahadeo, B.D.S",
+    name: "Dr. Trupti Dungarwal",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Pranav Dungarwal",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Aghav Sharad",
     position: "Tutor",
   },
   {
-    name: "Dr. Sormare Sandip, B.D.S",
+    name: "Dr. Shinde Sayali",
     position: "Tutor",
   },
   {
-    name: "Dr. Nagre Arun, B.D.S",
+    name: "Dr. Varma Rajashree",
     position: "Tutor",
   },
 ];
@@ -298,5 +306,259 @@ export const orthodonticsLink = [
   {
     name: "Dr. Chavan Mayuri",
     position: "Tutor",
+  },
+];
+
+export const pedodonticsLink = [
+  {
+    name: "Dr. Raorale Ashish",
+    position: "Reader& HOD",
+  },
+  {
+    name: "Dr. Shailee Shelke",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Pargaonkar Sudarshan",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Trupti Dungarwal",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Pranav Dungarwal",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Aghav Sharad",
+    position: "Tutor",
+  },
+  {
+    name: "Dr. Shinde Sayali",
+    position: "Tutor",
+  },
+  {
+    name: "Dr. Varma Rajashree",
+    position: "Tutor",
+  },
+];
+
+export const oralPathologyLink = [
+  {
+    name: "Dr. Rajput Dinesh",
+    position: "Prof. & HOD",
+  },
+  {
+    name: "Dr. Rathi Ruchi",
+    position: "Tutor",
+  },
+  {
+    name: "Dr. Darak Neha",
+    position: "Tutor",
+  },
+  {
+    name: "Dr. Nimbalkar Reshma",
+    position: "Tutor",
+  },
+];
+
+export const oralSurgeryLink = [
+  {
+    name: "Dr. Jaggi Nitin",
+    position: "Prof. & HOD",
+  },
+  {
+    name: "Dr. Anand K.P",
+    position: "Reader",
+  },
+  {
+    name: "Dr. Mulay Abhishek",
+    position: "Reader",
+  },
+  {
+    name: "Dr. Rothe Tushar",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Patel Summaya",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Anand Rahul",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Singh Trupti",
+    position: "Tutor",
+  },
+  {
+    name: "Dr. Geetanjali Nikam",
+    position: "Tutor",
+  },
+];
+
+export const publicHealthLink = [
+  {
+    name: "Dr. Bomble Nikhil",
+    position: "Reader",
+  },
+  {
+    name: "Dr. Vyavahare Supriya",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Khamkar Pradnya",
+    position: "Tutor",
+  },
+  {
+    name: "Dr. Rothe Tushar",
+    position: "Tutor",
+  },
+  {
+    name: "Dr. Shinde Pallavi",
+    position: "Tutor",
+  },
+];
+
+export const anatomyLink = [
+  {
+    name: "Dr.Vibhute Archana",
+    position: "Reader & HOD",
+  },
+  {
+    name: "Dr. Sawai Santosh",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Borude Ashvini",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Dale Kunal",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Kulkarni Mangesh",
+    position: "Lecturer",
+  },
+];
+
+export const physiologyLink = [
+  {
+    name: "Dr. Patil Vaishali",
+    position: "Reader & HOD",
+  },
+  {
+    name: "Dr. Lande Sudam",
+    position: "Lecturer",
+  },
+  {
+    name: "Mrs. Kausar Heena",
+    position: "Lecturer",
+  },
+  {
+    name: "Gaikwad Anita",
+    position: "Lecturer",
+  },
+];
+
+export const biochemistryLink = [
+  {
+    name: "Dr. Gaikwad Sudin",
+    position: "Reader & HOD",
+  },
+  {
+    name: "Mrs. Aradhye Anuradha",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Saruk Bhagyashree",
+    position: "Lecturer",
+  },
+];
+
+export const pharmacologyLink = [
+  {
+    name: "Dr. Khanzode Suchet",
+    position: "Reader & HOD",
+  },
+  {
+    name: "Dr. Ingle Preeti",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Pardeshi Vijay",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Mhaske Sneha",
+    position: "Lecturer",
+  },
+];
+
+export const generalPathologyLink = [
+  {
+    name: "Dr. Zarekar Sarika",
+    position: "Reader & HOD",
+  },
+  {
+    name: "Dr. Joshi Gauri",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Bhandare Ashok",
+    position: "Lecturer",
+  },
+];
+
+export const generalMedicineLink = [
+  {
+    name: "Dr. Jagdale Manoj",
+    position: "Reader & HOD",
+  },
+  {
+    name: "Dr. Karad Sawati",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Borude Sagar",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Thorat Rohit",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Kangune Avinash",
+    position: "Lecturer",
+  },
+];
+export const generalSurgeryLink = [
+  {
+    name: "Dr. Jadhav Bhaskar",
+    position: "Reader & HOD",
+  },
+  {
+    name: "Dr. Nagargoje Vaishali",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Wakpanjar Jayshri",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr.Shirsat Sagar",
+    position: "Lecturer",
+  },
+];
+export const anesthesiaLink = [
+  {
+    name: "Dr. Rethe Prakash",
+    position: "Reader & HOD",
+  },
+  {
+    name: "Dr. Kadam Mahesh",
+    position: "Lecturer",
   },
 ];
