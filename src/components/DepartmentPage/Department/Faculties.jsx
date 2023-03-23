@@ -3,7 +3,7 @@ import { omrdLink } from "../../../utils/deptComp";
 
 
 
-const Faculties = () => {
+const Faculties = ({facLink}) => {
   return (
     <div className="flex flex-col">
       <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -13,12 +13,7 @@ const Faculties = () => {
               <thead className="border-b font-medium dark:border-neutral-500">
                 <tr>
                  
-                  {/*<th scope="col" className="px-6 py-4">
-                    First
-                  </th>
-                  <th scope="col" className="px-6 py-4">
-                    Last
-  </th>*/}
+             
                   
                 </tr>
               </thead>
