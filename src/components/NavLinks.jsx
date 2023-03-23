@@ -54,7 +54,7 @@ const NavLinks = ({open,setOpen}) => {
                             {mysublinks.Head}
                           </h1>
                           {mysublinks.sublink.map((slink) => (
-                            <li className=" text-white  my-2.5">
+                            <li key={slink.name} className=" text-white  my-2.5">
                               <ScrollLink
                                 to={slink.idd} spy={true} smooth={true}
                                 ignoreCancelEvents
@@ -83,7 +83,7 @@ const NavLinks = ({open,setOpen}) => {
               {/* sublinks */}
 
               {link.sublinks.map((slinks) => (
-                <div>
+                <div key={slinks.Head}>
                   <div>
                     <h1
                       onClick={() =>

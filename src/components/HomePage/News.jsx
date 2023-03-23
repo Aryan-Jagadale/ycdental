@@ -72,7 +72,7 @@ const News = () => {
       <div className="">
         <div className="flex items-center w-full my-3 gap-2 flex-col-reverse md:flex-row  ">
           <section className="w-[100%] flex items-center justify-center flex-col m-3 md:w-[60%]">
-            <div className="small_carousel h-[28vh] w-full p-0 md:p-5">
+            <div className="small_carousel md:h-[28vh] w-full p-0 md:p-5">
               <Slider {...settings}>
                 <NewsTopComp />
                 <NewsTopComp />
@@ -81,7 +81,7 @@ const News = () => {
             </div>
 
             <div className="auto_scroll mt-32 sm:mt-[5.5rem] lg:mt-6">
-              <section className="max-h-[300px] shadow-lg border-2 max-w-[650px] py-2  overflow-hidden m-4 sm:max-h-[200px]">
+              <section className="max-h-[300px] shadow-lg border-2 max-w-[650px] py-2  overflow-hidden m-2 md:m-4 sm:max-h-[200px]">
                 <div className="text-center">
                   <h3 className="font-bold text-lg uppercase">Other</h3>
                   <hr className="mb-5" />

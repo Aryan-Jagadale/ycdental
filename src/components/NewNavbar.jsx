@@ -34,21 +34,20 @@ const NewNavbar = () => {
         <div className="md:block hidden">
           <button
             style={{
-              background: "#800000",
               boxShadow: "4px 4px 10px rgba(0, 0, 0, 0.25)",
               backdropFilter: "blur(2px)",
               borderRadius: "10px",
               color: "white",
-              minWidth: "10rem",
-              minHeight: "5vh",
-              marginLeft: "15%",
+              
             }}
+            className="text-white bg-[#800000] p-2 "
+
           >
             <Link
               to="/muhs-mandate"
-              className="hover:text-white hover:font-semibold"
+              className="font-fam tracking-wide hover:text-white hover:font-semibold"
             >
-              MUHS update
+              MUHS Update
             </Link>
           </button>
         </div>
