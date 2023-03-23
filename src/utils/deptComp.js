@@ -557,6 +557,7 @@ export const generalSurgeryLink = [
     position: "Lecturer",
   },
 ];
+
 export const anesthesiaLink = [
   {
     name: "Dr. Rethe Prakash",
