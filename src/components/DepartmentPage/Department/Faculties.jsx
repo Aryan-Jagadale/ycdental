@@ -1,5 +1,5 @@
 import React from "react";
-import { omrdLink } from "../../../utils/deptComp";
+
 
 
 
@@ -19,7 +19,7 @@ const Faculties = ({facLink}) => {
               </thead>
               <tbody>
               {
-                omrdLink.map((item) => (
+                facLink.map((item) => (
 
                     <tr key={item.name} className="border-b font-fam text-base dark:border-neutral-500">
 
