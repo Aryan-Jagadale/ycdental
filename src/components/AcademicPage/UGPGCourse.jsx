@@ -13,14 +13,20 @@ const UGPGCourse = () => {
       <div className="w-full flex flex-col md:flex-row">
         <section className="w-full md:w-1/2 p-5 border-b-2 ">
           <div className="bgTrans">
-            <section className="h-[45vh]">
-              <img
+            <section className="h-[40vh] imgCourse flex items-center justify-center">
+              {/*<img
                 className="h-full w-full object-cover"
                 src={
                   "https://plus.unsplash.com/premium_photo-1661963922072-b32afe6248d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                 }
                 alt=""
-              />
+              />*/}
+              <h2 className="tracking-wide font-fam capitalize text-2xl text-black font-bold">
+                <strong>U</strong>nder
+                <strong>G</strong>radute
+                <br />
+                Course
+              </h2>
             </section>
             <section className="p-3 border-b-4 border-[#00205B]">
               <p className="font-fam mb-4">
