@@ -21,3 +21,15 @@
     background: rgba(0, 32, 91, 0.2);
     border: 0.6px solid rgba(0, 32, 91, 0.5);
 }
+
+.imgCourse{
+    background-position: center;
+    background-image: url("../../assets//images/academics/ug.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
