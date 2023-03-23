@@ -1,18 +1,17 @@
-import React from "react";
-//import OrmedBanner from "../../assets/images/departormedrad/ormedbanner.png";
-import "../../style/DepartmentsPage/department.css";
-import AccList from "./AccordianStuff/AccList";
-import Accordian from "./AccordianStuff/Accordian";
-import AccordianLayout from "./AccordianStuff/AccordianLayout";
-import Faculties from "./Department/Faculties";
+import React from 'react'
+import "../../../style/DepartmentsPage/department.css";
+import AccList from "../AccordianStuff/AccList";
+import Accordian from "../AccordianStuff/Accordian";
+import AccordianLayout from "../AccordianStuff/AccordianLayout";
 
-const DepartmentORMEDRAD = () => {
+
+const DepartmentLayout = ({name,src,hod,strong,description,faculties}) => {
   return (
     <div>
       <div className="h-[80vh] bg-[#FFD900] flex justify-center items-center">
         <section className="h-[90%] w-[90%] md:h-[80%] md:w-[80%] ormedBanner flex items-center justify-center ">
           <h1 className="font-fam font-extrabold tracking-wide text-black text-3xl text-center border-b-2 border-black">
-            Oral Medicine & Radiology
+            {name}
             <br />
             Department
           </h1>
@@ -24,14 +23,15 @@ const DepartmentORMEDRAD = () => {
           <section className="w-[100%] md:w-[30%] p-5 md:p-3">
             <div className="bg-[#BBBABA] p-2 md:p-1 rounded-tl-lg rounded-br-lg h-[70%]">
               <img
-                src="https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                src={src}
                 alt="M.D.S name"
                 className="w-full"
               />
+
               <div className="text-center">
                 <h3 className="font-bold text-lg">Reader & HOD</h3>
                 <h5 className="font-semibold text-base">
-                Dr. Biyani Anusuya,  M.D.S
+                {hod}
                 </h5>
               </div>
             </div>
@@ -39,17 +39,9 @@ const DepartmentORMEDRAD = () => {
 
           <section className="w-[100%] md:w-[70%] p-2 md:p-5">
             <p className="font-fam tracking-wide">
-              <strong>"Eyes cannot see what mind doesn’t know."</strong> 
+  <strong>"{strong}"</strong> 
               <br/>
-              Oral Medicine &
-              Radiology is a specialized branch that deals with the clinical and
-              radiological diagnosis of diseases affecting the oral &
-              maxillofacial region at also specializes in non - surgical
-              management of med ically related disorder affecting the oral &
-              maxillofacial region. Visualizing the oral signs and symptoms and
-              radiographs we can give a tentative diagnosis of diseases
-              affecting the body and that is why it is said that " mouth is the
-              mirror of the body.
+              {description}
             </p>
           </section>
         </div>
@@ -63,7 +55,7 @@ const DepartmentORMEDRAD = () => {
         />
 
         <Accordian title={"Program Outcomes"} description={"Coming soon..."} />
-        <Accordian title={"Faculties & Staff"} description={<Faculties/>} />
+        <Accordian title={"Faculties & Staff"} description={faculties} />
         <Accordian title={"Curriculum"} description={"Coming soon..."} />
 
         <AccordianLayout
@@ -86,7 +78,7 @@ const DepartmentORMEDRAD = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default DepartmentORMEDRAD;
+export default DepartmentLayout
