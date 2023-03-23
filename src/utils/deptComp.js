@@ -1,4 +1,4 @@
-export const omrdLink = [
+export const oralmrdLink = [
   {
     name: "Dr. Raorale Ashish",
     position: "Reader & HOD",
