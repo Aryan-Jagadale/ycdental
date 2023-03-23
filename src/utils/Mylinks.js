@@ -71,21 +71,5 @@ export const links = [
       },
     ],
   },
-  {
-    name: "Gallery",
-    submenu: true,
-    linkUrl: "/gallery",
-    sublinks: [
-      {
-        Head: "Coming Soon...",
-        sublink: [
-          /*{ name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },*/
-        ],
-      },
-    ],
-  },
+ 
 ];

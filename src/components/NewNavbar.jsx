@@ -64,15 +64,17 @@ const NewNavbar = () => {
               Home
             </Link>
           </li>
-          <li>
-            {/*<Link
-              to="/about"
-              className=" px-3 inline-block hover:text-black hover:font-medium"
-            >
-              About
-          </Link>*/}
-          </li>
+          
           <NavLinks open={open} setOpen={setOpen} />
+          <li>
+          <Link
+            to="/gallery"
+            className=" px-3 inline-block hover:text-black hover:font-medium"
+          >
+            Gallery
+          </Link>
+        </li>
+
         </ul>
       </div>
 
@@ -109,6 +111,17 @@ const NewNavbar = () => {
         </li>*/}
 
           <NavLinks />
+
+          <li>
+            <Link
+              to="/gallery"
+              className="py-3 px-3 inline-block"
+              onClick={() => setOpen(!open)}
+            >
+              Gallery
+            </Link>
+          </li>
+
           <div className="py-3">
             <button
               style={{
