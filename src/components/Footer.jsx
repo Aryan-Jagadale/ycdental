@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo/footerLogo.png";
 import "../style/HomePage/footer.css";
@@ -12,7 +13,8 @@ const FooterComp = () => {
           <div className="">
             <h6 className="mb-4 flex items-center  md:h-[10vh] w-full md:w-[25vw] justify-center font-semibold uppercase md:justify-start">
               <Link to={"/"}>
-                <img src={Logo} alt="footer logo" className="h-full w-full" />
+  {/*<img src={Logo} alt="footer logo" className="h-full w-full" />*/}
+                <LazyLoadImage src={Logo} alt="footer logo" className="h-full w-full" effect="opacity" />
               </Link>
             </h6>
             <p className="text-left font-fam text-base tracking-wide font-normal">
@@ -57,6 +59,7 @@ const FooterComp = () => {
             </p>
             <p className="mb-4">Public Relation Officer: 7720013317</p>
           </div>
+          
 
           <div className="mt-5">
             <h6 className="mb-4 flex font-fam text-xl justify-center md:justify-start  font-bold ">
@@ -64,6 +67,7 @@ const FooterComp = () => {
             </h6>
 
             <p className="mb-4 flex items-center justify-center md:justify-start bg-white h-[35vh] w-full">
+            
               <iframe
                 title="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d783.3265430486535!2d74.72828573869714!3d19.18104299131588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb0880b94485d%3A0x5c08ed1b9978a8fd!2sShri.%20Yashwantrao%20Chavan%20Memorial%20Medical%20%26%20Rural%20Development%20Foundation&#39;s%20Dental%20College%20%26%20Hospital!5e0!3m2!1sen!2sin!4v1679300737744!5m2!1sen!2sin"
@@ -74,6 +78,7 @@ const FooterComp = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+
             </p>
           </div>
         </div>
