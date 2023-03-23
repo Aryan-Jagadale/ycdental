@@ -155,8 +155,6 @@ export const conservativeDentistryLink = [
   },
 ];
 
-{/*Error */}
-
 export const prosthodonticsLink = [
   {
     name: "Dr. Amrita Pandit ",
