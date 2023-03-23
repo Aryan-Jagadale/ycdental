@@ -1,17 +1,18 @@
-import React from 'react'
+import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const RecognitionInner = ({img,title}) => {
+const RecognitionInner = ({ img, title }) => {
   return (
     <div className="main-card mt-20 font-fam lg:mt-2">
-    <img
-      className="main-card-img"
-      src={img}
-      alt=""
+      <LazyLoadImage
+        className="main-card-img"
+        src={img}
+        alt={title}
+        effect="opacity"
+      />
+      <h2 className="text-lg">{title}</h2>
+    </div>
+  );
+};
 
-    />
-    <h2 className='text-lg'>{title}</h2>
-  </div>
-  )
-}
-
-export default RecognitionInner
+export default RecognitionInner;

@@ -1,5 +1,7 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import aboutWelcomeImage from "./../../assets/images/aboutWelcomeImage.png";
+
 
 const AboutWelcome = () => {
   return (
@@ -24,7 +26,11 @@ const AboutWelcome = () => {
       >
         <section className="flex items-center justify-center flex-col lg:flex-row">
           <div className="w-[100%] lg:w-[40%] flex items-center justify-center">
-            <img src={aboutWelcomeImage} alt={"Welcome About pic"} className="m-4 lg:m-0" />
+
+      {/*<img src={aboutWelcomeImage} alt={"Welcome About pic"} className="m-4 lg:m-0" />*/}
+            <LazyLoadImage src={aboutWelcomeImage} alt={"Welcome About pic"} effect="opacity" className="m-4 lg:m-0" />
+
+
           </div>
 
           <div className="w-[100%] lg:w-[60%] font-fam text-lg">
