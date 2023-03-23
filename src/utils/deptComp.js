@@ -482,6 +482,7 @@ export const biochemistryLink = [
   },
 ];
 
+
 export const pharmacologyLink = [
   {
     name: "Dr. Khanzode Suchet",
