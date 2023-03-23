@@ -20,9 +20,9 @@ function GallerySection() {
             </Col>
             <Col className="rightSide" lg={"9"}>
               <div className="imgbox">
-              {item.image.map((image, index) => (
-              <img key={index} src={image} alt="img" />
-            ))}
+                {item.image.map((image, index) => (
+                  <img className="galleryImg" key={index} src={image} alt="img" />
+                ))}
               </div>
             </Col>
           </Row>
