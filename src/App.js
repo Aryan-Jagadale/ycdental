@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import About from "./pages/About";
 import FooterComp from "./components/Footer";
 import NewNavbar from "./components/NewNavbar";
-import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentORMEDRAD";
 import Department from "./components/DepartmentPage/Department";
 import Academics from "./pages/Academics";
 import Admissionsss from "./pages/Admission";
@@ -17,6 +16,12 @@ import ScrollToTop from "react-scroll-to-top";
 import { BsArrowUpShort } from "react-icons/bs";
 import Muhs from "./components/Muhs/Muhs";
 import Gallery from "./pages/Gallery";
+
+
+import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentBranches/DepartmentORMEDRAD";
+import DeptProsthodontics from "./components/DepartmentPage/DepartmentBranches/DeptProsthodontics";
+
+
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -61,6 +66,14 @@ function App() {
               path="/department/oral-medicine-radiology"
               element={<DepartmentORMEDRAD />}
             />
+
+            <Route
+            path="/department/prosthodontics"
+            element={<DeptProsthodontics/>}
+          />
+
+
+
 
             <Route path="/admission" element={<Admissionsss />} />
 
