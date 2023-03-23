@@ -36,8 +36,16 @@ function App() {
         </div>
       ) : (
         <>
+        
           <NewNavbar />
-          <ScrollToTop smooth component={<div className="flex items-center justify-center"><BsArrowUpShort className="h-[80%] w-[80%]" /></div>} />
+          <ScrollToTop
+            smooth
+            component={
+              <div className="flex items-center justify-center">
+                <BsArrowUpShort className="h-[80%] w-[80%]" />
+              </div>
+            }
+          />
 
           <Routes>
             <Route path="/" element={<Home />} />
@@ -56,18 +64,11 @@ function App() {
 
             <Route path="/admission" element={<Admissionsss />} />
 
-            <Route
-              path="/terms-conditions"
-              element={<TermsAndConditions />}
-            />
-            
-            <Route
-              path="/muhs-mandate"
-              element={<Muhs/>}
-            />
+            <Route path="/terms-conditions" element={<TermsAndConditions />} />
 
-            <Route path="/gallery" element={<Gallery/>} />
+            <Route path="/muhs-mandate" element={<Muhs />} />
 
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
 
           <FooterComp />

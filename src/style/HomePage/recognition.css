@@ -48,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   word-wrap: normal;
-  width: 379px;
+  /*width: 30%;*/
   height: 153px;
   justify-content: center;
   align-items: center;
@@ -64,7 +64,7 @@
     display: flex;
     flex-wrap: wrap;
     word-wrap: normal;
-    width: 379px;
+    /*width: 379px;*/
     height: 153px;
     justify-content: center;
     align-items: center;
