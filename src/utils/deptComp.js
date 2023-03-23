@@ -55,6 +55,10 @@ export const periodontologyLink = [
     position: "Reader",
   },
   {
+    name: "Dr. Sabale Dhanesh",
+    position: "Reader",
+  },
+  {
     name: "Dr. Sachin Funde",
     position: "Lecturer",
   },
