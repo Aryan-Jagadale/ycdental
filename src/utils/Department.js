@@ -18,8 +18,7 @@ export const ormedRadioAcademicCal = [
   
       },
     
-     
-    
+
   
     
 ];
