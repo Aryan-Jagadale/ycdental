@@ -17,11 +17,15 @@ import { BsArrowUpShort } from "react-icons/bs";
 import Muhs from "./components/Muhs/Muhs";
 import Gallery from "./pages/Gallery";
 
-
 import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentBranches/DepartmentORMEDRAD";
-import DeptProsthodontics from "./components/DepartmentPage/DepartmentBranches/DeptProsthodontics";
-
-
+import DeptProsthodontics from "./components/DepartmentPage/DepartmentBranches/DeptPedo";
+import DeptOrthodontics from "./components/DepartmentPage/DepartmentBranches/DeptCDandE";
+import DeptOralMaxSur from "./components/DepartmentPage/DepartmentBranches/DeptOralMaxSur";
+import DeptOralPathology from "./components/DepartmentPage/DepartmentBranches/DeptOralPathology";
+import DeptCDE from "./components/DepartmentPage/DepartmentBranches/DeptCDandE";
+import DeptPedo from "./components/DepartmentPage/DepartmentBranches/DeptPedo";
+import DeptPeriodiontics from "./components/DepartmentPage/DepartmentBranches/DeptPeriodiontics";
+import DeptPuHeaDentistry from "./components/DepartmentPage/DepartmentBranches/DeptPuHeaDentistry";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -41,7 +45,6 @@ function App() {
         </div>
       ) : (
         <>
-        
           <NewNavbar />
           <ScrollToTop
             smooth
@@ -68,12 +71,35 @@ function App() {
             />
 
             <Route
-            path="/department/prosthodontics"
-            element={<DeptProsthodontics/>}
-          />
+              path="/department/prosthodontics"
+              element={<DeptProsthodontics />}
+            />
+            <Route
+              path="/department/conservative-dentistry-endodontics"
+              element={<DeptCDE />}
+            />
+            <Route
+              path="/department/oral-maxillofacial-surgery"
+              element={<DeptOralMaxSur />}
+            />
 
-
-
+            <Route
+              path="/department/oral-pathology"
+              element={<DeptOralPathology />}
+            />
+            <Route
+              path="/department/orthodontics"
+              element={<DeptOrthodontics />}
+            />
+            <Route path="/department/pedodontics" element={<DeptPedo />} />
+            <Route
+              path="/department/periodontics"
+              element={<DeptPeriodiontics />}
+            />
+            <Route
+              path="/department/public-health-dentistry"
+              element={<DeptPuHeaDentistry />}
+            />
 
             <Route path="/admission" element={<Admissionsss />} />
 
