@@ -1,11 +1,12 @@
 import React from "react";
 import "../../../style/DepartmentsPage/department.css";
-import { prosthodonticsLink } from "../../../utils/deptComp";
+//import { prosthodonticsLink } from "../../../utils/deptComp";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
+import { prosthodonticsLink } from "../../../utils/deptComp";
 
-{/*Error */}
 const DeptProsthodontics = () => {
+//  console.log(prosthodonticsLink);
   return (
     <DepartmentLayout
     name={"Prosthodontics"}

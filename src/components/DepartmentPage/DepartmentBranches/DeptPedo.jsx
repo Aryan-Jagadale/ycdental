@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../style/DepartmentsPage/department.css";
+import { pedodonticsLink } from "../../../utils/deptComp";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
 
@@ -13,9 +14,9 @@ const DeptPedo = () => {
       hod={"Dr. Sangham Gorde"}
       strong={"Caring for you and your child's smile."}
       description={
-        "Department of Prosthodontics and implantology we are replicators of creator's beautiful creation. Prosthodontics is a branch of dentistry that restores and replaces oral and maxillofacial tissues, improves aesthetics and renders oral comfort thereby maintaining a perfect harmony of complete stomatognathic system."
+        'Paediatric Dentistry is the branch of dentistry that is concerned with the dental care and treatment of children from birth to adulthood. We care for children with special health or medical needs too."The sooner children begin getting regular dental checkups the healthier their mouth will stay throughout their life"'
       }
-      faculties={<Faculties />}
+      faculties={<Faculties facLink={pedodonticsLink} />}
     />
   );
 };
