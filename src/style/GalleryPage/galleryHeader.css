@@ -1,0 +1,19 @@
+.GalleryHeader{
+    background-image: url("../../assets/images/galleryBG.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3%;
+    color: white;
+}
+
+.galleryRight{
+    background-image: url("../../assets/images/gallery.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.galleryImgs{
+    position: relative;
+    left: -8rem;
+}
