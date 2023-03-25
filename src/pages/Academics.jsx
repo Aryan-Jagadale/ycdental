@@ -3,6 +3,7 @@ import Academic from '../components/AcademicPage/Academic'
 import AcademicQuality from '../components/AcademicPage/AcademicQuality'
 import Labrotiers from '../components/AcademicPage/Labrotiers'
 import UGPGCourse from '../components/AcademicPage/UGPGCourse'
+import Department from '../components/DepartmentPage/Department'
 
 const Academics = () => {
     return (
@@ -11,6 +12,8 @@ const Academics = () => {
             <UGPGCourse/>
             <AcademicQuality />
             <Labrotiers/>
+            <Department/>
+
         </>
     )
 }
