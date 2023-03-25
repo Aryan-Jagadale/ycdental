@@ -70,59 +70,40 @@ function App() {
               element={<DepartmentORMEDRAD />}
             />
             <Route
-            path="/department/conservative-dentistry-endodontics"
-            element={<DeptCDE />}
-          />
-          <Route
+              path="/department/conservative-dentistry-endodontics"
+              element={<DeptCDE />}
+            />
+            <Route
               path="/department/oral-maxillofacial-surgery"
               element={<DeptOralMaxSur />}
             />
-            
+
             <Route
               path="/department/oral-pathology"
               element={<DeptOralPathology />}
             />
 
             <Route
-            path="/department/orthodontics"
-            element={<DeptOrthodontics/>}
-          />
+              path="/department/orthodontics"
+              element={<DeptOrthodontics />}
+            />
 
-          <Route path="/department/pedodontics" element={<DeptPedo />} />
+            <Route path="/department/pedodontics" element={<DeptPedo />} />
 
-          <Route
-          path="/department/periodontics"
-          element={<DeptPeriodiontics />}
-        />
+            <Route
+              path="/department/periodontics"
+              element={<DeptPeriodiontics />}
+            />
 
-        <Route
-        path="/department/public-health-dentistry"
-        element={<DeptPuHeaDentistry />}
-      />
+            <Route
+              path="/department/public-health-dentistry"
+              element={<DeptPuHeaDentistry />}
+            />
 
-
-
-
-
-
-
-         <Route
-         path="/department/prosthodontics"
-         element={<DeptProsthodontics/>}
-         
-         />
-
-
-
-
-          
-            
-
-        
-            
-          
-
-
+            <Route
+              path="/department/prosthodontics"
+              element={<DeptProsthodontics />}
+            />
 
             <Route path="/admission" element={<Admissionsss />} />
 
