@@ -5,8 +5,8 @@ import { GridLab3, GridLab4 } from "./GridLab4";
 const Labrotiers = () => {
   return (
     <div id="lab">
-      <section className="p-5">
-        <h2 className="font-fam font-bold text-3xl text-center tracking-wide">
+      <section className="md:p-14">
+        <h2 className="font-fam font-bold text-3xl px-5 md:pt-0 text-center tracking-wide">
           Laboratories
         </h2>
         <div>
