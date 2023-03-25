@@ -910,6 +910,7 @@ export const publication2 = [
       "Debraj  Shome MD, FRCS, FACS, FAACS, MBA, Komal Doshi MDS,Sapna Vadera MDS, Vaibhav Kumar MDS,Supriya S. Vyavahare MDS,Rinky Kapoor MD",
     url: "",
   },
+  
   {
     label: "ARTIFICIAL INTELLIGENCE IN ORTHODONTICS- A REVIEW. ",
     author:
