@@ -6,7 +6,8 @@ import LabelDepartComp from "./Department/LabelDepartComp";
 const Department = () => {
   return (
     <div>
-      <section className="m-5  bgDepartMent flex items-center justify-around flex-wrap flex-col  md:flex-row   gap-10 p-3 py-5">
+      <h2 className="tracking-wide font-fam text-center font-bold text-3xl">Departments</h2>
+      <section className="bgDepartMent flex items-center justify-around flex-wrap flex-col  md:flex-row  gap-10 ">
         {departCompImageLabel.map((item) => (
           <LabelDepartComp item={item} key={item.name} />
         ))}
