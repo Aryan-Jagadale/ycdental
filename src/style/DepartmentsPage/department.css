@@ -1,6 +1,30 @@
-.ormedBanner{
+.ormedBanner {
     background-image: url("../../assets/images/departormedrad/ormedbanner.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.bgDepartMent {
+    background-image: url("https://res.cloudinary.com/ddaalka6i/image/upload/v1679721350/Acdemic%20PAge/Department%20Comp/BackGround_1_dn9brg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1.25rem;
+    padding: 1.25rem;
+    padding-top: 3rem; /* 48px */
+    padding-bottom: 3rem; /* 48px */
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .bgDepartMent {
+        margin: 0;
+        padding: 0;
+        padding-top:1.25rem; /* 48px */
+        padding-bottom:1.25rem; /* 48px */
+    }
+    .widthAdjust{
+        width: 90%;
+    }
 }

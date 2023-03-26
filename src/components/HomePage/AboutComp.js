@@ -8,6 +8,7 @@ import it from "../../assets/images/it.png";
 import campuss from "../../assets/icons/campusicon.png";
 import hostell from "../../assets/icons/hostelicon.png";
 import libraryicon from "../../assets/icons/libraryicon.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function AboutComp() {
   const [showMore, setShowMore] = useState(false);
@@ -30,14 +31,19 @@ function AboutComp() {
         <Row>
           <Col>
             <div className="about-box">
-              <img className="about-img" src={blab} alt="img" />
+  {/*<img className="about-img" src={blab} alt="img" />*/}
+              <LazyLoadImage className="about-img" src={blab} alt="biochemistry-lab" effect="opacity" /> 
               <br />
               <h1 className="about-headline2 text-xl">Biochemistry Lab</h1>
             </div>
           </Col>
           <Col>
             <div className="about-box">
-              <img className="about-img" src={plab} alt="img" />
+  {/*<img className="about-img" src={plab} alt="img" />*/}
+              <LazyLoadImage className="about-img" src={plab} alt="pharmacology-lab" effect="opacity" /> 
+
+
+
               <h1 className="about-headline2 text-xl">Pharmacology Lab</h1>
             </div>
           </Col>
@@ -51,7 +57,9 @@ function AboutComp() {
           </Col>
           <Col>
             <div className="about-box">
-              <img className="about-img" src={clab} alt="img" />
+  {/*<img className="about-img" src={clab} alt="img" />*/}
+              <LazyLoadImage className="about-img" src={clab} alt="pre-clinical-lab" effect="opacity" /> 
+
               <h1 className="about-headline2 text-xl">
                 Pre-clinical Laboratory Lab
               </h1>
@@ -63,7 +71,9 @@ function AboutComp() {
         <Row>
           <Col sm>
             <div id="card1" className="card">
-              <img className="about-icon" src={campuss} alt="icon" />
+  {/*<img className="about-icon" src={campuss} alt="icon" />*/}
+              <LazyLoadImage className="about-icon" src={campuss} alt="campus-icon" effect="opacity" /> 
+
               <br />
               <h1 className="about-card-title text-2xl font-bold">CAMPUS</h1>
             </div>
@@ -79,7 +89,9 @@ function AboutComp() {
           </Col>
           <Col sm>
             <div id="card2" className="card">
-              <img className="about-icon" src={hostell} alt="icon" />
+  {/*<img className="about-icon" src={hostell} alt="icon" />*/}
+              <LazyLoadImage className="about-icon" src={hostell} alt="hostel-icon" effect="opacity" /> 
+
               <br />
               <h1 className="about-card-title text-2xl font-bold">HOSTEL</h1>
             </div>
@@ -99,7 +111,9 @@ function AboutComp() {
 
         <Col sm>
             <div id="card3" className="card">
-              <img className="about-icon" src={libraryicon} alt="icon" />
+  {/*<img className="about-icon" src={libraryicon} alt="icon" />*/}
+              <LazyLoadImage className="about-icon" src={libraryicon} alt="library-icon" effect="opacity" /> 
+
               <br />
               <h1 className="about-card-title text-2xl font-bold uppercase">Lecture Hall</h1>
             </div>
@@ -116,7 +130,9 @@ function AboutComp() {
 
           <Col sm>
           <div id="card3" className="card">
-            <img className="about-icon" src={libraryicon} alt="icon" />
+  {/*<img className="about-icon" src={libraryicon} alt="icon" />*/}
+            <LazyLoadImage className="about-icon" src={libraryicon} alt="libraray-icon" effect="opacity" /> 
+
             <br />
             <h1 className="about-card-title text-2xl font-bold">LIBRARY</h1>
           </div>

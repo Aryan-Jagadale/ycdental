@@ -21,3 +21,22 @@
     background: rgba(0, 32, 91, 0.2);
     border: 0.6px solid rgba(0, 32, 91, 0.5);
 }
+
+.imgugCourse {
+    background-position: center;
+    background-image: url("https://res.cloudinary.com/ddaalka6i/image/upload/v1679665083/Acdemic%20PAge/ug_s7yjo3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgpgCourse {
+    background-position: center;
+    background-image: url("https://res.cloudinary.com/ddaalka6i/image/upload/v1679665083/Acdemic%20PAge/pg_upsf66.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.divSpan > span {
+    height: 100%;
+    width: 100%;
+}

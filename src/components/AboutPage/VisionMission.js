@@ -4,18 +4,29 @@ import { Row, Col } from "react-bootstrap";
 import img1 from "../../assets/images/visionMission.png";
 import monitoring from "../../assets/images/monitoring.png";
 import leadership from "../../assets/images/leadership.png";
+//import { LazyLoadComponent } from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 function VisionMission() {
   return (
     <div className="VisionMission" id="visionMission">
       <Row>
         <Col className="VisionMission-imgs" sm xs={18} lg={3}>
-          <img src={img1} alt="img" className="VisionMission-img"/>
+        
+  {/*<img src={img1} alt="img" className="VisionMission-img"/>*/}
+          <LazyLoadImage  src={img1} alt="vision-pic" effect="opacity" className="VisionMission-img"  />  
+
+
           <div className="circle-img">
-            <img src={monitoring} alt="monitoring" />
+  {/*<img src={monitoring} alt="monitoring" />*/}
+            <LazyLoadImage src={monitoring} alt="monitoring-pic" effect="opacity" />
+
           </div>
           <div className="circle-img">
-            <img src={leadership} alt="leadership" />
+  {/*<img src={leadership} alt="leadership" />*/}
+            <LazyLoadImage src={leadership} alt="leadership"  effect="opacity"/>
+            
           </div>
         </Col>
         <Col sm className="VisionMissionContent">

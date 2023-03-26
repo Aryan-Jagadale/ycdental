@@ -13,15 +13,25 @@ const UGPGCourse = () => {
       <div className="w-full flex flex-col md:flex-row">
         <section className="w-full md:w-1/2 p-5 border-b-2 ">
           <div className="bgTrans">
-            <section className="h-[45vh]">
-              <img
+            <section className="h-[40vh] hidden md:block imgugCourse ">
+              {/*<img
                 className="h-full w-full object-cover"
                 src={
                   "https://plus.unsplash.com/premium_photo-1661963922072-b32afe6248d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                 }
                 alt=""
-              />
+              />*/}
+              
             </section>
+
+            <h2 className="block md:hidden tracking-wider text-center font-fam m-3 flex-wrap bg-white p-3  text-2xl capatilize text-[#00205B] font-bold">
+                <strong className="uppercase text-4xl">U</strong>nder.
+                <strong className="uppercase text-4xl">G</strong>raduate
+                Course
+                <br />
+                {/*<strong className="uppercase" >C</strong>ourse*/}
+              </h2>
+
             <section className="p-3 border-b-4 border-[#00205B]">
               <p className="font-fam mb-4">
                 BDS (Bachelor of Dental Surgery) is a 5-years undergraduate
@@ -55,15 +65,23 @@ const UGPGCourse = () => {
 
         <section className="w-full md:w-1/2 p-5 ">
           <div className="bgTrans">
-            <section className="h-[45vh]">
-              <img
+            <section className="h-[40vh] hidden md:block  imgpgCourse">
+              {/*<img
                 className="h-full w-full object-cover"
                 src={
                   "https://plus.unsplash.com/premium_photo-1661963922072-b32afe6248d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                 }
                 alt=""
-              />
+              />*/}
             </section>
+            <h2 className="block md:hidden tracking-wider text-center font-fam m-3 flex-wrap bg-white p-3  text-2xl capatilize text-[#00205B] font-bold">
+                <strong className="uppercase text-4xl">P</strong>ost.
+                <strong className="uppercase text-4xl">G</strong>raduate
+                Course
+                <br />
+                {/*<strong className="uppercase" >C</strong>ourse*/}
+              </h2>
+
             <section className="border-b-4 border-[#00205B]">
               <div className="my-2 font-fam">
                 {pgContent.map((item, index) => (

@@ -34,27 +34,26 @@ const NewNavbar = () => {
         <div className="md:block hidden">
           <button
             style={{
-              background: "#800000",
               boxShadow: "4px 4px 10px rgba(0, 0, 0, 0.25)",
               backdropFilter: "blur(2px)",
               borderRadius: "10px",
               color: "white",
-              minWidth: "10rem",
-              minHeight: "5vh",
-              marginLeft: "15%",
+              
             }}
+            className="text-white bg-[#800000] p-2 "
+
           >
             <Link
               to="/muhs-mandate"
-              className="hover:text-white hover:font-semibold"
+              className="font-fam tracking-wide hover:text-white hover:font-semibold"
             >
-              MUHS update
+              MUHS Update
             </Link>
           </button>
         </div>
       </div>
 
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center border-b-2 border-[#800000]">
         <ul className=" md:flex hidden font-fam items-center gap-8">
           <li>
             <Link
@@ -64,28 +63,30 @@ const NewNavbar = () => {
               Home
             </Link>
           </li>
-          <li>
-            {/*<Link
-              to="/about"
-              className=" px-3 inline-block hover:text-black hover:font-medium"
-            >
-              About
-          </Link>*/}
-          </li>
+          
           <NavLinks open={open} setOpen={setOpen} />
+          <li>
+          <Link
+            to="/gallery"
+            className=" px-3 inline-block hover:text-black hover:font-medium"
+          >
+            Gallery
+          </Link>
+        </li>
+
         </ul>
       </div>
 
       {/* Mobile nav */}
       <div
-        className={`z-50 md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-2 pl-4
-      duration-500 ${open ? "left-0" : "left-[-100%]"}`}
+        className={`z-50 md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-2 pl-14
+      duration-500 ${open ? "left-[-5%]" : "left-[-100%]"}`}
       >
         <section
           className="text-3xl flex items-center justify-end h-[11vh] pr-2 md:hidden "
           onClick={() => setOpen(!open)}
         >
-          <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+          <ion-icon name={`${open ? "close" : ""}`}></ion-icon>
         </section>
         <ul className={` `}>
           <li>
@@ -109,6 +110,17 @@ const NewNavbar = () => {
         </li>*/}
 
           <NavLinks />
+
+          <li>
+            <Link
+              to="/gallery"
+              className="py-3 px-3 inline-block"
+              onClick={() => setOpen(!open)}
+            >
+              Gallery
+            </Link>
+          </li>
+
           <div className="py-3">
             <button
               style={{

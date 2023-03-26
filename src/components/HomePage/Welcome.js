@@ -149,7 +149,7 @@ function Welcome() {
               src={subProfile}
               className="subProfile-img w-40"
               alt=""
-              srcset=""
+              
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -178,7 +178,7 @@ function Welcome() {
               src={subProfile}
               className="subProfile-img w-40"
               alt=""
-              srcset=""
+              
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -206,7 +206,7 @@ function Welcome() {
               src={subProfile}
               className="subProfile-img w-40"
               alt=""
-              srcset=""
+              
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -237,7 +237,7 @@ function Welcome() {
               src={subProfile}
               className="subProfile-img w-40"
               alt=""
-              srcset=""
+              
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -265,7 +265,7 @@ function Welcome() {
               src={subProfile}
               className="subProfile-img w-40"
               alt=""
-              srcset=""
+              
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -293,7 +293,7 @@ function Welcome() {
               src={subProfile}
               className="subProfile-img w-40"
               alt=""
-              srcset=""
+              
             />
             <div className="welcome-subProfile-title">
               <h3

@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import About from "./pages/About";
 import FooterComp from "./components/Footer";
 import NewNavbar from "./components/NewNavbar";
-import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentORMEDRAD";
 import Department from "./components/DepartmentPage/Department";
 import Academics from "./pages/Academics";
 import Admissionsss from "./pages/Admission";
@@ -17,6 +16,16 @@ import ScrollToTop from "react-scroll-to-top";
 import { BsArrowUpShort } from "react-icons/bs";
 import Muhs from "./components/Muhs/Muhs";
 import Gallery from "./pages/Gallery";
+
+import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentBranches/DepartmentORMEDRAD";
+import DeptProsthodontics from "./components/DepartmentPage/DepartmentBranches/DeptProsthodontics";
+import DeptOralMaxSur from "./components/DepartmentPage/DepartmentBranches/DeptOralMaxSur";
+import DeptOralPathology from "./components/DepartmentPage/DepartmentBranches/DeptOralPathology";
+import DeptCDE from "./components/DepartmentPage/DepartmentBranches/DeptCDandE";
+import DeptPedo from "./components/DepartmentPage/DepartmentBranches/DeptPedo";
+import DeptPeriodiontics from "./components/DepartmentPage/DepartmentBranches/DeptPeriodiontics";
+import DeptPuHeaDentistry from "./components/DepartmentPage/DepartmentBranches/DeptPuHeaDentistry";
+import DeptOrthodontics from "./components/DepartmentPage/DepartmentBranches/DeptOrthodontics";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,7 +46,14 @@ function App() {
       ) : (
         <>
           <NewNavbar />
-          <ScrollToTop smooth component={<div className="flex items-center justify-center"><BsArrowUpShort className="h-[80%] w-[80%]" /></div>} />
+          <ScrollToTop
+            smooth
+            component={
+              <div className="flex items-center justify-center">
+                <BsArrowUpShort className="h-[80%] w-[80%]" />
+              </div>
+            }
+          />
 
           <Routes>
             <Route path="/" element={<Home />} />
@@ -53,21 +69,49 @@ function App() {
               path="/department/oral-medicine-radiology"
               element={<DepartmentORMEDRAD />}
             />
+            <Route
+              path="/department/conservative-dentistry-endodontics"
+              element={<DeptCDE />}
+            />
+            <Route
+              path="/department/oral-maxillofacial-surgery"
+              element={<DeptOralMaxSur />}
+            />
+
+            <Route
+              path="/department/oral-pathology"
+              element={<DeptOralPathology />}
+            />
+
+            <Route
+              path="/department/orthodontics"
+              element={<DeptOrthodontics />}
+            />
+
+            <Route path="/department/pedodontics" element={<DeptPedo />} />
+
+            <Route
+              path="/department/periodontics"
+              element={<DeptPeriodiontics />}
+            />
+
+            <Route
+              path="/department/public-health-dentistry"
+              element={<DeptPuHeaDentistry />}
+            />
+
+            <Route
+              path="/department/prosthodontics"
+              element={<DeptProsthodontics />}
+            />
 
             <Route path="/admission" element={<Admissionsss />} />
 
-            <Route
-              path="/terms-conditions"
-              element={<TermsAndConditions />}
-            />
-            
-            <Route
-              path="/muhs-mandate"
-              element={<Muhs/>}
-            />
+            <Route path="/terms-conditions" element={<TermsAndConditions />} />
 
-            <Route path="/gallery" element={<Gallery/>} />
+            <Route path="/muhs-mandate" element={<Muhs />} />
 
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
 
           <FooterComp />

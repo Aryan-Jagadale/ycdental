@@ -1,0 +1,53 @@
+.GalleryHeader {
+    background-image: url("../../assets/images/galleryBG.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3%;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.toothbrush {
+    /* width: 100%;
+    height: 20rem; */
+    display: block;
+    margin: auto;
+}
+
+.GalleryTitle {
+    font-size: 3.5rem;
+    position: relative;
+    right: -5rem;
+    display: block;
+    margin: auto;
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    letter-spacing: 0.08em;
+    /* text-decoration-line: underline;
+    text-underline-offset: 8px; */
+}
+
+.galleryRight {
+    background-image: url("../../assets/images/galleryRightSide.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23rem;
+    /* width: 66%; */
+}
+
+@media screen and (max-width:768px) {
+    .toothbrush{
+        display: none;
+    }
+    
+    .galleryRight{
+        display: none;
+    }
+
+    .GalleryTitle{
+        margin-left: -2rem;
+        font-size: 2.5rem;
+    }
+}

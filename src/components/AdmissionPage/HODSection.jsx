@@ -134,7 +134,7 @@ function HODSection() {
         </p>
 
         <Prospectus />
-
+        
         <div
           style={{
             display: "flex",
