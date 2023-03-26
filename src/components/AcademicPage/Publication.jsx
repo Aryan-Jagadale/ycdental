@@ -1,5 +1,5 @@
 import React from 'react'
-import PublicationList from "../../assets/pdf/Publication-list.pdf";
+import PublicationList from "../../assets/pdf/Publication/Publication-list.pdf";
 import pdfImg from "../../assets/images/muhs/pdfImg.png";
 
 const Publication = () => {
