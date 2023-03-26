@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../style/AcdemicPage/academicQuality.css"
-import student1 from '../../assets/images/academics/academicquality/student1.png'
+//import student1 from '../../assets/images/academics/academicquality/student1.png'
 import student2 from '../../assets/images/academics/academicquality/Mr.Nagar-Saurabh-Rajesh.png'
 import student3 from '../../assets/images/academics/academicquality/Miss.Rajput-Raksha.png'
 import student4 from '../../assets/images/academics/academicquality/Miss.Jaggi-Bhagyashree.png'
