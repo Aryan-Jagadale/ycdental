@@ -11,6 +11,7 @@ const GalleryData = [
     month: "March",
     description:
 <<<<<<< HEAD
+<<<<<<< HEAD
       "The entire nation knows about the legendary “Bhimrao Ramji Ambedkar”. He was one of the greatest leaders of India who was more of a social worker, a writer, and an educationist. He always worked for the Social Justice of untouchables and was the one who drafted Indian Constitution. He was like an angel for the poor and low caste people, this is a reason people still worship him like a God.",
   },
 =======
@@ -18,6 +19,10 @@ const GalleryData = [
   
     },
 >>>>>>> 144b850 (Done all changes)
+=======
+      "The entire nation knows about the legendary “Bhimrao Ramji Ambedkar”. He was one of the greatest leaders of India who was more of a social worker, a writer, and an educationist. He always worked for the Social Justice of untouchables and was the one who drafted Indian Constitution. He was like an angel for the poor and low caste people, this is a reason people still worship him like a God.",
+  },
+>>>>>>> 63e6e9e (.)
   {
     id: 2,
     /*days: "Dentist Day",*/
