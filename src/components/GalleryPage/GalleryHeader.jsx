@@ -7,12 +7,17 @@ function GalleryHeader() {
   return (
     <div className="GalleryHeader">
       <Row>
-        <Col style={{
-          display: "grid", gridTemplateColumns: "1fr 1fr"
-        }} sm><img className="toothbrush" lg={4} src={toothbrush} alt="img" />
+        <Col
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+          }}
+          sm
+        >
+          <img className="toothbrush" lg={5} src={toothbrush} alt="img" />
           <h1 className="GalleryTitle">Image GALLERY</h1>
         </Col>
-        <Col sm lg={8} className="galleryRight"></Col>
+        <Col sm lg={7} className="galleryRight"></Col>
       </Row>
     </div>
   );
