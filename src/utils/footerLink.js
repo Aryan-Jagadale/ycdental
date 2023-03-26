@@ -10,7 +10,7 @@ export const footerLink = [
 
     {
         "name":"Prospectus",
-        "urll":"/"
+        "urll":"/admission"
     },
     {
         "name":"Social Media",

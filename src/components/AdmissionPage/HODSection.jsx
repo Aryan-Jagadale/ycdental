@@ -44,7 +44,7 @@ function HODSection() {
           >
             DEAN
           </h3>
-          <h4>Dr. Gorde Sangam, M.D.S</h4>
+          <h4>Dr. Nilima Rajhans</h4>
         </div>
         <p
           style={{

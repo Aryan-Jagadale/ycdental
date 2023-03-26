@@ -53,7 +53,7 @@ const FooterComp = () => {
               0241-2779111, 2777070
             </p>
             <p className="mb-3 text-base tracking-wide">
-              <a href="/" className="text-white dark:text-neutral-200">
+              <a href="mailto:yash_dental@rediffmail.com" target={"_blank"} className="text-white dark:text-neutral-200" rel="noreferrer">
                 yash_dental@rediffmail.com
               </a>
             </p>

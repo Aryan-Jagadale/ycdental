@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../style/AcdemicPage/academicQuality.css"
-import student1 from '../../assets/images/academics/academicquality/student1.png'
+//import student1 from '../../assets/images/academics/academicquality/student1.png'
 import student2 from '../../assets/images/academics/academicquality/Mr.Nagar-Saurabh-Rajesh.png'
 import student3 from '../../assets/images/academics/academicquality/Miss.Rajput-Raksha.png'
 import student4 from '../../assets/images/academics/academicquality/Miss.Jaggi-Bhagyashree.png'
@@ -62,13 +62,14 @@ const data2 = [{
     studentBatch: '1st Year B.D.S. (2018-19)',
     studentRank: '1st'
 },
-{
+/*{
     studentProfile: student1,
     studenName: 'Nagar Saurabh Rajesh',
     studentTitle: 'Gold Medal Winner',
     studentBatch: '3rd Year BDS (2010-11)',
     studentRank: '1st'
-}]
+}*/
+]
 
 
 
