@@ -1,20 +1,21 @@
 import React from "react";
 import "./../../style/AboutPage/aboutDetails.css";
 import PolicyLeaderHistory from "./PolicyLeaderHistory";
+//import RePolicy from "../../assets/images/about/Policy.png"
 
 function AboutDetails() {
   return (
-    <div className="pt-4 pb-14 m-5" id="policy" >
-      <div
-        style={{ backgroundColor: "#D9D9D9" }}
-        className="mt-4 flex lg:h-60 font-fam items-center justify-center flex-col lg:flex-row  "
-      >
-        <PolicyLeaderHistory name={"Policy / Governance"} link={"VIEW MORE"} />
-        <PolicyLeaderHistory name={"History"} link={"VIEW MORE"} />
-        <PolicyLeaderHistory name={"Leadership"} link={"VIEW MORE"} />
-
-        
-      </div>
+    <div className="marginCss" id="policy">
+      <section className="p-4 flex items-center flex-wrap gap-3 justify-around bg-[#F2F2F2]">
+        <PolicyLeaderHistory name={"Code of Conduct"} link={"/"}  />
+        <PolicyLeaderHistory name={"Research Policy"} link={"/"}  />
+        <PolicyLeaderHistory name={"Mentoring Policy"} link={"/"}  />
+      </section>
+      <section className="p-4 flex items-center flex-wrap gap-3 justify-around bg-[#F2F2F2]">
+        <PolicyLeaderHistory name={"PTA Policy"} link={"/"}  />
+        <PolicyLeaderHistory name={"Patient Safety"} link={"/"}  />
+        <PolicyLeaderHistory name={"E-governance"} link={"/"}  />
+      </section>
     </div>
   );
 }
