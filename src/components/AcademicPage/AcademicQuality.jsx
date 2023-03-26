@@ -62,13 +62,14 @@ const data2 = [{
     studentBatch: '1st Year B.D.S. (2018-19)',
     studentRank: '1st'
 },
-{
+/*{
     studentProfile: student1,
     studenName: 'Nagar Saurabh Rajesh',
     studentTitle: 'Gold Medal Winner',
     studentBatch: '3rd Year BDS (2010-11)',
     studentRank: '1st'
-}]
+}*/
+]
 
 
 

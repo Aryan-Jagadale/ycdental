@@ -47,7 +47,7 @@ const NewNavbar = () => {
               to="/muhs-mandate"
               className="font-fam tracking-wide hover:text-white hover:font-semibold"
             >
-              MUHS Update
+              MUHS Mandate
             </Link>
           </button>
         </div>
@@ -138,7 +138,7 @@ const NewNavbar = () => {
                 onClick={() => setOpen(!open)}
                 className="hover:text-white hover:font-semibold"
               >
-                MUHS update
+                MUHS Mandate
               </Link>
             </button>
           </div>
