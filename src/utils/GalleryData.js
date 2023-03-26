@@ -10,19 +10,8 @@ const GalleryData = [
     date: "6th",
     month: "March",
     description:
-<<<<<<< HEAD
-<<<<<<< HEAD
       "The entire nation knows about the legendary “Bhimrao Ramji Ambedkar”. He was one of the greatest leaders of India who was more of a social worker, a writer, and an educationist. He always worked for the Social Justice of untouchables and was the one who drafted Indian Constitution. He was like an angel for the poor and low caste people, this is a reason people still worship him like a God.",
   },
-=======
-      "Every year March 6th is observed as National Dentist Day, created to say thank you to all dentists celebrating for their contribution.There are various dental specialities and on this special occasion, it is better to know and recognise them. Dentists are often referred to as dental surgeons or family dentist. They are specialised in treating oral health; it is a comprehensive integrated approach in a field to overall health.",
-  
-    },
->>>>>>> 144b850 (Done all changes)
-=======
-      "The entire nation knows about the legendary “Bhimrao Ramji Ambedkar”. He was one of the greatest leaders of India who was more of a social worker, a writer, and an educationist. He always worked for the Social Justice of untouchables and was the one who drafted Indian Constitution. He was like an angel for the poor and low caste people, this is a reason people still worship him like a God.",
-  },
->>>>>>> 63e6e9e (.)
   {
     id: 2,
     /*days: "Dentist Day",*/
