@@ -8,8 +8,10 @@
 }
 
 .toothbrush {
-    width: 100%;
-    height: 20rem;
+    /* width: 100%;
+    height: 20rem; */
+    display: block;
+    margin: auto;
 }
 
 .GalleryTitle {

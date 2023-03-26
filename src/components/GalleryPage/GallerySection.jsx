@@ -16,7 +16,8 @@ function GallerySection() {
             <Col className="leftSide" lg={"3"}>
               {item.date}
               <br /> {item.month}
-              <br /> 2<br /> k<br /> 2<br /> 3
+              <span className="gallery2k"><br /> 2<br /> k<br /> 2<br /> 3 <br /></span>
+              <span className="gallery2k23">2k23</span>
             </Col>
             <Col className="rightSide" lg={"9"}>
               <div className="imgbox">
