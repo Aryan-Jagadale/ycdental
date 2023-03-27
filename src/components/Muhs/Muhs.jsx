@@ -34,7 +34,7 @@ function Muhs() {
                 <h1 className="text-5xl font-bold font-fam text-white tracking-wide ml-12">
                   MUHS
                   <br />
-                  Update ....
+                  Mandate ....
                 </h1>
                 <div className="ml-6">
                   <img src={FileDown} alt="FileDownload Pic" />
@@ -47,7 +47,7 @@ function Muhs() {
           </div>
 
           <div className="md:w-1/2  hidden md:block gradinetStyle">
-  {/*<img src={softwareApplication} alt="MUHS banner" />*/}
+            {/*<img src={softwareApplication} alt="MUHS banner" />*/}
           </div>
         </div>
       </section>
