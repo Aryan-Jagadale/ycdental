@@ -24,7 +24,7 @@ const About = () => {
   return (
     <>
       <AboutCarousel />
-      <AboutWelcome />
+     {/*  <AboutWelcome />  */}
       <VisionMission />
       <AboutComp />
       <AboutDetails />

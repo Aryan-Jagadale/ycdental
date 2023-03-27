@@ -13,31 +13,31 @@ const AboutCarousel = () => {
     speed: 500,
     dots: true,
     responsive: [
-        {
-          breakpoint: 1193,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
+      {
+        breakpoint: 1193,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
         }
-      ]
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -58,16 +58,16 @@ const AboutCarousel = () => {
 
             <div className="slider_wrapper px-10 mt-[5vh] lg:mt-[11vh]">
               <Slider {...settings}>
-              {
-                aboutCarousel.map((item) => (
-                  <AboutInnerCarosel carImg={item.carImg} />
+                {
+                  aboutCarousel.map((item) => (
+                    <AboutInnerCarosel carImg={item.carImg} />
 
-                ))
-              }
-                
+                  ))
+                }
+
               </Slider>
             </div>
-            <br/>
+            <br />
           </div>
         </div>
       </div>
