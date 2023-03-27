@@ -10,21 +10,21 @@ const Labrotiers = () => {
           Laboratories
         </h2>
         <div>
-          <section className="grid-4 flex items-center justify-aroun flex-col md:flex-row gap-3 mt-4">
+          <section className="grid-4 flex items-center justify-aroun flex-col md:flex-row gap-5 mt-4">
             {lab4.map((item) => (
-              <GridLab4 key={item.label} item={item} />
+              <GridLab3 key={item.label} item={item} />
             ))}
           </section>
 
-          <section className="grid-4 flex items-center justify-around flex-col md:flex-row  gap-3 mt-3">
+          <section className="grid-4 flex items-center justify-around flex-col md:flex-row  gap-5 mt-5">
             {lab3.map((item) => (
               <GridLab3 key={item.label} item={item} />
             ))}
           </section>
 
-          <section className="grid-4 flex items-center justify-around flex-col md:flex-row gap-3  mt-3">
+          <section className="grid-4 flex items-center justify-around flex-col md:flex-row gap-5  mt-5">
             {lab41.map((item) => (
-              <GridLab4 key={item.label} item={item} />
+              <GridLab3 key={item.label} item={item} />
             ))}
           </section>
         </div>
