@@ -5,7 +5,7 @@ import managingTrustee from "./../../assets/images/managingCommittee/Dr.SharadSa
 import vicePrecident from "./../../assets/images/managingCommittee/nehaGdak.jpeg";
 import organisingPresident from "./../../assets/images/managingCommittee/Organising-President.jpg";
 
-import subProfile from "./../../assets/images/subProfilePhoto.svg";
+//import subProfile from "./../../assets/images/subProfilePhoto.svg";
 import "../../style/HomePage/welcomeComp.css";
 import { Row, Col } from "react-bootstrap";
 
@@ -185,7 +185,7 @@ function Welcome() {
                 }}
                 className="text-sm"
               >
-                Vice President
+                Vice<br/> President
               </h3>
               <p
                 style={{ fontFamily: "Domine", color: "#00205B" }}
@@ -196,6 +196,9 @@ function Welcome() {
             </div>
           </div>
         </Col>
+      </Row>
+
+      <Row className="flex flex-row w-screen justify-evenly py-10 px-5">
         <Col sm>
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
             <img
@@ -223,9 +226,7 @@ function Welcome() {
             </div>
           </div>
         </Col>
-      </Row>
 
-      <Row className="flex flex-row w-screen justify-evenly py-10 px-5">
         <Col sm>
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
             <img
@@ -249,60 +250,6 @@ function Welcome() {
                 className="text-xs"
               >
                 Dr Sharad Samb
-              </p>
-            </div>
-          </div>
-        </Col>
-        <Col sm>
-          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <img
-              src={subProfile}
-              className="subProfile-img w-40 border-4 border-white rounded-full"
-              alt=""
-            />
-            <div className="welcome-subProfile-title">
-              <h3
-                style={{
-                  fontFamily: "Domine",
-                  color: "#800000",
-                  lineHeight: "2rem",
-                }}
-                className="text-sm"
-              >
-                Administrative <br /> Officer
-              </h3>
-              <p
-                style={{ fontFamily: "Domine", color: "#00205B" }}
-                className="text-xs"
-              >
-                Dr Shripad Rajhans
-              </p>
-            </div>
-          </div>
-        </Col>
-        <Col sm>
-          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <img
-              src={subProfile}
-              className="subProfile-img w-40 border-4 border-white rounded-full"
-              alt=""
-            />
-            <div className="welcome-subProfile-title">
-              <h3
-                style={{
-                  fontFamily: "Domine",
-                  color: "#800000",
-                  lineHeight: "2rem",
-                }}
-                className="text-sm"
-              >
-                Dean
-              </h3>
-              <p
-                style={{ fontFamily: "Domine", color: "#00205B" }}
-                className="text-xs"
-              >
-                Dr Nilima Rajhans
               </p>
             </div>
           </div>

@@ -7,8 +7,8 @@ const AccordianLayout = ({ title, description }) => {
       <Collapsible
         trigger={title}
         open="true"
-        className="text-center bg-[#FFD900] text-lg p-2 tracking-wide font-fam"
-        openedClassName="text-center bg-[#FFD900] border border-[#FFD900] text-lg p-2 tracking-wide font-fam"
+        className="text-center font-bold bg-[#D9D9D9] text-lg p-2 tracking-wide font-fam"
+        openedClassName="text-center font-bold border border-[#FFD900] text-lg p-2 tracking-wide font-fam"
       >
         <p className="text-left bg-white ">{description}</p>
       </Collapsible>

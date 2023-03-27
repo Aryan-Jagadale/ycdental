@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../style/DepartmentsPage/department.css";
-import AccList from "../AccordianStuff/AccList";
-import Accordian from "../AccordianStuff/Accordian";
+//import AccList from "../AccordianStuff/AccList";
+//import Accordian from "../AccordianStuff/Accordian";
 import AccordianLayout from "../AccordianStuff/AccordianLayout";
 
 const DepartmentLayout = ({
@@ -26,19 +26,13 @@ const DepartmentLayout = ({
 
       <div>
         <div className="flex items-center justify-center p-9 flex-col md:flex-row">
-          <section className="w-[100%] md:w-[30%] p-5 md:p-3">
-            <div className="bg-[#BBBABA] p-2 md:p-1 rounded-tl-lg rounded-br-lg h-[70%]">
-              <img src={src} alt="M.D.S name" className="w-full" />
+          
 
-              <div className="text-center">
-                <h3 className="font-bold text-lg">Reader & HOD</h3>
-                <h5 className="font-semibold text-base">{hod}</h5>
-              </div>
-            </div>
-          </section>
-
-          <section className="w-[100%] md:w-[70%] p-2 md:p-5">
-            <p className="font-fam tracking-wide">
+          <section className="w-[80%] p-2 md:p-5">
+            <p className="font-fam tracking-wide text-center" style={{
+              fontSize:"1.35rem"
+            }}>
+            
               <strong>{strong}</strong>
               <br />
               {description}
@@ -48,34 +42,10 @@ const DepartmentLayout = ({
       </div>
 
       <div className="p-7 md:p-14">
-        <Accordian title={"Vision & Mission"} description={"Coming soon..."} />
-        <Accordian
-          title={"Program Educational Objectives"}
-          description={"Coming soon..."}
-        />
+        
+        <AccordianLayout title={"Faculties & Staff"} description={faculties} />
+        
 
-        <Accordian title={"Program Outcomes"} description={"Coming soon..."} />
-        <Accordian title={"Faculties & Staff"} description={faculties} />
-        <Accordian title={"Curriculum"} description={"Coming soon..."} />
-
-        <AccordianLayout
-          title={"Academic Calendar"}
-          description={<AccList />}
-        />
-
-        <Accordian
-          title={"Co-Curricular Activities"}
-          description={"Coming soon..."}
-        />
-        <Accordian
-          title={"Extra Curricular Activities"}
-          description={"Coming soon..."}
-        />
-
-        <AccordianLayout
-          title={"NewsLetter And Magazine"}
-          description={<AccList title={"NewsLetter And Magazine"} />}
-        />
       </div>
     </div>
   );

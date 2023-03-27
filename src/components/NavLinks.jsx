@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import {  Link as ScrollLink } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
 import { links } from "../utils/Mylinks";
 
-const NavLinks = ({open,setOpen}) => {
-
+const NavLinks = ({ open, setOpen }) => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
 
@@ -12,7 +11,7 @@ const NavLinks = ({open,setOpen}) => {
     <>
       {links.map((link) => {
         return (
-          <div key={link.name} >
+          <div key={link.name}>
             <div className="px-3 text-left md:cursor-pointer group">
               <h1
                 className="py-3 flex justify-between items-center md:pr-0 pr-5 group"
@@ -20,13 +19,57 @@ const NavLinks = ({open,setOpen}) => {
                   heading !== link.name
                     ? setHeading(link.name)
                     : setHeading("");
-                    setSubHeading("");
-
+                  setSubHeading("");
                 }}
               >
-                <Link to={link.linkUrl} className="hover:font-normal hover:text-slate-800">{link.name}</Link>
+              {
+                link.name === "IQAC" ? (
 
-                <span className="text-xl md:hidden inline">
+                  <div
+                  
+                  className="hover:font-normal hover:text-slate-800"
+                >
+                  {link.name}
+                </div>
+                ):(
+                  <Link
+                  to={link.linkUrl}
+                  className="hover:font-normal hover:text-slate-800"
+                >
+                  {link.name}
+                </Link>
+                )
+
+              }
+                
+                {link.name === "IQAC" ? (
+                  <>
+                    <span className="text-xl hidden">
+                      <ion-icon
+                        name={`${
+                          heading === link.name ? "chevron-up" : "chevron-down"
+                        }`}
+                      ></ion-icon>
+                    </span>
+                    <span className="hidden">
+                      <ion-icon name="chevron-down"></ion-icon>
+                    </span>
+                  </>
+                ) : (
+                  <>
+                    <span className="text-xl md:hidden inline">
+                      <ion-icon
+                        name={`${
+                          heading === link.name ? "chevron-up" : "chevron-down"
+                        }`}
+                      ></ion-icon>
+                    </span>
+                    <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
+                      <ion-icon name="chevron-down"></ion-icon>
+                    </span>
+                  </>
+                )}
+                {/*<span className="text-xl md:hidden inline">
                   <ion-icon
                     name={`${
                       heading === link.name ? "chevron-up" : "chevron-down"
@@ -35,7 +78,7 @@ const NavLinks = ({open,setOpen}) => {
                 </span>
                 <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
                   <ion-icon name="chevron-down"></ion-icon>
-                </span>
+                  </span>*/}
               </h1>
 
               {link.submenu && (
@@ -54,15 +97,20 @@ const NavLinks = ({open,setOpen}) => {
                             {mysublinks.Head}
                           </h1>
                           {mysublinks.sublink.map((slink) => (
-                            <li key={slink.name} className=" text-white  my-2.5">
+                            <li
+                              key={slink.name}
+                              className=" text-white  my-2.5"
+                            >
                               <ScrollLink
-                                to={slink.idd} spy={true} smooth={true}
+                                to={slink.idd}
+                                spy={true}
+                                smooth={true}
                                 ignoreCancelEvents
                                 className=" hover:text-gray-500 ease-in tracking-wide"
                               >
                                 {slink.name}
                               </ScrollLink>
-                              <hr className="my-2"/>
+                              <hr className="my-2" />
                             </li>
                           ))}
                         </div>
@@ -90,7 +138,6 @@ const NavLinks = ({open,setOpen}) => {
                         subHeading !== slinks.Head
                           ? setSubHeading(slinks.Head)
                           : setSubHeading("")
-                          
                       }
                       className="hidden py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center"
                     >
@@ -112,11 +159,8 @@ const NavLinks = ({open,setOpen}) => {
                       }`}
                     >
                       {slinks.sublink.map((slink) => (
-                        <li className="py-3 pl-14" key={slink.name}
-                        >
-                          <Link to={slink.link}
-                          
-                          >{slink.name}</Link>
+                        <li className="py-3 pl-14" key={slink.name}>
+                          <Link to={slink.link}>{slink.name}</Link>
                         </li>
                       ))}
                     </div>

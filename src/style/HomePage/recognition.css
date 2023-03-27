@@ -12,7 +12,7 @@
   word-wrap: normal;
   width: 379px;
   /*height: 153px;*/
-  min-height: 30vh;
+  min-height: 35vh;
   justify-content: center;
   align-items: flex-end;
   padding: 2rem;
@@ -49,7 +49,9 @@
   flex-wrap: wrap;
   word-wrap: normal;
   /*width: 30%;*/
+  width: 45%;
   height: 153px;
+  /*height: 50%;*/
   justify-content: center;
   align-items: center;
   padding: 2rem;
@@ -65,7 +67,9 @@
     flex-wrap: wrap;
     word-wrap: normal;
     /*width: 379px;*/
+    width: 45%;
     height: 153px;
+    /*height: 50%;*/
     justify-content: center;
     align-items: center;
     padding: 2rem;
@@ -74,4 +78,12 @@
     text-align: left;
     background: rgba(0, 32, 91, 0.09);
     border-top: 0.5rem solid rgba(0, 32, 91, 0.8);
+  }
+
+  @media screen and (max-width:768px) {
+    .sub-card-blue,.sub-card-red{
+      height: 40vh;
+      width: 50%;
+    }
+    
   }

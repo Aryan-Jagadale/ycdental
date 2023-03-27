@@ -56,8 +56,8 @@ export const links = [
 
   {
     name: "IQAC",
-    submenu: true,
-    linkUrl: "/",
+    submenu: false,
+    linkUrl: "",
     sublinks: [
       {
         Head: "Coming Soon...",
