@@ -2,17 +2,20 @@ import React from "react";
 
 
 
-const InnerCaroComp = ({backImg,left,right}) => {
+const InnerCaroComp = ({left,midd,right}) => {
   return (
     <>
       <div className="carosuel-bg" >
       <div className="h-[100%] w-[100%] md:h-2/3 md:w-2/3 absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-1/2 border-4 border-[#800000] backdrop-blur-sm">
       <section className="p-4 h-full flex items-center justify-between relative">
         <div className="h-full w-full md:p-4">
-          <img className="h-full w-full" src={left} alt="dentist1" />
+          <img className="h-full w-full collageImg1" src={left} alt="dentist1" />
         </div>
+        {/* <div className="h-full w-full md:p-4 collageImg2">
+          <img className="h-full w-full collageImg1" src={midd} alt="dentist1" />
+        </div> */}
         <div className="h-full w-full md:p-4">
-          <img className="h-full w-full" src={right} alt="dentist2" />
+          <img className="h-full w-full collageImg3" src={right} alt="dentist2" />
         </div>
       </section>
       {/*Strip */}
