@@ -9,9 +9,7 @@ import AboutComp from '../components/HomePage/AboutComp';*/
 const AboutCarousel = loadable(() =>
   import("../components/AboutPage/AboutCarousel")
 );
-const AboutWelcome = loadable(() =>
-  import("../components/AboutPage/AboutWelcome")
-);
+
 const VisionMission = loadable(() =>
   import("../components/AboutPage/VisionMission")
 );
@@ -24,7 +22,7 @@ const About = () => {
   return (
     <>
       <AboutCarousel />
-      <AboutWelcome />
+     
       <VisionMission />
       <AboutComp />
       <AboutDetails />

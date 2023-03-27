@@ -13,6 +13,7 @@ const CarosuelComp = () => {
             <InnerCaroComp
               key={item.backImg}
               left={item.left}
+              midd={item.midd}
               right={item.right}
             />
           ))}
