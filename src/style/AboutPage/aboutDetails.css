@@ -1,35 +1,42 @@
-
-.btn-one{
-    width: fit-content;
+.btn-one {
+  width: fit-content;
 }
 
-.bgCoc{
-    background-image: url('../../assets/images/about/Policy.png');
+.bgCoc {
+  background-image: url("../../assets/images/about/Policy.png");
 }
-.bgPolicy{
-    background-image: url('../../assets/images/about/Research.png');
-}
-
-.bgMentor{
-    background-image: url('../../assets/images/about/mentor.png');
-}
-.bgPTA{
-    background-image: url('../../assets/images/about/pta.png');
-}
-.bgEgov{
-    background-image: url('../../assets/images/about/Egover.png');
-}
-.bgPS{
-    background-image: url('../../assets/images/about/PatientSafety.png');
+.bgPolicy {
+  background-image: url("../../assets/images/about/Research.png");
 }
 
-.marginCss{
-margin: 1.25rem;
+.bgMentor {
+  background-image: url("../../assets/images/about/mentor.png");
+}
+.bgPTA {
+  background-image: url("../../assets/images/about/pta.png");
+}
+.bgEgov {
+  background-image: url("../../assets/images/about/Egover.png");
+}
+.bgPS {
+  background-image: url("../../assets/images/about/PatientSafety.png");
+}
+.bgAntiRag {
+  background-image: url("../../assets/images/about/AntiRag.png");
+}
+.bgParentsAss {
+  background-image: url("../../assets/images/about/ParentsAssociation.png");
+}
+.bgHar {
+  background-image: url("../../assets/images/about/HarCommittee.png");
 }
 
-@media screen and (max-width:768px) {
-    .marginCss{
-        margin: 0;
-    }
-    
+.marginCss {
+  margin: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .marginCss {
+    margin: 0;
+  }
 }

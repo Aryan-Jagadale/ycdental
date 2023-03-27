@@ -4,19 +4,36 @@ import { Link } from "react-router-dom";
 const PolicyLeaderHistory = ({ name, link }) => {
   return (
     <div
-      className={`${name === "Patient Safety" ? "bgPS" : ""} ${
-        name === "PTA Policy" ? "bgPTA" : ""
-      } ${
-        name === "E-governance" ? "bgEgov" : ""
-      } 
-      ${name==="Mentoring Policy"?"bgMentor":""}
-      ${name==="Code of Conduct"?"bgCoc":""}
-      ${name==="Research Policy"?"bgPolicy":""}
+
+
+
+      className={`
+      ${name === "Anti Ragging Committee" ? "bgAntiRag" : ""}
+      ${name === "Parents Teachers Association" ? "bgParentsAss" : ""}
+      ${name === "Committee against Sexual Harassment" ? "bgHar" : ""}
+
+      ${name === "Grievance Redressal Committee" ? "bgPolicy" : ""}
+      ${name === "Library Committee" ? "bgPTA" : ""}
+      ${name === "Alumni Committee" ? "bgPS" : ""}
+
+      ${name === "Student Welfare Committee" ? "bgCoc" : ""}
+      ${name === "Patient Safety" ? "bgPS" : ""} 
+      ${name === "PTA Policy" ? "bgPTA" : ""} 
+      
+      ${name === "E-governance" ? "bgEgov" : ""} 
+
+      ${name === "Mentoring Policy" ? "bgMentor" : ""}
+      ${name === "Code of Conduct" ? "bgCoc" : ""}
+      ${name === "Research Policy" ? "bgPolicy" : ""}
+
+     
+      
 
 
       
       
       relative w-3/4 md:w-1/4 shadow-2xl block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat`}
+
     >
       <div className="absolute inset-0 bg-black/25"></div>
 
