@@ -1,12 +1,12 @@
 import React from "react";
 import "../../style/GalleryPage/galleryHeader.css";
-import { Col, Row } from "react-bootstrap";
-import toothbrush from "../../assets/images/toothbrush.png";
+//import { Col, Row } from "react-bootstrap";
+//import toothbrush from "../../assets/images/toothbrush.png";
 
 function GalleryHeader() {
   return (
     <div className="GalleryHeader">
-      <Row>
+      {/*<Row>
         <Col
           style={{
             display: "grid",
@@ -18,7 +18,8 @@ function GalleryHeader() {
           <h1 className="GalleryTitle">Image GALLERY</h1>
         </Col>
         <Col sm lg={7} className="galleryRight"></Col>
-      </Row>
+        </Row>*/}
+        
     </div>
   );
 }

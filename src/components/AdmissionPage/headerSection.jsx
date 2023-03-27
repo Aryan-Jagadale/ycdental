@@ -10,7 +10,7 @@ function headerSection() {
         <Col sm md="auto" lg="6" className="inner-box">
           <h1 className="admission-titles">
             2023 <br /> <span className="admission-title">ADMISSION</span>{" "}
-            <br /> OPEN NOW .....
+            <br /> OPEN NOW
             <br /> <span className="for-bds">For BDS & MDS</span>
           </h1>
           <p className="admission-discription">

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "../../style/HomePage/about.css";
 import { Row, Col } from "react-bootstrap";
-import blab from "../../assets/images/blab.png";
-import clab from "../../assets/images/clab.png";
-import plab from "../../assets/images/plab.png";
-import it from "../../assets/images/it.png";
+//import blab from "../../assets/images/blab.png";
+//import clab from "../../assets/images/clab.png";
+//import plab from "../../assets/images/plab.png";
+//import it from "../../assets/images/it.png";
 import campuss from "../../assets/icons/campusicon.png";
 import hostell from "../../assets/icons/hostelicon.png";
 import libraryicon from "../../assets/icons/libraryicon.png";

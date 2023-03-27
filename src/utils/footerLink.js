@@ -1,3 +1,5 @@
+import Prospectus from "../assets/pdf/College-Prospectus.pdf";
+
 export const footerLink = [
     {
         "name":"MDS Admission",
@@ -10,16 +12,10 @@ export const footerLink = [
 
     {
         "name":"Prospectus",
-        "urll":"/admission"
+        "urll":"/admission",
+        "pdf":Prospectus
     },
-    {
-        "name":"Social Media",
-        "urll":"/"
-    },
-    {
-        "name":"Work with us",
-        "urll":"/"
-    },
+    
 
 
 ]

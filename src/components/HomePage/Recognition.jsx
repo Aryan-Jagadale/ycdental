@@ -4,7 +4,6 @@ import { recognitionContent } from "../../utils/recognition";
 import RecognitionInner from "./RecognitionInner";
 
 function Recognition() {
-
   return (
     <div className="flex flex-column my-5">
       <div className="row-one lg:mb-20 sm:mb-2">
@@ -16,13 +15,14 @@ function Recognition() {
       </div>
       <div className="flex flex-column justify-center border-cyan-900 lg:mx-20 ">
         <div className="flex w-full flex-col lg:flex-row justify-center items-center lg:justify-around  ">
-
-
-          {
-            recognitionContent.map((item) => (
-              <RecognitionInner key={item.title} img={item.imG} title={item.title} />
-            ))
-          }
+          {recognitionContent.map((item) => (
+            <RecognitionInner
+              key={item.title}
+              img={item.imG}
+              title={item.title}
+              pdf={item.pdf}
+            />
+          ))}
         </div>
         <div className="flex w-full flex-col lg:flex-row justify-center items-center font-fam font-bold lg:justify-around mt-4">
           <div className="sub-card-red">
@@ -39,8 +39,7 @@ function Recognition() {
           </div>
           <div className="sub-card-red">
             <p>
-              Recognized as Innovation and Incubation Centre (IIC) by Govt. of
-              India
+              Affiliated to Maharashtra University of Health Sciences (MUHS)
             </p>
           </div>
         </div>

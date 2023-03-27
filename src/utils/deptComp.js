@@ -569,6 +569,9 @@ export const anesthesiaLink = [
   },
 ];
 
+
+
+
 export const departCompImageLabel = [
   {
     name: "Prosthodontics",
