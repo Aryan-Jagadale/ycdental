@@ -1,4 +1,4 @@
-import React from "react";
+{/*import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import aboutWelcomeImage from "./../../assets/images/aboutWelcomeImage.png";
 
@@ -16,6 +16,7 @@ const AboutWelcome = () => {
           <span className="leading-10">Development Foundation’s Dental College</span>
         </h2>
         {/*<img src={line} alt="" className="mt-3"></img>*/}
+{/*}
       </div>
 
       <div
@@ -28,7 +29,8 @@ const AboutWelcome = () => {
           <div className="w-[100%] lg:w-[40%] flex items-center justify-center">
 
       {/*<img src={aboutWelcomeImage} alt={"Welcome About pic"} className="m-4 lg:m-0" />*/}
-            <LazyLoadImage src={aboutWelcomeImage} alt={"Welcome About pic"} effect="opacity" className="m-4 lg:m-0" />
+
+{/*<LazyLoadImage src={aboutWelcomeImage} alt={"Welcome About pic"} effect="opacity" className="m-4 lg:m-0" />
 
 
           </div>
@@ -79,3 +81,4 @@ const AboutWelcome = () => {
   );
 };
 export default AboutWelcome;
+*/}

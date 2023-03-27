@@ -12,26 +12,27 @@ import student8 from '../../assets/images/academics/academicquality/Miss. Akade-
 
 const data1 = [
     {
-        studentProfile: student2,
-        studenName: 'Nagar Saurabh Rajesh',
+        studentProfile: student8,
+        studenName: 'Miss. Akade Tanmayee',
         studentTitle: 'Gold Medal Winner',
-        studentBatch: '3rd Year BDS (2010-11)',
+        studentBatch: '1st Year B.D.S. (2018-19)',
         studentRank: '1st'
     },
     {
-        studentProfile: student3,
-        studenName: 'Miss.Rajput Raksha',
-        studentTitle: 'Merit certificate Winner',
-        studentBatch: '1st Year B.D.S.(2010-11)',
-        studentRank: '2nd '
+        studentProfile: student7,
+        studenName: 'Miss.DSouza Senorita',
+        studentTitle: 'Gold Medal Winner',
+        studentBatch: '3rd Year BDS (2018-19)',
+        studentRank: '1st'
     },
     {
-        studentProfile: student4,
-        studenName: 'Miss.Jaggi Bhagyashree',
+        studentProfile: student6,
+        studenName: 'Miss. Doiphode Avani',
         studentTitle: 'Merit Certificate Winner',
-        studentBatch: '1st Year B.D.S. (2010-11) ',
-        studentRank: '5th'
+        studentBatch: '4th Year B.D.S. (2016-17)',
+        studentRank: '4th'
     },
+
     {
         studentProfile: student5,
         studenName: 'Miss. Bhatia Darshana',
@@ -41,34 +42,36 @@ const data1 = [
     },
 ];
 
-const data2 = [{
-    studentProfile: student6,
-    studenName: 'Miss. Doiphode Avani',
-    studentTitle: 'Merit Certificate Winner',
-    studentBatch: '4th Year B.D.S. (2016-17)',
-    studentRank: '4th'
-},
-{
-    studentProfile: student7,
-    studenName: 'Miss.DSouza Senorita',
-    studentTitle: 'Gold Medal Winner,',
-    studentBatch: '3rd Year BDS (2010-11)',
-    studentRank: '1st'
-},
-{
-    studentProfile: student8,
-    studenName: 'Miss. Akade Tanmayee',
-    studentTitle: 'Gold Medal Winner',
-    studentBatch: '1st Year B.D.S. (2018-19)',
-    studentRank: '1st'
-},
-/*{
-    studentProfile: student1,
-    studenName: 'Nagar Saurabh Rajesh',
-    studentTitle: 'Gold Medal Winner',
-    studentBatch: '3rd Year BDS (2010-11)',
-    studentRank: '1st'
-}*/
+const data2 = [
+    {
+        studentProfile: student4,
+        studenName: 'Miss.Jaggi Bhagyashree',
+        studentTitle: 'Merit Certificate Winner',
+        studentBatch: '1st Year B.D.S. (2010-11) ',
+        studentRank: '5th'
+    },
+    {
+        studentProfile: student3,
+        studenName: 'Miss.Rajput Raksha',
+        studentTitle: 'Merit certificate Winner',
+        studentBatch: '1st Year B.D.S.(2010-11)',
+        studentRank: '2nd '
+    },
+    {
+        studentProfile: student2,
+        studenName: 'Mr.Nagar Saurabh Rajesh',
+        studentTitle: 'Gold Medal Winner',
+        studentBatch: '3rd Year BDS (2010-11)',
+        studentRank: '1st'
+    },
+
+    /*{
+        studentProfile: student1,
+        studenName: 'Nagar Saurabh Rajesh',
+        studentTitle: 'Gold Medal Winner',
+        studentBatch: '3rd Year BDS (2010-11)',
+        studentRank: '1st'
+    }*/
 ]
 
 
@@ -85,7 +88,7 @@ function AcademicQuality() {
                         <div key={i} className='cardOne flex flex-col items-start font-fam font-bold px-2.5 py-2 w-60 h-48'>
                             <img src={student.studentProfile} alt="" className='rounded-sm border-2 border-yellow-300 w-full' />
                             <div className='text-center justify-center font-fam text-neutral-200 px-2 py-2'>
-                                <h1 className='studName'>Mr. {student.studenName}</h1>
+                                <h1 className='studName'>{student.studenName}</h1>
                                 <p className='studContent text-xs'> {student.studentTitle} ,</p>
                                 <p className='text-xs px-4'>
                                     {student.studentBatch}
@@ -100,7 +103,7 @@ function AcademicQuality() {
                         <div key={i} className='cardOne flex flex-col justify-center items-start font-fam font-bold  px-2.5 py-2 w-60 h-48'>
                             <img src={student.studentProfile} alt="" className='rounded-sm border-2 border-yellow-300 w-full' />
                             <div className='text-center justify-center font-fam text-neutral-200 px-2 py-2'>
-                                <h1 className='studName'>Mr. {student.studenName}</h1>
+                                <h1 className='studName'>{student.studenName}</h1>
                                 <p className='studContent text-xs'> {student.studentTitle} ,</p>
                                 <p className='text-xs px-4'>
                                     {student.studentBatch}
