@@ -72,10 +72,10 @@ export const lab4 = [
     "imG":"https://res.cloudinary.com/ddaalka6i/image/upload/v1679552208/Dental_Anatomy_Dental_Histology_hrqvpr.jpg",
     "label":"Dental Anatomy Histology"
   },
-  {
+  /*{
     "imG":"https://res.cloudinary.com/ddaalka6i/image/upload/v1679552198/General_Anatomy_nvltaq.jpg",
     "label":"General Anatomy"
-  },
+  },*/
 
 
 ]
@@ -111,10 +111,10 @@ export const lab41 = [
     "imG":"https://res.cloudinary.com/ddaalka6i/image/upload/v1679552318/Physiology_zndyk2.jpg",
     "label":"Physiology"
   },
-  {
+  /*{
     "imG":"https://res.cloudinary.com/ddaalka6i/image/upload/v1679552373/Prostho_n23evl.jpg",
     "label":"Prostho"
-  },
+  },*/
 
 
 ]
