@@ -1,6 +1,6 @@
 import React from "react";
 import { lab3, lab4, lab41 } from "../../utils/ugPgCourse";
-import { GridLab3, GridLab4 } from "./GridLab4";
+import { GridLab3 } from "./GridLab4";
 
 const Labrotiers = () => {
   return (
