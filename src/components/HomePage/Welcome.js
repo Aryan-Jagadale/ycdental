@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import mainProfile from "./../../assets/images/profileMain.svg";
 import managingDirector from "./../../assets/images/managingCommittee/Managing-Director.jpg";
 import managingTrustee from "./../../assets/images/managingCommittee/Dr.SharadSamb.png";
+import vicePrecident from "./../../assets/images/managingCommittee/nehaGdak.jpeg";
 import organisingPresident from "./../../assets/images/managingCommittee/Organising-President.jpg";
+
 import subProfile from "./../../assets/images/subProfilePhoto.svg";
 import "../../style/HomePage/welcomeComp.css";
 import { Row, Col } from "react-bootstrap";
@@ -143,7 +145,7 @@ function Welcome() {
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
             <img
               src={organisingPresident}
-              className="subProfile-img w-40 border-2 rounded-full"
+              className="subProfile-img w-40 border-4 border-white rounded-full"
               alt=""
             />
             <div className="welcome-subProfile-title">
@@ -170,8 +172,8 @@ function Welcome() {
         <Col sm>
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
             <img
-              src={subProfile}
-              className="subProfile-img w-40 border-2 rounded-full"
+              src={vicePrecident}
+              className="subProfile-img w-40 border-4 border-white rounded-full"
               alt=""
             />
             <div className="welcome-subProfile-title">
@@ -198,7 +200,7 @@ function Welcome() {
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
             <img
               src={managingDirector}
-              className="subProfile-img w-40 border-2 rounded-full"
+              className="subProfile-img w-40 border-4 border-white rounded-full"
               alt=""
             />
             <div className="welcome-subProfile-title">
@@ -228,7 +230,7 @@ function Welcome() {
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
             <img
               src={managingTrustee}
-              className="subProfile-img w-40 border-2 rounded-full "
+              className="subProfile-img w-40 border-4 border-white rounded-full "
               alt=""
             />
             <div className="welcome-subProfile-title">
@@ -255,7 +257,7 @@ function Welcome() {
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
             <img
               src={subProfile}
-              className="subProfile-img w-40 border-2 rounded-full"
+              className="subProfile-img w-40 border-4 border-white rounded-full"
               alt=""
             />
             <div className="welcome-subProfile-title">
@@ -282,7 +284,7 @@ function Welcome() {
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
             <img
               src={subProfile}
-              className="subProfile-img w-40 border-2 rounded-full"
+              className="subProfile-img w-40 border-4 border-white rounded-full"
               alt=""
             />
             <div className="welcome-subProfile-title">
