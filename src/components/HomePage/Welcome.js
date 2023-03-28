@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import mainProfile from "./../../assets/images/profileMain.svg";
-import managingDirector from "./../../assets/images/managingCommittee/Managing-Director.jpg";
-import managingTrustee from "./../../assets/images/managingCommittee/Dr.SharadSamb.png";
+import managingDirector from "./../../assets/images/managingCommittee/subhashDevdhe.jpeg";
+import managingTrustee from "./../../assets/images/managingCommittee/sharadSamab.jpeg";
 import vicePrecident from "./../../assets/images/managingCommittee/nehaGdak.jpeg";
 import organisingPresident from "./../../assets/images/managingCommittee/Organising-President.jpg";
 
-//import subProfile from "./../../assets/images/subProfilePhoto.svg";
 import "../../style/HomePage/welcomeComp.css";
 import { Row, Col } from "react-bootstrap";
 
@@ -256,11 +255,7 @@ function Welcome() {
         </Col>
       </Row>
 
-      {/*<div className="text-neutral-200 FACILITIES  border-[2.5px] drop-shadow-lg border-[#00205B] w-[50%] flex items-center justify-center p-2 md:w-[15vw]">
-        <h3 className="text-2xl font-bold uppercase tracking-wide text-[#262626]">
-          FACILITIES
-        </h3>
-              </div>*/}
+      
     </div>
   );
 }
