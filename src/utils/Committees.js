@@ -1,227 +1,227 @@
 export const antiCommittee = [
   {
     name: "Dr.Shripad Rajhans",
-    designation: "Chairman",
+    position: "Chairman",
     num: 7720013322,
   },
   {
     name: "Dr.Nilima Rajhans",
-    designation: "Secretary Member",
+    position: "Secretary Member",
     num: 7720013317,
   },
   {
     name: "Dr.Dinesh Rajput",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Anuradha Aradhye",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Nikil Bombale",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Supriya Vyavahare",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Rahul Anand",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Shailee Shelke",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Nidhi Gujar",
-    designation: "Student Member",
+    position: "Student Member",
   },
   {
     name: "Sunil Ghante",
-    designation: "Student Member",
+    position: "Student Member",
   },
   {
     name: "Nidhi Jondhale",
-    designation: "Student Member",
+    position: "Student Member",
   },
 ];
 
 export const grievanceCommittee = [
   {
     name: "Dr.Nilima Rajhans",
-    designation: "Chairman",
+    position: "Chairman",
   },
   {
     name: "Dr.Anuradha Aradhye",
-    designation: "Incharge",
+    position: "Incharge",
   },
   {
     name: "Dr.Dinesh Rajput",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Nikil Bombale",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Khanzode Suchet",
-    designation: "Member",
+    position: "Member",
   },
 ];
 
 export const libraryCommittee = [
   {
     name: "Dr.Nilima Rajhans",
-    designation: "Chairman",
+    position: "Chairman",
   },
   {
     name: "Shri.Kiran Darandale",
-    designation: "Incharge",
+    position: "Incharge",
   },
   {
     name: "Dr.Omkar Sapkal",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Pratik Attal",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Vasim Mubashiruddin",
-    designation: "Member",
+    position: "Member",
   },
 ];
 
 export const parentTeacherCommittee = [
   {
     name: "Dr.Nilima Rajhans",
-    designation: "Chairman",
+    position: "Chairman",
   },
   {
     name: "Dr.Nilima Daule",
-    designation: "Incharge",
+    position: "Incharge",
   },
   {
     name: "Dr.Snehal Palve",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Bhawana Gaikwad",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Dinesh Rajput",
-    designation: "Member",
+    position: "Member",
   },
 ];
 
 export const vishakhaCommittee = [
   {
     name: "Dr.Nilima Rajhans",
-    designation: "Chairman / Presiding officer",
+    position: "Chairman / Presiding officer",
   },
   {
     name: "Mrs. Jyoti Ranjit Jadhav",
-    designation: "NGO Member",
+    position: "NGO Member",
   },
   {
     name: "Dr.Aradhye Anuradha",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.V.M.V.Madhav",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Manisha Kulkarni",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Sushma Bommanvar",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Rekha Jarad",
-    designation: "Hostel rector",
+    position: "Hostel rector",
   },
 ];
 
 export const alumniCommittee = [
   {
     name: "Dr.Nilima Rajhans",
-    designation: "Chairman",
+    position: "Chairman",
   },
   {
     name: "Dr.Aradhye Anuradha",
-    designation: "Teacher Incharge",
+    position: "Teacher Incharge",
   },
   {
     name: "Dr.Snehal Palwe",
-    designation: "Student Incharge",
+    position: "Student Incharge",
   },
   {
     name: "Dr.Pratil Atal",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Tejas Patil",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Kavita Shirsath",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Komal Athare",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Sachin Sake",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Nitish Ingle",
-    designation: "Member",
+    position: "Member",
   },
 ];
 
 export const studentCouncilCommittee = [
   {
     name: "Dr.Nilima Rajhans",
-    designation: "Chairman",
+    position: "Chairman",
   },
   {
     name: "Dr Manisha Kulkarni",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr.Aradhye Anuradha",
-    designation: "Member",
+    position: "Member",
   },
 
   {
     name: "Dr Dhanesh Sable",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Dr Nikhil Bomble",
-    designation: "Member",
+    position: "Member",
   },
   {
     name: "Mahek Sewlani - 1st year",
-    designation: "Student Member",
+    position: "Student Member",
   },
   {
     name: "Rasika Bansode - 2nd year",
-    designation: "Student Member",
+    position: "Student Member",
   },
   {
     name: "Rishika Sharma - 3rd year",
-    designation: "Student Member",
+    position: "Student Member",
   },
   {
     name: "Diksha Asrani - 4th year",
-    designation: "Student Secretary",
+    position: "Student Secretary",
   },
 ];
