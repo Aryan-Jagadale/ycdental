@@ -27,6 +27,12 @@ import DeptPeriodiontics from "./components/DepartmentPage/DepartmentBranches/De
 import DeptPuHeaDentistry from "./components/DepartmentPage/DepartmentBranches/DeptPuHeaDentistry";
 import DeptOrthodontics from "./components/DepartmentPage/DepartmentBranches/DeptOrthodontics";
 import AntiRagg from "./components/AboutPage/Committee/AntiRagg";
+import Grievance from "./components/AboutPage/Committee/Grievance";
+import Library from "./components/AboutPage/Committee/Library";
+import ParentTeacher from "./components/AboutPage/Committee/ParentTeacher";
+import Vishakha from "./components/AboutPage/Committee/Vishakha";
+import Alumni from "./components/AboutPage/Committee/Alumni";
+import StudentCouncil from "./components/AboutPage/Committee/StudentCouncil";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -61,8 +67,40 @@ function App() {
 
             <Route path="/about" element={<About />} />
             {/*Committee */}
-            <Route path="/committee/anti-ragging-commitee" element={<AntiRagg/>} />
+            <Route
+              path="/committee/anti-ragging-commitee"
+              element={<AntiRagg />}
+            />
 
+            <Route
+              path="/committee/grievance-committee"
+              element={<Grievance />}
+            />
+
+            <Route
+              path="/committee/library-commitee"
+              element={<Library />}
+            />
+
+            <Route
+              path="/committee/parent-teacher-commitee"
+              element={<ParentTeacher />}
+            />
+
+            <Route
+              path="/committee/vishakha-commitee"
+              element={<Vishakha />}
+            />
+
+            <Route
+              path="/committee/alumni-commitee"
+              element={<Alumni />}
+            />
+
+            <Route
+              path="/committee/student-council-commitee"
+              element={<StudentCouncil />}
+            />
 
             {/*Academics */}
             <Route path="/academic" element={<Academics />} />
