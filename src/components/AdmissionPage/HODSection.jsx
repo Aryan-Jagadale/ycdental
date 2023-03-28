@@ -19,43 +19,7 @@ function HODSection() {
 
   return (
     <>
-      {/*<div style={{ textAlign: "center" }}>
-        <div
-          style={{
-            backgroundColor: "rgba(187, 186, 186, 0.48)",
-            border: "1px solid #00205B",
-            boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.2)",
-            backdropFilter: "blur(20px)",
-            borderRadius: "10px 0px",
-            display: "block",
-            margin: "auto",
-            maxWidth: "max-content",
-            padding: "1%",
-            marginTop: "3%",
-          }}
-        >
-          <img src={hod} alt="hod" />
-          <h3
-            style={{
-              marginTop: "5%",
-              fontFamily: "Domine",
-              fontWeight: "700",
-              fontStyle: "normal",
-            }}
-          >
-            DEAN
-          </h3>
-          <h4>Dr. Nilima Rajhans</h4>
-        </div>
-        
-
-      
-
-
-        
-              </>*/}
-
-      <div>
+      <div id="deanDesk">
         <div
           className=""
           style={{
@@ -75,7 +39,7 @@ function HODSection() {
                 maxWidth: "max-content",
                 padding: "1%",
                 marginTop: "3%",
-                textAlign:"center"
+                textAlign: "center",
               }}
             >
               <img src={hod} alt="hod" />
@@ -162,6 +126,7 @@ function HODSection() {
       </div>
       <Prospectus />
       <div
+                id="bdsAdmission"
         style={{
           display: "flex",
           flexDirection: "column",

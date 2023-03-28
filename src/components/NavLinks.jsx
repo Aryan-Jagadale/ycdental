@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import { Link as ScrollLink } from "react-scroll";
+//import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
 import { links } from "../utils/Mylinks";
+import { HashLink } from 'react-router-hash-link';
+
 
 const NavLinks = ({ open, setOpen }) => {
   const [heading, setHeading] = useState("");
@@ -101,15 +103,13 @@ const NavLinks = ({ open, setOpen }) => {
                               key={slink.name}
                               className=" text-white  my-2.5"
                             >
-                              <ScrollLink
-                                to={slink.idd}
-                                spy={true}
-                                smooth={true}
-                                ignoreCancelEvents
+                              <HashLink
+                                smooth
+                                to={`${slink.link}/#${slink.idd}`}
                                 className=" hover:text-gray-500 ease-in tracking-wide"
                               >
                                 {slink.name}
-                              </ScrollLink>
+                              </HashLink>
                               <hr className="my-2" />
                             </li>
                           ))}
