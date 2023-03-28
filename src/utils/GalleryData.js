@@ -1,47 +1,54 @@
-import DentistDayimg1 from "../assets/images/EventsImg/2.jpg";
-import DentistDayimg2 from "../assets/images/EventsImg/3.jpg";
-import DentistDayimg3 from "../assets/images/EventsImg/4.jpg";
-import DentistDayimg4 from "../assets/images/EventsImg/8.jpg";
-import DentistDayimg5 from "../assets/images/EventsImg/9.jpg";
+import Gal1 from "../assets/images/gallery/1.jpg";
+import Gal2 from "../assets/images/gallery/2.jpg";
+import Gal10 from "../assets/images/gallery/10.jpeg";
+import Gal11 from "../assets/images/gallery/11.jpeg";
+import Gal15 from "../assets/images/gallery/15.jpeg";
+import Gal16 from "../assets/images/gallery/16.jpeg";
+import Gal18 from "../assets/images/gallery/18.jpeg";
 
-import AmbedkarJayantiImg1 from "../assets/images/EventsImg/20.jpg";
-import AmbedkarJayantiImg2 from "../assets/images/EventsImg/10.jpg";
-import AmbedkarJayantiImg3 from "../assets/images/EventsImg/11.jpg";
+import Gal19 from "../assets/images/gallery/19.jpeg";
+import Gal28 from "../assets/images/gallery/28.jpeg";
+import Gal36 from "../assets/images/gallery/36.jpeg";
+import Gal42 from "../assets/images/gallery/42.jpeg";
+import Gal43 from "../assets/images/gallery/43.jpeg";
 
-import RajeevChitgoppiImg1 from "../assets/images/EventsImg/15.jpg";
-import RajeevChitgoppiImg2 from "../assets/images/EventsImg/17.jpg";
-import RajeevChitgoppiImg3 from "../assets/images/EventsImg/24.jpg";
+import Gal46 from "../assets/images/gallery/46.jpeg";
+import Gal47 from "../assets/images/gallery/47.jpeg";
+import Gal48 from "../assets/images/gallery/48.jpeg";
+import Gal49 from "../assets/images/gallery/49.jpeg";
+import Gal50 from "../assets/images/gallery/50.jpeg";
 
-//import InternationalWomenDayImg1 from "../assets/images/EventsImg/1.jpg";
-
+import Gal53 from "../assets/images/gallery/53.jpeg";
+import Gal54 from "../assets/images/gallery/54.jpeg";
+import Gal56 from "../assets/images/gallery/56.jpeg";
 
 
 export const GalleryData = [
   {  
-    "imG":DentistDayimg1,
+    "imG":Gal1,
     "label":"DentistDay"
   },
   {  
-    "imG":DentistDayimg2,
+    "imG":Gal2,
     "label":"DentistDay"
   },
   {  
-    "imG":DentistDayimg3,
+    "imG":Gal10,
     "label":"DentistDay"
   },
 ];
 
 export const GalleryData1 = [
   {  
-    "imG":DentistDayimg4,
+    "imG":Gal11,
     "label":"DentistDay"
   },
   {  
-    "imG":DentistDayimg5,
+    "imG":Gal15,
     "label":"DentistDay"
   },
   {  
-    "imG":AmbedkarJayantiImg1,
+    "imG":Gal16,
     "label":"DentistDay"
   },
 ];
@@ -49,15 +56,15 @@ export const GalleryData1 = [
 
 export const GalleryData2 = [
   {  
-    "imG":AmbedkarJayantiImg2,
+    "imG":Gal18,
     "label":"DentistDay"
   },
   {  
-    "imG":AmbedkarJayantiImg3,
+    "imG":Gal19,
     "label":"DentistDay"
   },
   {  
-    "imG":RajeevChitgoppiImg1,
+    "imG":Gal28,
     "label":"DentistDay"
   },
 ];
@@ -65,15 +72,15 @@ export const GalleryData2 = [
 
 export const GalleryData3 = [
   {  
-    "imG":DentistDayimg1,
+    "imG":Gal36,
     "label":"DentistDay"
   },
   {  
-    "imG":DentistDayimg2,
+    "imG":Gal42,
     "label":"DentistDay"
   },
   {  
-    "imG":DentistDayimg3,
+    "imG":Gal43,
     "label":"DentistDay"
   },
 ];
@@ -81,15 +88,44 @@ export const GalleryData3 = [
 
 export const GalleryData4 = [
   {  
-    "imG":RajeevChitgoppiImg1,
+    "imG":Gal46,
     "label":"DentistDay"
   },
   {  
-    "imG":RajeevChitgoppiImg2,
+    "imG":Gal47,
     "label":"DentistDay"
   },
   {  
-    "imG":RajeevChitgoppiImg3,
+    "imG":Gal48,
     "label":"DentistDay"
   },
 ];
+
+export const GalleryData5 = [
+  {  
+    "imG":Gal49,
+    "label":"DentistDay"
+  },
+  {  
+    "imG":Gal50,
+    "label":"DentistDay"
+  },
+  {  
+    "imG":Gal53,
+    "label":"DentistDay"
+  },
+];
+
+
+export const GalleryData6 = [
+  {  
+    "imG":Gal54,
+    "label":"DentistDay"
+  },
+  {  
+    "imG":Gal56,
+    "label":"DentistDay"
+  },
+  
+];
+
