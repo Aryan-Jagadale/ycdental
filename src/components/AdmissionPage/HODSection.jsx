@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import hod from "../../assets/images/hod.png";
+import hod from "../../assets/images/NilimaDean.jpg";
 import MDSAdmission from "./MDSAdmission";
 import BDSAdmission from "./BDSAdmission";
 import Prospectus from "./Prospectus";
-//import { LazyLoadImage } from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function HODSection() {
   const [isComponent1Visible, setIsComponent1Visible] = useState(true);
@@ -42,7 +42,7 @@ function HODSection() {
                 textAlign: "center",
               }}
             >
-              <img src={hod} alt="hod" />
+              <LazyLoadImage src={hod} alt="hod" effect="opacity" />
               <h3
                 style={{
                   marginTop: "5%",
