@@ -1,5 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
+import AboutCommitte from "../components/AboutPage/AboutCommitte";
 //import AboutCarousel from '../components/AboutPage/AboutCarousel';
 /*import AboutWelcome from '../components/AboutPage/AboutWelcome';
 import AboutDetails from '../components/AboutPage/AboutDetails';
@@ -22,9 +23,10 @@ const About = () => {
   return (
     <>
       <AboutCarousel />
-     
+
       <VisionMission />
       <AboutComp />
+      <AboutCommitte />
       <AboutDetails />
     </>
   );
