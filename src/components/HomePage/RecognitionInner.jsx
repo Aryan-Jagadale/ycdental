@@ -4,6 +4,13 @@ import pdfImg from "../../assets/images/muhs/pdfImg.png";
 //import Accordian from "../DepartmentPage/AccordianStuff/Accordian";
 
 const RecognitionInner = ({ img, title, pdf }) => {
+  const openMultiPDF = (pdf) => {
+    window.open(pdf[0]);
+    window.open(pdf[1]);
+    window.open(pdf[2]);
+    window.open(pdf[3]);
+  };
+
   if (title === "Recognized by Dental Council of India") {
     return (
       <div className="main-card mt-20  font-fam lg:mt-2">
@@ -17,16 +24,9 @@ const RecognitionInner = ({ img, title, pdf }) => {
         <button className="bg-[#FFD900]  flex items-center justify-center p-2 md:p-3">
           <img src={pdfImg} alt="PDF" className="mr-2" />
           <span className="tracking-wide text-blue-500">
-          
-            
-            <a
-              href={pdf[0]}
-              target="_blank"
-              rel="noreferrer"
-              className="text-base"
-            >
+            <div className="text-base" onClick={() => openMultiPDF(pdf)}>
               View PDF
-            </a>
+            </div>
           </span>
         </button>
       </div>
