@@ -18,6 +18,9 @@ const Faculties = ({ facLink }) => {
                   >
                     <td className="whitespace-nowrap px-6 py-4 font-medium">
                       {item.name}
+                      {
+                        item.name === "Dr.Shripad Rajhans" || item.name === "Dr.Nilima Rajhans" ? <p>{item.num}</p> : ""
+                      }
                     </td>
                     <td className="whitespace-nowrap px-6 py-4">
                       {item.position}
