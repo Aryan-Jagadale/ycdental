@@ -1,35 +1,39 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { GridLab3 } from "../AcademicPage/GridLab4";
 import "../../style/GalleryPage/gallerySection.css";
-import datas from "../../utils/GalleryData";
+import { GalleryData, GalleryData1, GalleryData2, GalleryData3, GalleryData4 } from "../../utils/GalleryData";
 
 function GallerySection() {
   return (
-    <div className="gallerySection">
-      {datas.map((item) => (
-        <div key={item.id}>
-          <div className="galleryContent">
-            <h1 className="galleryTitel">{item.days}</h1>
-            <p className="galleryDiscription">{item.description}</p>
-          </div>
-          <Row className="galleryImgs">
-            <Col className="leftSide" lg={"3"}>
-              {item.date}
-              <br /> {item.month}
-              <span className="gallery2k"><br /> 2<br /> k<br /> 2<br /> 3 <br /></span>
-              <span className="gallery2k23">2k23</span>
-            </Col>
-            <Col className="rightSide" lg={"9"}>
-              <div className="imgbox">
-                {item.image.map((image, index) => (
-                  <img className="galleryImg" key={index} src={image} alt="img" />
-                ))}
-              </div>
-            </Col>
-          </Row>
-        </div>
-      ))}
+    <div className="gallerySection m-5">
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {GalleryData.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {GalleryData1.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {GalleryData2.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {GalleryData3.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {GalleryData4.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+    
     </div>
+    
   );
 }
 

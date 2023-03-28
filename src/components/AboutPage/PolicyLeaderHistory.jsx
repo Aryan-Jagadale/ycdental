@@ -4,15 +4,12 @@ import { Link } from "react-router-dom";
 const PolicyLeaderHistory = ({ name, link }) => {
   return (
     <div
-
-
-
       className={`
       ${name === "Anti Ragging Committee" ? "bgAntiRag" : ""}
       ${name === "Parents Teachers Association" ? "bgParentsAss" : ""}
       ${name === "Committee against Sexual Harassment" ? "bgHar" : ""}
 
-      ${name === "Grievance Redressal Committee" ? "bgPolicy" : ""}
+      ${name === "Grievance Redressal" ? "bgPolicy" : ""}
       ${name === "Library Committee" ? "bgPTA" : ""}
       ${name === "Alumni Committee" ? "bgPS" : ""}
 
@@ -32,8 +29,7 @@ const PolicyLeaderHistory = ({ name, link }) => {
 
       
       
-      relative w-3/4 md:w-1/4 shadow-2xl block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat`}
-
+      relative w-3/4 md:w-1/4 shadow-2xl block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat h-[40vh]`}
     >
       <div className="absolute inset-0 bg-black/25"></div>
 
