@@ -6,6 +6,9 @@ import "../../style/HomePage/news.css";
 import Slider from "react-slick";
 import NewsTopComp from "./NewsTopComp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+import News1 from "../../assets/images/Home/News.jpeg"
 
 const News = () => {
   const [setIsChange] = useState(false);
@@ -46,6 +49,39 @@ const News = () => {
     autoplay: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+  };
+
+  const buttonStyle = {
+    width: "30px",
+    background: "none",
+    border: "0px",
+    display:"none"
+  };
+
+  const properties = {
+    prevArrow: (
+      <button style={{ ...buttonStyle }}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          fill="#fff"
+        >
+          <path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z" />
+        </svg>
+      </button>
+    ),
+    nextArrow: (
+      <button style={{ ...buttonStyle }}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          fill="#fff"
+        >
+          <path d="M512 256L270 42.6v138.2H0v150.6h270v138z" />
+        </svg>
+      </button>
+    ),
+    duration:2000
   };
 
   //console.log(isChange);
@@ -100,9 +136,22 @@ const News = () => {
           </section>
 
           <section className="w-[100%] h-full md:w-[40%]">
-            <div className="p-5 border border-[#FFD900]">
-  {/*<img src={NewsImage} alt="newsImage" className="m-0" />*/}
-              <LazyLoadImage effect="opacity" src={NewsImage} alt="newsImage" className="m-0" />
+            <div className=" p-5 border border-[#FFD900]">
+              {/*<img src={NewsImage} alt="newsImage" className="m-0" />*/}
+              <Slide {...properties}>
+                <LazyLoadImage
+                  effect="opacity"
+                  src={News1}
+                  alt="newsImage"
+                  className="m-0 h-[70vh] w-full object-cover"
+                />
+                <LazyLoadImage
+                  effect="opacity"
+                  src={NewsImage}
+                  alt="newsImage"
+                  className="m-0 h-full w-full object-cover "
+                />
+              </Slide>
             </div>
           </section>
         </div>
