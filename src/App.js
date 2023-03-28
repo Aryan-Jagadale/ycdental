@@ -26,6 +26,7 @@ import DeptPedo from "./components/DepartmentPage/DepartmentBranches/DeptPedo";
 import DeptPeriodiontics from "./components/DepartmentPage/DepartmentBranches/DeptPeriodiontics";
 import DeptPuHeaDentistry from "./components/DepartmentPage/DepartmentBranches/DeptPuHeaDentistry";
 import DeptOrthodontics from "./components/DepartmentPage/DepartmentBranches/DeptOrthodontics";
+import AntiRagg from "./components/AboutPage/Committee/AntiRagg";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -57,7 +58,11 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
+
             <Route path="/about" element={<About />} />
+            {/*Committee */}
+            <Route path="/committee/anti-ragging-commitee" element={<AntiRagg/>} />
+
 
             {/*Academics */}
             <Route path="/academic" element={<Academics />} />

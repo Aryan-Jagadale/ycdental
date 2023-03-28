@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import "../../style/HomePage/about.css";
 import { Row, Col } from "react-bootstrap";
-//import blab from "../../assets/images/blab.png";
-//import clab from "../../assets/images/clab.png";
-//import plab from "../../assets/images/plab.png";
-//import it from "../../assets/images/it.png";
+
 import campuss from "../../assets/icons/campusicon.png";
 import hostell from "../../assets/icons/hostelicon.png";
 import libraryicon from "../../assets/icons/libraryicon.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { collegeFacili, collegeFacili1, collegeFacili12, collegeFacili13 } from "../../utils/collegeFac";
+import { GridLab3 } from "../../components/AcademicPage/GridLab4";
+
+
 
 function AboutComp() {
   const [showMore, setShowMore] = useState(false);
@@ -27,60 +28,8 @@ function AboutComp() {
 
   return (
     <div className="about-section" id="collegeFacilties">
-      <h1 className="about-headline text-2xl">Collage Facility </h1>
-      {/* <div className="labs">
-        <Row>
-          <Col>
-            <div className="about-box">
-              <img className="about-img" src={blab} alt="img" />
-              <LazyLoadImage
-                className="about-img"
-                src={blab}
-                alt="biochemistry-lab"
-                effect="opacity"
-              />
-              <br />
-              <h1 className="about-headline2 text-xl">Biochemistry Lab</h1>
-            </div>
-          </Col>
-          <Col>
-            <div className="about-box">
-              <img className="about-img" src={plab} alt="img" />
-              <LazyLoadImage
-                className="about-img"
-                src={plab}
-                alt="pharmacology-lab"
-                effect="opacity"
-              />
-
-              <h1 className="about-headline2 text-xl">Pharmacology Lab</h1>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <div className="about-box">
-              <img className="about-img" src={it} alt="img" />
-              <h1 className="about-headline2 text-xl">Internet Terminal</h1>
-            </div>
-          </Col>
-          <Col>
-            <div className="about-box">
-              <img className="about-img" src={clab} alt="img" />
-              <LazyLoadImage
-                className="about-img"
-                src={clab}
-                alt="pre-clinical-lab"
-                effect="opacity"
-              />
-
-              <h1 className="about-headline2 text-xl">
-                Pre-clinical Laboratory Lab
-              </h1>
-            </div>
-          </Col>
-        </Row>
-      </div> */}
+      <h1 className="about-headline text-2xl">College Facility </h1>
+    
       <div className="cards">
         <Row>
           <Col sm>
@@ -182,6 +131,33 @@ function AboutComp() {
           </Col>
         </Row>
       </div>
+
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {collegeFacili.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+
+
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {collegeFacili1.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {collegeFacili12.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {collegeFacili13.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+
+
     </div>
   );
 }
