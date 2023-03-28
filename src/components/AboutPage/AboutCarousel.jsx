@@ -41,7 +41,7 @@ const AboutCarousel = () => {
   };
 
   return (
-    <div>
+    <div style={{height: "100%", marginBottom: "-1.5rem"}}>
       <div className="h-[100%] min-[1193px]:h-[100vh] bg-[#00205B] p-3 md:p-9">
         <div id="backImage" className="h-full w-full">
           <div className="carousel_wrapper">

@@ -1,7 +1,13 @@
 import React from "react";
 import { GridLab3 } from "../AcademicPage/GridLab4";
 import "../../style/GalleryPage/gallerySection.css";
-import { GalleryData, GalleryData1, GalleryData2, GalleryData3, GalleryData4 } from "../../utils/GalleryData";
+import {
+  GalleryData,
+  GalleryData1,
+  GalleryData2,
+  GalleryData3,
+  GalleryData4,
+} from "../../utils/GalleryData";
 
 function GallerySection() {
   return (
@@ -31,9 +37,7 @@ function GallerySection() {
           <GridLab3 key={item.label} item={item} />
         ))}
       </section>
-    
     </div>
-    
   );
 }
 

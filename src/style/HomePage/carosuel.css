@@ -15,7 +15,7 @@
   box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
-.collageImg1{
+/* .collageImg1{
   clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
   width: 100%;
 }
@@ -28,4 +28,4 @@
 .collageImg3{
   clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
   width: 100%;
-}
+} */
