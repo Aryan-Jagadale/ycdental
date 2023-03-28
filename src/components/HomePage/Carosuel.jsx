@@ -9,13 +9,22 @@ const CarosuelComp = () => {
     <>
       <div className="carosuel">
         <Carousel className="carosuel" slide={false}>
-          {carousel.map((item) => (
+          {carousel.map((item,index) => (
+            
+
             <InnerCaroComp
-              key={item.backImg}
-              left={item.left}
-              midd={item.midd}
-              right={item.right}
+            left={item.left}
+            right={item.right}
+            
+            
             />
+         
+              
+
+            
+
+           
+
           ))}
         </Carousel>
       </div>
