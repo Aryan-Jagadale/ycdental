@@ -26,8 +26,8 @@ const About = () => {
 
       <VisionMission />
       <AboutComp />
-      <AboutCommitte />
       <AboutDetails />
+      <AboutCommitte />
     </>
   );
 };
