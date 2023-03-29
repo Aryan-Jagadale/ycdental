@@ -2,7 +2,7 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo/footerLogo.png";
-import "../style/HomePage/footer.css";
+//import "../style/HomePage/footer.css";
 import { footerLink } from "../utils/footerLink";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
@@ -32,17 +32,20 @@ const FooterComp = () => {
               disseminating knowledge of disease prevention to the public, and
               continuing dental education to professionals.
             </p>
-            <div>
-              <h6 className=" font-bold text-xl text-left">Follow Us</h6>
-              <div className="bottom-row-title flex flex-row item-center justify-around">
 
-                <BsFacebook />
-                <BsInstagram />
-                <BsTwitter />
-                <BsYoutube />
+            <div className="mt-2">
+              <h6 className=" font-bold text-xl text-left">Follow Us</h6>
+              <div className="flex flex-row item-center justify-start gap-4 mt-3">
+
+                <BsFacebook className="cursor-pointer" />
+                <BsInstagram  className="cursor-pointer"/>
+                <BsTwitter className="cursor-pointer" />
+                <BsYoutube className="cursor-pointer" />
 
               </div>
             </div>
+
+
 
           </div>
 
