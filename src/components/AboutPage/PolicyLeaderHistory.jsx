@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import pdfImg from "../../assets/images/muhs/pdfImg.png";
 
-const PolicyLeaderHistory = ({ name, link }) => {
+const PolicyLeaderHistory = ({ name, link, pdf }) => {
   return (
     <div
       className={`
@@ -39,14 +40,30 @@ const PolicyLeaderHistory = ({ name, link }) => {
             {name}
           </h3>
 
-          <button className="tracking tracking-wide border border-[#FFD900] uppercase font-fam flex items-center justify-center p-2 rounded ">
-            <Link
-              to={link}
-              className="text-[#FFD900] hover:font-bold hover:text-[#e2c834] "
-            >
-              View more
-            </Link>
-          </button>
+          {pdf ? (
+            <button className="bg-[#FFD900]  flex items-center justify-center p-2 mt-3 md:p-3">
+              <img src={pdfImg} alt="PDF" className="mr-2" />
+              <span className="tracking-wide text-blue-500">
+                <a
+                  href={pdf}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-base"
+                >
+                  View PDF
+                </a>
+              </span>
+            </button>
+          ) : (
+            <button className="tracking tracking-wide border border-[#FFD900] uppercase font-fam flex items-center justify-center p-2 rounded ">
+              <Link
+                to={link}
+                className="text-[#FFD900] hover:font-bold hover:text-[#e2c834] "
+              >
+                View more
+              </Link>
+            </button>
+          )}
         </div>
       </div>
     </div>
