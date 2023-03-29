@@ -3,3 +3,6 @@
     color: white;
    max-width: 100%;
 }
+.bottom-row-title{
+    justify-content: center !important;
+}
