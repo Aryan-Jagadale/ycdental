@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo/footerLogo.png";
 import "../style/HomePage/footer.css";
 import { footerLink } from "../utils/footerLink";
-import {BsInstagram} from "react-icons/bs";
+//import {BsInstagram} from "react-icons/bs";
 
 const FooterComp = () => {
   return (
