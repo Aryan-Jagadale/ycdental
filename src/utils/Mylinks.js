@@ -9,7 +9,11 @@ export const links = [
         sublink: [
           { name: "Vision & Mission", link: "/about", idd: "visionMission" },
           //{ name: "Mission", link: "/",idd:"visionMission" },
-          { name: "College Facilities", link: "/about", idd: "collegeFacilties" },
+          {
+            name: "College Facilities",
+            link: "/about",
+            idd: "collegeFacilties",
+          },
           { name: "Committees", link: "/about", idd: "committees" },
           { name: "Policy", link: "/about", idd: "policy" },
         ],
@@ -26,7 +30,11 @@ export const links = [
         sublink: [
           { name: "UG Course", link: "/academic", idd: "ugCourse" },
           { name: "PG Course", link: "/academic", idd: "ugCourse" },
-          { name: "Academic Quality", link: "/academic", idd: "academicQuality" },
+          {
+            name: "Academic Quality",
+            link: "/academic",
+            idd: "academicQuality",
+          },
           { name: "Laboratories", link: "/academic", idd: "lab" },
           { name: "Departments", link: "/academic", idd: "deptarments" },
           { name: "Publications", link: "/academic", idd: "publications" },
@@ -48,28 +56,39 @@ export const links = [
           { name: "BDS Syllabus", link: "/admission", idd: "bdsAdmission" },
           { name: "MDS Admission", link: "/admission", idd: "bdsAdmission" },
           { name: "PHD Admission", link: "/admission", idd: "bdsAdmission" },
-          { name: "Student Welfare", link: "/admission", idd: "studentWelfare" },
+          {
+            name: "Student Welfare",
+            link: "/admission",
+            idd: "studentWelfare",
+          },
         ],
       },
     ],
   },
 
   {
-    name: "IQAC",
-    submenu: false,
-    linkUrl: "",
+    name: "NAAC",
+    submenu: true,
+    linkUrl: "/",
     sublinks: [
       {
-        Head: "Coming Soon...",
+        Head: "",
         sublink: [
-          /*{ name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },*/
+          { name: "IQAC", link: "sdfg", idd: "deanDesk" },
+          { name: "IIQA", link: "joker", idd: "prosPectus" },
+          { name: "DVV", link: "joker", idd: "prosPectus" },
+          { name: "SSR", link: "joker", idd: "prosPectus" },
+          {
+            name: "SSR Links",
+            link: "joker",
+            idd: "prosPectus",
+            subSubLink: [
+              { name: "Quality Indicator Framework", link: "" },
+              { name: "Extended Profile", link: "" },
+            ],
+          },
         ],
       },
     ],
   },
- 
 ];
