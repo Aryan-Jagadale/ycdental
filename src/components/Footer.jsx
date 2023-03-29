@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo/footerLogo.png";
 import "../style/HomePage/footer.css";
 import { footerLink } from "../utils/footerLink";
+import {BsInstagram} from "react-icons/bs";
 
 const FooterComp = () => {
   return (
@@ -29,6 +30,7 @@ const FooterComp = () => {
               continuing dental education to professionals.
             </p>
           </div>
+          
 
           <div className="mt-5 md:text-left md:mx-10 font-fam">
             <h6 className="mb-4 flex font-bold justify-center md:justify-start text-xl ">
