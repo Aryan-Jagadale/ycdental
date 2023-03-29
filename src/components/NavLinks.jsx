@@ -2,8 +2,7 @@ import React, { useState } from "react";
 //import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
 import { links } from "../utils/Mylinks";
-import { HashLink } from 'react-router-hash-link';
-
+import { HashLink } from "react-router-hash-link";
 
 const NavLinks = ({ open, setOpen }) => {
   const [heading, setHeading] = useState("");
@@ -24,54 +23,14 @@ const NavLinks = ({ open, setOpen }) => {
                   setSubHeading("");
                 }}
               >
-              {
-                link.name === "IQAC" ? (
-
-                  <div
-                  
-                  className="hover:font-normal hover:text-slate-800"
-                >
-                  {link.name}
-                </div>
-                ):(
-                  <Link
+                <Link
                   to={link.linkUrl}
                   className="hover:font-normal hover:text-slate-800"
                 >
                   {link.name}
                 </Link>
-                )
 
-              }
-                
-                {link.name === "IQAC" ? (
-                  <>
-                    <span className="text-xl hidden">
-                      <ion-icon
-                        name={`${
-                          heading === link.name ? "chevron-up" : "chevron-down"
-                        }`}
-                      ></ion-icon>
-                    </span>
-                    <span className="hidden">
-                      <ion-icon name="chevron-down"></ion-icon>
-                    </span>
-                  </>
-                ) : (
-                  <>
-                    <span className="text-xl md:hidden inline">
-                      <ion-icon
-                        name={`${
-                          heading === link.name ? "chevron-up" : "chevron-down"
-                        }`}
-                      ></ion-icon>
-                    </span>
-                    <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
-                      <ion-icon name="chevron-down"></ion-icon>
-                    </span>
-                  </>
-                )}
-                {/*<span className="text-xl md:hidden inline">
+                <span className="text-xl md:hidden inline">
                   <ion-icon
                     name={`${
                       heading === link.name ? "chevron-up" : "chevron-down"
@@ -80,7 +39,7 @@ const NavLinks = ({ open, setOpen }) => {
                 </span>
                 <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
                   <ion-icon name="chevron-down"></ion-icon>
-                  </span>*/}
+                </span>
               </h1>
 
               {link.submenu && (
@@ -111,7 +70,9 @@ const NavLinks = ({ open, setOpen }) => {
                                 {slink.name}
                               </HashLink>
                               <hr className="my-2" />
+                              
                             </li>
+                           
                           ))}
                         </div>
                       ))}
