@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo/footerLogo.png";
 import "../style/HomePage/footer.css";
 import { footerLink } from "../utils/footerLink";
-//import {BsInstagram} from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
+import { BsYoutube } from "react-icons/bs";
 
 const FooterComp = () => {
   return (
@@ -29,8 +32,20 @@ const FooterComp = () => {
               disseminating knowledge of disease prevention to the public, and
               continuing dental education to professionals.
             </p>
+            <div>
+              <h6 className=" font-bold text-xl text-left">Follow Us</h6>
+              <div className="bottom-row-title flex flex-row item-center justify-around">
+
+                <BsFacebook />
+                <BsInstagram />
+                <BsTwitter />
+                <BsYoutube />
+
+              </div>
+            </div>
+
           </div>
-          
+
 
           <div className="mt-5 md:text-left md:mx-10 font-fam">
             <h6 className="mb-4 flex font-bold justify-center md:justify-start text-xl ">
