@@ -89,14 +89,12 @@ function AcademicQuality() {
               key={i}
               className="cardOne flex flex-col items-start font-fam font-bold px-2.5 py-2 w-60 "
             >
-              <div className="h-[45vh]">
                 <LazyLoadImage
                   effect="opacity"
                   src={student.studentProfile}
                   alt={student.studenName}
                   className="rounded-sm border-2 border-yellow-300 w-full h-full object-contain"
                 />
-              </div>
 
               <div className="text-center justify-center font-fam text-neutral-200 px-2 py-2">
                 <h1 className="studName">{student.studenName}</h1>
@@ -112,25 +110,24 @@ function AcademicQuality() {
         <div className="flex flex-row w-full justify-around flex-wrap my-6 gap-5 md:gap-0">
           {data2.map((student, i) => (
             <div
-              key={i}
-              className="cardOne flex flex-col justify-center items-start font-fam font-bold  px-2.5 py-2 w-60 h-[20vh]"
-            >
-              <div className=" h-full">
-                <LazyLoadImage
-                  effect="opacity"
-                  src={student.studentProfile}
-                  alt={student.studenName}
-                  className="rounded-sm border-2 border-yellow-300 w-full h-full object-contain"
-                />
-              </div>
-              <div className="text-center justify-center font-fam text-neutral-200 px-2 py-2">
-                <h1 className="studName">{student.studenName}</h1>
-                <p className="studContent text-xs"> {student.studentTitle} ,</p>
-                <p className="text-xs px-4">
-                  {student.studentBatch}
-                  {student.studentRank} Rank in University
-                </p>
-              </div>
+            key={i}
+            className="cardOne flex flex-col items-start font-fam font-bold px-2.5 py-2 w-60 "
+          >
+              <LazyLoadImage
+                effect="opacity"
+                src={student.studentProfile}
+                alt={student.studenName}
+                className="rounded-sm border-2 border-yellow-300 w-full h-full object-contain"
+              />
+
+            <div className="text-center justify-center font-fam text-neutral-200 px-2 py-2">
+              <h1 className="studName">{student.studenName}</h1>
+              <p className="studContent text-xs"> {student.studentTitle} ,</p>
+              <p className="text-xs px-4">
+                {student.studentBatch}
+                {student.studentRank} Rank in University
+              </p>
+            </div>
           </div>
           ))}
         </div>
