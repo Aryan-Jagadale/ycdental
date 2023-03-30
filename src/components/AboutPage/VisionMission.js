@@ -1,9 +1,7 @@
 import React from "react";
 import "../../style/AboutPage/VisionMission.css";
 import { Row, Col } from "react-bootstrap";
-import img1 from "../../assets/images/visionMission.png";
-import monitoring from "../../assets/images/monitoring.png";
-import leadership from "../../assets/images/leadership.png";
+import img1 from "../../assets/images/img1.jpeg";
 //import { LazyLoadComponent } from "react-lazy-load-image-component";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -17,17 +15,6 @@ function VisionMission() {
   {/*<img src={img1} alt="img" className="VisionMission-img"/>*/}
           <LazyLoadImage  src={img1} alt="vision-pic" effect="opacity" className="VisionMission-img"  />  
 
-
-          <div className="circle-img">
-  {/*<img src={monitoring} alt="monitoring" />*/}
-            <LazyLoadImage src={monitoring} alt="monitoring-pic" effect="opacity" />
-
-          </div>
-          <div className="circle-img">
-  {/*<img src={leadership} alt="leadership" />*/}
-            <LazyLoadImage src={leadership} alt="leadership"  effect="opacity"/>
-            
-          </div>
         </Col>
         <Col sm className="VisionMissionContent">
           <h1 className="vision-title">VISION</h1>
