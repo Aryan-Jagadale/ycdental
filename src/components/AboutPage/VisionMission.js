@@ -13,7 +13,6 @@ function VisionMission() {
         
   {/*<img src={img1} alt="img" className="VisionMission-img"/>*/}
           <LazyLoadImage  src={img1} alt="vision-pic" effect="opacity" className="VisionMission-img"  />  
-
         </Col>
         <Col sm className="VisionMissionContent">
           <h1 className="vision-title">VISION</h1>
