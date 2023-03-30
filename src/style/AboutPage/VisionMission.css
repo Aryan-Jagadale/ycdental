@@ -1,16 +1,16 @@
 .VisionMission{
     background-color: #800000E5;
-    padding: 3%;
-    height: 64rem;
+    padding: 2%;
+    /* height: 64rem; */
 }
 
 
 .VisionMission-img{
   height: 52rem;
-  padding-top: 8rem;
+  padding-top: 3rem;
 }
 
-.circle-img{
+/* .circle-img{
     background-color: #fff;
     border-radius: 100%;
     width: max-content;
@@ -20,11 +20,11 @@
     top: -42%;
     left: 14rem;
    margin-bottom: 15%;
-}
+} */
 
 .VisionMissionContent {
     text-align: left !important;
-    padding: 8%;
+    padding: 3%;
   }
   
   .vision-title {
