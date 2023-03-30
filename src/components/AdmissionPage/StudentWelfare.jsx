@@ -3,7 +3,6 @@ import "../../style/AdmissionPage/studentWalefare.css"
 import scholarship from "../../assets/images/academics/scholarships.png"
 import awards from "../../assets/images/academics/awards.png"
 import dentist1 from "../../assets/images/academics/dentist1.png"
-// import dentist1 from "../../assets/images/academics/dentist1.png"
 
 function StudentWelfare() {
     return (

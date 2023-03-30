@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import "../../style/AdmissionPage/headerSection.css";
-// import doctor from "../../assets/images/attractive-female-doctor.png";
 
 function headerSection() {
   return (
@@ -20,7 +19,7 @@ function headerSection() {
           </p>
         </Col>
         <Col sm md="auto" lg="6" className="inner-box2">
-          {/* <img src={doctor} alt="doctor" /> */}
+          
         </Col>
       </Row>
     </div>

@@ -19,30 +19,30 @@ import ycdc from "../assets/images/about/collegeFacility/ycdc.jpeg";
 export const collegeFacili = [
     {
         "imG":Photo3416,
-        "label":"Photo"
+        "label":"Library"
     },
     {
         "imG":Photo3426,
-        "label":"Photo"
+        "label":"Pediatric Clinic"
     },
     {
         "imG":Photo3437,
-        "label":"Photo"
+        "label":"Office"
     },
 ]
 
 export const collegeFacili1 = [
     {
         "imG":drone,
-        "label":"Photo"
+        "label":"Har Ghar Tiranga"
     },
     {
         "imG":wa0004,
-        "label":"Photo"
+        "label":"Foyer"
     },
     {
         "imG":wa0005,
-        "label":"Photo"
+        "label":"YCDC"
     },
 ]
 
@@ -50,29 +50,29 @@ export const collegeFacili1 = [
 export const collegeFacili12 = [
     {
         "imG":wa0037,
-        "label":"Photo"
+        "label":"Canteen"
     },
     {
         "imG":wa0038,
-        "label":"Photo"
+        "label":"Quaters"
     },
     {
         "imG":wa0040,
-        "label":"Photo"
+        "label":"Phantom Head Clinic"
     },
 ]
 
 export const collegeFacili13 = [
     {
         "imG":wa0051,
-        "label":"Photo"
+        "label":"YCDC Campus"
     },
     {
         "imG":waimg,
-        "label":"Photo"
+        "label":"Independence Day"
     },
     {
         "imG":ycdc,
-        "label":"Photo"
+        "label":"Porch"
     },
 ]

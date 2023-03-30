@@ -41,7 +41,7 @@ const News = () => {
   }
 
   const settings = {
-    //dots: true,
+    
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -99,7 +99,7 @@ const News = () => {
 
         <section className="w-[0%] flex items-center justify-end md:w-[40%] ">
           <div className="h-[35px] w-[35px] bg-[#00205B] items-center justify-center hidden md:flex">
-            {/*<img src={Add} alt={"Add button"} />*/}
+           
             <LazyLoadImage effect="opacity" src={Add} alt={"Add button"} />
           </div>
         </section>
@@ -137,7 +137,7 @@ const News = () => {
 
           <section className="w-[100%] h-full md:w-[40%]">
             <div className=" p-5 border border-[#FFD900]">
-              {/*<img src={NewsImage} alt="newsImage" className="m-0" />*/}
+              
               <Slide {...properties}>
                 <LazyLoadImage
                   effect="opacity"
