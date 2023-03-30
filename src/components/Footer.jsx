@@ -37,7 +37,7 @@ const FooterComp = () => {
               <h6 className=" font-bold text-xl text-left">Follow Us</h6>
               <div className="flex flex-row item-center justify-start gap-4 mt-3">
 
-                <BsFacebook className="cursor-pointer" />
+                <BsFacebook className="cursor-pointer"  />
                 <BsInstagram  className="cursor-pointer"/>
                 <BsTwitter className="cursor-pointer" />
                 <BsYoutube className="cursor-pointer" />
