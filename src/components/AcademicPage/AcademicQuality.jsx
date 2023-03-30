@@ -4,7 +4,7 @@ import student2 from "../../assets/images/academics/academicquality/saurabh.jpg"
 import student3 from "../../assets/images/academics/academicquality/rajput.jpg";
 import student4 from "../../assets/images/academics/academicquality/baghyshree.jpg";
 import student5 from "../../assets/images/academics/academicquality/darshana.jpg";
-//import student6 from "../../assets/images/academics/academicquality/Miss. Doiphode-Avani.png";
+import student6 from "../../assets/images/academics/academicquality/advani.jpeg";
 import student7 from "../../assets/images/academics/academicquality/Senorita.jpg";
 import student8 from "../../assets/images/academics/academicquality/TanamayeeAkde.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -24,13 +24,13 @@ const data1 = [
     studentBatch: "3rd Year BDS (2018-19)",
     studentRank: " 1st",
   },
-  /*{
-        studentProfile: student6,
-        studenName: 'Miss. Doiphode Avani',
-        studentTitle: 'Merit Certificate Winner',
-        studentBatch: '4th Year B.D.S. (2016-17)',
-        studentRank: ' 4th'
-    },*/
+  {
+    studentProfile: student6,
+    studenName: "Miss. Doiphode Avani",
+    studentTitle: "Merit Certificate Winner",
+    studentBatch: "4th Year B.D.S. (2016-17)",
+    studentRank: " 4th",
+  },
 
   {
     studentProfile: student5,
@@ -87,14 +87,17 @@ function AcademicQuality() {
           {data1.map((student, i) => (
             <div
               key={i}
-              className="cardOne flex flex-col items-start font-fam font-bold px-2.5 py-2 w-60 h-48"
+              className="cardOne flex flex-col items-start font-fam font-bold px-2.5 py-2 w-60 "
             >
-              <LazyLoadImage
-                effect="opacity"
-                src={student.studentProfile}
-                alt={student.studenName}
-                className="rounded-sm border-2 border-yellow-300 w-full"
-              />
+              <div className="h-[45vh]">
+                <LazyLoadImage
+                  effect="opacity"
+                  src={student.studentProfile}
+                  alt={student.studenName}
+                  className="rounded-sm border-2 border-yellow-300 w-full h-full object-contain"
+                />
+              </div>
+
               <div className="text-center justify-center font-fam text-neutral-200 px-2 py-2">
                 <h1 className="studName">{student.studenName}</h1>
                 <p className="studContent text-xs"> {student.studentTitle} ,</p>
@@ -128,7 +131,7 @@ function AcademicQuality() {
                   {student.studentRank} Rank in University
                 </p>
               </div>
-            </div>
+          </div>
           ))}
         </div>
 
