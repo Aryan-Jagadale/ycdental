@@ -34,7 +34,6 @@ function AboutComp() {
         <Row>
           <Col sm>
             <div id="card1" className="card">
-              {/*<img className="about-icon" src={campuss} alt="icon" />*/}
               <LazyLoadImage
                 className="about-icon"
                 src={campuss}
@@ -57,7 +56,6 @@ function AboutComp() {
           </Col>
           <Col sm>
             <div id="card2" className="card">
-              {/*<img className="about-icon" src={hostell} alt="icon" />*/}
               <LazyLoadImage
                 className="about-icon"
                 src={hostell}
@@ -82,7 +80,6 @@ function AboutComp() {
         <Row>
           <Col sm>
             <div id="card3" className="card">
-              {/*<img className="about-icon" src={libraryicon} alt="icon" />*/}
               <LazyLoadImage
                 className="about-icon"
                 src={libraryicon}
@@ -108,7 +105,6 @@ function AboutComp() {
 
           <Col sm>
             <div id="card3" className="card">
-              {/*<img className="about-icon" src={libraryicon} alt="icon" />*/}
               <LazyLoadImage
                 className="about-icon"
                 src={libraryicon}

@@ -1,5 +1,5 @@
 import React from "react";
-//import aboutCarousel from "../../assets/images/aboutCarousel.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutInnerCarosel = ({carImg}) => {
   return (
@@ -11,10 +11,11 @@ const AboutInnerCarosel = ({carImg}) => {
           backdropFilter: "blur(5px)",
         }}
       >
-        <img
+        <LazyLoadImage
           src={carImg}
           alt={"niko"}
           className="max-h-[35vh] w-full object-cover"
+          effect="opacity"
         />
       </div>
     </div>
