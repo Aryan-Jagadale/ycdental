@@ -1,14 +1,8 @@
 import React from "react";
 import "../../style/AboutPage/VisionMission.css";
 import { Row, Col } from "react-bootstrap";
-<<<<<<< HEAD
 import img1 from "../../assets/images/img1.jpeg";
 //import { LazyLoadComponent } from "react-lazy-load-image-component";
-=======
-import img1 from "../../assets/images/visionMission.png";
-import monitoring from "../../assets/images/monitoring.png";
-import leadership from "../../assets/images/leadership.png";
->>>>>>> b6ed18e (Small changes remain)
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function VisionMission() {
