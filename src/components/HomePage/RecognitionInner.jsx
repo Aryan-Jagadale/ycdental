@@ -1,7 +1,6 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import pdfImg from "../../assets/images/muhs/pdfImg.png";
-//import Accordian from "../DepartmentPage/AccordianStuff/Accordian";
 
 const RecognitionInner = ({ img, title, pdf }) => {
   const openMultiPDF = (pdf) => {

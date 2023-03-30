@@ -6,14 +6,12 @@ import Sec3 from "../assets/images/Home/Carousel/3.jpg";
 import Sec4 from "../assets/images/Home/Carousel/4.jpg";
 import Sec5 from "../assets/images/Home/Carousel/5.jpg";
 import Sec6 from "../assets/images/Home/Carousel/6.jpeg";
-//import Sec2 from "../assets/images/Home/Carousel/2.jpg";
 
 export const carousel = [
   {
     backImg:
       "https://res.cloudinary.com/ddaalka6i/image/upload/v1679145925/buil_1_afzg2u.jpg",
     left: Left1,
-    //midd:"https://res.cloudinary.com/ddaalka6i/image/upload/v1679144317/1_ejjj8b.jpg",
     right: Right1,
   },
 ];

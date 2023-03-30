@@ -36,19 +36,42 @@ const FooterComp = () => {
             <div className="mt-2">
               <h6 className=" font-bold text-xl text-left">Follow Us</h6>
               <div className="flex flex-row item-center justify-start gap-4 mt-3">
+                <a
+                  href="https://www.facebook.com/ycdcahmednagar?mibextid=ZbWKwL"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="hover:text-white"
+                >
+                  <BsFacebook className="cursor-pointer" />
+                </a>
+                <a
+                  href="https://www.instagram.com/ycdcofficial/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="hover:text-white"
+                >
+                  <BsInstagram className="cursor-pointer" />
+                </a>
+                <a
+                  href="https://www.facebook.com/ycdcahmednagar?mibextid=ZbWKwL"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="hover:text-white"
+                >
+                  <BsTwitter className="cursor-pointer" />
+                </a>
 
-                <BsFacebook className="cursor-pointer" />
-                <BsInstagram  className="cursor-pointer"/>
-                <BsTwitter className="cursor-pointer" />
-                <BsYoutube className="cursor-pointer" />
-
+                <a
+                  href="https://www.youtube.com/@ycdcsocialmedia"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="hover:text-white"
+                >
+                  <BsYoutube className="cursor-pointer" />
+                </a>
               </div>
             </div>
-
-
-
           </div>
-
 
           <div className="mt-5 md:text-left md:mx-10 font-fam">
             <h6 className="mb-4 flex font-bold justify-center md:justify-start text-xl ">

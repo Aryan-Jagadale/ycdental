@@ -7,6 +7,7 @@ import organisingPresident from "./../../assets/images/managingCommittee/Organis
 
 import "../../style/HomePage/welcomeComp.css";
 import { Row, Col } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Welcome() {
   const [showMore, setShowMore] = useState(false);
@@ -123,7 +124,12 @@ function Welcome() {
           MANAGING COMMITTEE
         </h1>
       </div>
-      <img src={mainProfile} alt="" className="welcome-img1" />
+      <LazyLoadImage
+        effect="opacity"
+        src={mainProfile}
+        alt="President Hon. Yashwantrao Gadakh"
+        className="welcome-img1"
+      />
       <div className="welcome-img1-title">
         <h1
           style={{ fontFamily: "Domine", color: "#800000" }}
@@ -142,10 +148,11 @@ function Welcome() {
       <Row className="flex flex-row w-screen justify-evenly py-10 px-5">
         <Col sm>
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <img
+            <LazyLoadImage
               src={organisingPresident}
               className="subProfile-img w-40 border-4 border-white rounded-full"
-              alt=""
+              alt="Shri.Prashant Gadakh"
+              effect="opacity"
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -170,10 +177,11 @@ function Welcome() {
         </Col>
         <Col sm>
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <img
+            <LazyLoadImage
               src={vicePrecident}
               className="subProfile-img w-40 border-4 border-white rounded-full"
-              alt=""
+              alt="Ms Nehal Gadakh"
+              effect="opacity"
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -184,7 +192,8 @@ function Welcome() {
                 }}
                 className="text-sm"
               >
-                Vice<br/> President
+                Vice
+                <br /> President
               </h3>
               <p
                 style={{ fontFamily: "Domine", color: "#00205B" }}
@@ -200,10 +209,11 @@ function Welcome() {
       <Row className="flex flex-row w-screen justify-evenly py-10 px-5">
         <Col sm>
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <img
+            <LazyLoadImage
               src={managingDirector}
               className="subProfile-img w-40 border-4 border-white rounded-full"
-              alt=""
+              alt="Dr Subhash Devdhe Patil"
+              effect="opacity"
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -228,10 +238,11 @@ function Welcome() {
 
         <Col sm>
           <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <img
+            <LazyLoadImage
               src={managingTrustee}
               className="subProfile-img w-40 border-4 border-white rounded-full "
-              alt=""
+              alt="Dr Sharad Samb"
+              effect="opacity"
             />
             <div className="welcome-subProfile-title">
               <h3
@@ -254,8 +265,6 @@ function Welcome() {
           </div>
         </Col>
       </Row>
-
-      
     </div>
   );
 }
