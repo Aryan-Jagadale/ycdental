@@ -2,7 +2,6 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo/footerLogo.png";
-//import "../style/HomePage/footer.css";
 import { footerLink } from "../utils/footerLink";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
@@ -17,7 +16,6 @@ const FooterComp = () => {
           <div className="">
             <h6 className="mb-4 flex items-center  md:h-[10vh] w-full md:w-[25vw] justify-center font-semibold uppercase md:justify-start">
               <Link to={"/"}>
-                {/*<img src={Logo} alt="footer logo" className="h-full w-full" />*/}
                 <LazyLoadImage
                   src={Logo}
                   alt="footer logo"
@@ -53,7 +51,7 @@ const FooterComp = () => {
                   <BsInstagram className="cursor-pointer" />
                 </a>
                 <a
-                  href="https://www.facebook.com/ycdcahmednagar?mibextid=ZbWKwL"
+                  href="https://twitter.com/NSSYCMMRDF"
                   target={"_blank"}
                   rel="noreferrer"
                   className="hover:text-white"
