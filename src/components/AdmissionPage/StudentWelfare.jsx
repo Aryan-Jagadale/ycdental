@@ -6,7 +6,7 @@ import dentist1 from "../../assets/images/academics/dentist1.png"
 
 function StudentWelfare() {
     return (
-        <div>
+        <div id='studentWelfare'>
 
             <img src={scholarship} alt="" className='object-none object-center mb-4 h-16  w-full justify-center mt-6 ml-4 mr-4' />
             <div className='studWalefare-Main pt-6 pb-6 m-8'>
