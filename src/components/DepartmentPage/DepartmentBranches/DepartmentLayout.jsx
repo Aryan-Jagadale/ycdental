@@ -1,7 +1,5 @@
 import React from "react";
 import "../../../style/DepartmentsPage/department.css";
-//import AccList from "../AccordianStuff/AccList";
-//import Accordian from "../AccordianStuff/Accordian";
 import AccordianLayout from "../AccordianStuff/AccordianLayout";
 
 const DepartmentLayout = ({
