@@ -12,6 +12,7 @@ import wa0040 from "../assets/images/about/collegeFacility/wa0040.jpeg";
 import wa0051 from "../assets/images/about/collegeFacility/wa0051.jpeg";
 import waimg from "../assets/images/about/collegeFacility/waimg.jpeg";
 import ycdc from "../assets/images/about/collegeFacility/ycdc.jpeg";
+import ecomm from "../assets/images/about/collegeFacility/ecomm.jpg";
 
 
 
@@ -75,4 +76,9 @@ export const collegeFacili13 = [
         "imG":ycdc,
         "label":"Porch"
     },
+    {
+        "imG":ecomm,
+        "label":"E-classroom"
+    },
+
 ]
