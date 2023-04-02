@@ -36,20 +36,20 @@
 
 .main-card-img {
   position: absolute;
-  top: -35%;
+  top: -25%;
   background-color: white;
   border-radius: 50%;
   left: 39%;
   width: 80px;
   height: 80px;
-  
 }
+
 .sub-card-red {
   display: flex;
   flex-wrap: wrap;
   word-wrap: normal;
   /*width: 30%;*/
-  width: 45%;
+  width: 379px;
   height: 153px;
   /*height: 50%;*/
   justify-content: center;
@@ -67,7 +67,7 @@
     flex-wrap: wrap;
     word-wrap: normal;
     /*width: 379px;*/
-    width: 45%;
+    width: 379px;
     height: 153px;
     /*height: 50%;*/
     justify-content: center;
@@ -82,8 +82,15 @@
 
   @media screen and (max-width:768px) {
     .sub-card-blue,.sub-card-red{
-      height: 40vh;
-      width: 50%;
+      height: 25vh;
+      width: 329px;
+    }
+    .main-card-img {
+      top: -25%;
+    }
+    .main-card {
+      width: 329px;
+      min-height: 32vh;
     }
     
   }
