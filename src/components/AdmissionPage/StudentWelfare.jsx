@@ -1,122 +1,48 @@
-import React from 'react'
-import "../../style/AdmissionPage/studentWalefare.css"
-import scholarship from "../../assets/images/academics/scholarships.png"
-import awards from "../../assets/images/academics/awards.png"
-import dentist1 from "../../assets/images/academics/dentist1.png"
+import React from "react";
+import "../../style/AdmissionPage/studentWalefare.css";
+import pdfImg from "../../assets/images/muhs/pdfImg.png";
+import awards from "../../assets/images/academics/awards.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import pdf from "../../assets/pdf/studentWelfare/StudentWelfare.pdf";
 
 function StudentWelfare() {
-    return (
-        <div id='studentWelfare'>
-
-            <img src={scholarship} alt="" className='object-none object-center mb-4 h-16  w-full justify-center mt-6 ml-4 mr-4' />
-            <div className='studWalefare-Main pt-6 pb-6 m-8'>
-
-                <div className='scholarships flex flex-row items-center flex-wrap justify-around content-around p-4 m-4' >
-
-                    <div className='dentistOne flex flex-col rounded border items-start font-fam font-bold px-2.5 py-2 h-48 bg-slate-300 '>
-                        <img src={dentist1} alt="" className='rounded-sm  w-full' />
-                        <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                            <h1 className='dentistName'> Student Name</h1>
-                            <p>Scholarship Details</p>
-                        </div>
-
-                    </div>
-                    <div className='dentistOne flex flex-col rounded border items-start font-fam font-bold px-2.5 py-2 w-60 h-48 bg-slate-300 '>
-                        <img src={dentist1} alt="" className='rounded-sm  w-full' />
-                        <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                            <h1 className='dentistName'> Student Name</h1>
-                            <p>Scholarship Details</p>
-                        </div>
-
-                    </div>
-                    <div className='dentistOne flex flex-col rounded border items-start font-fam font-bold px-2.5 py-2 w-60 h-48 bg-slate-300 '>
-                        <img src={dentist1} alt="" className='rounded-sm  w-full' />
-                        <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                            <h1 className='dentistName'> Student Name</h1>
-                            <p>Scholarship Details</p>
-                        </div>
-
-                    </div>
-                </div>
+  return (
+    <div id="studentWelfare">
+      <div className="mainDiv m-8">
+        <div>
+          <LazyLoadImage
+            src={awards}
+            alt="Student welfare"
+            className="object-none object-center mt-4 mb-3 h-16  w-full justify-center "
+          />
+          <h1 className="text-xl text-center tracking-wide font-fam px-20 py-3">
+            The institute believes in the fundamental principle of
+            acknowledging, appreciating and encouraging academic excellence and
+            outstanding efforts of our students. Every year, an Academic
+            Excellence Award of ₹11,000/- is endowed to the meritorious students
+            for their academic accomplishments.
+          </h1>
+          <div className="studWalefare-Main bg-slate-300">
+            <div className="flex items-center justify-center font-fam text-white px-2 py-4">
+              <button className="bg-[#FFD900]  flex items-center justify-center p-2 md:p-3">
+                <LazyLoadImage src={pdfImg} alt="PDF" className="mr-2" />
+                <span className="tracking-wide text-blue-500">
+                  <a
+                    href={pdf}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-base"
+                  >
+                    View PDF
+                  </a>
+                </span>
+              </button>
             </div>
-
-
-            <div className='mainDiv m-8'>
-                <div>
-                    <img src={awards} alt="" className='object-none object-center mt-4 mb-3 h-16  w-full justify-center ' />
-                    <h1 className='text-xl text-center font-fam px-20 py-3'>
-                        The Institute believes in acknowledging and encouraging academic <br />as well as
-                        extra curricular excellence. The awards given are
-                    </h1>
-                    <div className='studWalefare-Main pt-6 bg-slate-300'>
-                        <h1 className='text-xl text-center justify-center font-fam text-white px-2 py-4'>
-                            1. Academic Excellence Award–boys and girls </h1>
-                        <div className='scholarships flex flex-row items-center flex-wrap justify-around content-around p-4' >
-
-                            <div className='dentistOne flex flex-col rounded border border-slate-600 items-start font-fam font-bold px-2.5 py-2 w-60 h-48 bg-slate-300'>
-                                <img src={dentist1} alt="" className='rounded-sm  w-full h-full' />
-                                <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                                    <h1 className='dentistName'> Student Name</h1>
-                                    <p>Achivement Details</p>
-                                </div>
-
-                            </div>
-                            <div className='dentistOne flex flex-col rounded border items-start font-fam font-bold px-2.5 py-2 w-60 h-48 bg-slate-300'>
-                                <img src={dentist1} alt="" className='rounded-sm  w-full' />
-                                <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                                    <h1 className='dentistName'> Student Name</h1>
-                                    <p>Achivement Details</p>
-                                </div>
-
-                            </div>
-                            <div className='dentistOne flex flex-col rounded border items-start font-fam font-bold px-2.5 py-2 w-60 h-48 bg-slate-300 '>
-                                <img src={dentist1} alt="" className='rounded-sm  w-full' />
-                                <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                                    <h1 className='dentistName'> Student Name</h1>
-                                    <p>Achivement Details</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='studWalefare-Main pb-6 bg-slate-300'>
-                    <h1 className='text-xl text-center justify-center font-fam text-white px-2 py-4'>
-                        2. Sports Excellence Award–boys and girls
-                    </h1>
-                    <div className='scholarships flex flex-row items-center flex-wrap justify-around content-around p-4 pb-6' >
-
-                        <div className='dentistOne flex flex-col rounded border border-slate-600 items-start font-fam font-bold px-2.5 py-2 w-60 h-48 bg-slate-300'>
-                            <img src={dentist1} alt="" className='rounded-sm  w-full h-full' />
-                            <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                                <h1 className='dentistName'> Student Name</h1>
-                                <p>Achivement Details</p>
-                            </div>
-
-                        </div>
-                        <div className='dentistOne flex flex-col rounded border items-start font-fam font-bold px-2.5 py-2  bg-slate-300'>
-                            <img src={dentist1} alt="" className='rounded-sm  w-full' />
-                            <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                                <h1 className='dentistName'> Student Name</h1>
-                                <p>Achivement Details</p>
-                            </div>
-
-                        </div>
-                        <div className='dentistOne flex flex-col rounded border items-start font-fam font-bold px-2.5 py-2 w-60 h-48 bg-slate-300 '>
-                            <img src={dentist1} alt="" className='rounded-sm  w-full' />
-                            <div className='text-center justify-center font-fam text-slate-600 px-2 py-2'>
-                                <h1 className='dentistName'> Student Name</h1>
-                                <p>Achivement Details</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-
-    )
+      </div>
+    </div>
+  );
 }
 
-export default StudentWelfare
+export default StudentWelfare;

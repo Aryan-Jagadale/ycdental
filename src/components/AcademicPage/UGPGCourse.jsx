@@ -11,7 +11,9 @@ const UGPGCourse = () => {
   return (
     <div id="ugCourse">
       <div className="w-full flex flex-col md:flex-row">
-        <section className="w-full md:w-1/2 border-b-2 p-5">
+
+
+        <section className="w-full md:w-1/2 flex-grow p-5">
           <div className="bgTrans">
             <h2 className="tracking-wider text-center font-fam   flex-wrap bg-[#00205B] p-3 text-white  text-2xl capatilize h-[30vh] flex items-center justify-center flex-col font-bold">
               <strong className="text-3xl">Under Graduate</strong>
@@ -50,7 +52,7 @@ const UGPGCourse = () => {
           </div>
         </section>
 
-        <section className="w-full md:w-1/2 p-5 ">
+        <section className="w-full md:w-1/2 flex-grow p-5">
           <div className="bgTrans">
             <h2 className="tracking-wider text-center font-fam  flex-wrap bg-[#00205B] p-3 text-white  text-2xl capatilize h-[30vh] flex items-center justify-center flex-col font-bold">
               <strong className="text-3xl">Post Graduate</strong>
@@ -67,6 +69,9 @@ const UGPGCourse = () => {
             </section>
           </div>
         </section>
+
+
+
       </div>
     </div>
   );
