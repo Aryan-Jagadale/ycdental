@@ -8,7 +8,7 @@ function Admission() {
     <>
       <HeaderSection />
       <HODSection />
-      <StudentWelfare />
+      {/* <StudentWelfare /> */}
     </>
   );
 }

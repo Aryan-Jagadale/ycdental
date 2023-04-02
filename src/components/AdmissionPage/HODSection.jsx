@@ -20,13 +20,8 @@ function HODSection() {
   return (
     <>
       <div id="deanDesk">
-        <div
-          className=""
-          style={{
-            padding: "3.5rem",
-          }}
-        >
-          <section className="flex items-center justify-center flex-col lg:flex-row">
+        <div className="p-6 md:p-14">
+          <section className="flex items-center justify-center content-center flex-col lg:flex-row">
             <div
               style={{
                 backgroundColor: "rgba(187, 186, 186, 0.48)",
@@ -35,10 +30,10 @@ function HODSection() {
                 backdropFilter: "blur(20px)",
                 borderRadius: "10px 0px",
                 display: "block",
-                margin: "auto",
-                maxWidth: "max-content",
+                margin: "2rem",
+                maxWidth: "500px",
                 padding: "1%",
-                marginTop: "3%",
+                // marginTop: "3%",
                 textAlign: "center",
               }}
             >
@@ -56,7 +51,7 @@ function HODSection() {
               <h4>Dr. Nilima Rajhans</h4>
             </div>
 
-            <div className="w-[100%] lg:w-[60%] font-fam text-lg">
+            <div className="w-[100%] font-fam text-lg text-justify">
               <p>
                 I am delighted to welcome you to the wonderful world of
                 Dentistry at Late Shri. Yashwantrao Chavan Memorial Medical and
@@ -126,7 +121,7 @@ function HODSection() {
       </div>
       <Prospectus />
       <div
-                id="bdsAdmission"
+        id="bdsAdmission"
         style={{
           display: "flex",
           flexDirection: "column",
