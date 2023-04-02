@@ -1,15 +1,12 @@
 .carosuel {
   background-color: #800000;
-  padding: 1%;
-  height: 100vh;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  
+  
 }
 .carosuel-bg {
-  /*background-image: url("https://res.cloudinary.com/ddaalka6i/image/upload/v1679145925/buil_1_afzg2u.jpg");*/
-  background-size:cover;
-  background-repeat: no-repeat;
-  padding: 3%;
-  height: 100%;
-
   border: #800000 solid 20px;
   box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
