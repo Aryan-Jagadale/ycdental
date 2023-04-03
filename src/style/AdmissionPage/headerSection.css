@@ -31,6 +31,14 @@
     padding: 3% !important;
   }
   
+  #prosPectus{
+    margin: 1.25rem;
+  }
+  
+}
+
+#prosPectus{
+  margin: 0.5rem;
 }
 
 .admission-titles {
