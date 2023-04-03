@@ -34,6 +34,19 @@
   
 }
 
+#prosPectus{
+  margin: 0.5rem;
+}
+
+@media (min-width:768px){
+  #prosPectus{
+    margin: 1.25rem;
+  }
+}
+
+
+
+
 .admission-titles {
   font-family: "Domine";
   font-style: normal;
