@@ -22,18 +22,24 @@
     padding: 20px;
 }
 
-#prosPectus{
-  margin: 0.5rem;
-}
+@media only screen and (max-width: 767px){
+  .inner-box2{
+    display: none;
+  }
 
-@media (min-width:768px){
+  #bdsAdmission{
+    padding: 3% !important;
+  }
+  
   #prosPectus{
     margin: 1.25rem;
   }
+  
 }
 
-
-
+#prosPectus{
+  margin: 0.5rem;
+}
 
 .admission-titles {
   font-family: "Domine";
