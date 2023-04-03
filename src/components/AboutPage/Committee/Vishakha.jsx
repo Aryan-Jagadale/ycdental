@@ -1,10 +1,11 @@
 import React from "react";
 import { vishakhaCommittee } from "../../../utils/Committees";
 import Faculties from "../../DepartmentPage/Department/Faculties";
+import "../../../index.css";
 
 const Vishakha = () => {
     return (
-        <div className="p-5 font-fam tracking-wide">
+        <div className="grievance font-fam tracking-wide">
             <h2 className="m-4 text-2xl font-bold text-black text-center">
                 Vishakha Committee
             </h2>

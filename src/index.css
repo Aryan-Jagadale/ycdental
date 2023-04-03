@@ -13,3 +13,14 @@
 .font-fam{
     font-family: 'Domine', serif;
 }
+
+.grievance{
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .grievance{
+        padding: 2.25rem;
+    }
+}
+
