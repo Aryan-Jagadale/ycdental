@@ -13,7 +13,7 @@ import {
 
 function GallerySection() {
   return (
-    <div className="gallerySection m-5">
+    <div className="gallerySection">
       <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
         {GalleryData.map((item) => (
           <GridLab3 key={item.label} item={item} />

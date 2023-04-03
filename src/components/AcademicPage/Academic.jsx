@@ -19,10 +19,11 @@ const Academic = () => {
             </div>
 
             <div className="flex items-center justify-center h-[30vh] md:hidden">
-              <h1 className=" text-3xl  font-bold font-fam text-white tracking-wide pl-12">
+              <h1 className=" text-3xl  font-bold font-fam text-white tracking-wide">
                 Our Academics
               </h1>
             </div>
+
           </div>
 
           <div className="md:w-[70%]  hidden md:block academicStyle">

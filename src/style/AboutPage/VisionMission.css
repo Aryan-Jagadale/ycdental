@@ -10,21 +10,18 @@
   padding-top: 3rem;
 }
 
-/* .circle-img{
-    background-color: #fff;
-    border-radius: 100%;
-    width: max-content;
-    padding: 8%;
-    border: solid #FFD900;
-    position: relative;
-    top: -42%;
-    left: 14rem;
-   margin-bottom: 15%;
-} */
+
 
 .VisionMissionContent {
+    padding: 7%;
+  }
+
+
+  @media (min-width: 768px) {
+    .VisionMissionContent {
     text-align: left !important;
-    padding: 3%;
+      padding: 3%;
+    }
   }
   
   .vision-title {

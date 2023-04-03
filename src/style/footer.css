@@ -1,0 +1,30 @@
+.footerPara{
+    text-align: center;
+}
+
+.footerIcon{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
+@media (min-width:768px){
+    .footerPara{
+        text-align: left;
+    }
+    .footerIcon{
+        text-align: left;
+        display: block;
+        margin-top: 0.5rem; 
+    
+    }   
+}
+
+
+
+
+

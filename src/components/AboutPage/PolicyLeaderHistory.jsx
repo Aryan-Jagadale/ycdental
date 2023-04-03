@@ -24,13 +24,6 @@ const PolicyLeaderHistory = ({ name, link, pdf }) => {
       ${name === "Mentoring Policy" ? "bgMentor" : ""}
       ${name === "Code of Conduct" ? "bgCoc" : ""}
       ${name === "Research Policy" ? "bgPolicy" : ""}
-
-     
-      
-
-
-      
-      
       relative w-3/4 md:w-1/4 shadow-2xl block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat h-[40vh]`}
     >
       <div className="absolute inset-0 bg-black/25"></div>
@@ -43,7 +36,12 @@ const PolicyLeaderHistory = ({ name, link, pdf }) => {
 
           {pdf ? (
             <button className="bg-[#FFD900]  flex items-center justify-center p-2 mt-3 md:p-3">
-              <LazyLoadImage effect="opacity" src={pdfImg} alt="PDF" className="mr-2" />
+              <LazyLoadImage
+                effect="opacity"
+                src={pdfImg}
+                alt="PDF"
+                className="mr-2"
+              />
               <span className="tracking-wide text-blue-500">
                 <a
                   href={pdf}

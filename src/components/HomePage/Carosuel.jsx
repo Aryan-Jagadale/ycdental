@@ -1,9 +1,30 @@
-//import React from "react";
-//import { Carousel } from "flowbite-react";
 import { InnerCaroComp1 } from "./InnerCaroComp";
 import "../../style/HomePage/carosuel.css";
 import { carousel1 } from "../../utils/Carousel";
 import Slider from "react-slick";
+
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "hidden" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "hidden" }}
+      onClick={onClick}
+    />
+  );
+}
 
 const CarosuelComp = () => {
   const settings = {
@@ -14,6 +35,8 @@ const CarosuelComp = () => {
     slidesToScroll: 1,
     lazyLoad: true,
     autoplay: true,
+    nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />
   };
   return (
     <>

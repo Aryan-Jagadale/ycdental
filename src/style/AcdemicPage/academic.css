@@ -6,6 +6,22 @@
     background-position: center;
 }
 
+.paddingUGPG {
+    padding: 0.5rem;
+}
+.marginPub {
+    margin: 0.25rem;
+}
+
+@media (min-width: 768px) {
+    .paddingUGPG {
+        padding: 1.5rem;
+    }
+    .marginPub {
+        margin: 1.25rem;
+    }
+}
+
 .academicStyle {
     background-image: url("../../assets//images/academics/academicBanner1.png");
     height: 50vh;
@@ -40,5 +56,3 @@
     height: 100%;
     width: 100%;
 }
-
-
