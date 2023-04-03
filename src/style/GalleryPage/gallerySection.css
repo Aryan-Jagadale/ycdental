@@ -1,7 +1,18 @@
 .gallerySection{
     overflow-y: hidden;
     overflow: hidden;
+    margin: 0;
 }
+
+
+@media (min-width:768px){
+  .gallerySection{
+    overflow-y: hidden;
+    overflow: hidden;
+    margin: 1.25rem;
+}
+}
+
 
 .galleryContent {
   padding: 0% 5%;

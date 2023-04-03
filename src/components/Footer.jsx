@@ -7,12 +7,13 @@ import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
+import "../style/footer.css";
 
 const FooterComp = () => {
   return (
     <footer className="bg-[#00205B] text-center  text-white dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
       <div className="mx-6 py-10 text-center md:text-left">
-        <div className="grid gap-5  md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-0 md:gap-5  md:grid-cols-2 lg:grid-cols-4">
           <div className="">
             <h6 className="mb-4 flex items-center  md:h-[10vh] w-full md:w-[25vw] justify-center font-semibold uppercase md:justify-start">
               <Link to={"/"}>
@@ -24,14 +25,14 @@ const FooterComp = () => {
                 />
               </Link>
             </h6>
-            <p className="text-left font-fam text-base tracking-wide font-normal">
+            <p className=" footerPara font-fam text-base tracking-wide font-normal">
               We are commited to providing comprehensive primary and specialized
               oral health care to people, especially marginalized group and
               disseminating knowledge of disease prevention to the public, and
               continuing dental education to professionals.
             </p>
 
-            <div className="mt-2">
+            <div className="footerIcon">
               <h6 className=" font-bold text-xl text-left">Follow Us</h6>
               <div className="flex flex-row item-center justify-start gap-4 mt-3">
                 <a
