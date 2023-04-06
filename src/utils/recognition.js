@@ -21,14 +21,14 @@ export const recognitionContent = [
     pdf: MDS2,
   },
   {
-    imG: mainDivThirdImg,
+    imG: mainDivFirstImg,
     title: "Recognized by Dental Council of India (PHD Recognition)",
     pdf: PHD,
   },
 ];
 export const recognitionContent1 = [
   {
-    imG: mainDivThirdImg,
+    imG: mainDivSecondImg,
     title: "All India Survey on Higher Education(AISHE)",
     pdf: AISHE,
   },
