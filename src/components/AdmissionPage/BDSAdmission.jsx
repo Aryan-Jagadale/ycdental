@@ -1,16 +1,6 @@
 import React from "react";
 import "../../style/AdmissionPage/admission.css";
 import { Col, Row, Table } from "react-bootstrap";
-import Revised_BDS_Course_Regulation_2007 from "../../assets/pdf/2007-2008/Revised_BDS_Course_Regulation_2007.pdf";
-import RevisedSyllbus from "../../assets/pdf/BDS/Revised-Syllbus-BDS-New.pdf";
-import BDSSyllabus1 from "../../assets/pdf/BDS/1st-BDS-Syllabus.pdf";
-import BDSSyllabus2 from "../../assets/pdf/BDS/2nd-BDS-Syllabus.pdf";
-import BDSSyllabus3 from "../../assets/pdf/BDS/3rd-BDS-Syllabus.pdf";
-import BDSSyllabus4 from "../../assets/pdf/BDS/4th-BDS-Syllabus.pdf";
-import RejectedCandidate from "../../assets/pdf/BDS/RejectedCandidate.pdf";
-import GeneralMerit from "../../assets/pdf/BDS/GeneralMeritList.pdf";
-import BDSMeritList from "../../assets/pdf/2021-2022/BDS_INSTITUTIONAL_LEVEL_ROUND_MERIT_LIST__2021_22.pdf";
-import BDSFeeStructure from "../../assets/pdf/2021-2022/2021-22_B.D.S._FEE_STRUCTURE___COLLEGE_WEBSITE___FINAL_NEW.pdf";
 
 function BDSAdmission() {
   return (
@@ -59,7 +49,7 @@ function BDSAdmission() {
           <p className="admissionPera">
             <a
               className="admissionDownload"
-              href={BDSMeritList}
+              href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133823/YCDENTAL/pdf/2021-2022/BDS_INSTITUTIONAL_LEVEL_ROUND_MERIT_LIST__2021_22_lskf71.pdf'}
               download={"BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22"}
             >
               &#8226; BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22
@@ -91,7 +81,7 @@ function BDSAdmission() {
           <p className="admissionPera">
             <a
               className="admissionDownload"
-              href={BDSFeeStructure}
+              href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133822/YCDENTAL/pdf/2021-2022/2021-22_B.D.S._FEE_STRUCTURE___COLLEGE_WEBSITE___FINAL_NEW_x1qigk.pdf'}
               download={"2021-22_B.D.S._FEE_STRUCTURE .PDF"}
             >
               &#8226; 2021-22_B.D.S._FEE_STRUCTURE .PDF
@@ -176,7 +166,7 @@ function BDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={Revised_BDS_Course_Regulation_2007}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133649/YCDENTAL/pdf/2007-2008/Revised_BDS_Course_Regulation_2007_dg6zxt.pdf'}
                 download={"Revised_BDS_Course_Regulation_2007 . PDF"}
               >
                 &#8226; Revised_BDS_Course_Regulation_2007 . PDF
@@ -184,7 +174,7 @@ function BDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={RevisedSyllbus}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132927/YCDENTAL/pdf/BDS/Revised-Syllbus-BDS-New_xhlwcw.pdf'}
                 download={"Revised Syllbus BDS (New) . PDF"}
               >
                 &#8226; Revised Syllbus BDS (New) . PDF
@@ -192,7 +182,7 @@ function BDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={BDSSyllabus1}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132926/YCDENTAL/pdf/BDS/1st-BDS-Syllabus_v1wlcu.pdf'}
                 download={"1st BDS Syllabus . PDF"}
               >
                 &#8226; 1st BDS Syllabus . PDF
@@ -200,7 +190,7 @@ function BDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={BDSSyllabus2}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132926/YCDENTAL/pdf/BDS/2nd-BDS-Syllabus_vuni9j.pdf'}
                 download={"2st BDS Syllabus . PDF"}
               >
                 &#8226; 2nd BDS Syllabus . PDF
@@ -208,7 +198,7 @@ function BDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={BDSSyllabus3}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132926/YCDENTAL/pdf/BDS/3rd-BDS-Syllabus_ohbgid.pdf'}
                 download={"3st BDS Syllabus . PDF"}
               >
                 &#8226; 3rd BDS Syllabus . PDF
@@ -216,7 +206,7 @@ function BDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={BDSSyllabus4}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132927/YCDENTAL/pdf/BDS/4th-BDS-Syllabus_dzlwur.pdf'}
                 download={"4st BDS Syllabus . PDF"}
               >
                 &#8226; 4th BDS Syllabus . PDF
@@ -229,7 +219,7 @@ function BDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={RejectedCandidate}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132927/YCDENTAL/pdf/BDS/RejectedCandidate_cge9gl.pdf'}
                 download={
                   "Istitutional Level Vacancy Round 2022-23 - Rejected Candidate List"
                 }
@@ -240,7 +230,7 @@ function BDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={GeneralMerit}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132927/YCDENTAL/pdf/BDS/GeneralMeritList_uw7fsc.pdf'}
                 download={
                   "Istitutional Level Vacancy Round 2022-23 - General Merit List"
                 }

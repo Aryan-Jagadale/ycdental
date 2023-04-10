@@ -1,47 +1,40 @@
 import mainDivFirstImg from "../assets/images/recognition/mainDivFirstImg.svg";
 import mainDivSecondImg from "../assets/images/recognition/mainDivSecondImg.svg";
 import mainDivThirdImg from "../assets/images/recognition/mainDivThirdImg.svg";
-import ISO from "../assets/pdf/Home/ISO.pdf";
-import IIC from "../assets/pdf/Recognition/IIC.pdf";
-import AISHE from "../assets/pdf/Recognition/AISHE.pdf";
-import BDS from "../assets/pdf/Recognition/B.D.SRecognition.pdf";
-import MDS2 from "../assets/pdf/Recognition/2MDS.pdf";
-// import MDS3 from "../assets/pdf/Recognition/3MDS.pdf";
-import PHD from "../assets/pdf/Recognition/PH.D Recognition.pdf";
 
 export const recognitionContent = [
   {
     imG: mainDivSecondImg,
     title: "Recognized by Dental Council of India (BDS Recognition)",
-    pdf: BDS,
+    pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681131007/YCDENTAL/pdf/Recognition/B.D.SRecognition_gn7lel.pdf",
   },
   {
     imG: mainDivThirdImg,
     title: "Recognized by Dental Council of India (MDS Recognition)",
-    pdf: MDS2,
+    pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681131006/YCDENTAL/pdf/Recognition/2MDS_hq0vzr.pdf",
   },
   {
     imG: mainDivFirstImg,
     title: "Recognized by Dental Council of India (PHD Recognition)",
-    pdf: PHD,
+    pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681131007/YCDENTAL/pdf/Recognition/PH.D_Recognition_vukwv0.pdf",
   },
 ];
 export const recognitionContent1 = [
   {
     imG: mainDivSecondImg,
     title: "All India Survey on Higher Education(AISHE)",
-    pdf: AISHE,
+    pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681131007/YCDENTAL/pdf/Recognition/AISHE_b6fdnm.pdf",
   },
   {
     imG: mainDivThirdImg,
     title: "College is certified with ISO 9001:2015",
-    pdf: ISO,
+    pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681131647/YCDENTAL/pdf/Recognition/ISO_izmku6.pdf",
   },
   {
     imG: mainDivFirstImg,
     title:
       "Recognized as Innovation and Incubation Centre (IIC) by Govt. of India",
-    pdf: IIC,
+    pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681131006/YCDENTAL/pdf/Recognition/IIC_fmvo7r.pdf",
     /*"title":"Affiliated to Maharashtra University of Health Sciences (MUHS)"*/
   },
 ];
