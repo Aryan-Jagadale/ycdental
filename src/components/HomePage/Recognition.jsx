@@ -1,6 +1,7 @@
 import React from "react";
 import "../../style/HomePage/recognition.css";
 import { recognitionContent } from "../../utils/recognition";
+import { recognitionContent1 } from "../../utils/recognition";
 import RecognitionInner from "./RecognitionInner";
 
 function Recognition() {
@@ -16,6 +17,16 @@ function Recognition() {
       <div className="flex flex-column justify-center border-cyan-900 lg:mx-20 ">
         <div className="flex w-full flex-col lg:flex-row justify-center items-center lg:justify-around  ">
           {recognitionContent.map((item) => (
+            <RecognitionInner
+              key={item.title}
+              img={item.imG}
+              title={item.title}
+              pdf={item.pdf}
+            />
+          ))}
+        </div>
+        <div className="flex w-full flex-col lg:flex-row justify-center items-center lg:justify-around mt-14">
+          {recognitionContent1.map((item) => (
             <RecognitionInner
               key={item.title}
               img={item.imG}
