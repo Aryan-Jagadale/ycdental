@@ -1,21 +1,9 @@
-
-import ANNEXURE from "../assets/pdf/2022-23/Annexure.pdf";
-import ANNEXURE2 from "../assets/pdf/2022-23/ANNEXURE2.pdf";
-import ANNEXURE3 from "../assets/pdf/2022-23/ANNEXURE3.pdf";
-import ANNEXURE4 from "../assets/pdf/2022-23/Annexure4.pdf";
-import ANNEXURE5 from "../assets/pdf/2022-23/Annexure5.pdf";
-import ANNEXURE6 from "../assets/pdf/2022-23/Annexure6.pdf";
-import ANNEXURE7 from "../assets/pdf/2022-23/Annexure7.pdf";
-import ANNEXURE8 from "../assets/pdf/2022-23/Annexure8.pdf";
-import ANNEXURE9 from "../assets/pdf/2022-23/ANNEXURE9.pdf";
-import ANNEXUREX from "../assets/pdf/2022-23/AnnexureX.pdf";
-import ANNEXURE11 from "../assets/pdf/2022-23/ANNEXURE11.pdf";
 import ANNEXURE12 from "../assets/pdf/2022-23/ANNEXURE12.pdf";
 import Mandate_Annexure13 from "../assets/pdf/2022-23/Mandate_Annexure13.pdf";
 import FinalAnnexure14 from "../assets/pdf/2022-23/FinalAnnexure14.pdf";
 import Mandate_Annexure15 from "../assets/pdf/2022-23/Mandate_Annexure15.pdf";
 import Azadi_ka_amrutmohotsav from "../assets/pdf/2022-23/Azadi_ka_amrutmohotsav.pdf";
-import AISHE from "../assets/pdf/2022-23/AISHE.pdf";
+
 
 
 import Annexure from "../assets/pdf/23-2024/ANNEXURE1.pdf";
@@ -43,47 +31,47 @@ export const muhs = [
     sub: [
       {
         name: "Annexure-I",
-        pdf:  ANNEXURE ,
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109878/YCDENTAL/pdf/2022-23/Annexure_btbndw.pdf" ,
       },
       {
         name: "Annexure-II",
-        pdf:  ANNEXURE2 ,
+        pdf:  "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109886/YCDENTAL/pdf/2022-23/ANNEXURE2_ztok8n.pdf" ,
       },
       {
         name: "Annexure-III",
-        pdf:  ANNEXURE3 ,
+        pdf:  "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109885/YCDENTAL/pdf/2022-23/ANNEXURE3_ygx6th.pdf" ,
       },
       {
         name: "Annexure-IV",
-        pdf:  ANNEXURE4 ,
+        pdf:  "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109885/YCDENTAL/pdf/2022-23/Annexure4_1_dbpi88.pdf" ,
       },
       {
         name: "Annexure-V",
-        pdf:  ANNEXURE5 ,
+        pdf:  "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109885/YCDENTAL/pdf/2022-23/Annexure5_ddxajs.pdf" ,
       },
       {
         name: "Annexure-VI",
-        pdf: ANNEXURE6,
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109883/YCDENTAL/pdf/2022-23/Annexure6_blucl9.pdf",
       },
       {
         name: "Annexure-VII",
-        pdf: ANNEXURE7,
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109885/YCDENTAL/pdf/2022-23/Annexure7_lqig0i.pdf",
       },
       {
         name: "Annexure-VIII",
-        pdf: ANNEXURE8,
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109886/YCDENTAL/pdf/2022-23/Annexure8_yy6jij.pdf",
       },
       {
         name: "Annexure-IX",
-        pdf: ANNEXURE9,
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109899/YCDENTAL/pdf/2022-23/ANNEXURE9_ts8yvu.pdf",
       },
       {
         name: "Annexure-X",
-        pdf: ANNEXUREX,
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109889/YCDENTAL/pdf/2022-23/AnnexureX_ccnyur.pdf",
       },
       {
         name: "Annexure-XI",
-        pdf: ANNEXURE11 ,
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109890/YCDENTAL/pdf/2022-23/ANNEXURE11_ztotkb.pdf" ,
       },
       {
         name: "Annexure-XII",
@@ -107,7 +95,7 @@ export const muhs = [
       },
       {
         name: "AISHE",
-        pdf: AISHE ,
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109882/YCDENTAL/pdf/2022-23/AISHE_ilhz9f.pdf" ,
       },
     ],
   },
