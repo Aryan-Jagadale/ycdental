@@ -1,22 +1,6 @@
 import React from "react";
 import { Col, Row, Table } from "react-bootstrap";
 import "../../style/AdmissionPage/admission.css";
-import merit1 from "../../assets/pdf/2021-2022/NEET-MDS-2021-22-INSTITUTIONAL-LEVEL-ROUND-Dt-.07-11-2021.pdf";
-import merit2 from "../../assets/pdf/2021-2022/NEET_MDS_Institutional_Vacancy_Round_MeritList_No.2_Dt..pdf";
-import MDSFeeStructure from "../../assets/pdf/2021-2022/M.D.S_FEE_STRUCUTRE_2021-22.pdf"
-import mdsRegulation from "../../assets/pdf/2017-2018/MDS_Course_Regulations_2017.pdf";
-import mds1 from "../../assets/pdf/2009-2010/1.pdf";
-import ProsthodonticsSyllabusPart1 from "../../assets/pdf/2018-2019/Syllabus-Prosthodontics-And-Crown-Bridge-A.Y.-2018-19-Part-I.pdf"
-import ProsthodonticsSyllabusPart2 from "../../assets/pdf/2018-2019/Syllabus-Prosthodontics-And-Crown-Bridge-A.Y.-2018-19-Part-II.pdf"
-import mds2 from "../../assets/pdf/2009-2010/2.pdf";
-import PeriodontologySyllabusPart1 from "../../assets/pdf/2018-2019/Syllabus-Periodontology-A.Y.-2018-19-Part-I.pdf";
-import PeriodontologySyllabusPart2 from "../../assets/pdf/2018-2019/Syllabus-Periodontology-A.Y.-2018-19-Part-II.pdf";
-import mds3 from "../../assets/pdf/2009-2010/3.pdf";
-import OrthodonticsSyllabusPart1 from "../../assets/pdf/2018-2019/Syllabus-Orthodontics-Dentofacial-Orthopaedics-A.Y.-2018-19-Part-I.pdf";
-import OrthodonticsSyllabusPart2 from "../../assets/pdf/2018-2019/Syllabus-Orthodontics-Dentofacial-Orthopaedics-A.Y.-2018-19-Part-II.pdf";
-import mds4 from "../../assets/pdf/2009-2010/4.pdf";
-import ConservativeSyllabusPart1 from "../../assets/pdf/2018-2019/Syllabus-Conservative-Dentistry-Endodontics-A.Y.-2018-19-Part-I.pdf";
-import ConservativeSyllabusPart2 from "../../assets/pdf/2018-2019/Syllabus-Conservative-Dentistry-Endodontics-A.Y.-2018-19-Part-II.pdf";
 
 function MDSAdmission() {
   return (
@@ -56,7 +40,7 @@ function MDSAdmission() {
               {" "}
               <a
                 className="admissionDownload"
-                href={merit1}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133823/YCDENTAL/pdf/2021-2022/NEET-MDS-2021-22-INSTITUTIONAL-LEVEL-ROUND-Dt-.07-11-2021_dmzvkx.pdf'}
                 download={"Merit List 1"}
               >
                 Download
@@ -64,7 +48,7 @@ function MDSAdmission() {
               Merit List No 1 <br />
               <a
                 className="admissionDownload"
-                href={merit2}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133821/YCDENTAL/pdf/2021-2022/NEET_MDS_Institutional_Vacancy_Round_MeritList_No.2_Dt._g80gxt.pdf'}
                 download={"Merit List 2"}
               >
                 Download
@@ -76,7 +60,7 @@ function MDSAdmission() {
               {" "}
               <a
                 className="admissionDownload"
-                href={MDSFeeStructure}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133825/YCDENTAL/pdf/2021-2022/M.D.S_FEE_STRUCUTRE_2021-22_azkq90.pdf'}
                 download={"M.D.S_FEE_STRUCUTRE_2021-22 . PDF"}
               >
                 M.D.S_FEE_STRUCUTRE_2021-22 . PDF
@@ -151,7 +135,7 @@ function MDSAdmission() {
           {" "}
           <a
             className="admissionDownload"
-            href={mdsRegulation}
+            href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133744/YCDENTAL/pdf/2017-2018/MDS_Course_Regulations_2017_njrzhr.pdf'}
             download={"MDS_Course_Regulations_2017.pdf"}
           >
             MDS_Course_Regulations_2017.pdf
@@ -165,7 +149,7 @@ function MDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={mds1}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133691/YCDENTAL/pdf/2009-2010/1_didnfu.pdf'}
                 download={"MDS (Prosthodontics And Crown & Bridge)- From A. Y.2009-10.PDF"}
               >
                 &#8226; MDS (Prosthodontics And Crown & Bridge)- From A. Y.
@@ -174,7 +158,7 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={ProsthodonticsSyllabusPart1}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133776/YCDENTAL/pdf/2018-2019/Syllabus-Prosthodontics-And-Crown-Bridge-A.Y.-2018-19-Part-I_jgsmfc.pdf'}
                 download={"Syllabus (Prosthodontics And Crown & Bridge)-A.Y.-2018-19 Part I.PDF"}
               >
                 &#8226; Syllabus (Prosthodontics And Crown &
@@ -183,7 +167,7 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={ProsthodonticsSyllabusPart2}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133775/YCDENTAL/pdf/2018-2019/Syllabus-Prosthodontics-And-Crown-Bridge-A.Y.-2018-19-Part-II_dov08r.pdf'}
                 download={"Syllabus (Prosthodontics And Crown & Bridge)-A.Y.-2018-19 Part II.PDF"}
               >
                 &#8226; Syllabus (Prosthodontics And Crown &
@@ -197,7 +181,7 @@ function MDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={mds2}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133693/YCDENTAL/pdf/2009-2010/2_ylbfea.pdf'}
                 download={"MDS (Periodontology)- From A. Y. 2009-10 . PDF"}
               >
                 &#8226; MDS (Periodontology)- From A. Y. 2009-10 . PDF
@@ -205,7 +189,7 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={PeriodontologySyllabusPart1}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133775/YCDENTAL/pdf/2018-2019/Syllabus-Periodontology-A.Y.-2018-19-Part-I_ao7ygu.pdf'}
                 download={"Syllabus (Periodontology)-A.Y.-2018-19 Part I . PDF"}
               >
                 &#8226; Syllabus (Periodontology)-A.Y.-2018-19 Part I . PDF
@@ -213,7 +197,7 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={PeriodontologySyllabusPart2}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133774/YCDENTAL/pdf/2018-2019/Syllabus-Periodontology-A.Y.-2018-19-Part-II_l0jfar.pdf'}
                 download={"Syllabus (Periodontology)-A.Y.-2018-19 Part II . PDF"}
               >
                 &#8226; Syllabus (Periodontology)-A.Y.-2018-19 Part II . PDF
@@ -230,7 +214,7 @@ function MDSAdmission() {
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={mds3}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133693/YCDENTAL/pdf/2009-2010/3_hvjoqw.pdf'}
                 download={"MDS (Orthodontics & Dentofacial Orthopaedics)- From A.Y.2009-10 . PDF"}
               >
                 &#8226; MDS (Orthodontics & Dentofacial Orthopaedics)- From A.Y.
@@ -239,7 +223,7 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={OrthodonticsSyllabusPart1}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133773/YCDENTAL/pdf/2018-2019/Syllabus-Orthodontics-Dentofacial-Orthopaedics-A.Y.-2018-19-Part-I_i2yvfa.pdf'}
                 download={"Syllabus (Orthodontics & Dentofacial Orthopaedics)-A.Y.-2018-19 Part I . PDF"}
               >
                 &#8226; Syllabus (Orthodontics & Dentofacial
@@ -248,7 +232,7 @@ function MDSAdmission() {
               <br />
               <a
                 className="admissionDownload"
-                href={OrthodonticsSyllabusPart2}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133773/YCDENTAL/pdf/2018-2019/Syllabus-Orthodontics-Dentofacial-Orthopaedics-A.Y.-2018-19-Part-II_ql9mkx.pdf'}
                 download={"Syllabus (Orthodontics & Dentofacial Orthopaedics)-A.Y.-2018-19 Part II . PDF"}
               >
                 &#8226; Syllabus (Orthodontics & Dentofacial
@@ -258,31 +242,31 @@ function MDSAdmission() {
             </p>
           </Col>
           <Col sm className="admissionCards"> <h1 className="admission-hedline-2">
-          4 . Conservative Dentistry & Endodontics
-      
-            </h1>
+            4 . Conservative Dentistry & Endodontics
+
+          </h1>
             <p className="admissionPera" style={{ textAlign: "start" }}>
               <a
                 className="admissionDownload"
-                href={mds4}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133693/YCDENTAL/pdf/2009-2010/3_hvjoqw.pdf'}
                 download={"MDS (Conservative Dentistry & Endodontics)- From A. Y. 2009-10 . PDF"}
               >
                 &#8226; MDS (Conservative Dentistry & Endodontics)- From A. Y. 2009-10 . PDF
-      
+
               </a>{" "}
               <br />
               <a
                 className="admissionDownload"
-                href={ConservativeSyllabusPart1}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133773/YCDENTAL/pdf/2018-2019/Syllabus-Conservative-Dentistry-Endodontics-A.Y.-2018-19-Part-I_ihujla.pdf'}
                 download={"Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part I . PDF"}
               >
                 &#8226; Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part I . PDF
-      
+
               </a>{" "}
               <br />
               <a
                 className="admissionDownload"
-                href={ConservativeSyllabusPart2}
+                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133773/YCDENTAL/pdf/2018-2019/Syllabus-Conservative-Dentistry-Endodontics-A.Y.-2018-19-Part-II_vhtyfu.pdf'}
                 download={"Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part II . PDF"}
               >
                 &#8226; Syllabus (Conservative Dentistry & Endodontics)-A.Y.-2018-19 Part II . PDF

@@ -1,31 +1,22 @@
-import Research from "../assets/pdf/Policy/ReSearch.pdf";
-import Mentoring from "../assets/pdf/Policy/Mentoring.pdf";
-
-import PTA from "../assets/pdf/Policy/PTA.pdf";
-import Patient from "../assets/pdf/Policy/PatientSafety.pdf";
-import Egov from "../assets/pdf/Policy/Egov.pdf";
-
-
-
 export const policy = [
     {
         "name":"Research Policy",
-        "pdf":Research,
+        "pdf":'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132501/YCDENTAL/pdf/Policy/ReSearch_nl66yt.pdf',
     },
     {
         "name":"Mentoring Policy",
-        "pdf":Mentoring,
+        "pdf":'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132500/YCDENTAL/pdf/Policy/Mentoring_iibqhd.pdf',
     },
     {
         "name":"PTA Policy",
-        "pdf":PTA,
+        "pdf":'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132500/YCDENTAL/pdf/Policy/PTA_jeskvb.pdf',
     },
     {
         "name":"Patient Safety",
-        "pdf":Patient,
+        "pdf":'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132500/YCDENTAL/pdf/Policy/PatientSafety_br9vsh.pdf',
     },
     {
         "name":"E-governance",
-        "pdf":Egov,
+        "pdf":'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132499/YCDENTAL/pdf/Policy/Egov_hiiya0.pdf',
     },
 ]
