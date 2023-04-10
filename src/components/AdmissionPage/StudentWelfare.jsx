@@ -3,7 +3,6 @@ import "../../style/AdmissionPage/studentWalefare.css";
 import pdfImg from "../../assets/images/muhs/pdfImg.png";
 import awards from "../../assets/images/academics/awards.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import pdf from "../../assets/pdf/studentWelfare/StudentWelfare.pdf";
 
 function StudentWelfare() {
   return (
@@ -28,7 +27,7 @@ function StudentWelfare() {
                 <LazyLoadImage src={pdfImg} alt="PDF" className="mr-2" />
                 <span className="tracking-wide text-blue-500">
                   <a
-                    href={pdf}
+                    href={"https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109668/YCDENTAL/pdf/studentWelfare/StudentWelfare_trezfx.pdf"}
                     target="_blank"
                     rel="noreferrer"
                     className="text-base"
