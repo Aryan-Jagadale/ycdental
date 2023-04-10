@@ -1,4 +1,4 @@
-import Prospectus from "../assets/pdf/College-Prospectus.pdf";
+//import Prospectus from "../assets/pdf/College-Prospectus.pdf";
 
 export const footerLink = [
     {
@@ -13,7 +13,7 @@ export const footerLink = [
     {
         "name":"Prospectus",
         "urll":"/admission",
-        "pdf":Prospectus
+        "pdf": 'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109300/YCDENTAL/pdf/College-Prospectus_nv1cun.pdf',
     },
     
 
