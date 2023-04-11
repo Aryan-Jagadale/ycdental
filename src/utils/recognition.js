@@ -41,7 +41,7 @@ export const recognitionContent1 = [
   export const recognitionContent2 = [
     {
       imG: mainDivSecondImg,
-      title: "PG & UG AFFILIATION (2022-2024)",
+      title: "PG & UG AFFILIATION (2022-2023)",
       pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681204597/YCDENTAL/pdf/2022-23/PG_UG_AFFILIATION_2022-23_eha3qb.pdf",
     },
    
