@@ -21,8 +21,8 @@
   background: linear-gradient(103.12deg, #f8f8f8 0%, #fafafa 100%);
   box-shadow: 0px 8px 20px 3px rgba(3, 47, 110, 0.22);
   border-radius: 20px;
-  
-  border-top: 0.5rem solid #00205be5; 
+
+  border-top: 0.5rem solid #00205be5;
   font-family: "Domine";
   font-style: normal;
   font-weight: 700;
@@ -31,7 +31,11 @@
   text-align: center;
   position: relative;
   color: rgba(0, 0, 0, 0.8);
-  
+}
+.main-card-sub {
+  width: 400px;
+  align-self: center;
+  justify-content: center;
 }
 
 .main-card-img {
@@ -63,34 +67,34 @@
 }
 
 .sub-card-blue {
-    display: flex;
-    flex-wrap: wrap;
-    word-wrap: normal;
-    /*width: 379px;*/
-    width: 379px;
-    height: 153px;
-    /*height: 50%;*/
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    margin-inline: 2rem;
-    margin-block: 1rem;
-    text-align: left;
-    background: rgba(0, 32, 91, 0.09);
-    border-top: 0.5rem solid rgba(0, 32, 91, 0.8);
-  }
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: normal;
+  /*width: 379px;*/
+  width: 379px;
+  height: 153px;
+  /*height: 50%;*/
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-inline: 2rem;
+  margin-block: 1rem;
+  text-align: left;
+  background: rgba(0, 32, 91, 0.09);
+  border-top: 0.5rem solid rgba(0, 32, 91, 0.8);
+}
 
-  @media screen and (max-width:768px) {
-    .sub-card-blue,.sub-card-red{
-      height: 25vh;
-      width: 329px;
-    }
-    .main-card-img {
-      top: -25%;
-    }
-    .main-card {
-      width: 329px;
-      min-height: 32vh;
-    }
-    
+@media screen and (max-width: 768px) {
+  .sub-card-blue,
+  .sub-card-red {
+    height: 25vh;
+    width: 329px;
   }
+  .main-card-img {
+    top: -25%;
+  }
+  .main-card {
+    width: 329px;
+    min-height: 32vh;
+  }
+}
