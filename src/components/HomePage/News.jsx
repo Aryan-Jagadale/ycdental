@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import Add from "../../assets/icons/add.png";
 import NewsInnerComp from "./NewsInnerComp";
-import NewsImage from "../../assets/images/news.png";
 import "../../style/HomePage/news.css";
 import Slider from "react-slick";
 import NewsTopComp from "./NewsTopComp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import News1 from "../../assets/images/Home/News.jpeg"
+
 
 const News = () => {
   const [setIsChange] = useState(false);
@@ -41,7 +40,6 @@ const News = () => {
   }
 
   const settings = {
-    
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -55,7 +53,7 @@ const News = () => {
     width: "30px",
     background: "none",
     border: "0px",
-    display:"none"
+    display: "none",
   };
 
   const properties = {
@@ -81,7 +79,7 @@ const News = () => {
         </svg>
       </button>
     ),
-    duration:2000
+    duration: 2000,
   };
 
   //console.log(isChange);
@@ -99,7 +97,6 @@ const News = () => {
 
         <section className="w-[0%] flex items-center justify-end md:w-[40%] ">
           <div className="h-[35px] w-[35px] bg-[#00205B] items-center justify-center hidden md:flex">
-           
             <LazyLoadImage effect="opacity" src={Add} alt={"Add button"} />
           </div>
         </section>
@@ -107,7 +104,7 @@ const News = () => {
 
       <div className="">
         <div className="flex items-center w-full my-3 gap-2 flex-col-reverse md:flex-row  ">
-          <section className="w-[100%] flex items-center justify-center flex-col m-3 md:w-[60%]">
+          <section className="w-[100%] flex items-center gap-3 md:gap-5 h-full  flex-col m-3 md:w-[60%]">
             <div className="small_carousel md:h-[28vh] w-full p-0 md:p-5">
               <Slider {...settings}>
                 <NewsTopComp />
@@ -137,17 +134,45 @@ const News = () => {
 
           <section className="w-[100%] h-full md:w-[40%]">
             <div className="p-0 md:p-5 border border-[#FFD900]">
-              
               <Slide {...properties}>
                 <LazyLoadImage
                   effect="opacity"
-                  src={News1}
+                  src={
+                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211069/YCDENTAL/images/NewsImages/2_qsdozk.jpg"
+                  }
                   alt="newsImage"
-                  className="m-0 h-[70vh] w-full object-cover"
+                  className="m-0 h-full w-full object-cover "
                 />
                 <LazyLoadImage
                   effect="opacity"
-                  src={NewsImage}
+                  src={
+                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211152/YCDENTAL/images/NewsImages/News_xczpno.jpg"
+                  }
+                  alt="newsImage"
+                  className="m-0 h-full w-full object-cover "
+                />
+
+                <LazyLoadImage
+                  effect="opacity"
+                  src={
+                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/1_s8tboi.jpg"
+                  }
+                  alt="newsImage"
+                  className="m-0 h-full w-full object-cover "
+                />
+                <LazyLoadImage
+                  effect="opacity"
+                  src={
+                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/3_w7clt3.jpg"
+                  }
+                  alt="newsImage"
+                  className="m-0 h-full w-full object-cover "
+                />
+                <LazyLoadImage
+                  effect="opacity"
+                  src={
+                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/4_eyl7to.jpg"
+                  }
                   alt="newsImage"
                   className="m-0 h-full w-full object-cover "
                 />
