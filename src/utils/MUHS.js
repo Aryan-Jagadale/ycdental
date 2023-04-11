@@ -108,11 +108,11 @@ export const muhs = [
       },
       {
         name: "Annexure-VIII",
-        pdf:  'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133912/YCDENTAL/pdf/2023-2024/8Annexure_l9ytny.pdf' ,
+        pdf:  'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681192125/YCDENTAL/pdf/2023-2024/8._ANNEXURE_-_VIII_cc5q8t.pdf' ,
       },
       {
         name: "Annexure-IX",
-        pdf:  'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133974/YCDENTAL/pdf/2023-2024/9AAnnexure_rugkkl.pdf' ,
+        pdf:  'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681192391/YCDENTAL/pdf/2023-2024/9AAnnexure_p4ersl.pdf' ,
       },
       {
         name: "Annexure-X",
@@ -145,6 +145,10 @@ export const muhs = [
       {
         name: "SWACCHA_BHARAT_ABHIYAN",
         pdf:  'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133996/YCDENTAL/pdf/2023-2024/SWACCHA_BHARAT_ABHIYAN_PDF_vuwrem.pdf' ,
+      },
+      {
+        name: "AISHE",
+        pdf:  'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133962/YCDENTAL/pdf/2023-2024/AISHE_ca0p42.pdf' ,
       },
     ],
   },
