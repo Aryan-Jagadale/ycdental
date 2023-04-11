@@ -9,6 +9,8 @@ import {
   GalleryData4,
   GalleryData5,
   GalleryData6,
+  GalleryData7,
+  GalleryData8,
 } from "../../utils/GalleryData";
 
 function GallerySection() {
@@ -46,6 +48,16 @@ function GallerySection() {
       </section>
       <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
         {GalleryData6.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {GalleryData7.map((item) => (
+          <GridLab3 key={item.label} item={item} />
+        ))}
+      </section>
+      <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
+        {GalleryData8.map((item) => (
           <GridLab3 key={item.label} item={item} />
         ))}
       </section>
