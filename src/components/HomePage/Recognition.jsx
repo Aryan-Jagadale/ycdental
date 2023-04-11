@@ -36,6 +36,7 @@ function Recognition() {
             />
           ))}
         </div>
+        
         <div className="flex w-full flex-col lg:flex-row justify-center items-center lg:justify-around mt-14 main-card-sub">
           {recognitionContent2.map((item) => (
             <RecognitionInner
