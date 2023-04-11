@@ -9,10 +9,10 @@ import {
 
 function NaccSection() {
     return (
-        <div className='naccSection mt-2 mb-2 flex flex-row'>
+        <div className='naccSection mx-3 my-5 w-[90%] flex-wrap flex items-center justify-center flex-row gap-5'>
             {
                 pdfRow.map((pdf, i) => (
-                    <a key={i} href={pdf.url} className='font-bold pdf-main-card' >
+                    <a key={i} href={pdf.url} target={"_blank"} rel='noreferrer' className='font-bold pdf-main-card' >
                         <p className='pdfnametag'>NAAC Achievement</p>
                     </a>
                 ))
