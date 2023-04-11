@@ -73,6 +73,10 @@ export const muhs = [
         name: "AISHE",
         pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109882/YCDENTAL/pdf/2022-23/AISHE_ilhz9f.pdf" ,
       },
+      {
+        name: "PG & UG AFFILIATION",
+        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681204597/YCDENTAL/pdf/2022-23/PG_UG_AFFILIATION_2022-23_eha3qb.pdf" ,
+      },
     ],
   },
   {
