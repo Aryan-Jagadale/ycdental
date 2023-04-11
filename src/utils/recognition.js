@@ -37,4 +37,12 @@ export const recognitionContent1 = [
     pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681131006/YCDENTAL/pdf/Recognition/IIC_fmvo7r.pdf",
     /*"title":"Affiliated to Maharashtra University of Health Sciences (MUHS)"*/
   },
+]
+  export const recognitionContent2 = [
+    {
+      imG: mainDivSecondImg,
+      title: "PG & UG AFFILIATION (2022-2024)",
+      pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681204597/YCDENTAL/pdf/2022-23/PG_UG_AFFILIATION_2022-23_eha3qb.pdf",
+    },
+   
 ];
