@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NaacSSR from './NaacSSR';
 import logo from "../../assets/images/NAAC/download logo.png"
+import "../../style/NAAC/naac.css"
 
 function NaacIQAC() {
 
@@ -26,10 +27,10 @@ function NaacIQAC() {
                     >
                         {options.map((option, i) => (
                             <button
-                             bgImg={logo}
+                                bgImg={logo}
                                 key={i}
                                 type="button"
-                                
+
                                 className="block border-b-2 text-xl w-full px-4 py-3 text-left text-[#FFD900] font-fam hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
                                 onClick={() => {
                                     setSelectedOption(i + 1);
@@ -41,7 +42,7 @@ function NaacIQAC() {
                     </div>
                 </div>
             </div>
-            <div className="w-full md:w-2/3 px-2">
+            <div className="container-two w-full md:w-2/3 px-4">
                 {selectedOption === 1 && <NaacSSR />}
                 {selectedOption === 2 && <div></div>}
                 {selectedOption === 3 && <div></div>}
