@@ -16,6 +16,7 @@ import ScrollToTop from "react-scroll-to-top";
 import { BsArrowUpShort } from "react-icons/bs";
 import Muhs from "./components/Muhs/Muhs";
 import Gallery from "./pages/Gallery";
+import Naac from "./pages/NaacPage";
 
 import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentBranches/DepartmentORMEDRAD";
 import DeptProsthodontics from "./components/DepartmentPage/DepartmentBranches/DeptProsthodontics";
@@ -77,25 +78,16 @@ function App() {
               element={<Grievance />}
             />
 
-            <Route
-              path="/committee/library-commitee"
-              element={<Library />}
-            />
+            <Route path="/committee/library-commitee" element={<Library />} />
 
             <Route
               path="/committee/parent-teacher-commitee"
               element={<ParentTeacher />}
             />
 
-            <Route
-              path="/committee/vishakha-commitee"
-              element={<Vishakha />}
-            />
+            <Route path="/committee/vishakha-commitee" element={<Vishakha />} />
 
-            <Route
-              path="/committee/alumni-commitee"
-              element={<Alumni />}
-            />
+            <Route path="/committee/alumni-commitee" element={<Alumni />} />
 
             <Route
               path="/committee/student-council-commitee"
@@ -155,6 +147,8 @@ function App() {
             <Route path="/muhs-mandate" element={<Muhs />} />
 
             <Route path="/gallery" element={<Gallery />} />
+
+            <Route path="/naac" element={<Naac />} />
           </Routes>
 
           <FooterComp />

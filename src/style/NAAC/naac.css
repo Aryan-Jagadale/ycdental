@@ -1,0 +1,35 @@
+.naacBg {
+  background-image: url("../../assets//images/NAAC/bgimg.png");
+  background-color: #800000;
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+/* .naacStyle {
+  background-image: url("../../assets/images/NAAC/achievement.png");
+  height: 24rem;
+  width: 215px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 20px;
+} */
+.pdf-main-card {
+  /* background-image: url("../../assets/images/NAAC/pdfImg.png"); */
+  height: 282.38px;
+  width: 180px;
+  background: url("../../assets/images/NAAC/pdfImg.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.pdfnametag {
+  text-align: center;
+  margin-bottom: 45px;
+}
