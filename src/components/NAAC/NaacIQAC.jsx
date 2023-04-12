@@ -7,7 +7,7 @@ function NaacIQAC() {
 
     const [selectedOption, setSelectedOption] = useState(1)
     const [isOpen, setIsOpen] = useState(true);
-    const options = ['IQAC', 'IIQA', 'DVV', 'SSR', 'SSR Links'];
+    const options = ['SSR', 'IIQA', 'DVV', 'IQAC', 'SSR Links'];
 
     return (
 
