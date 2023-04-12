@@ -13,7 +13,7 @@ export const footerLink = [
     {
         "name":"Prospectus",
         "urll":"/admission",
-        "pdf": 'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109300/YCDENTAL/pdf/College-Prospectus_nv1cun.pdf',
+        "pdf": 'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681281777/YCDENTAL/pdf/new-College-Prospectus_page-0001_ord625.pdf',
     },
     
 
