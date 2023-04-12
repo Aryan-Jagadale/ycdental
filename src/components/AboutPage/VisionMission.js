@@ -96,7 +96,7 @@ function VisionMission() {
              and enhancing extension activities.
           </span>
           <br />
-          <b />
+          <br />
           <span className="vision-discription">
             &#8226; To prioritize the research and innovation by engaging the alumni and staff through incubation center
           </span>
