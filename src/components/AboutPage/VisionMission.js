@@ -9,19 +9,27 @@ function VisionMission() {
     <div className="VisionMission" id="visionMission">
       <Row>
         <Col className="VisionMission-imgs" sm xs={18} lg={3}>
-        
-  {/*<img src={img1} alt="img" className="VisionMission-img"/>*/}
-          <LazyLoadImage  src={img1} alt="vision-pic" effect="opacity" className="VisionMission-img"  />  
+          {/*<img src={img1} alt="img" className="VisionMission-img"/>*/}
+          <LazyLoadImage
+            src={img1}
+            alt="vision-pic"
+            effect="opacity"
+            className="VisionMission-img"
+          />
         </Col>
         <Col sm className="VisionMissionContent">
           <h1 className="vision-title">VISION</h1>
 
           <span className="vision-discription">
-            &#8226; To provide high quality dental education program at
-            undergraduate and postgraduate level.
+            &#8226; To achieve academic excellence and impart skill-based
+            teaching learning, research-oriented quality education, innovation
+            and entrepreneurship role through multidisciplinary approach and
+            disseminate the knowledge of disease prevention to the unreached,
+            underprivileged and marginalized groups with comprehensive oral
+            health care to rural and urban population.
           </span>
           <br />
-          <br />
+          {/* <br />
           <span className="vision-discription track">
             &#8226; To facilitate students in acquiring knowledge of basic
             behavioural and clinical sciences for general practice of dentistry,
@@ -34,38 +42,63 @@ function VisionMission() {
             care to people, especially marginalized groups and disseminate
             knowledge of disease prevention to the public, and continuing dental
             education to professionals.
-          </span>
+          </span> */}
 
           <h1 className="mission-title">MISSION</h1>
 
           <span className="vision-discription">
+            &#8226; To provide academic excellence in field of dentistry by
+            adopting Inter Disciplinary - Multi Disciplinary approach by
+            ensuring good ethical practice and advanced technologies.
+          </span>
+          <br />
+          <br />
+          <span className="vision-discription">
+            &#8226; To provide research-oriented quality education, Innovation &
+            Entrepreneurship in disciplines of dentistry by inculcating research
+            culture amongst all stakeholders.
+          </span>
+          <br />
+          <br />
+          <span className="vision-discription">
+            &#8226; To provide comprehensive primary and specialized oral
+            healthcare to people, especially marginalized groups and disseminate
+            knowledge of disease prevention to the public, and continuing dental
+            education to professionals.
+          </span>
+          <br />
+          <br />
+          <span className="vision-discription">
             &#8226; To build and provide world class infrastructure and
             facilities with quality teachers and to conduct valid academic
-            programs of practical and real world knowledge of dentistry.
+            programs of practical and real-world knowledge of dentistry.
           </span>
           <br />
           <br />
           <span className="vision-discription">
-            &#8226; Develop holistic competence with global vision, local
+            &#8226; To develop holistic competency with global vision, local
             interface, societal orientation, industrial applicability and
-            patriotic passions.
+            patriotic passions. Effective implementation of quality management
+            system with continuous quality checks mechanism through regular
+            audits and inspections.
+          </span>
+          <br />
+          
+          <h1 className="mission-title">INSTITUTIONAL OBJECTIVES FOR ACADEMIC EXCELLENCE </h1>
+          <span className="vision-discription track">
+            &#8226; To strengthen the existing academic programme by initiating new academic programs 
+            like post-graduation course, Doctor of Philosophy and fellowship courses.
           </span>
           <br />
           <br />
           <span className="vision-discription">
-            &#8226; To transfer scientific knowledge to achieve professional
-            skill and personal qualities of international standard.
+            &#8226; To bring out holistic development among the student by curricular enrichment
+             and enhancing extension activities.
           </span>
           <br />
-          <br />
+          <b />
           <span className="vision-discription">
-            &#8226; To create infrastructure and hospital facilities to serve
-            the public including free service to the poor and needy.
-          </span>
-          <br />
-          <br />
-          <span className="vision-discription">
-            &#8226; Provide regular value based education to the students.
+            &#8226; To prioritize the research and innovation by engaging the alumni and staff through incubation center
           </span>
         </Col>
       </Row>
