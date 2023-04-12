@@ -176,6 +176,14 @@ const News = () => {
                   alt="newsImage"
                   className="m-0 h-full w-full object-cover "
                 />
+                <LazyLoadImage
+                  effect="opacity"
+                  src={
+                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681288476/YCDENTAL/images/NewsImages/IMG-20221221-WA0012_d4tkrk.jpg"
+                  }
+                  alt="newsImage"
+                  className="m-0 h-full w-full object-cover "
+                />
               </Slide>
             </div>
           </section>
