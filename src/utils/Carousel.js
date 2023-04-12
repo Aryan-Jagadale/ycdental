@@ -26,6 +26,9 @@ export const carousel1 = [
     backImg: Sec2,
   },
   {
+    backImg: Sec7,
+  },
+  {
     backImg: Sec3,
   },
   {
@@ -36,8 +39,5 @@ export const carousel1 = [
   },
   {
     backImg: Sec6,
-  },
-  {
-    backImg: Sec7,
   },
 ];
