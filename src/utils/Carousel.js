@@ -7,6 +7,7 @@ import Sec3 from "../assets/images/Home/Carousel/3.jpg";
 import Sec4 from "../assets/images/Home/Carousel/4.jpg";
 import Sec5 from "../assets/images/Home/Carousel/5.jpg";
 import Sec6 from "../assets/images/Home/Carousel/6.jpeg";
+import Sec7 from "../assets/images/Home/Carousel/newCoroselImg.png";
 
 export const carousel = [
   {
@@ -26,12 +27,17 @@ export const carousel1 = [
   },
   {
     backImg: Sec3,
-  },{
+  },
+  {
     backImg: Sec4,
-  },{
+  },
+  {
     backImg: Sec5,
-  },{
+  },
+  {
     backImg: Sec6,
   },
-]
-
+  {
+    backImg: Sec7,
+  },
+];

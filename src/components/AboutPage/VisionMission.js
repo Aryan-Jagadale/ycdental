@@ -83,22 +83,26 @@ function VisionMission() {
             audits and inspections.
           </span>
           <br />
-          
-          <h1 className="mission-title">INSTITUTIONAL OBJECTIVES FOR ACADEMIC EXCELLENCE </h1>
+
+          <h1 className="mission-title">
+            INSTITUTIONAL OBJECTIVES FOR ACADEMIC EXCELLENCE{" "}
+          </h1>
           <span className="vision-discription track">
-            &#8226; To strengthen the existing academic programme by initiating new academic programs 
-            like post-graduation course, Doctor of Philosophy and fellowship courses.
+            &#8226; To strengthen the existing academic programme by initiating
+            new academic programs like post-graduation course, Doctor of
+            Philosophy and fellowship courses.
           </span>
           <br />
           <br />
           <span className="vision-discription">
-            &#8226; To bring out holistic development among the student by curricular enrichment
-             and enhancing extension activities.
+            &#8226; To bring out holistic development among the student by
+            curricular enrichment and enhancing extension activities.
           </span>
           <br />
           <br />
           <span className="vision-discription">
-            &#8226; To prioritize the research and innovation by engaging the alumni and staff through incubation center
+            &#8226; To prioritize the research and innovation by engaging the
+            alumni and staff through incubation center.
           </span>
         </Col>
       </Row>
