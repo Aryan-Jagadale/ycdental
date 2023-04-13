@@ -29,6 +29,7 @@ import Gal59 from "../assets/images/gallery/dentist3.JPG";
 import Gal60 from "../assets/images/gallery/dentist4.JPG";
 import Gal61 from "../assets/images/gallery/dentist5.JPG";
 import Gal62 from "../assets/images/gallery/dentist6.JPG";
+import Gal63 from "../assets/images/gallery/dentist7.JPG";
 
 
 
@@ -132,9 +133,10 @@ export const GalleryData6 = [
     label: "Shiv Jayanti Celebrations",
   },
   {
-    imG: Gal57,
-    label: "Dentist day 1",
+    imG: Gal63,
+    label: "CBCT Inaugration",
   },
+  
 ];
 
 export const GalleryData7 = [
@@ -160,6 +162,10 @@ export const GalleryData8 = [
   {
     imG: Gal62,
     label: "Dentist day 6",
+  },
+  {
+    imG: Gal57,
+    label: "Dentist day 1",
   },
   
 ];
