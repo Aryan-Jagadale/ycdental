@@ -8,7 +8,7 @@ function NaacHead() {
 
     const [selectedOption, setSelectedOption] = useState(1)
     const [isOpen, setIsOpen] = useState(true);
-    const options = ['SSR', 'IIQA', 'DVV', 'IQAC', 'SSR Links'];
+    const options = ['SSR', 'IQAC', 'IIQA', 'DVV', 'SSR Links'];
 
     return (
 
