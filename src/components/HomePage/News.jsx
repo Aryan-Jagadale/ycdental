@@ -123,9 +123,7 @@ const News = () => {
                 <section id="scroll-container">
                   <div id="scroll-text">
                     <NewsInnerComp />
-                    <NewsInnerComp />
-                    <NewsInnerComp />
-                    <NewsInnerComp />
+                   
                   </div>
                 </section>
               </section>

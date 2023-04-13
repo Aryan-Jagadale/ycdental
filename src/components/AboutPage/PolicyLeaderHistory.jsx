@@ -16,14 +16,14 @@ const PolicyLeaderHistory = ({ name, link, pdf }) => {
       ${name === "Alumni Committee" ? "bgPS" : ""}
 
       ${name === "Student Welfare Committee" ? "bgCoc" : ""}
+
       ${name === "Patient Safety" ? "bgPS" : ""} 
       ${name === "PTA Policy" ? "bgPTA" : ""} 
-      
       ${name === "E-governance" ? "bgEgov" : ""} 
-
       ${name === "Mentoring Policy" ? "bgMentor" : ""}
       ${name === "Code of Conduct" ? "bgCoc" : ""}
       ${name === "Research Policy" ? "bgPolicy" : ""}
+      
       relative w-3/4 md:w-1/4 shadow-2xl block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat h-[40vh]`}
     >
       <div className="absolute inset-0 bg-black/25"></div>
