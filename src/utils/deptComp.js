@@ -365,6 +365,14 @@ export const oralPathologyLink = [
     name: "Dr. Nimbalkar Reshma",
     position: "Tutor",
   },
+  {
+    name: "Dr Bommanavar Sushma",
+    position: "Reader",
+  },
+  {
+    name: "Dr Shirke Ketaki",
+    position: "Lecturer",
+  },
 ];
 
 export const oralSurgeryLink = [
