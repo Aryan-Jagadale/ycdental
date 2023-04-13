@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import NaacSSR from './NaacSSR';
+import NaacIQAC from './NaacIQAC';
 import logo from "../../assets/images/NAAC/download logo.png"
 import "../../style/NAAC/naac.css"
 
@@ -7,7 +8,7 @@ function NaacHead() {
 
     const [selectedOption, setSelectedOption] = useState(1)
     const [isOpen, setIsOpen] = useState(true);
-    const options = ['SSR', 'IIQA', 'DVV', 'IQAC', 'SSR Links'];
+    const options = ['SSR', 'IQAC', 'IIQA', 'DVV', 'SSR Links'];
 
     return (
 
@@ -44,7 +45,7 @@ function NaacHead() {
             </div>
             <div className="container-two w-full md:w-2/3 px-4">
                 {selectedOption === 1 && <NaacSSR />}
-                {selectedOption === 2 && <div></div>}
+                {selectedOption === 2 && <NaacIQAC />}
                 {selectedOption === 3 && <div></div>}
                 {selectedOption === 4 && <div></div>}
                 {selectedOption === 5 && <div></div>}
