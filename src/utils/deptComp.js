@@ -366,11 +366,11 @@ export const oralPathologyLink = [
     position: "Tutor",
   },
   {
-    name: "Dr Bommanavar Sushma",
+    name: "Dr. Bommanavar Sushma",
     position: "Reader",
   },
   {
-    name: "Dr Shirke Ketaki",
+    name: "Dr. Shirke Ketaki",
     position: "Lecturer",
   },
 ];
@@ -424,10 +424,6 @@ export const publicHealthLink = [
     position: "Tutor",
   },
   {
-    name: "Dr. Rothe Tushar",
-    position: "Tutor",
-  },
-  {
     name: "Dr. Shinde Pallavi",
     position: "Tutor",
   },
@@ -435,12 +431,8 @@ export const publicHealthLink = [
 
 export const anatomyLink = [
   {
-    name: "Dr.Vibhute Archana",
+    name: "Dr. Vibhute Archana",
     position: "Reader & HOD",
-  },
-  {
-    name: "Dr. Sawai Santosh",
-    position: "Lecturer",
   },
   {
     name: "Dr. Borude Ashvini",
@@ -452,6 +444,10 @@ export const anatomyLink = [
   },
   {
     name: "Dr. Kulkarni Mangesh",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Devdhe Subhash",
     position: "Lecturer",
   },
 ];
@@ -466,11 +462,7 @@ export const physiologyLink = [
     position: "Lecturer",
   },
   {
-    name: "Mrs. Kausar Heena",
-    position: "Lecturer",
-  },
-  {
-    name: "Gaikwad Anita",
+    name: "Mrs. Ambre Heena",
     position: "Lecturer",
   },
 ];
@@ -478,7 +470,7 @@ export const physiologyLink = [
 export const biochemistryLink = [
   {
     name: "Dr. Gaikwad Sudin",
-    position: "Reader & HOD",
+    position: "Reader",
   },
   {
     name: "Mrs. Aradhye Anuradha",
@@ -504,7 +496,11 @@ export const pharmacologyLink = [
     position: "Lecturer",
   },
   {
-    name: "Dr. Mhaske Sneha",
+    name: "Dr. Aghav Prakash",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Ghughe Seema",
     position: "Lecturer",
   },
 ];
@@ -522,6 +518,10 @@ export const generalPathologyLink = [
     name: "Dr. Bhandare Ashok",
     position: "Lecturer",
   },
+  {
+    name: "Dr. Suryawanshi Sampat",
+    position: "Lecturer",
+  },
 ];
 
 export const generalMedicineLink = [
@@ -530,19 +530,15 @@ export const generalMedicineLink = [
     position: "Reader & HOD",
   },
   {
-    name: "Dr. Karad Sawati",
-    position: "Lecturer",
-  },
-  {
     name: "Dr. Borude Sagar",
     position: "Lecturer",
   },
   {
-    name: "Dr. Thorat Rohit",
+    name: "Dr. Kangune Avinash",
     position: "Lecturer",
   },
   {
-    name: "Dr. Kangune Avinash",
+    name: "Dr. Thorat Rohit",
     position: "Lecturer",
   },
 ];
@@ -561,7 +557,7 @@ export const generalSurgeryLink = [
     position: "Lecturer",
   },
   {
-    name: "Dr.Shirsat Sagar",
+    name: "Dr. Shirsat Sagar",
     position: "Lecturer",
   },
 ];
@@ -573,6 +569,20 @@ export const anesthesiaLink = [
   },
   {
     name: "Dr. Kadam Mahesh",
+    position: "Lecturer",
+  },
+];
+export const microbiologyLink = [
+  {
+    name: "Dr. Karad Swati",
+    position: "Reader ",
+  },
+  {
+    name: "Dr. Joshi Milind",
+    position: "Lecturer",
+  },
+  {
+    name: "Dr. Kabra Dipakkumar R",
     position: "Lecturer",
   },
 ];
@@ -645,37 +655,65 @@ export const departCompImageLabel = [
   {
     yellowColor: false,
     name: "General Medicine",
-    linkUrl: "/academic",
+    linkUrl: "/department/gen-medicine",
     label:
       "https://res.cloudinary.com/ddaalka6i/image/upload/v1679726330/Acdemic%20PAge/Department%20Comp/GeneralMd_ffxxoq.png",
   },
   {
     yellowColor: false,
     name: "General Surgery",
-    linkUrl: "/academic",
+    linkUrl: "/department/gen-surgery",
     label:
       "https://res.cloudinary.com/ddaalka6i/image/upload/v1679721062/Acdemic%20PAge/Department%20Comp/GeneralSur_r3poat.png",
   },
 
   {
     yellowColor: false,
-    name: "General Pathology and Microbiology",
-    linkUrl: "/academic",
+    name: "General Pathology",
+    linkUrl: "/department/panthology",
     label:
       "https://res.cloudinary.com/ddaalka6i/image/upload/v1679721062/Acdemic%20PAge/Department%20Comp/GeneralPAthology_afpgdr.png",
   },
   {
     yellowColor: false,
-    name: "Biochemistry and Physiology",
-    linkUrl: "/academic",
+    name: "Biochemistry",
+    linkUrl: "/department/biochemistry",
     label:
       "https://res.cloudinary.com/ddaalka6i/image/upload/v1679721062/Acdemic%20PAge/Department%20Comp/BioChemistry_plagul.png",
   },
   {
     yellowColor: false,
-    name: "General Anatomy",
-    linkUrl: "/academic",
+    name: "Anatomy",
+    linkUrl: "/department/anotomy",
     label:
       "https://res.cloudinary.com/ddaalka6i/image/upload/v1679721062/Acdemic%20PAge/Department%20Comp/EGenralAnatomy_xnnedo.png",
+  },
+  {
+    yellowColor: false,
+    name: "Physiology",
+    linkUrl: "/department/physiology",
+    label:
+      "https://res.cloudinary.com/ddaalka6i/image/upload/v1679726330/Acdemic%20PAge/Department%20Comp/GeneralMd_ffxxoq.png",
+  },
+  {
+    yellowColor: true,
+    name: "Pharmacology",
+    linkUrl: "/department/pharma",
+    label:
+      "https://res.cloudinary.com/ddaalka6i/image/upload/v1679721062/Acdemic%20PAge/Department%20Comp/GeneralPAthology_afpgdr.png",
+  },
+  {
+    yellowColor: true,
+    name: "Microbiology",
+    linkUrl: "/department/microbiology",
+    label:
+      "https://res.cloudinary.com/ddaalka6i/image/upload/v1679721062/Acdemic%20PAge/Department%20Comp/GeneralSur_r3poat.png",
+  },
+  {
+    yellowColor: true,
+    name: "Anesthesia",
+    linkUrl: "/department/anesthesia",
+    label:
+      "https://res.cloudinary.com/ddaalka6i/image/upload/v1679720624/Acdemic%20PAge/Department%20Comp/OralPath_hkzma0.png",
   },
 ];

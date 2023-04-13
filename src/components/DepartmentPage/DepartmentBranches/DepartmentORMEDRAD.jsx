@@ -2,14 +2,10 @@ import React from "react";
 import "../../../style/DepartmentsPage/department.css";
 import DepartmentLayout from "./DepartmentLayout";
 import Faculties from "../Department/Faculties";
-import {oralmrdLink} from "../../../utils/deptComp";
-
-
+import { oralmrdLink } from "../../../utils/deptComp";
 
 
 const DepartmentORMEDRAD = () => {
-
-  
 
   return (
     <DepartmentLayout
@@ -20,7 +16,7 @@ const DepartmentORMEDRAD = () => {
       hod={"Dr. Raorale Ashish"}
       strong={"Eyes cannot see what mind doesn’t know"}
       description={"Oral Medicine & Radiology is a specialized branch that deals with the clinical and radiological diagnosis of diseases affecting the oral & maxillofacial region at also specializes in non-surgical management of medically related disorder affecting the oral & maxillofacial region. Visualizing the oral signs and symptoms and radiographs we can give a tentative diagnosis of diseases affecting the body and that is why it is said that mouth is the mirror of the body."}
-      faculties={<Faculties facLink={oralmrdLink}/>}
+      faculties={<Faculties facLink={oralmrdLink} />}
 
     />
   );

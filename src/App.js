@@ -19,6 +19,7 @@ import Gallery from "./pages/Gallery";
 import Naac from "./pages/NaacPage";
 
 import DepartmentORMEDRAD from "./components/DepartmentPage/DepartmentBranches/DepartmentORMEDRAD";
+import DeptAnotomy from "./components/DepartmentPage/DepartmentBranches/DeptAnotomy";
 import DeptProsthodontics from "./components/DepartmentPage/DepartmentBranches/DeptProsthodontics";
 import DeptOralMaxSur from "./components/DepartmentPage/DepartmentBranches/DeptOralMaxSur";
 import DeptOralPathology from "./components/DepartmentPage/DepartmentBranches/DeptOralPathology";
@@ -34,6 +35,15 @@ import ParentTeacher from "./components/AboutPage/Committee/ParentTeacher";
 import Vishakha from "./components/AboutPage/Committee/Vishakha";
 import Alumni from "./components/AboutPage/Committee/Alumni";
 import StudentCouncil from "./components/AboutPage/Committee/StudentCouncil";
+
+import DeptAnesthesia from "./components/DepartmentPage/DepartmentBranches/DeptAnesthesia";
+import DeptMicrobiology from "./components/DepartmentPage/DepartmentBranches/DeptMicrobiology";
+import DeptPharma from "./components/DepartmentPage/DepartmentBranches/DeptPharma";
+import DeptBiochemistry from "./components/DepartmentPage/DepartmentBranches/DeptBiochemistry";
+import DeptPhysiology from "./components/DepartmentPage/DepartmentBranches/DeptPhysiology";
+import DeptGenMedicine from "./components/DepartmentPage/DepartmentBranches/DeptGenMedicine";
+import DeptgenSurgery from "./components/DepartmentPage/DepartmentBranches/DeptgenSurgery";
+import DeptGenPathology from "./components/DepartmentPage/DepartmentBranches/DeptGenPathology";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -139,6 +149,23 @@ function App() {
               path="/department/prosthodontics"
               element={<DeptProsthodontics />}
             />
+
+            <Route path="/department/anotomy" element={<DeptAnotomy />} />
+            <Route path="/department/anesthesia" element={<DeptAnesthesia />} />
+            <Route
+              path="/department/microbiology"
+              element={<DeptMicrobiology />}
+            />
+            <Route path="/department/pharma" element={<DeptPharma />} />
+            <Route
+              path="/department/biochemistry"
+              element={<DeptBiochemistry />}
+            />
+            <Route path="/department/physiology" element={<DeptPhysiology />} />
+
+            <Route path="/department/gen-medicine" element={<DeptGenMedicine />} />
+            <Route path="/department/gen-surgery" element={<DeptgenSurgery />} />
+            <Route path="/department/panthology" element={<DeptGenPathology />} />
 
             <Route path="/admission" element={<Admissionsss />} />
 

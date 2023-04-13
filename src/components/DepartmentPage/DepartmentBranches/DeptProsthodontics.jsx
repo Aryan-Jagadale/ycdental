@@ -18,9 +18,6 @@ const DeptProsthodontics = () => {
     description={"Department of Prosthodontics and implantology we are replicators of creator's beautiful creation. Prosthodontics is a branch of dentistry that restores and replaces oral and maxillofacial tissues, improves aesthetics and renders oral comfort thereby maintaining a perfect harmony of complete stomatognathic system."}
     faculties={<Faculties facLink={prosthodonticsLink} />}
     
-    
-    
-    
     />
   );
 };
