@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../../style/DepartmentsPage/department.css";
 import AccordianLayout from "../AccordianStuff/AccordianLayout";
 
@@ -10,6 +10,9 @@ const DepartmentLayout = ({
   description,
   faculties,
 }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="h-[80vh] bg-[#FFD900] flex justify-center items-center">
@@ -24,13 +27,13 @@ const DepartmentLayout = ({
 
       <div>
         <div className="flex items-center justify-center p-9 flex-col md:flex-row">
-          
+
 
           <section className="w-[80%] p-2 md:p-5">
             <p className="font-fam tracking-wide text-center" style={{
-              fontSize:"1.35rem"
+              fontSize: "1.35rem"
             }}>
-            
+
               <strong>{strong}</strong>
               <br />
               {description}
@@ -40,9 +43,9 @@ const DepartmentLayout = ({
       </div>
 
       <div className="p-7 md:p-14">
-        
+
         <AccordianLayout title={"Faculties & Staff"} description={faculties} />
-        
+
 
       </div>
     </div>
