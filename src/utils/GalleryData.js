@@ -31,8 +31,6 @@ import Gal61 from "../assets/images/gallery/dentist5.JPG";
 import Gal62 from "../assets/images/gallery/dentist6.JPG";
 import Gal63 from "../assets/images/gallery/dentist7.JPG";
 
-
-
 export const GalleryData = [
   {
     imG: Gal1,
@@ -134,9 +132,8 @@ export const GalleryData6 = [
   },
   {
     imG: Gal63,
-    label: "CBCT Inaugration",
+    label: "Alumni Meet Inaugration",
   },
-  
 ];
 
 export const GalleryData7 = [
@@ -167,5 +164,4 @@ export const GalleryData8 = [
     imG: Gal57,
     label: "Dentist day 1",
   },
-  
 ];
