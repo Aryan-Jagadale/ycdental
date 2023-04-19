@@ -24,3 +24,10 @@ export const pdfRow = [
   //   url: "",
   // },
 ];
+export const pdfRowIIQA = [
+  {
+    label: "RTI declaration",
+    url: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681889156/YCDENTAL/pdf/NAAC/IIQA-RTI_tznydq.pdf",
+  },
+  
+];
