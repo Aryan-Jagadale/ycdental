@@ -15,6 +15,11 @@ export const footerLink = [
         "urll":"/admission",
         "pdf": 'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681281777/YCDENTAL/pdf/new-College-Prospectus_page-0001_ord625.pdf',
     },
+    {
+        "name":"RTI Declaration",
+        "urll":'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681889156/YCDENTAL/pdf/NAAC/IIQA-RTI_tznydq.pdf',
+        // "pdf": 'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681889156/YCDENTAL/pdf/NAAC/IIQA-RTI_tznydq.pdf',
+    },
     
 
 
