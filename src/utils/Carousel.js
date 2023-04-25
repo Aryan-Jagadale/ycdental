@@ -1,22 +1,10 @@
-import Left1 from "../assets/images/Home/Left1.jpeg";
-import Right1 from "../assets/images/Home/Right1.jpg";
-
-import Sec1 from "../assets/images/Home/Carousel/1.png";
-import Sec2 from "../assets/images/Home/Carousel/2.jpg";
-import Sec3 from "../assets/images/Home/Carousel/3.jpg";
-import Sec4 from "../assets/images/Home/Carousel/4.jpg";
-import Sec5 from "../assets/images/Home/Carousel/5.jpg";
-import Sec6 from "../assets/images/Home/Carousel/6.jpeg";
-import Sec7 from "../assets/images/Home/Carousel/newCoroselImg.png";
-
-export const carousel = [
-  {
-    backImg:
-      "https://res.cloudinary.com/ddaalka6i/image/upload/v1679145925/buil_1_afzg2u.jpg",
-    left: Left1,
-    right: Right1,
-  },
-];
+import Sec1 from "../assets/images/Home/Carousel/1.webp";
+import Sec2 from "../assets/images/Home/Carousel/2.webp";
+import Sec3 from "../assets/images/Home/Carousel/3.webp";
+import Sec4 from "../assets/images/Home/Carousel/4.webp";
+import Sec5 from "../assets/images/Home/Carousel/5.webp";
+import Sec6 from "../assets/images/Home/Carousel/6.webp";
+import Sec7 from "../assets/images/Home/Carousel/newCoroselImg.webp";
 
 export const carousel1 = [
   {

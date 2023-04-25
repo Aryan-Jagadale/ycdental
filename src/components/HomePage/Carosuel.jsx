@@ -33,7 +33,6 @@ const CarosuelComp = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    lazyLoad: true,
     autoplay: true,
     nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />
@@ -41,11 +40,6 @@ const CarosuelComp = () => {
   return (
     <>
       <div className="carosuel">
-        {/*<Carousel className="carosuel" slide={false}>
-          {carousel1.map((item) => (
-            <InnerCaroComp1 backImg={item.backImg} key={item.backImg} />
-          ))}
-          </Carousel>*/}
         <Slider {...settings}>
           {carousel1.map((item) => (
             <InnerCaroComp1 backImg={item.backImg} key={item.backImg} />

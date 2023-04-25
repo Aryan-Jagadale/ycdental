@@ -1,8 +1,6 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-
-
 export const InnerCaroComp1 = ({ backImg }) => {
   return (
     <>
@@ -11,8 +9,10 @@ export const InnerCaroComp1 = ({ backImg }) => {
           src={backImg}
           className="h-[90vh] w-full carosuel-bg"
           alt="Banner"
+          fetchpriority="high"
           effect="opacity"
-        />
+  />
+        
       </div>
     </>
   );

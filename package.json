@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.15.3",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "depcheck": "^1.4.3",
     "flowbite": "^1.6.3",
@@ -15,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-lazy-load-image-component": "^1.5.6",
+    "react-modal-image": "^2.6.0",
     "react-router-dom": "^6.8.2",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",

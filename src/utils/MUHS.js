@@ -7,7 +7,7 @@ export const muhs = [
     sub: [
       {
         name: "Annexure-I",
-        pdf: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681109878/YCDENTAL/pdf/2022-23/Annexure_btbndw.pdf" ,
+        pdf: "https://files.yashdental.org/wp-content/uploads/2023/04/Annexure_btbndw.pdf" ,
       },
       {
         name: "Annexure-II",
