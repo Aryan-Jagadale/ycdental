@@ -1,7 +1,11 @@
 import React from "react";
-import HeaderSection from "../components/AdmissionPage/headerSection";
-import HODSection from "../components/AdmissionPage/HODSection";
-import StudentWelfare from "../components/AdmissionPage/StudentWelfare";
+import loadable from '@loadable/component'
+
+
+const HeaderSection = loadable(() => import('../components/AdmissionPage/headerSection'))
+const HODSection = loadable(() => import('../components/AdmissionPage/HODSection'))
+const StudentWelfare = loadable(() => import('../components/AdmissionPage/StudentWelfare'))
+
 
 function Admission() {
   return (

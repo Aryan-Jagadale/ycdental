@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import mainProfile from "./../../assets/images/profileMain.svg";
-import managingDirector from "./../../assets/images/managingCommittee/subhashDevdhe.jpeg";
-import managingTrustee from "./../../assets/images/managingCommittee/sharadSamab.jpeg";
-import vicePrecident from "./../../assets/images/managingCommittee/nehaGdak.jpeg";
-import organisingPresident from "./../../assets/images/managingCommittee/Organising-President.jpg";
+
+import managingDirector from "./../../assets/images/managingCommittee/subhashDevdhe.webp";
+import managingTrustee from "./../../assets/images/managingCommittee/sharadSamab.webp";
+import vicePrecident from "./../../assets/images/managingCommittee/nehaGdak.webp";
+import organisingPresident from "./../../assets/images/managingCommittee/Organising-President.webp";
 
 import "../../style/HomePage/welcomeComp.css";
 import { Row, Col } from "react-bootstrap";

@@ -1,12 +1,16 @@
 import React from 'react'
-import Academic from '../components/AcademicPage/Academic'
-import AcademicQuality from '../components/AcademicPage/AcademicQuality'
-import Labrotiers from '../components/AcademicPage/Labrotiers'
-import Publication from '../components/AcademicPage/Publication'
-import UGPGCourse from '../components/AcademicPage/UGPGCourse'
-import Department from '../components/DepartmentPage/Department'
-import AcademicCalender from '../components/AcademicPage/AcademicCalender'
-import CourseOutcomes from '../components/AcademicPage/CourseOutcomes'
+import loadable from '@loadable/component'
+
+const Academic = loadable(() => import('../components/AcademicPage/Academic'))
+const AcademicQuality = loadable(() => import('../components/AcademicPage/AcademicQuality'))
+const Labrotiers = loadable(() => import('../components/AcademicPage/Labrotiers'))
+const Publication = loadable(() => import('../components/AcademicPage/Publication'))
+const UGPGCourse = loadable(() => import('../components/AcademicPage/UGPGCourse'))
+const Department = loadable(() => import('../components/DepartmentPage/Department'))
+const AcademicCalender = loadable(() => import('../components/AcademicPage/AcademicCalender'))
+const CourseOutcomes = loadable(() => import('../components/AcademicPage/CourseOutcomes'))
+
+
 
 const Academics = () => {
     return (

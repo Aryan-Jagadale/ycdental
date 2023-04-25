@@ -136,7 +136,7 @@ const News = () => {
                 <LazyLoadImage
                   effect="opacity"
                   src={
-                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211069/YCDENTAL/images/NewsImages/2_qsdozk.jpg"
+                    "https://files.yashdental.org/wp-content/uploads/2023/04/2_qsdozk.webp"
                   }
                   alt="newsImage"
                   className="m-0 h-full w-full object-cover "
