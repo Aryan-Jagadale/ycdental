@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../style/AdmissionPage/headerSection.css";
 import pdfImg from "../../assets/images/muhs/pdfImg.png";
-import { muhs } from "../../utils/MUHS";
+import { muhs } from "../../content/MuhsMandate/MUHS";
 
 function Muhs() {
   const [first, setfirst] = useState(true);
