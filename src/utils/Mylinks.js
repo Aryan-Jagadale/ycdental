@@ -68,7 +68,7 @@ export const links = [
 
   {
     name: "NAAC",
-    submenu: true,
+    submenu: false,
     linkUrl: "/naac",
     sublinks: [
       {
