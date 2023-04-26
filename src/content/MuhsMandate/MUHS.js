@@ -1,5 +1,5 @@
-import Annexure13 from "../assets/pdf/23-2024/13ANNEXURE.pdf";
-import Azadi_ka_amrutmohotsav1  from "../assets/pdf/23-2024/Azadi_ka_amrutmohotsav.pdf";
+import Annexure13 from "../../assets/pdf/23-2024/13ANNEXURE.pdf";
+import Azadi_ka_amrutmohotsav1  from "../../assets/pdf/23-2024/Azadi_ka_amrutmohotsav.pdf";
 
 export const muhs = [
   {
