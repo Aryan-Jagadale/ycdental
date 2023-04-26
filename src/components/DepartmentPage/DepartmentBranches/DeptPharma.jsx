@@ -2,7 +2,8 @@ import React from "react";
 import "../../../style/DepartmentsPage/department.css";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
-import { pharmacologyLink } from "../../../utils/deptComp";
+import { pharmacologyLink } from "../../../content/Academics/department/pharmacology";
+
 
 function DeptPharma() {
   return (

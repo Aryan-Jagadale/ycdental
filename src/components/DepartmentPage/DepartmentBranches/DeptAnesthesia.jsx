@@ -2,7 +2,8 @@ import React from "react";
 import "../../../style/DepartmentsPage/department.css";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
-import { anesthesiaLink } from "../../../utils/deptComp";
+import { anesthesiaLink } from "../../../content/Academics/department/anesthesia";
+
 
 function DeptAnesthesia() {
   return (

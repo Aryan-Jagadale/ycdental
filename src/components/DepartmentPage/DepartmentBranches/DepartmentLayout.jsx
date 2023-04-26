@@ -4,8 +4,6 @@ import AccordianLayout from "../AccordianStuff/AccordianLayout";
 
 const DepartmentLayout = ({
   name,
-  src,
-  hod,
   strong,
   description,
   faculties,
