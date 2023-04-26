@@ -1,8 +1,8 @@
 import React from "react";
 import "../../style/HomePage/recognition.css";
-import { recognitionContent } from "../../utils/recognition";
-import { recognitionContent1 } from "../../utils/recognition";
-import { recognitionContent2 } from "../../utils/recognition";
+import { recognitionContent } from "../../content/Home/recognition";
+import { recognitionContent1 } from "../../content/Home/recognition";
+import { recognitionContent2 } from "../../content/Home/recognition";
 import RecognitionInner from "./RecognitionInner";
 
 function Recognition() {
@@ -36,7 +36,7 @@ function Recognition() {
             />
           ))}
         </div>
-        
+
         <div className="flex w-full flex-col lg:flex-row justify-center items-center lg:justify-around mt-14 main-card-sub">
           {recognitionContent2.map((item) => (
             <RecognitionInner

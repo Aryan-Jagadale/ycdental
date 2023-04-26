@@ -1,5 +1,5 @@
 import React from "react";
-import { parentTeacherCommittee } from "../../../utils/Committees";
+import { parentTeacherCommittee } from "../../../content/About/Committees";
 import Faculties from "../../DepartmentPage/Department/Faculties";
 import "../../../index.css";
 

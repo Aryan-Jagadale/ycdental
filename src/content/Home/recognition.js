@@ -1,6 +1,6 @@
-import mainDivFirstImg from "../assets/images/recognition/mainDivFirstImg.svg";
-import mainDivSecondImg from "../assets/images/recognition/mainDivSecondImg.svg";
-import mainDivThirdImg from "../assets/images/recognition/mainDivThirdImg.svg";
+import mainDivFirstImg from "../../assets/images/recognition/mainDivFirstImg.svg";
+import mainDivSecondImg from "../../assets/images/recognition/mainDivSecondImg.svg";
+import mainDivThirdImg from "../../assets/images/recognition/mainDivThirdImg.svg";
 
 export const recognitionContent = [
   {

@@ -1,5 +1,5 @@
 import React from "react";
-import { antiCommittee } from "../../../utils/Committees";
+import { antiCommittee } from "../../../content/About/Committees";
 import Faculties from "../../DepartmentPage/Department/Faculties";
 import "../../../index.css";
 

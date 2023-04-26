@@ -7,6 +7,7 @@ import NewsTopComp from "./NewsTopComp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import {newsImages} from "../../content/Home/news";
 
 
 const News = () => {
@@ -132,56 +133,17 @@ const News = () => {
 
           <section className="w-[100%] h-full md:w-[40%]">
             <div className="p-0 md:p-5 border border-[#FFD900]">
-              <Slide {...properties}>
-                <LazyLoadImage
+           <Slide {...properties}>
+           {newsImages.map((items, i) => (<LazyLoadImage
                   effect="opacity"
                   src={
-                    "https://files.yashdental.org/wp-content/uploads/2023/04/2_qsdozk.webp"
+                    items.img
                   }
+                  key={i}
                   alt="newsImage"
                   className="m-0 h-full w-full object-cover "
-                />
-                <LazyLoadImage
-                  effect="opacity"
-                  src={
-                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211152/YCDENTAL/images/NewsImages/News_xczpno.jpg"
-                  }
-                  alt="newsImage"
-                  className="m-0 h-full w-full object-cover "
-                />
-
-                <LazyLoadImage
-                  effect="opacity"
-                  src={
-                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/1_s8tboi.jpg"
-                  }
-                  alt="newsImage"
-                  className="m-0 h-full w-full object-cover "
-                />
-                <LazyLoadImage
-                  effect="opacity"
-                  src={
-                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/3_w7clt3.jpg"
-                  }
-                  alt="newsImage"
-                  className="m-0 h-full w-full object-cover "
-                />
-                <LazyLoadImage
-                  effect="opacity"
-                  src={
-                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/4_eyl7to.jpg"
-                  }
-                  alt="newsImage"
-                  className="m-0 h-full w-full object-cover "
-                />
-                <LazyLoadImage
-                  effect="opacity"
-                  src={
-                    "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681288476/YCDENTAL/images/NewsImages/IMG-20221221-WA0012_d4tkrk.jpg"
-                  }
-                  alt="newsImage"
-                  className="m-0 h-full w-full object-cover "
-                />
+                />))}
+               
               </Slide>
             </div>
           </section>

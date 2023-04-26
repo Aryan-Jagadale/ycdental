@@ -1,5 +1,5 @@
 import React from "react";
-import { alumniCommittee } from "../../../utils/Committees";
+import { alumniCommittee } from "../../../content/About/Committees";
 import Faculties from "../../DepartmentPage/Department/Faculties";
 import "../../../index.css";
 

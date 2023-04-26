@@ -1,8 +1,15 @@
 import React from "react";
 import "../../style/AboutPage/VisionMission.css";
 import { Row, Col } from "react-bootstrap";
-import img1 from "../../assets/images/img1.jpeg";
+
 import { LazyLoadImage } from "react-lazy-load-image-component";
+
+import {
+  vissionmissionimage,
+  vision,
+  mission,
+  objectives,
+} from "../../content/About/visionMissionjson";
 
 function VisionMission() {
   return (
@@ -10,25 +17,27 @@ function VisionMission() {
       <Row>
         <Col className="VisionMission-imgs" sm xs={18} lg={3}>
           {/*<img src={img1} alt="img" className="VisionMission-img"/>*/}
-          <LazyLoadImage
-            src={img1}
-            alt="vision-pic"
-            effect="opacity"
-            className="VisionMission-img"
-          />
+          {vissionmissionimage.map((item, i) => (
+            <LazyLoadImage
+              key={i}
+              src={item.image}
+              alt="vision-pic"
+              effect="opacity"
+              className="VisionMission-img"
+            />
+          ))}
         </Col>
         <Col sm className="VisionMissionContent">
           <h1 className="vision-title">VISION</h1>
 
-          <span className="vision-discription">
-            &#8226; To achieve academic excellence and impart skill-based
-            teaching learning, research-oriented quality education, innovation
-            and entrepreneurship role through multidisciplinary approach and
-            disseminate the knowledge of disease prevention to the unreached,
-            underprivileged and marginalized groups with comprehensive oral
-            health care to rural and urban population.
-          </span>
-          <br />
+          {vision.map((items, i) => (
+            <span className="vision-discription" key={i}>
+              &#8226;  
+              {items.visiontext}
+              <br />
+            </span>
+          ))}
+
           {/* <br />
           <span className="vision-discription track">
             &#8226; To facilitate students in acquiring knowledge of basic
@@ -46,14 +55,15 @@ function VisionMission() {
 
           <h1 className="mission-title">MISSION</h1>
 
-          <span className="vision-discription">
-            &#8226; To provide academic excellence in field of dentistry by
-            adopting Inter Disciplinary - Multi Disciplinary approach by
-            ensuring good ethical practice and advanced technologies.
-          </span>
-          <br />
-          <br />
-          <span className="vision-discription">
+          {mission.map((items, i) => (
+            <span className="vision-discription" key={i}>
+              &#8226; {items.missionText}
+              <br />
+              <br />
+            </span>
+          ))}
+
+          {/* <span className="vision-discription">
             &#8226; To provide research-oriented quality education, Innovation &
             Entrepreneurship in disciplines of dentistry by inculcating research
             culture amongst all stakeholders.
@@ -82,19 +92,20 @@ function VisionMission() {
             system with continuous quality checks mechanism through regular
             audits and inspections.
           </span>
-          <br />
+          <br /> */}
 
           <h1 className="mission-title">
             INSTITUTIONAL OBJECTIVES FOR ACADEMIC EXCELLENCE{" "}
           </h1>
-          <span className="vision-discription track">
-            &#8226; To strengthen the existing academic programme by initiating
-            new academic programs like post-graduation course, Doctor of
-            Philosophy and fellowship courses.
-          </span>
-          <br />
-          <br />
-          <span className="vision-discription">
+          {objectives.map((items, i) => (
+            <span className="vision-discription track" key={i}>
+              &#8226; {items.objectiveText}
+              <br />
+              <br />
+            </span>
+          ))}
+
+          {/* <span className="vision-discription">
             &#8226; To bring out holistic development among the student by
             curricular enrichment and enhancing extension activities.
           </span>
@@ -103,7 +114,7 @@ function VisionMission() {
           <span className="vision-discription">
             &#8226; To prioritize the research and innovation by engaging the
             alumni and staff through incubation center.
-          </span>
+          </span> */}
         </Col>
       </Row>
     </div>

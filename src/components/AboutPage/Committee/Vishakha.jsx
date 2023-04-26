@@ -1,5 +1,5 @@
 import React from "react";
-import { vishakhaCommittee } from "../../../utils/Committees";
+import { vishakhaCommittee } from "../../../content/About/Committees";
 import Faculties from "../../DepartmentPage/Department/Faculties";
 import "../../../index.css";
 
