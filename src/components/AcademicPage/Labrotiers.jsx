@@ -1,6 +1,7 @@
 import React from "react";
-import { lab3, lab4, lab41 } from "../../utils/ugPgCourse";
 import { GridLab3 } from "./GridLab4";
+import { row1, row2, row3 } from "../../content/Academics/labrotries";
+
 
 const Labrotiers = () => {
   return (
@@ -11,19 +12,19 @@ const Labrotiers = () => {
         </h2>
         <div>
           <section className="grid-4 flex items-center justify-aroun flex-col md:flex-row gap-5 mt-4">
-            {lab4.map((item) => (
+            {row1.map((item) => (
               <GridLab3 key={item.label} item={item} />
             ))}
           </section>
 
           <section className="grid-4 flex items-center justify-around flex-col md:flex-row  gap-5 mt-5">
-            {lab3.map((item) => (
+            {row2.map((item) => (
               <GridLab3 key={item.label} item={item} />
             ))}
           </section>
 
           <section className="grid-4 flex items-center justify-around flex-col md:flex-row gap-5  mt-5">
-            {lab41.map((item) => (
+            {row3.map((item) => (
               <GridLab3 key={item.label} item={item} />
             ))}
           </section>

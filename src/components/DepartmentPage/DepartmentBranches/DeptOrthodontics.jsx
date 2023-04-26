@@ -1,7 +1,8 @@
 import React from "react";
-import { orthodonticsLink } from "../../../utils/deptComp";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
+import { orthodonticsLink } from "../../../content/Academics/department/orthodonticsStaff";
+
 
 const DeptOrthodontics = () => {
   return (

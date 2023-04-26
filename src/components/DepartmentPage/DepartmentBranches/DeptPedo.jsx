@@ -1,8 +1,9 @@
 import React from "react";
 import "../../../style/DepartmentsPage/department.css";
-import { pedodonticsLink } from "../../../utils/deptComp";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
+import { pedodonticsLink } from "../../../content/Academics/department/pedodontics";
+
 
 const DeptPedo = () => {
   return (

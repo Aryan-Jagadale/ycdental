@@ -2,7 +2,8 @@ import React from "react";
 import "../../../style/DepartmentsPage/department.css";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
-import { generalMedicineLink } from "../../../utils/deptComp";
+import { generalMedicineLink } from "../../../content/Academics/department/generalMedicine";
+
 
 function deptGenMedicine() {
   return (

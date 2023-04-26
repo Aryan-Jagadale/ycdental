@@ -2,7 +2,7 @@ import React from "react";
 import "../../../style/DepartmentsPage/department.css";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
-import { anatomyLink } from "../../../utils/deptComp";
+import { anatomyLink } from "../../../content/Academics/department/anatomy"
 
 function DeptAnotomy() {
     return (

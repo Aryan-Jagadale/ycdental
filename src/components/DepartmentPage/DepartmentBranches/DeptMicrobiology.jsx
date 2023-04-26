@@ -2,7 +2,8 @@ import React from "react";
 import "../../../style/DepartmentsPage/department.css";
 import Faculties from "../Department/Faculties";
 import DepartmentLayout from "./DepartmentLayout";
-import { microbiologyLink } from "../../../utils/deptComp";
+import { microbiologyLink } from "../../../content/Academics/department/microbiology";
+
 
 function DeptMicrobiology() {
   return (
