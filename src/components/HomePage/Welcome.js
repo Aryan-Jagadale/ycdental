@@ -1,13 +1,21 @@
 import React, { useState } from "react";
 import mainProfile from "./../../assets/images/profileMain.svg";
 
-import managingDirector from "./../../assets/images/managingCommittee/subhashDevdhe.webp";
-import managingTrustee from "./../../assets/images/managingCommittee/sharadSamab.webp";
-import vicePrecident from "./../../assets/images/managingCommittee/nehaGdak.webp";
-import organisingPresident from "./../../assets/images/managingCommittee/Organising-President.webp";
+import {
+  managingCommittee1,
+  managingCommittee2,
+} from "../../content/Home/ManagingCommittee";
+import {
+  welcomeContent,
+  welcomeContent1,
+} from "../../content/Home/welcomeText";
+// import managingDirector from "./../../assets/images/managingCommittee/subhashDevdhe.webp";
+// import managingTrustee from "./../../assets/images/managingCommittee/sharadSamab.webp";
+// import vicePrecident from "./../../assets/images/managingCommittee/nehaGdak.webp";
+// import organisingPresident from "./../../assets/images/managingCommittee/Organising-President.webp";
 
 import "../../style/HomePage/welcomeComp.css";
-import { Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Welcome() {
@@ -26,25 +34,14 @@ function Welcome() {
           Welcome to Shri. Yashwantrao Chavan Memorial Medical and Rural
           Development Foundation 's Dental College
         </p>
-        <p className="text-base">
-          The Institute, one of the most prestigious dental colleges in
-          Ahmednagar , India; was established in 2007 in the memory of Shri.
-          Yashwantrao - ji Chavan, the architect of Maharashtra State, Former
-          Chief Minister and the pioneer of the Co-operative and Panchayat Raj
-          movements in Maharashtra
-        </p>
-        <br />
-        <p className="text-base">
-          Ahmednagar and its allied South Area (inclusive of Shevgaon, Pathardi,
-          Newasa, Jamkhed, Karjat, Shrigonda, Parner, Nagar Tahsil, etc.) with a
-          population of more than 20 lakhs is socio economically deprived and
-          chronically draught affected , resulting in the lack of access to
-          affordable, high quality medical and dental healthcare. In addition,
-          higher education in Medical, Dental, Pharmacy & Paramedical
-          specialities is limited and scarce . In view of the above facts and
-          considering the importance of Dental Health Science, the foundation
-          started this Dental College at Ahmednagar.
-        </p>
+        {welcomeContent.map((items, i) => (
+          <p className="text-base" >
+             key={i},
+            {items.paragraph}
+            <br />
+            <br />
+          </p>
+        ))}
 
         <br />
         <p
@@ -56,65 +53,13 @@ function Welcome() {
 
         {showMore ? (
           <>
-            <p className="text-base">
-              Shri. Yashwantrao Chavan Memorial Medical and Rural Development
-              Foundation is committed to work with the motto of medical and
-              allied development facilities for masses, in particular; the rural
-              and poor population. Today, our dental college is growing rapidly
-              and taking immense strides in academics, research, social
-              outreach, as well as extracurricular fields under the leadership
-              of Hon. Yashwantrao Gadakh and Shri. Prashant Gadakh.
-            </p>
-
-            <p className="text-base">
-              The institute is affiliated to Maharashtra University of Health
-              Sciences (MUHS) and approved by the Dental Council of India . We
-              are also ISO 9000:2015 certified. We offer Undergraduate degree of
-              Bachelor in Dental Surgery i.e., BDS; with a merit based yearly
-              intake of 100 students.There are four Post Graduate programs of
-              Masters in Dental Surgery i.e., MDS with the yearly intake of 16
-              students in the dental specialities of Orthodontics & Dentofacial
-              Orthopaedics , Periodontology & Implantology, Prosthodontics &
-              Implantology, Conservative Dentistry & Endodontics. From 2023, we
-              will also have enrolments for PhD research candidate.
-            </p>
-            <br />
-
-            <p className="text-base">
-              Our facilities and academic mentorship ensure that students excel
-              and surpass the requirements laid down by Dental Council of India
-              and MUHS . YCDC makes all its students real-world-ready with
-              various skill building workshops , seminars, conferences , and
-              certifications on various current dental advances and subjects.
-            </p>
-
-            <br />
-
-            <p className="text-base">
-              Research is encouraged among the staff and students through our
-              institutional research and ethics cells, multiple research
-              facilities, and training workshops. Not only does the institute
-              pro mote academics but also encourages an all - round development
-              of the candidate through a plethora of year - round
-              extracurricular activities, field trips, intercollegiate and state
-              level competitions, with our students bagging top spots in all
-              their endeavours.
-            </p>
-
-            <br />
-
-            <p className="text-base">
-              Understanding the latest trends a nd requirements, YCDC has made
-              commendable efforts to integrate digitization, entrepreneurship,
-              and innovation into college curricula and processes . The college
-              has completed digitization in office and the library. Teaching
-              occurs on smart boards with Wi - Fi connectivity, while c
-              omputerization of administration has resulted in online admission
-              process and a digital locker for maintaining records. We are now
-              officially certified and registered part of the Innovation Cell,
-              Ministry of Education, Government of India in addition to being
-              Ahmednagar Local Chapter of SWAYAM, NPETL, Government of India.
-            </p>
+            {welcomeContent1.map((items) => (
+              <p className="text-base">
+                {items.paragraph1}
+                <br />
+                <br />
+              </p>
+            ))}
           </>
         ) : (
           ""
@@ -147,124 +92,69 @@ function Welcome() {
       </div>
 
       <Row className="flex flex-row w-screen justify-evenly py-10 px-5">
-        <Col sm>
-          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <LazyLoadImage
-              src={organisingPresident}
-              className="subProfile-img w-40 border-4 border-white rounded-full"
-              alt="Shri.Prashant Gadakh"
-              effect="opacity"
-            />
-            <div className="welcome-subProfile-title">
-              <h3
-                style={{
-                  fontFamily: "Domine",
-                  color: "#800000",
-                  lineHeight: "2rem",
-                }}
-                className="text-sm"
-              >
-                Organising <br />
-                President
-              </h3>
-              <p
-                style={{ fontFamily: "Domine", color: "#00205B" }}
-                className="text-xs"
-              >
-                Shri.Prashant Gadakh
-              </p>
+        <Row sm>
+          {managingCommittee1.map((item) => (
+            <div className="subProfile flex flex-row justify-start content-center items-center px-10 py-2">
+              <LazyLoadImage
+                src={item.img}
+                className="subProfile-img w-40 border-4 border-white rounded-full"
+                alt="Shri.Prashant Gadakh"
+                effect="opacity"
+              />
+              <div className="welcome-subProfile-title">
+                <h3
+                  style={{
+                    fontFamily: "Domine",
+                    color: "#800000",
+                    lineHeight: "2rem",
+                  }}
+                  className="text-sm"
+                >
+                  {item.position} <br /> {item.position1}
+                </h3>
+                <p
+                  style={{ fontFamily: "Domine", color: "#00205B" }}
+                  className="text-xs"
+                >
+                  {item.name}
+                </p>
+              </div>
             </div>
-          </div>
-        </Col>
-        <Col sm>
-          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <LazyLoadImage
-              src={vicePrecident}
-              className="subProfile-img w-40 border-4 border-white rounded-full"
-              alt="Ms Nehal Gadakh"
-              effect="opacity"
-            />
-            <div className="welcome-subProfile-title">
-              <h3
-                style={{
-                  fontFamily: "Domine",
-                  color: "#800000",
-                  lineHeight: "2rem",
-                }}
-                className="text-sm"
-              >
-                Vice
-                <br /> President
-              </h3>
-              <p
-                style={{ fontFamily: "Domine", color: "#00205B" }}
-                className="text-xs"
-              >
-                Ms Nehal Gadakh
-              </p>
-            </div>
-          </div>
-        </Col>
+          ))}
+        </Row>
       </Row>
 
       <Row className="flex flex-row w-screen justify-evenly py-10 px-5">
-        <Col sm>
-          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <LazyLoadImage
-              src={managingDirector}
-              className="subProfile-img w-40 border-4 border-white rounded-full"
-              alt="Dr Subhash Devdhe Patil"
-              effect="opacity"
-            />
-            <div className="welcome-subProfile-title">
-              <h3
-                style={{
-                  fontFamily: "Domine",
-                  color: "#800000",
-                  lineHeight: "2rem",
-                }}
-                className="text-sm"
-              >
-                Managing <br /> Director
-              </h3>
-              <p
-                style={{ fontFamily: "Domine", color: "#00205B" }}
-                className="text-xs"
-              >
-                Dr Subhash Devdhe Patil
-              </p>
+        <Row sm>
+          {managingCommittee2.map((items) => (
+            <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
+              <LazyLoadImage
+                src={items.img}
+                className="subProfile-img w-40 border-4 border-white rounded-full "
+                alt="Dr Sharad Samb"
+                effect="opacity"
+              />
+              <div className="welcome-subProfile-title">
+                <h3
+                  style={{
+                    fontFamily: "Domine",
+                    color: "#800000",
+                    lineHeight: "2rem",
+                  }}
+                  className="text-sm"
+                >
+                  {items.position} <br /> {items.position1}
+                </h3>
+                <p
+                  style={{ fontFamily: "Domine", color: "#00205B" }}
+                  className="text-xs"
+                >
+                  {items.name}
+                </p>
+              </div>
             </div>
-          </div>
-        </Col>
-
-        <Col sm>
-          <div className="subProfile flex flex-col justify-start content-center items-center px-10 py-2">
-            <LazyLoadImage
-              src={managingTrustee}
-              className="subProfile-img w-40 border-4 border-white rounded-full "
-              alt="Dr Sharad Samb"
-              effect="opacity"
-            />
-            <div className="welcome-subProfile-title">
-              <h3
-                style={{
-                  fontFamily: "Domine",
-                  color: "#800000",
-                  lineHeight: "2rem",
-                }}
-                className="text-sm"
-              >
-                Managing <br /> Trustee
-              </h3>
-              <p
-                style={{ fontFamily: "Domine", color: "#00205B" }}
-                className="text-xs"
-              >
-                Dr Sharad Samb
-              </p>
-            </div>
-          </div>
-        </Col>
+          ))}
+        </Row>
       </Row>
     </div>
   );

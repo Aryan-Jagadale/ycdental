@@ -1,5 +1,5 @@
 import React from "react";
-import { libraryCommittee } from "../../../utils/Committees";
+import { libraryCommittee } from "../../../content/About/Committees";
 import Faculties from "../../DepartmentPage/Department/Faculties";
 import "../../../index.css";
 

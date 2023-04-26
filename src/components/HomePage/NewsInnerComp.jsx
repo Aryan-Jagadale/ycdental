@@ -1,17 +1,18 @@
 import React from "react";
+import { bottonNews } from "../../content/Home/news";
 
 const NewsInnerComp = () => {
   return (
     <div className="text-center tracking-wide p-3 font-fam">
-      <div>
-        <p className="font-normal text-base">
-          Dr Karan Gada & Dr Chetan Khairnar, PG Prosthodontics, wins 1st prize at 24 Indian
-          Prosthodontic Society PG Convention, Dharwad
+      {bottonNews.map((items, i) => (<div>
+        <p key={i} className="font-normal text-base" >
+          
+          {items.newsBottom}
         </p>
-      </div>
-      <br />
-      <br />
-      <div>
+
+        <br />
+        <br /></div>))}
+      {/* <div>
         <p className="font-normal text-base">
           PG Orthodontics win 'Best Group Dance' at 25th IOS PG Convention, Mangaluru
         </p>
@@ -64,7 +65,7 @@ const NewsInnerComp = () => {
         <p className="font-normal text-base">
           Dr Nimisha Mahajan, PG Endodontics, wins 1st prize & Dr Pooja Khakal, PG Endodontics, bags 3rd prize at MUHS State Research Competition - Avishkar 2022
         </p>
-      </div>
+      </div> */}
 
     </div>
   );
