@@ -49,3 +49,12 @@
    
   }
 }
+
+
+.LockSection{
+  height: 60vh !important;
+  background-color: whitesmoke;
+  height: 100%;
+  text-align: center;
+  padding: 10%;
+}
