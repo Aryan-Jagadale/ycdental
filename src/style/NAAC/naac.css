@@ -53,8 +53,9 @@
 
 .LockSection{
   height: 60vh !important;
-  background-color: whitesmoke;
+  background-color: #800000;
   height: 100%;
   text-align: center;
   padding: 10%;
+  color: white;
 }
