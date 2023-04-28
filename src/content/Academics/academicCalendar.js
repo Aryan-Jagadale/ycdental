@@ -1,6 +1,6 @@
 export const academicCalendar = [
     {
         "title":"Academic Calendar",
-        "pdfLink":"https://res.cloudinary.com/dbdni9n4i/image/upload/v1681289119/YCDENTAL/pdf/Academic/Academic_Event_obgra1.pdf"
+        "pdfLink":"https://files.yashdental.org/wp-content/uploads/2023/04/Academic_Event.pdf"
     }
 ]
