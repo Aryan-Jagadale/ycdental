@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "../../style/HomePage/about.css";
 import { Row, Col } from "react-bootstrap";
 
-import campuss from "../../assets/icons/campusicon.png";
-import hostell from "../../assets/icons/hostelicon.png";
-import libraryicon from "../../assets/icons/libraryicon.png";
+// import campuss from "../../assets/icons/campusicon.png";
+//  import hostell from "../../assets/icons/hostelicon.png";
+//  import libraryicon from "../../assets/icons/libraryicon.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { collegeFacility, collegeFacility1, collegeFacility2, collegeFacility3 }
  from "../../content/About/collegeFacility";
@@ -38,7 +38,7 @@ function AboutComp() {
             <div id="card1" className="card">
               <LazyLoadImage
                 className="about-icon"
-                src={campuss}
+                src={'https://files.yashdental.org/wp-content/uploads/2023/04/campusicon.png'}
                 alt="campus-icon"
                 effect="opacity"
               />
@@ -60,7 +60,7 @@ function AboutComp() {
             <div id="card2" className="card">
               <LazyLoadImage
                 className="about-icon"
-                src={hostell}
+                src={'https://files.yashdental.org/wp-content/uploads/2023/04/hostelicon.png'}
                 alt="hostel-icon"
                 effect="opacity"
               />
@@ -84,7 +84,7 @@ function AboutComp() {
             <div id="card3" className="card">
               <LazyLoadImage
                 className="about-icon"
-                src={libraryicon}
+                src={'https://files.yashdental.org/wp-content/uploads/2023/04/libraryicon.png'}
                 alt="library-icon"
                 effect="opacity"
               />
@@ -109,7 +109,7 @@ function AboutComp() {
             <div id="card3" className="card">
               <LazyLoadImage
                 className="about-icon"
-                src={libraryicon}
+                src={'https://files.yashdental.org/wp-content/uploads/2023/04/libraryicon.png'}
                 alt="libraray-icon"
                 effect="opacity"
               />

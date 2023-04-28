@@ -1,8 +1,6 @@
-import img1 from "../../assets/images/img1.jpeg";
-
 export const vissionmissionimage = [
 {
-  image: img1,
+  image: 'https://files.yashdental.org/wp-content/uploads/2023/04/img1.jpeg',
 }
   
 ]

@@ -1,31 +1,30 @@
-import Sec1 from "../../assets/images/Home/Carousel/1.webp";
-import Sec2 from "../../assets/images/Home/Carousel/2.webp";
-import Sec3 from "../../assets/images/Home/Carousel/3.webp";
-import Sec4 from "../../assets/images/Home/Carousel/4.webp";
-import Sec5 from "../../assets/images/Home/Carousel/5.webp";
-import Sec6 from "../../assets/images/Home/Carousel/6.webp";
-import Sec7 from "../../assets/images/Home/Carousel/newCoroselImg.webp";
-
 export const carousel1 = [
   {
-    caroselImg: Sec1,
+    caroselImg:
+      "https://files.yashdental.org/wp-content/uploads/2023/04/1-scaled.webp",
   },
   {
-    caroselImg: Sec2,
+    caroselImg:
+      "https://files.yashdental.org/wp-content/uploads/2023/04/2.webp",
   },
   {
-    caroselImg: Sec7,
+    caroselImg:
+      "https://files.yashdental.org/wp-content/uploads/2023/04/newCoroselImg-scaled.webp",
   },
   {
-    caroselImg: Sec3,
+    caroselImg:
+      "https://files.yashdental.org/wp-content/uploads/2023/04/3.webp",
   },
   {
-    caroselImg: Sec4,
+    caroselImg:
+      "https://files.yashdental.org/wp-content/uploads/2023/04/4.webp",
   },
   {
-    caroselImg: Sec5,
+    caroselImg:
+      "https://files.yashdental.org/wp-content/uploads/2023/04/5.webp",
   },
   {
-    caroselImg: Sec6,
+    caroselImg:
+      "https://files.yashdental.org/wp-content/uploads/2023/04/6.webp",
   },
 ];

@@ -1,18 +1,21 @@
 export const newsImages = [
   {
-    img: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211152/YCDENTAL/images/NewsImages/News_xczpno.jpg",
+    img: "https://files.yashdental.org/wp-content/uploads/2023/04/News_xczpno.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/1_s8tboi.jpg",
+    img: "https://files.yashdental.org/wp-content/uploads/2023/04/IMG-20221221-WA0012_d4tkrk.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/3_w7clt3.jpg",
+    img: "https://files.yashdental.org/wp-content/uploads/2023/04/2_qsdozk.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681211068/YCDENTAL/images/NewsImages/4_eyl7to.jpg",
+    img: "https://files.yashdental.org/wp-content/uploads/2023/04/4_News.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681288476/YCDENTAL/images/NewsImages/IMG-20221221-WA0012_d4tkrk.jpg",
+    img: "https://files.yashdental.org/wp-content/uploads/2023/04/5_News.jpg",
+  },
+  {
+    img: "https://files.yashdental.org/wp-content/uploads/2023/04/6_News.jpg",
   },
 ];
 
