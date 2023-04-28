@@ -35,9 +35,8 @@ function Welcome() {
           Development Foundation 's Dental College
         </p>
         {welcomeContent.map((items, i) => (
-          <p className="text-base" >
-             key={i},
-            {items.paragraph}
+          <p className="text-base">
+            key={i},{items.paragraph}
             <br />
             <br />
           </p>
