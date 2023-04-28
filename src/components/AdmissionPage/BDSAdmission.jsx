@@ -1,95 +1,79 @@
 import React from "react";
 import "../../style/AdmissionPage/admission.css";
 import { Col, Row, Table } from "react-bootstrap";
+import {
+  BDSInfromation,
+  Regulation_and_Syllabus,
+  Merit_List,
+} from "../../content/Admission/BDSInformstion";
 
 function BDSAdmission() {
   return (
     <div className="admissionSection">
-      <div className="short-info-box">
-        <h1 className="admission-hedline">Bachelor of Dental Surgery (BDS)</h1>
-        <p className="admissionPera">
-          Bachelor of Dental Surgery (BDS) course at Late Shri Yashwantrao
-          Chavan Memorial Medical & Rural Development Foundation’s Dental
-          College, Ahmednagar is recognised by Dental Council of India and is
-          affiliated to Maharashtra University of Health Sciences, Nashik. Hence
-          the Rules & Regulations of the Maharashtra University of Health
-          Sciences, Nashik in regard to the syllabi and conduct of examination
-          shall apply.
-        </p>
-        <Row>
-          <Col sm className="admission-col-1">
-            <h1 className="admission-hedline-2">
-              No. of Seats: 100 (Recognised) <br /> Eligibility criteria:
-            </h1>
+      {BDSInfromation.map((item) => (
+        <div className="short-info-box">
+          <h1 className="admission-hedline">
+            Bachelor of Dental Surgery (BDS)
+          </h1>
+          <p className="admissionPera">{item.paragraph1}</p>
+          <Row>
+            <Col sm className="admission-col-1">
+              <h1 className="admission-hedline-2">
+                No. of Seats: {item.Seats} <br /> Eligibility criteria:
+              </h1>
+              <p className="admissionPera">{item.Eligibility}</p>
+            </Col>
+            <Col sm className="admission-col-2">
+              <h1 className="admission-hedline-2">Admission Process:</h1>
+              <p className="admissionPera">{item.AdmissionProcess}</p>
+            </Col>
+          </Row>
+          <div className="bds-section2">
+            <h1 className="admission-hedline-2">Fees detail:</h1>
             <p className="admissionPera">
-              The candidate must have passed the Higher Secondary examination
-              (which is equivalent to 10+2 ). The student must have obtained 50%
-              marks in the subjects of Physics, Chemistry and Biology and must
-              have qualifying marks in English. For SC, ST or OBC, the minimum
-              marks shall be 40%. Criteria are subjected to change as per the
-              notifications of state/central government or order from
-              supreme/high court.
+              <a
+                className="admissionDownload"
+                href={item.MeritList}
+                download={item.MeritListTitle}
+              >
+                &#8226; {item.MeritListTitle}{" "}
+              </a>{" "}
+              <br />
+              Tution Fees: 4,00,000/- per year <br />
+              Tution Fees: 4,00,000/- per year
+              <br />
+              Hostel Fees: 20,000/- per year
+              <br />
             </p>
-          </Col>
-          <Col sm className="admission-col-2">
-            <h1 className="admission-hedline-2">Admission Process:</h1>
+          </div>
+          <div
+            style={{
+              backgroundColor: "rgba(255, 217, 0, 0.9)",
+              border: "1px solid #FFD900",
+              backdropFilter: "blur(7.5px)",
+              padding: "1%",
+              display: "block",
+              margin: "auto",
+              position: "relative",
+              top: "-1.3rem",
+              textAlign: "center",
+              maxWidth: "fit-content",
+              paddingBottom: "0%",
+              boxShadow: "0px 5px 25px rgba(0, 0, 0, 0.2)",
+            }}
+          >
             <p className="admissionPera">
-              The candidates need to pass entrance exam to secure their place
-              for the course. Admission to BDS course is completed through
-              single common entrance test conducted by NEET. After clearing the
-              entrance exam, students have to participate in the counseling
-              process organized by respective authorities. Seats will be
-              allotted to candidates on the basis of rank, filled choices and
-              availability of seats.
+              <a
+                className="admissionDownload"
+                href={item.FeeStructure}
+                download={item.FeeStructureTitle}
+              >
+                &#8226; {item.FeeStructureTitle}
+              </a>{" "}
             </p>
-          </Col>
-        </Row>
-        <div className="bds-section2">
-          <h1 className="admission-hedline-2">Fees detail:</h1>
-          <p className="admissionPera">
-            <a
-              className="admissionDownload"
-              href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133823/YCDENTAL/pdf/2021-2022/BDS_INSTITUTIONAL_LEVEL_ROUND_MERIT_LIST__2021_22_lskf71.pdf'}
-              download={"BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22"}
-            >
-              &#8226; BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22
-            </a>{" "}
-            <br />
-            Tution Fees: 4,00,000/- per year <br />
-            Tution Fees: 4,00,000/- per year
-            <br />
-            Hostel Fees: 20,000/- per year
-            <br />
-          </p>
+          </div>
         </div>
-        <div
-          style={{
-            backgroundColor: "rgba(255, 217, 0, 0.9)",
-            border: "1px solid #FFD900",
-            backdropFilter: "blur(7.5px)",
-            padding: "1%",
-            display: "block",
-            margin: "auto",
-            position: "relative",
-            top: "-1.3rem",
-            textAlign: "center",
-            maxWidth: "fit-content",
-            paddingBottom: "0%",
-            boxShadow: "0px 5px 25px rgba(0, 0, 0, 0.2)"
-          }}
-        >
-          <p className="admissionPera">
-            <a
-              className="admissionDownload"
-              href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133822/YCDENTAL/pdf/2021-2022/2021-22_B.D.S._FEE_STRUCTURE___COLLEGE_WEBSITE___FINAL_NEW_x1qigk.pdf'}
-              download={"2021-22_B.D.S._FEE_STRUCTURE .PDF"}
-            >
-              &#8226; 2021-22_B.D.S._FEE_STRUCTURE .PDF
-            </a>{" "}
-          </p>
-        </div>
-      </div>
-
+      ))}
       <div className="admission-section-2">
         <h1 className="admission-hedline">
           Syllabus: BDS (As per current DCI regulation)
@@ -159,87 +143,86 @@ function BDSAdmission() {
 
       <div className="admissionLastSection2">
         <Row>
-          <Col sm className="admission-col-3">
-            <h1 className="admission-hedline-2">
-              Regulation and Syllabus as below
-            </h1>
-            <p className="admissionPera" style={{ textAlign: "start" }}>
-              <a
-                className="admissionDownload"
-                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133649/YCDENTAL/pdf/2007-2008/Revised_BDS_Course_Regulation_2007_dg6zxt.pdf'}
-                download={"Revised_BDS_Course_Regulation_2007 . PDF"}
-              >
-                &#8226; Revised_BDS_Course_Regulation_2007 . PDF
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132927/YCDENTAL/pdf/BDS/Revised-Syllbus-BDS-New_xhlwcw.pdf'}
-                download={"Revised Syllbus BDS (New) . PDF"}
-              >
-                &#8226; Revised Syllbus BDS (New) . PDF
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132926/YCDENTAL/pdf/BDS/1st-BDS-Syllabus_v1wlcu.pdf'}
-                download={"1st BDS Syllabus . PDF"}
-              >
-                &#8226; 1st BDS Syllabus . PDF
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132926/YCDENTAL/pdf/BDS/2nd-BDS-Syllabus_vuni9j.pdf'}
-                download={"2st BDS Syllabus . PDF"}
-              >
-                &#8226; 2nd BDS Syllabus . PDF
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132926/YCDENTAL/pdf/BDS/3rd-BDS-Syllabus_ohbgid.pdf'}
-                download={"3st BDS Syllabus . PDF"}
-              >
-                &#8226; 3rd BDS Syllabus . PDF
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132927/YCDENTAL/pdf/BDS/4th-BDS-Syllabus_dzlwur.pdf'}
-                download={"4st BDS Syllabus . PDF"}
-              >
-                &#8226; 4th BDS Syllabus . PDF
-              </a>{" "}
-              <br />
-            </p>
-          </Col>
-          <Col sm className="admission-col-4">
-            <h1 className="admission-hedline-2">Merit List.</h1>
-            <p className="admissionPera" style={{ textAlign: "start" }}>
-              <a
-                className="admissionDownload"
-                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132927/YCDENTAL/pdf/BDS/RejectedCandidate_cge9gl.pdf'}
-                download={
-                  "Istitutional Level Vacancy Round 2022-23 - Rejected Candidate List"
-                }
-              >
-                &#8226; Istitutional Level Vacancy Round 2022-23 - Rejected
-                Candidate List
-              </a>{" "}
-              <br />
-              <a
-                className="admissionDownload"
-                href={'https://res.cloudinary.com/dbdni9n4i/image/upload/v1681132927/YCDENTAL/pdf/BDS/GeneralMeritList_uw7fsc.pdf'}
-                download={
-                  "Istitutional Level Vacancy Round 2022-23 - General Merit List"
-                }
-              >
-                &#8226; Istitutional Level Vacancy Round 2022-23 - General Merit
-                List
-              </a>{" "}
-            </p>
-          </Col>
+          {Regulation_and_Syllabus.map((item) => (
+            <Col sm className="admission-col-3">
+              <h1 className="admission-hedline-2">
+                Regulation and Syllabus as below
+              </h1>
+              <p className="admissionPera" style={{ textAlign: "start" }}>
+                <a
+                  className="admissionDownload"
+                  href={item.pdf1Link}
+                  download={item.pdf1Title}
+                >
+                  &#8226; {item.pdf1Title}
+                </a>{" "}
+                <br />
+                <a
+                  className="admissionDownload"
+                  href={item.pdf2Link}
+                  download={item.pdf2Title}
+                >
+                  &#8226; {item.pdf2Title}
+                </a>{" "}
+                <br />
+                <a
+                  className="admissionDownload"
+                  href={item.pdf3Link}
+                  download={item.pdf3Title}
+                >
+                  &#8226; {item.pdf3Title}
+                </a>{" "}
+                <br />
+                <a
+                  className="admissionDownload"
+                  href={item.pdf4Link}
+                  download={item.pdf4Title}
+                >
+                  &#8226; {item.pdf4Title}
+                </a>{" "}
+                <br />
+                <a
+                  className="admissionDownload"
+                  href={item.pdf5Link}
+                  download={item.pdf5Title}
+                >
+                  &#8226; {item.pdf5Title}
+                </a>{" "}
+                <br />
+                <a
+                  className="admissionDownload"
+                  href={item.pdf6Link}
+                  download={"4st BDS Syllabus . PDF"}
+                >
+                  &#8226; {item.pdf6Title}
+                </a>{" "}
+                <br />
+              </p>
+            </Col>
+          ))}
+          {Merit_List.map((item) => (
+            <Col sm className="admission-col-4">
+              <h1 className="admission-hedline-2">Merit List.</h1>
+              <p className="admissionPera" style={{ textAlign: "start" }}>
+                <a
+                  className="admissionDownload"
+                  href={item.pdf1Link}
+                  download={item.pdf1Title}
+                >
+                  &#8226; {item.pdf1Title}
+                </a>{" "}
+                <br />
+                <a
+                  className="admissionDownload"
+                  href={item.pdf2Link}
+                  download={item.pdf2Title}
+                >
+                  &#8226; {item.pdf2Title}
+                  List
+                </a>{" "}
+              </p>
+            </Col>
+          ))}
         </Row>
       </div>
     </div>
