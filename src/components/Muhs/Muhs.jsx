@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../style/AdmissionPage/headerSection.css";
-import pdfImg from "../../assets/images/muhs/pdfImg.png";
+// import pdfImg from "../../assets/images/muhs/pdfImg.png";
 import { muhs } from "../../content/MuhsMandate/MUHS";
 
 function Muhs() {
@@ -68,7 +68,7 @@ function Muhs() {
                 </h5>
                 <div className="w-[60%] md:w-[40%] flex items-center justify-center">
                   <button className="bg-[#FFD900]  flex items-center justify-center p-2 md:p-3">
-                    <img src={pdfImg} alt="PDF" className="mr-2" />
+                    <img src={'https://files.yashdental.org/wp-content/uploads/2023/04/pdfImg.png'} alt="PDF" className="mr-2" />
                     <span className="tracking-wide text-blue-500">
                       <a href={item.pdf} target="_blank" rel="noreferrer">
                         View PDF
@@ -89,7 +89,7 @@ function Muhs() {
                 </h5>
                 <div className="w-[60%] md:w-[40%] flex items-center justify-center">
                   <button className="bg-[#FFD900]  flex items-center justify-center p-2 md:p-3">
-                    <img src={pdfImg} alt="PDF" className="mr-2" />
+                    <img src={'https://files.yashdental.org/wp-content/uploads/2023/04/pdfImg.png'} alt="PDF" className="mr-2" />
                     <span className="tracking-wide text-blue-500">
                       <a href={item.pdf} target="_blank" rel="noreferrer">
                         View PDF
