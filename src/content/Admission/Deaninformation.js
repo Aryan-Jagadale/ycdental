@@ -14,7 +14,7 @@ export const DeanData = [
 
 export const ProspectusData = [
     {
-        pdfLink: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681281777/YCDENTAL/pdf/new-College-Prospectus_page-0001_ord625.pdf"
+        pdfLink: "https://files.yashdental.org/wp-content/uploads/2023/04/new-College-Prospectus_page-0001_ord625.pdf"
     }
 ]
 
