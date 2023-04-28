@@ -1,10 +1,7 @@
 import React from "react";
 import { Col, Row, Table } from "react-bootstrap";
 import "../../style/AdmissionPage/admission.css";
-import {
-  MDSInfromation,
-  MDS_REGULATION_AND_SYLLABUS,
-} from "../../content/Admission/MDSInformstion";
+import { MDSInfromation } from "../../content/Admission/MDSInformstion";
 
 function MDSAdmission() {
   return (
