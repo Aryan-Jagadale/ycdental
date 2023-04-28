@@ -127,7 +127,7 @@ function MDSAdmission() {
           <a
             className="admissionDownload"
             href={
-              "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681133744/YCDENTAL/pdf/2017-2018/MDS_Course_Regulations_2017_njrzhr.pdf"
+              "https://files.yashdental.org/wp-content/uploads/2023/04/MDS_Course_Regulations_2017.pdf"
             }
             download={"MDS_Course_Regulations_2017.pdf"}
           >
