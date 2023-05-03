@@ -13,4 +13,8 @@ export const pdfRowIIQA = [
     name: "Undertaking",
     url: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681978117/YCDENTAL/pdf/NAAC/Undertaking23.03.2023_kzwbk3.pdf",
   },
+  {
+    name: "Undertaking",
+    url: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681978117/YCDENTAL/pdf/NAAC/Undertaking23.03.2023_kzwbk3.pdf",
+  },
 ];
