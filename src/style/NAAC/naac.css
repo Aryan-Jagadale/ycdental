@@ -16,6 +16,11 @@
   color: white;
   padding: 20px;
 } */
+
+.app-body-sub-one {
+  width: 480px;
+}
+
 .pdf-main-card {
   /* background-image: url("../../assets/images/NAAC/pdfImg.png"); */
   height: 282.38px;
@@ -49,7 +54,6 @@
    
   }
 }
-
 
 .LockSection{
   height: 60vh !important;
