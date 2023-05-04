@@ -45,9 +45,7 @@ import DeptGenMedicine from "./components/DepartmentPage/DepartmentBranches/Dept
 import DeptgenSurgery from "./components/DepartmentPage/DepartmentBranches/DeptgenSurgery";
 import DeptGenPathology from "./components/DepartmentPage/DepartmentBranches/DeptGenPathology";
 
-// import Criterion3 from "./components/NAAC/NAAC-Criterion/Criterion1"
-
-
+// import Criteria1 from "./components/NAAC/NAAC-Criteria/Criteria1"
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -167,9 +165,18 @@ function App() {
             />
             <Route path="/department/physiology" element={<DeptPhysiology />} />
 
-            <Route path="/department/gen-medicine" element={<DeptGenMedicine />} />
-            <Route path="/department/gen-surgery" element={<DeptgenSurgery />} />
-            <Route path="/department/panthology" element={<DeptGenPathology />} />
+            <Route
+              path="/department/gen-medicine"
+              element={<DeptGenMedicine />}
+            />
+            <Route
+              path="/department/gen-surgery"
+              element={<DeptgenSurgery />}
+            />
+            <Route
+              path="/department/panthology"
+              element={<DeptGenPathology />}
+            />
 
             <Route path="/admission" element={<Admissionsss />} />
 
@@ -180,9 +187,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
 
             <Route path="/naac" element={<Naac />} />
-            {/* <Route path="/nacc/Criterion3" element={<Criterion3 />} /> */}
-            
-
+            {/* <Route path="/nacc/Criteria1" element={<Criteria1 />} /> */}
           </Routes>
 
           <FooterComp />
