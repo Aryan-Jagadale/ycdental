@@ -5,7 +5,7 @@ import "../../style/NAAC/naac.css"
 import {
     pdfRow,
 
-} from "../../utils/NAAC"
+} from "../../content/NAAC/NAAC"
 function NaacIQAC() {
     return (
         <div className='naccSection mx-3 my-5 w-[90%] flex-wrap flex items-center justify-center flex-row gap-5'>

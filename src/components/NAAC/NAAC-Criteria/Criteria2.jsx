@@ -1,5 +1,5 @@
 import React from 'react'
-import { col2 } from "../../../utils/Criteria1";
+import { col2 } from "../../../content/NAAC/Criteria1";
 import "../../../style/NAAC/naac.css";
 
 function Criteria2() {
