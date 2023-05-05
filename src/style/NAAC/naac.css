@@ -21,9 +21,8 @@
   width: 480px;
 
   @media screen and (max-width: 400px) {
-    width: 350px;
+    width: 332px;
   }
-
 }
 
 .pdf-main-card {
@@ -54,13 +53,12 @@
     padding-left: 0% !important;
   }
   .app-body-sub {
-   flex: content;
-   flex-wrap: wrap;
-   
+    flex: content;
+    flex-wrap: wrap;
   }
 }
 
-.LockSection{
+.LockSection {
   height: 60vh !important;
   background-color: whitesmoke;
   height: 100%;
@@ -69,12 +67,12 @@
   color: black;
 }
 
-#password{
+#password {
   display: block;
   margin: auto;
 }
 
-.submitbtn{
+.submitbtn {
   background: #800000;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(2px);
@@ -84,4 +82,3 @@
   min-height: 5vh;
   margin-top: 2%;
 }
-
