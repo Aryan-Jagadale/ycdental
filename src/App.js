@@ -45,7 +45,14 @@ import DeptGenMedicine from "./components/DepartmentPage/DepartmentBranches/Dept
 import DeptgenSurgery from "./components/DepartmentPage/DepartmentBranches/DeptgenSurgery";
 import DeptGenPathology from "./components/DepartmentPage/DepartmentBranches/DeptGenPathology";
 
-// import Criteria1 from "./components/NAAC/NAAC-Criteria/Criteria1"
+import Criteria1 from "./components/NAAC/NAAC-Criteria/Criteria1"
+import Criteria2 from "./components/NAAC/NAAC-Criteria/Criteria2"
+import Criteria3 from "./components/NAAC/NAAC-Criteria/Criteria3"
+import Criteria4 from "./components/NAAC/NAAC-Criteria/Criteria4"
+import Criteria5 from "./components/NAAC/NAAC-Criteria/Criteria5"
+import Criteria6 from "./components/NAAC/NAAC-Criteria/Criteria6"
+import Criteria7 from "./components/NAAC/NAAC-Criteria/Criteria7"
+import Criteria8 from "./components/NAAC/NAAC-Criteria/Criteria8"
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -187,7 +194,16 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
 
             <Route path="/naac" element={<Naac />} />
-            {/* <Route path="/nacc/Criteria1" element={<Criteria1 />} /> */}
+            <Route path="/nacc/Criteria1" element={<Criteria1 />} />
+            <Route path="/nacc/Criteria2" element={<Criteria2 />} />
+            <Route path="/nacc/Criteria3" element={<Criteria3 />} />
+            <Route path="/nacc/Criteria4" element={<Criteria4 />} />
+            <Route path="/nacc/Criteria5" element={<Criteria5 />} />
+            <Route path="/nacc/Criteria6" element={<Criteria6 />} />
+            <Route path="/nacc/Criteria7" element={<Criteria7 />} />
+            <Route path="/nacc/Criteria8" element={<Criteria8 />} />
+
+
           </Routes>
 
           <FooterComp />
