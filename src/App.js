@@ -97,6 +97,9 @@ import Criteria7_3 from "./components/NAAC/NAAC-Criteria/Criteria7/7_3"
 
 import Criteria8_1 from "./components/NAAC/NAAC-Criteria/Criteria8/8_1"
 
+import Criteria_1_1_Subcat from "./components/NAAC/NAAC-Criteria/Criteria1/Criteria_1_1_Subcat";
+import Criteria_1_3_Subcat from "./components/NAAC/NAAC-Criteria/Criteria3/Criteria_1_3_Subcat";
+
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -287,6 +290,9 @@ function App() {
             <Route path="/nacc/Criteria7/7-3" element={<Criteria7_3 />} />
 
             <Route path="/nacc/Criteria8/8-1" element={<Criteria8_1 />} />
+
+            <Route path="/nacc/Criteria1/1-1-1" element={<Criteria_1_1_Subcat />} />
+            <Route path="/nacc/Criteria1/1-3-1" element={<Criteria_1_3_Subcat />} />
 
           </Routes>
 
