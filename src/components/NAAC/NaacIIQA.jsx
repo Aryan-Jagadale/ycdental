@@ -1,7 +1,5 @@
 import React from 'react'
 import "../../style/NAAC/naac.css"
-// import pdfImg from "../../assets/images/NAAC/pdfImg.png"
-// import logo from "../../assets/images/NAAC/download logo.png"
 import {
     pdfRowIIQA,
 
@@ -17,9 +15,6 @@ function NaacIIQA() {
                 ))
 
             }
-
-
-
         </div>
   )
 }
