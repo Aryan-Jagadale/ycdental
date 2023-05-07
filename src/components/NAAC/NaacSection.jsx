@@ -4,7 +4,6 @@ import "../../style/NAAC/naac.css"
 // import logo from "../../assets/images/NAAC/download logo.png"
 import {
     pdfRow,
-
 } from "../../utils/NAAC"
 
 function NaccSection() {
