@@ -11,7 +11,7 @@ function Criteria1() {
       <div className="app-body-sub flex flex-row gap-3 md:flex-col">
         <div className="flex flex-col w-full md:flex-col">
           <Link
-            to={"/nacc/Criteria1/1-1-1"}
+            to={"/nacc/Criteria1/1-1"}
             className="flex-col bg-[#D9D9D9] border-l-8 border-r-8 border-[#00205B] h-12 my-3 px-4 text-center"
           >
             <p className="box-one font-fam text-lg py-2.5 whitespace-normal">
@@ -19,7 +19,7 @@ function Criteria1() {
             </p>
           </Link>
           <Link
-            to={"/nacc/Criteria1/1-3-1"}
+            to={"/nacc/Criteria1/1-3"}
             className="flex-col bg-[#D9D9D9] border-l-8 border-r-8 border-[#00205B] h-12 my-3 px-4 text-center"
           >
             <p className="font-fam text-lg py-2.5 whitespace-normal">

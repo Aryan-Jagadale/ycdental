@@ -55,10 +55,19 @@ import Criteria6 from "./components/NAAC/NAAC-Criteria/Criteria6"
 import Criteria7 from "./components/NAAC/NAAC-Criteria/Criteria7"
 import Criteria8 from "./components/NAAC/NAAC-Criteria/Criteria8"
 
-import Criteria1_1 from "./components/NAAC/NAAC-Criteria/Criteria1/1_1"
-import Criteria1_2 from "./components/NAAC/NAAC-Criteria/Criteria1/1_2"
-import Criteria1_3 from "./components/NAAC/NAAC-Criteria/Criteria1/1_3"
-import Criteria1_4 from "./components/NAAC/NAAC-Criteria/Criteria1/1_4"
+import _1_1_ from "./components/NAAC/NAAC-Criteria/Criteria1/1_1";
+import _1_2_ from "./components/NAAC/NAAC-Criteria/Criteria1/1_2";
+import _1_3_ from "./components/NAAC/NAAC-Criteria/Criteria1/1_3";
+import _1_4_ from "./components/NAAC/NAAC-Criteria/Criteria1/1_4";
+
+import Criteria1_2_1 from "./components/NAAC/NAAC-Criteria/Criteria1/subcriteria/1_2_1"
+import Criteria1_2_2 from "./components/NAAC/NAAC-Criteria/Criteria1/subcriteria/1_2_2"
+import Criteria1_3_1 from "./components/NAAC/NAAC-Criteria/Criteria1/subcriteria/1_3_1"
+import Criteria1_3_2 from "./components/NAAC/NAAC-Criteria/Criteria1/subcriteria/1_3_2"
+import Criteria1_3_3 from "./components/NAAC/NAAC-Criteria/Criteria1/subcriteria/1_3_3"
+import Criteria1_3_4 from "./components/NAAC/NAAC-Criteria/Criteria1/subcriteria/1_3_4"
+import Criteria1_4_1 from "./components/NAAC/NAAC-Criteria/Criteria1/subcriteria/1_4_1"
+import Criteria1_4_2 from "./components/NAAC/NAAC-Criteria/Criteria1/subcriteria/1_4_2"
 
 import Criteria2_1 from "./components/NAAC/NAAC-Criteria/Criteria2/2_1"
 import Criteria2_2 from "./components/NAAC/NAAC-Criteria/Criteria2/2_2"
@@ -97,8 +106,6 @@ import Criteria7_3 from "./components/NAAC/NAAC-Criteria/Criteria7/7_3"
 
 import Criteria8_1 from "./components/NAAC/NAAC-Criteria/Criteria8/8_1"
 
-import Criteria_1_1_Subcat from "./components/NAAC/NAAC-Criteria/Criteria1/Criteria_1_1_Subcat";
-import Criteria_1_3_Subcat from "./components/NAAC/NAAC-Criteria/Criteria3/Criteria_1_3_Subcat";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -249,10 +256,19 @@ function App() {
             <Route path="/nacc/Criteria7" element={<Criteria7 />} />
             <Route path="/nacc/Criteria8" element={<Criteria8 />} />
 
-            <Route path="/nacc/Criteria1/1-1" element={<Criteria1_1 />} />
-            <Route path="/nacc/Criteria1/1-2" element={<Criteria1_2 />} />
-            <Route path="/nacc/Criteria1/1-3" element={<Criteria1_3 />} />
-            <Route path="/nacc/Criteria1/1-4" element={<Criteria1_4 />} />
+            <Route path="/nacc/Criteria1/1-1" element={<_1_1_ />} />
+            <Route path="/nacc/Criteria1/1-2" element={<_1_2_ />} />
+            <Route path="/nacc/Criteria1/1-3" element={<_1_3_ />} />
+            <Route path="/nacc/Criteria1/1-4" element={<_1_4_ />} />
+
+            <Route path="/nacc/Criteria1/1-2-1" element={<Criteria1_2_1 />} />
+            <Route path="/nacc/Criteria1/1-2-2" element={<Criteria1_2_2 />} />
+            <Route path="/nacc/Criteria1/1-3-1" element={<Criteria1_3_1 />} />
+            <Route path="/nacc/Criteria1/1-3-2" element={<Criteria1_3_2 />} />
+            <Route path="/nacc/Criteria1/1-3-3" element={<Criteria1_3_3 />} />
+            <Route path="/nacc/Criteria1/1-3-4" element={<Criteria1_3_4 />} />
+            <Route path="/nacc/Criteria1/1-4-1" element={<Criteria1_4_1 />} />
+            <Route path="/nacc/Criteria1/1-4-2" element={<Criteria1_4_2 />} />
 
             <Route path="/nacc/Criteria2/2-1" element={<Criteria2_1 />} />
             <Route path="/nacc/Criteria2/2-2" element={<Criteria2_2 />} />
@@ -290,9 +306,7 @@ function App() {
             <Route path="/nacc/Criteria7/7-3" element={<Criteria7_3 />} />
 
             <Route path="/nacc/Criteria8/8-1" element={<Criteria8_1 />} />
-
-            <Route path="/nacc/Criteria1/1-1-1" element={<Criteria_1_1_Subcat />} />
-            <Route path="/nacc/Criteria1/1-3-1" element={<Criteria_1_3_Subcat />} />
+      
 
           </Routes>
 
