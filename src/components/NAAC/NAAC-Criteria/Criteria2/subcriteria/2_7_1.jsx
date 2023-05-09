@@ -1,10 +1,10 @@
 import React from "react";
-import { cr2 } from "../../../../content/NAAC/Criterias/Criteria1"
+import { _2_7_1 } from "../../../../../content/NAAC/Criterias/Criteria2"
 
-function Criteria1_2() {
+function Criteria2_5() {
   return (
     <div className="naccSection mx-3 my-5 w-[90%] flex-wrap flex items-center justify-center flex-row gap-5">
-    {cr2.map((i) => (
+    {_2_7_1.map((i) => (
       <a
         // key={i}
         href={i.pdf}
@@ -19,4 +19,4 @@ function Criteria1_2() {
   );
 }
 
-export default Criteria1_2;
+export default Criteria2_5;
