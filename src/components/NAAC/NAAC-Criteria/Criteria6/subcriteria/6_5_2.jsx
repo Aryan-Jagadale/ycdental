@@ -1,10 +1,11 @@
 import React from "react";
-import { cr8_1 } from "../../../../content/NAAC/Criterias/Criteria8"
+import { _6_5_2 } from "../../../../../content/NAAC/Criterias/Criteria6";
 
-function Criteria8_1() {
+
+function Criteria6_5_2() {
   return (
     <div className="naccSection mx-3 my-5 w-[90%] flex-wrap flex items-center justify-center flex-row gap-5">
-    {cr8_1.map((i) => (
+    {_6_5_2.map((i) => (
       <a
         // key={i}
         href={i.pdf}
@@ -19,4 +20,4 @@ function Criteria8_1() {
   );
 }
 
-export default Criteria8_1;
+export default Criteria6_5_2;
