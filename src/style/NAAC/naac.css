@@ -6,16 +6,21 @@
   background-size: cover;
   background-position: center;
 }
-/* .naacStyle {
-  background-image: url("../../assets/images/NAAC/achievement.png");
-  height: 24rem;
-  width: 215px;
-  background-size: contain;
-  background-repeat: no-repeat;
+
+.excel-main-card{
+  height: 282.38px;
+  width: 180px;
+  background: url("../../assets/images/NAAC/excel.png") repeat-x;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: center;
-  color: white;
-  padding: 20px;
-} */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 
 .app-body-sub-one {
   width: 480px;

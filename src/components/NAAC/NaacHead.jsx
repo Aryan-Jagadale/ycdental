@@ -4,6 +4,7 @@ import NaacIQAC from './NaacIQAC';
 import logo from "../../assets/images/NAAC/download logo.png"
 import "../../style/NAAC/naac.css"
 import NaacIIQA from './NaacIIQA';
+import Naacdvv from './Naacdvv';
 
 function NaacHead() {
 
@@ -48,7 +49,7 @@ function NaacHead() {
                 {selectedOption === 1 && <NaacSSR />}
                 {selectedOption === 2 && <NaacIQAC />}
                 {selectedOption === 3 && <NaacIIQA />}
-                {selectedOption === 4 && <div></div>}
+                {selectedOption === 4 && <Naacdvv/>}
                 {selectedOption === 5 && <div></div>}
             </div>
         </div>
