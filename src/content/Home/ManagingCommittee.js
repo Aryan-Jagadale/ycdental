@@ -23,7 +23,7 @@ export const managingCommittee2 = [
         img: 'https://files.yashdental.org/wp-content/uploads/2023/04/subhashDevdhe.webp',
         name: "Dr. Subhash Devdhe",
         position: "Managing ",
-        position1: "President",
+        position1: "Director",
     }, 
     {
         img: 'https://files.yashdental.org/wp-content/uploads/2023/04/sharadSamab.webp',
