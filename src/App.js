@@ -214,6 +214,19 @@ import Criteria7_1 from "./components/NAAC/NAAC-Criteria/Criteria7/7_1"
 import Criteria7_2 from "./components/NAAC/NAAC-Criteria/Criteria7/7_2"
 import Criteria7_3 from "./components/NAAC/NAAC-Criteria/Criteria7/7_3"
 
+import Criteria7_1_1 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_1";
+import Criteria7_1_2 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_2";
+import Criteria7_1_3 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_3";
+import Criteria7_1_4 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_4";
+import Criteria7_1_5 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_5";
+import Criteria7_1_6 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_6";
+import Criteria7_1_7 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_7";
+import Criteria7_1_8 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_8";
+import Criteria7_1_9 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_9";
+import Criteria7_1_10 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_1_10";
+import Criteria7_2_1 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_2_1";
+import Criteria7_3_1 from "./components/NAAC/NAAC-Criteria/Criteria7/subcriteria/7_3_1";
+
 import Criteria8_1_1 from "./components/NAAC/NAAC-Criteria/Criteria8/8_1_1"
 import Criteria8_1_2 from "./components/NAAC/NAAC-Criteria/Criteria8/8_1_2"
 import Criteria8_1_3 from "./components/NAAC/NAAC-Criteria/Criteria8/8_1_3"
@@ -530,6 +543,19 @@ function App() {
             <Route path="/nacc/Criteria7/7-1" element={<Criteria7_1 />} />
             <Route path="/nacc/Criteria7/7-2" element={<Criteria7_2 />} />
             <Route path="/nacc/Criteria7/7-3" element={<Criteria7_3 />} />
+
+            <Route path="/nacc/Criteria7/7-1-1" element={<Criteria7_1_1 />} />
+            <Route path="/nacc/Criteria7/7-1-2" element={<Criteria7_1_2 />} />
+            <Route path="/nacc/Criteria7/7-1-3" element={<Criteria7_1_3 />} />
+            <Route path="/nacc/Criteria7/7-1-4" element={<Criteria7_1_4 />} />
+            <Route path="/nacc/Criteria7/7-1-5" element={<Criteria7_1_5 />} />
+            <Route path="/nacc/Criteria7/7-1-6" element={<Criteria7_1_6 />} />
+            <Route path="/nacc/Criteria7/7-1-7" element={<Criteria7_1_7 />} />
+            <Route path="/nacc/Criteria7/7-1-8" element={<Criteria7_1_8 />} />
+            <Route path="/nacc/Criteria7/7-1-9" element={<Criteria7_1_9 />} />
+            <Route path="/nacc/Criteria7/7-1-10" element={<Criteria7_1_10 />} />
+            <Route path="/nacc/Criteria7/7-2-1" element={<Criteria7_2_1 />} />
+            <Route path="/nacc/Criteria7/7-3-1" element={<Criteria7_3_1 />} />
 
             <Route path="/nacc/Criteria8/8-1-1" element={<Criteria8_1_1 />} />
             <Route path="/nacc/Criteria8/8-1-2" element={<Criteria8_1_2 />} />
