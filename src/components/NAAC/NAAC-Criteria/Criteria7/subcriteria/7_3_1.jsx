@@ -1,11 +1,11 @@
 import React from "react";
-import { cr7_1 } from "../../../../../content/NAAC/Criterias/Criteria7";
+import { cr7_3_1 } from "../../../../../content/NAAC/Criterias/Criteria7";
 
 
 function Criteria7_3_1() {
     return (
         <div className="naccSection mx-3 my-5 w-[90%] flex-wrap flex items-center justify-center flex-row gap-5">
-            {cr7_1.map((i) => (
+            {cr7_3_1.map((i) => (
                 <a
                     // key={i}
                     href={i.pdf}

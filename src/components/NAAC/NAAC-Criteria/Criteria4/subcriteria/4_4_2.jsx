@@ -1,10 +1,10 @@
 import React from "react";
-import { cr4_1 } from "../../../../../content/NAAC/Criterias/Criteria4"
+import { cr4_4_2 } from "../../../../../content/NAAC/Criterias/Criteria4"
 
 function Criteria4_16() {
   return (
     <div className="naccSection mx-3 my-5 w-[90%] flex-wrap flex items-center justify-center flex-row gap-5">
-    {cr4_1.map((i) => (
+    {cr4_4_2.map((i) => (
       <a
         // key={i}
         href={i.pdf}
