@@ -16,7 +16,7 @@ export const _1_2_2 = [
   },
   {
     name: "Criteria 1.2 - Curricular Aspects",
-    url: "https://res.cloudinary.com/dbdni9n4i/image/upload/v1681978118/YCDENTAL/pdf/NAAC/Self_Declaration23.03.2023_mfrpv7.pdf",
+    url: "https://files.yashdental.org/wp-content/uploads/2023/05/1.2.2-B2-1.pdf",
   },
 ];
 
