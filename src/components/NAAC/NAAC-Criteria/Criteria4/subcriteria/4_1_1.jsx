@@ -7,7 +7,7 @@ function Criteria4_1() {
     {cr4_1_1.map((i) => (
       <a
         // key={i}
-        href={i.pdf}
+        href={i.url}
         target={"_blank"}
         rel="noreferrer"
         className="font-bold pdf-main-card"

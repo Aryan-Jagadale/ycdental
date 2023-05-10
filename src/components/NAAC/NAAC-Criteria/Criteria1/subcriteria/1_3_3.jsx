@@ -7,7 +7,7 @@ function Criteria1_3() {
     {_1_3_3.map((i) => (
       <a
         // key={i}
-        href={i.pdf}
+        href={i.url}
         target={"_blank"}
         rel="noreferrer"
         className="font-bold pdf-main-card"
