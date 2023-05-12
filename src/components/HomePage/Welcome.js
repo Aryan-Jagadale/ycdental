@@ -34,9 +34,9 @@ function Welcome() {
           Welcome to Shri. Yashwantrao Chavan Memorial Medical and Rural
           Development Foundation 's Dental College
         </p>
-        {welcomeContent.map((items, i) => (
+        {welcomeContent.map((items) => (
           <p className="text-base">
-            key={i},{items.paragraph}
+            {items.paragraph}
             <br />
             <br />
           </p>
