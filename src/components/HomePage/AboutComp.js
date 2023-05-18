@@ -153,7 +153,7 @@ function AboutComp() {
         {collegeFacility3.map((item) => (
           <GridLab3 key={item.label} item={item} />
         ))}
-      </section>
+        </section>
 
 
     </div>
