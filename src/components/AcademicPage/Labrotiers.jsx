@@ -10,20 +10,20 @@ const Labrotiers = () => {
         <h2 className="font-fam font-bold text-3xl px-5 md:pt-0 text-center tracking-wide">
           Laboratories
         </h2>
-        <div>
-          <section className="grid-4 flex items-center justify-aroun flex-col md:flex-row gap-5 mt-4">
+
+        <div className="gallerySection">
+          <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
             {row1.map((item) => (
               <GridLab3 key={item.label} item={item} />
             ))}
           </section>
-
-          <section className="grid-4 flex items-center justify-around flex-col md:flex-row  gap-5 mt-5">
+          <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
             {row2.map((item) => (
               <GridLab3 key={item.label} item={item} />
             ))}
           </section>
 
-          <section className="grid-4 flex items-center justify-around flex-col md:flex-row gap-5  mt-5">
+          <section className="flex items-center justify-around flex-col md:flex-row gap-5 mt-4">
             {row3.map((item) => (
               <GridLab3 key={item.label} item={item} />
             ))}

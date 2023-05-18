@@ -24,10 +24,10 @@ export const welcomeContent1 = [
   },
   {
     paragraph1:
-      "Research is encouraged among the staff and students through our institutional research and ethics cells, multiple research facilities, and training workshops. Not only does the institute pro mote academics but also encourages an all - round development of the candidate through a plethora of year - round extracurricular activities, field trips, intercollegiate and state level competitions, with our students bagging top spots in all their endeavours.",
+      "Research is encouraged among the staff and students through our institutional research and ethics cells, multiple research facilities, and training workshops. Not only does the institute promote academics but also encourages an all - round development of the candidate through a plethora of year - round extracurricular activities, field trips, intercollegiate and state level competitions, with our students bagging top spots in all their endeavours.",
   },
   {
     paragraph1:
-      "  Understanding the latest trends a nd requirements, YCDC has made commendable efforts to integrate digitization, entrepreneurship,  and innovation into college curricula and processes. The college has completed digitization in office and the library. Teaching occurs on smart boards with Wi - Fi connectivity, while computerization of administration has resulted in online admission process and a digital locker for maintaining records. We are now officially certified and registered part of the Innovation Cell, Ministry of Education, Government of India in addition to being Ahmednagar Local Chapter of SWAYAM, NPETL, Government of India.",
+      "  Understanding the latest trends and requirements, YCDC has made commendable efforts to integrate digitization, entrepreneurship,  and innovation into college curricula and processes. The college has completed digitization in office and the library. Teaching occurs on smart boards with Wi - Fi connectivity, while computerization of administration has resulted in online admission process and a digital locker for maintaining records. We are now officially certified and registered part of the Innovation Cell, Ministry of Education, Government of India in addition to being Ahmednagar Local Chapter of SWAYAM, NPETL, Government of India.",
   },
 ];

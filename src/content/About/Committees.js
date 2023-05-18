@@ -14,7 +14,7 @@ export const antiCommittee = [
     position: "Member",
   },
   {
-    name: "Dr.Anuradha Aradhye",
+    name: "Ms.Anuradha Aradhye",
     position: "Member",
   },
   {
@@ -53,7 +53,7 @@ export const grievanceCommittee = [
     position: "Chairman",
   },
   {
-    name: "Dr.Anuradha Aradhye",
+    name: "Ms.Anuradha Aradhye",
     position: "Incharge",
   },
   {
@@ -126,7 +126,7 @@ export const vishakhaCommittee = [
     position: "NGO Member",
   },
   {
-    name: "Dr.Aradhye Anuradha",
+    name: "Ms.Anuradha Aradhye",
     position: "Member",
   },
   {
@@ -142,7 +142,7 @@ export const vishakhaCommittee = [
     position: "Member",
   },
   {
-    name: "Dr.Rekha Jarad",
+    name: "Ms.Rekha Jarad",
     position: "Hostel rector",
   },
 ];
@@ -153,7 +153,7 @@ export const alumniCommittee = [
     position: "Chairman",
   },
   {
-    name: "Dr.Aradhye Anuradha",
+    name: "Ms.Anuradha Aradhye",
     position: "Teacher Incharge",
   },
   {
@@ -196,7 +196,7 @@ export const studentCouncilCommittee = [
     position: "Member",
   },
   {
-    name: "Dr.Aradhye Anuradha",
+    name: "Ms.Anuradha Aradhye",
     position: "Member",
   },
 

@@ -87,7 +87,7 @@ export const GalleryData3 = [
   },
   {
     imG: Gal43,
-    label: "CBCT Inauguration",
+    label: "Alumni Meet Inaugration",
   },
 ];
 
@@ -132,36 +132,37 @@ export const GalleryData6 = [
   },
   {
     imG: Gal63,
-    label: "Alumni Meet Inaugration",
+    label: "CBCT Inauguration",
+
   },
 ];
 
 export const GalleryData7 = [
   {
     imG: Gal58,
-    label: "Dentist day 2",
+    label: "Pg Clinics",
   },
   {
     imG: Gal59,
-    label: "Dentist day 3",
+    label: "Ug Clinics",
   },
   {
     imG: Gal60,
-    label: "Dentist day 4",
+    label: "Pre-Clinics",
   },
 ];
 
 export const GalleryData8 = [
   {
     imG: Gal61,
-    label: "Dentist day 5",
+      label: "Diagnosis",
   },
   {
     imG: Gal62,
-    label: "Dentist day 6",
+    label: "Laboratories",
   },
   {
     imG: Gal57,
-    label: "Dentist day 1",
+    label: "Clinical Areas",
   },
 ];

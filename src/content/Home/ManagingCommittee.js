@@ -9,7 +9,7 @@ export const managingCommittee1 = [
     }, 
     {
         img: 'https://files.yashdental.org/wp-content/uploads/2023/04/nehaGdak.webp',
-        name: "MS. Neha Gdak",
+        name: "Ms. Nehal Gadakh",
         position: "Vice ",
         position1: "President",
     }, 
@@ -27,7 +27,7 @@ export const managingCommittee2 = [
     }, 
     {
         img: 'https://files.yashdental.org/wp-content/uploads/2023/04/sharadSamab.webp',
-        name: "Dr. Sharad Samab",
+        name: "Dr. Sharad Samb",
         position: "Managing ",
         position1: "Trustee",
     }, 
