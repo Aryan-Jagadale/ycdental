@@ -31,13 +31,13 @@ function BDSAdmission() {
           <div className="bds-section2">
             <h1 className="admission-hedline-2">Fees detail:</h1>
             <p className="admissionPera">
-              <a
+{/*               <a
                 className="admissionDownload"
                 href={item.MeritList}
                 download={item.MeritListTitle}
               >
                 &#8226; {item.MeritListTitle}{" "}
-              </a>{" "}
+              </a>{" "} */}
               <br />
               Tution Fees: 4,18,000/- per year
               <br />
