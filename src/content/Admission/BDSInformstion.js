@@ -7,7 +7,7 @@ export const BDSInfromation = [
         MeritListTitle: "BDS INSTITUTIONAL LEVEL ROUND MERIT LIST 2021_22",
         MeritList: "https://files.yashdental.org/wp-content/uploads/2023/04/BDS_INSTITUTIONAL_LEVEL_ROUND_MERIT_LIST__2021_22.pdf",
         FeeStructureTitle: "2021-22_B.D.S._FEE_STRUCTURE .PDF",
-        FeeStructure: "https://files.yashdental.org/wp-content/uploads/2023/04/2021-22_B.D.S._FEE_STRUCTURE___COLLEGE_WEBSITE___FINAL_NEW.pdf",
+        FeeStructure: "https://files.yashdental.org/wp-content/uploads/2023/08/B.D.S.-FEE-STRUCTURE-2023-24-COLLEGE-WEBSITE-NEW-FINAL-WEBSITE-1.pdf",
     }
 ]
 

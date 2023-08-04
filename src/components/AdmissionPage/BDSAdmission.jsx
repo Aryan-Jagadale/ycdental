@@ -39,8 +39,7 @@ function BDSAdmission() {
                 &#8226; {item.MeritListTitle}{" "}
               </a>{" "}
               <br />
-              Tution Fees: 4,00,000/- per year <br />
-              Tution Fees: 4,00,000/- per year
+              Tution Fees: 4,18,000/- per year
               <br />
               Hostel Fees: 20,000/- per year
               <br />
